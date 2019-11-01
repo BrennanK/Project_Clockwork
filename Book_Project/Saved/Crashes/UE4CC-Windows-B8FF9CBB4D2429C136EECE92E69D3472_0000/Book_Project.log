@@ -1,0 +1,873 @@
+﻿Log file open, 10/02/19 14:35:40
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Book_Project
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.284070
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.118s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.02-19.35.40:917][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.02-19.35.40:917][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.02-19.35.40:917][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.02-19.35.40:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.02-19.35.40:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.02-19.35.40:918][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.02-19.35.40:921][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.02-19.35.40:921][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.02-19.35.40:922][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.02-19.35.40:922][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.02-19.35.40:922][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.02-19.35.40:941][  0]LogHAL: Display: Platform has ~ 16 GB [17053204480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.02-19.35.40:941][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.10.02-19.35.40:941][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.02-19.35.40:941][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:941][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.02-19.35.40:941][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.02-19.35.40:941][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:941][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.02-19.35.40:941][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:941][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.02-19.35.40:941][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.02-19.35.40:941][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.02-19.35.40:941][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.02-19.35.40:942][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.02-19.35.40:943][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.02-19.35.40:943][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.02-19.35.40:943][  0]LogInit: Computer: DESKTOP-2F1A5AQ
+[2019.10.02-19.35.40:943][  0]LogInit: User: BrennanKersey
+[2019.10.02-19.35.40:943][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.02-19.35.40:943][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.02-19.35.40:943][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.02-19.35.40:943][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.02-19.35.40:943][  0]LogMemory: Process Physical Memory: 104.14 MB used, 104.14 MB peak
+[2019.10.02-19.35.40:943][  0]LogMemory: Process Virtual Memory: 93.43 MB used, 93.43 MB peak
+[2019.10.02-19.35.40:943][  0]LogMemory: Physical Memory: 9404.53 MB used,  6858.67 MB free, 16263.20 MB total
+[2019.10.02-19.35.40:943][  0]LogMemory: Virtual Memory: 4638.87 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.10.02-19.35.40:959][  0]LogInit: Using OS detected language (en-US).
+[2019.10.02-19.35.40:960][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.02-19.35.40:960][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.02-19.35.41:353][  0]LogStreaming: Display: Took  0.394s to InitEngineTextLocalization.
+[2019.10.02-19.35.41:353][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.02-19.35.41:408][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.02-19.35.41:409][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.02-19.35.41:653][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.02-19.35.41:653][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.02-19.35.41:741][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P5000' (Feature Level 11_0)
+[2019.10.02-19.35.41:742][  0]LogD3D11RHI:       16250/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.02-19.35.41:755][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.10.02-19.35.41:755][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.02-19.35.41:759][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.02-19.35.41:759][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.02-19.35.41:759][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.02-19.35.41:798][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.02-19.35.41:799][  0]LogD3D11RHI:     GPU DeviceId: 0x1bb6 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.02-19.35.41:799][  0]LogWindows: EnumDisplayDevices:
+[2019.10.02-19.35.41:799][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.10.02-19.35.41:799][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.02-19.35.41:800][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.02-19.35.41:800][  0]LogWindows:    3. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.10.02-19.35.41:800][  0]LogWindows:    4. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.10.02-19.35.41:800][  0]LogWindows:    5. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.10.02-19.35.41:801][  0]LogWindows:    6. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.10.02-19.35.41:801][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.10.02-19.35.41:801][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P5000
+[2019.10.02-19.35.41:801][  0]LogD3D11RHI:   Driver Version: 385.73 (internal:22.21.13.8573, unified:385.73)
+[2019.10.02-19.35.41:801][  0]LogD3D11RHI:      Driver Date: 9-25-2017
+[2019.10.02-19.35.41:801][  0]LogRHI: Texture pool is 11375 MB (70% of 16250 MB)
+[2019.10.02-19.35.41:835][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.02-19.35.41:849][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.02-19.35.42:303][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.10.02-19.35.42:317][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.10.02-19.35.42:332][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.10.02-19.35.42:347][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.10.02-19.35.42:361][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.10.02-19.35.42:375][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.10.02-19.35.42:388][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.10.02-19.35.42:402][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.10.02-19.35.42:409][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.10.02-19.35.42:486][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:486][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:486][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.02-19.35.42:488][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.10.02-19.35.42:552][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.10.02-19.35.42:552][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.10.02-19.35.42:584][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.10.02-19.35.42:584][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.10.02-19.35.42:596][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.10.02-19.35.42:609][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.10.02-19.35.42:621][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.10.02-19.35.42:633][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.10.02-19.35.42:678][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.10.02-19.35.42:678][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.10.02-19.35.42:679][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.02-19.35.42:735][  0]LogShaderCompilers: Guid format shader working directory is -62 characters bigger than the processId version (../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Intermediate/Shaders/WorkingDirectory/17596/).
+[2019.10.02-19.35.42:735][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brennan Kersey/AppData/Local/Temp/UnrealShaderWorkingDir/2F99703D4513D36B3FC551A471531BD9/'.
+[2019.10.02-19.35.42:738][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.02-19.35.42:738][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.02-19.35.42:738][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.02-19.35.43:265][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.02-19.35.43:322][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/Brennan Kersey/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.10.02-19.35.43:322][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Brennan Kersey/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.10.02-19.35.43:322][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.02-19.35.43:322][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.02-19.35.43:322][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.02-19.35.43:322][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.02-19.35.43:338][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.02-19.35.43:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.02-19.35.43:338][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.02-19.35.43:351][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brennan Kersey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.02-19.35.43:351][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.02-19.35.43:351][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.02-19.35.43:378][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.02-19.35.43:379][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.02-19.35.43:380][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.02-19.35.43:463][  0]LogAssetRegistry: FAssetRegistry took 0.0330 seconds to start up
+[2019.10.02-19.35.43:794][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.02-19.35.43:945][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.10.02-19.35.43:948][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.10.02-19.35.43:948][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.02-19.35.43:948][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.02-19.35.43:948][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.10.02-19.35.43:963][  0]LogNetVersion: Book_Project 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3858503964)
+[2019.10.02-19.35.44:515][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.119083 seconds
+[2019.10.02-19.35.44:523][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.10.02-19.35.44:523][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.10.02-19.35.44:523][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.02-19.35.45:438][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.02-19.35.45:453][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.02-19.35.46:164][  0]SourceControl: Source control is disabled
+[2019.10.02-19.35.46:164][  0]SourceControl: Source control is disabled
+[2019.10.02-19.35.46:165][  0]SourceControl: Source control is disabled
+[2019.10.02-19.35.46:166][  0]SourceControl: Source control is disabled
+[2019.10.02-19.35.46:325][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.02-19.35.46:383][  0]LogOcInput: OculusInput pre-init called
+[2019.10.02-19.35.46:525][  0]LogEngine: Initializing Engine...
+[2019.10.02-19.35.46:526][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.02-19.35.46:527][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.10.02-19.35.46:527][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.10.02-19.35.46:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.10.02-19.35.46:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.10.02-19.35.46:769][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.02-19.35.46:782][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.02-19.35.46:858][  0]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.02-19.35.46:882][  0]LogInit: FAudioDevice initialized.
+[2019.10.02-19.35.46:882][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.02-19.35.46:943][  0]LogDerivedDataCache: Saved boot cache 0.06s 73MB C:/Users/Brennan Kersey/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.10.02-19.35.46:948][  0]LogInit: Texture streaming: Enabled
+[2019.10.02-19.35.46:966][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.02-19.35.46:985][  0]LogInit: Transaction tracking system initialized
+[2019.10.02-19.35.47:008][  0]BlueprintLog: New page: Editor Load
+[2019.10.02-19.35.47:087][  0]LocalizationService: Localization service is disabled
+[2019.10.02-19.35.47:576][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/' took 0.02s
+[2019.10.02-19.35.47:576][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.02-19.35.47:576][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.02-19.35.47:576][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.10.02-19.35.47:576][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.10.02-19.35.47:576][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.10.02-19.35.47:576][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.10.02-19.35.47:576][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.10.02-19.35.47:728][  0]SourceControl: Source control is disabled
+[2019.10.02-19.35.47:728][  0]LightingResults: New page: Lighting Build
+[2019.10.02-19.35.47:731][  0]MapCheck: New page: Map Check
+[2019.10.02-19.35.47:731][  0]LightingResults: New page: Lighting Build
+[2019.10.02-19.35.48:341][  0]LogAIModule: Creating AISystem for world Chapter_8_Level
+[2019.10.02-19.35.48:350][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.02-19.35.48:373][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.02-19.35.48:374][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.18ms to complete.
+[2019.10.02-19.35.48:374][  0]LogFileHelpers: Loading map 'Chapter_8_Level' took 0.645
+[2019.10.02-19.35.48:491][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-19.35.48:498][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-19.35.48:506][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-19.35.48:514][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-19.35.48:520][  0]LogCollectionManager: Loaded 0 collections in 0.001759 seconds
+[2019.10.02-19.35.48:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Collections/' took 0.01s
+[2019.10.02-19.35.48:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Developers/BrennanKersey/Collections/' took 0.01s
+[2019.10.02-19.35.48:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Collections/' took 0.00s
+[2019.10.02-19.35.48:552][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.10.02-19.35.48:565][  0]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2660 classes and 622 folders.
+[2019.10.02-19.35.48:572][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.02-19.35.48:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:578][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:578][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:578][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:579][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:579][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:580][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:580][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:583][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:583][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.02-19.35.48:610][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.02-19.35.48:646][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.10.02-19.35.48:705][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.02-19.35.48:707][  0]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.02-19.35.48:713][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.02-19.35.48:799][  0]LogRenderer: Reallocating scene render targets to support 1192x572 Format 10 NumSamples 1 (Frame:1).
+[2019.10.02-19.35.49:053][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.10.02-19.35.49:053][  0]LogLoad: (Engine Initialization) Total time: 9.80 seconds
+[2019.10.02-19.35.49:053][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.02-19.35.49:122][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.02-19.35.49:142][  0]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.02-19.35.49:220][  1]LogAssetRegistry: Asset discovery search completed in 5.7792 seconds
+[2019.10.02-19.35.49:222][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.10.02-19.35.49:223][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000222 seconds (updated 0 objects)
+[2019.10.02-19.35.49:250][  2]LogActor: Warning: FirstPickupItem_C /Engine/Transient.World_1:PersistentLevel.FirstPickupItem_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.10.02-19.35.50:091][ 51]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.02-19.35.52:455][192]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.02-19.35.55:509][314]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.02-19.35.55:542][314]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.02-19.35.55:605][316]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BookProject
+[2019.10.02-19.35.55:605][316]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.10.02-19.35.55:605][316]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.10.02-19.35.55:605][316]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.10.02-19.35.55:605][316]LogTemp: BranchPath = DESKTOP-2F1A5AQ/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-2F1A5AQ/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.10.02-19.35.55:633][318]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Brennan Kersey\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.10.02-19.43.18:543][653]LogAssetEditorManager: Opening Asset editor for Class /Script/Book_Project.Avatar
+[2019.10.02-19.43.21:088][752]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2019.10.02-20.22.58:822][948]Candidate modules for hot reload:
+[2019.10.02-20.22.58:822][948]  Book_Project
+[2019.10.02-20.22.58:823][948]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,8039 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" -canskiplink "C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" ]
+[2019.10.02-20.22.58:827][948]Warning: Starting HotReload took  0.1s.
+[2019.10.02-20.24.10:516][248]CompilerResultsLog: New page: Compilation - Oct 2, 2019, 10:24:10 AM
+[2019.10.02-20.24.10:516][248]CompilerResultsLog: Creating makefile for hot reloading Book_ProjectEditor (source directory changed)
+[2019.10.02-20.24.10:517][248]CompilerResultsLog: Compiling game modules for hot reload
+[2019.10.02-20.24.10:517][248]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.02-20.24.10:517][248]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2019.10.02-20.24.10:517][248]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Book_Project.uproject" "C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.02-20.24.10:517][248]CompilerResultsLog: Error: C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Source/Book_Project/NPC_HUD.h(54)  : Error: Unrecognized type 'Widget' - type must be a UCLASS, USTRUCT or UENUM
+[2019.10.02-20.24.10:517][248]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Book_ProjectEditor' (platform: Win64, module info: C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2019.10.02-20.24.10:517][248]LogMainFrame: MainFrame: Module compiling took 71.700 seconds
+[2019.10.02-20.24.10:518][248]Warning: HotReload failed, recompile failed
+[2019.10.02-20.32.27:972][ 81]Candidate modules for hot reload:
+[2019.10.02-20.32.27:972][ 81]  Book_Project
+[2019.10.02-20.32.27:972][ 81]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,9790 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" -canskiplink "C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" ]
+[2019.10.02-20.32.27:975][ 81]Warning: Starting HotReload took  0.0s.
+[2019.10.02-20.32.54:486][658]CompilerResultsLog: New page: Compilation - Oct 2, 2019, 10:32:54 AM
+[2019.10.02-20.32.54:486][658]CompilerResultsLog: Creating makefile for hot reloading Book_ProjectEditor (source directory changed)
+[2019.10.02-20.32.54:486][658]CompilerResultsLog: Compiling game modules for hot reload
+[2019.10.02-20.32.54:486][658]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.02-20.32.54:486][658]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2019.10.02-20.32.54:486][658]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Book_Project.uproject" "C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.02-20.32.54:486][658]CompilerResultsLog: Error: C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Source/Book_Project/NPC_HUD.h(54)  : Error: Unrecognized type 'Widget' - type must be a UCLASS, USTRUCT or UENUM
+[2019.10.02-20.32.54:486][658]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Book_ProjectEditor' (platform: Win64, module info: C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2019.10.02-20.32.54:486][658]LogMainFrame: MainFrame: Module compiling took 26.518 seconds
+[2019.10.02-20.32.54:486][658]Warning: HotReload failed, recompile failed
+[2019.10.02-20.33.02:275][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2019.10.02-20.33.15:380][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.02-20.33.45:990][624]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Chapter_8_Level_Auto1D76AF89A4E1B67A678CAB48322163D5B.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Autosaves/Game/StarterContent/Maps/Chapter_8_Level_Auto1.umap'
+[2019.10.02-20.33.45:998][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Chapter_8_Level' took 0.238
+[2019.10.02-20.33.45:998][624]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.238
+[2019.10.02-20.34.04:338][687]LogSlate: Took 0.011055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.02-20.34.05:703][768]Candidate modules for hot reload:
+[2019.10.02-20.34.05:703][768]  Book_Project
+[2019.10.02-20.34.05:703][768]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,5406 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" -canskiplink "C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" ]
+[2019.10.02-20.34.05:706][768]Warning: Starting HotReload took  0.0s.
+[2019.10.02-20.34.20:938][680]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2019.10.02-20.34.26:250][995]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2019.10.02-20.34.31:974][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2019.10.02-20.34.33:618][427]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2019.10.02-20.34.38:273][679]CompilerResultsLog: New page: Compilation - Oct 2, 2019, 10:34:38 AM
+[2019.10.02-20.34.38:274][679]CompilerResultsLog: Creating makefile for hot reloading Book_ProjectEditor (source directory changed)
+[2019.10.02-20.34.38:274][679]CompilerResultsLog: Compiling game modules for hot reload
+[2019.10.02-20.34.38:274][679]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.02-20.34.38:274][679]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Book_Project.uproject" "C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.02-20.34.38:274][679]CompilerResultsLog: Reflection code generated for Book_ProjectEditor in 15.7019485 seconds
+[2019.10.02-20.34.38:274][679]CompilerResultsLog: Building 10 actions with 8 processes...
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   [1/10] Avatar.cpp
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:    C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\Avatar.cpp(43) : error C3867: 'AAvatar::LookUpAtRate': non-standard syntax; use '&' to create a pointer to member
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:    C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\Avatar.cpp(43) : error C2660: 'UInputComponent::BindAxis': function does not take 3 arguments
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(802): note: see declaration of 'UInputComponent::BindAxis'
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:    C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\Avatar.cpp(44) : error C3867: 'AAvatar::TurnAtRate': non-standard syntax; use '&' to create a pointer to member
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:    C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\Avatar.cpp(44) : error C2660: 'UInputComponent::BindAxis': function does not take 3 arguments
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(802): note: see declaration of 'UInputComponent::BindAxis'
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   [2/10] Book_Project.init.gen.cpp
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   [3/10] NPC_HUD.gen.cpp
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   [4/10] NPC_HUD.cpp
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   [5/10] NPC.cpp
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\NPC.cpp(18): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   [6/10] Avatar.gen.cpp
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   [7/10] Starting_Point.cpp
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   [8/10] PickupItem.cpp
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\PickupItem.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\PickupItem.cpp(21): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2019.10.02-20.34.38:274][679]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Binaries\Win64\UE4Editor-Book_Project-5406.dll
+[2019.10.02-20.34.38:274][679]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.10.02-20.34.38:275][679]CompilerResultsLog: Total build time: 32.12 seconds (Parallel executor: 0.00 seconds)
+[2019.10.02-20.34.38:275][679]LogMainFrame: MainFrame: Module compiling took 32.575 seconds
+[2019.10.02-20.34.38:275][679]Warning: HotReload failed, recompile failed
+[2019.10.02-20.34.44:988][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.02-20.35.46:482][563]Candidate modules for hot reload:
+[2019.10.02-20.35.46:482][563]  Book_Project
+[2019.10.02-20.35.46:482][563]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,9393 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" -canskiplink "C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" ]
+[2019.10.02-20.35.46:485][563]Warning: Starting HotReload took  0.0s.
+[2019.10.02-20.35.57:746][238]CompilerResultsLog: New page: Compilation - Oct 2, 2019, 10:35:57 AM
+[2019.10.02-20.35.57:746][238]CompilerResultsLog: Creating makefile for hot reloading Book_ProjectEditor (source directory changed)
+[2019.10.02-20.35.57:746][238]CompilerResultsLog: Compiling game modules for hot reload
+[2019.10.02-20.35.57:746][238]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.02-20.35.57:746][238]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.10.02-20.35.57:746][238]CompilerResultsLog:   [1/3] Avatar.cpp
+[2019.10.02-20.35.57:746][238]CompilerResultsLog:   [2/3] UE4Editor-Book_Project-9393.lib
+[2019.10.02-20.35.57:746][238]CompilerResultsLog:      Creating library C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-9393.lib and object C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-9393.exp
+[2019.10.02-20.35.57:746][238]CompilerResultsLog:   [3/3] UE4Editor-Book_Project-9393.dll
+[2019.10.02-20.35.57:746][238]CompilerResultsLog:      Creating library C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-9393.suppressed.lib and object C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-9393.suppressed.exp
+[2019.10.02-20.35.57:747][238]CompilerResultsLog: Total build time: 10.88 seconds (Parallel executor: 3.48 seconds)
+[2019.10.02-20.35.57:747][238]LogMainFrame: MainFrame: Module compiling took 11.268 seconds
+[2019.10.02-20.35.57:794][238]LogClass: Could not find existing class Avatar in package /Script/Book_Project for HotReload, assuming new class
+[2019.10.02-20.35.57:798][238]LogClass: Could not find existing class NPC_HUD in package /Script/Book_Project for HotReload, assuming new class
+[2019.10.02-20.35.57:804][238]LogHotReload: Re-instancing Avatar after hot-reload.
+[2019.10.02-20.35.57:868][238]LogHotReload: Re-instancing NPC_HUD after hot-reload.
+[2019.10.02-20.35.57:933][238]LogContentBrowser: Native class hierarchy updated for 'Book_Project' in 0.0010 seconds. Added 9 classes and 2 folders.
+[2019.10.02-20.35.57:935][238]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.10.02-20.35.58:068][238]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2661 classes and 624 folders.
+[2019.10.02-20.35.58:071][238]Display: HotReload took 11.6s.
+[2019.10.02-20.36.12:677][113]Candidate modules for hot reload:
+[2019.10.02-20.36.12:677][113]  Book_Project
+[2019.10.02-20.36.12:677][113]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,3761 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" -canskiplink "C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" ]
+[2019.10.02-20.36.12:682][113]Warning: Starting HotReload took  0.0s.
+[2019.10.02-20.36.16:680][353]CompilerResultsLog: New page: Compilation - Oct 2, 2019, 10:36:16 AM
+[2019.10.02-20.36.16:681][353]CompilerResultsLog: Compiling game modules for hot reload
+[2019.10.02-20.36.16:681][353]CompilerResultsLog: Target is up to date
+[2019.10.02-20.36.16:681][353]CompilerResultsLog: Total build time: 3.61 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.10.02-20.36.16:681][353]LogMainFrame: MainFrame: Module compiling took 4.008 seconds
+[2019.10.02-20.36.16:715][353]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2661 classes and 624 folders.
+[2019.10.02-20.36.16:715][353]Display: HotReload took  4.0s.
+[2019.10.02-20.36.21:957][666]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.02-20.36.21:980][666]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.36.21:980][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.02-20.36.21:980][666]PIE: New page: PIE session: Chapter_8_Level (Oct 2, 2019, 10:36:21 AM)
+[2019.10.02-20.36.21:995][666]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level
+[2019.10.02-20.36.21:998][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001886s)
+[2019.10.02-20.36.21:999][666]LogAIModule: Creating AISystem for world Chapter_8_Level
+[2019.10.02-20.36.22:000][666]LogPlayLevel: PIE: World Init took: (0.001778s)
+[2019.10.02-20.36.22:000][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level to /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level (0.004493s)
+[2019.10.02-20.36.22:034][666]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.02-20.36.22:053][666]LogInit: FAudioDevice initialized.
+[2019.10.02-20.36.22:416][666]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.02-20.36.22:421][666]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level up for play (max tick rate 60) at 2019.10.02-15.36.22
+[2019.10.02-20.36.22:423][666]LogWorld: Bringing up level for play took: 0.003912
+[2019.10.02-20.36.22:470][666]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.10.02-20.36.22:473][666]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level 0.887
+[2019.10.02-20.36.22:474][666]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.36.22:500][667]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.085534 > MaxSimulationTimeStep (0.050) for 'Hank_NPC_2', movement 'Walking'
+[2019.10.02-20.36.46:163][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.36.46:163][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-20.36.46:199][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.02-20.36.46:199][ 86]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.36.46:220][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-20.36.46:262][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.10.02-20.36.49:082][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.02-20.37.44:876][ 21]Candidate modules for hot reload:
+[2019.10.02-20.37.44:876][ 21]  Book_Project
+[2019.10.02-20.37.44:876][ 21]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,8164 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" -canskiplink "C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" ]
+[2019.10.02-20.37.44:889][ 21]Warning: Starting HotReload took  0.0s.
+[2019.10.02-20.37.56:161][697]CompilerResultsLog: New page: Compilation - Oct 2, 2019, 10:37:56 AM
+[2019.10.02-20.37.56:161][697]CompilerResultsLog: Creating makefile for hot reloading Book_ProjectEditor (source directory changed)
+[2019.10.02-20.37.56:161][697]CompilerResultsLog: Compiling game modules for hot reload
+[2019.10.02-20.37.56:161][697]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.02-20.37.56:161][697]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.10.02-20.37.56:161][697]CompilerResultsLog:   [1/3] Avatar.cpp
+[2019.10.02-20.37.56:161][697]CompilerResultsLog:   [2/3] UE4Editor-Book_Project-8164.lib
+[2019.10.02-20.37.56:161][697]CompilerResultsLog:      Creating library C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-8164.lib and object C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-8164.exp
+[2019.10.02-20.37.56:161][697]CompilerResultsLog:   [3/3] UE4Editor-Book_Project-8164.dll
+[2019.10.02-20.37.56:162][697]CompilerResultsLog:      Creating library C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-8164.suppressed.lib and object C:\Users\Brennan Kersey\Desktop\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-8164.suppressed.exp
+[2019.10.02-20.37.56:162][697]CompilerResultsLog: Total build time: 10.88 seconds (Parallel executor: 3.36 seconds)
+[2019.10.02-20.37.56:162][697]LogMainFrame: MainFrame: Module compiling took 11.289 seconds
+[2019.10.02-20.37.56:219][697]LogContentBrowser: Native class hierarchy updated for 'Book_Project' in 0.0004 seconds. Added 9 classes and 2 folders.
+[2019.10.02-20.37.56:221][697]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.10.02-20.37.56:275][697]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2661 classes and 624 folders.
+[2019.10.02-20.37.56:275][697]Display: HotReload took 11.4s.
+[2019.10.02-20.37.59:649][899]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.02-20.37.59:672][899]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.37.59:672][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.02-20.37.59:672][899]PIE: New page: PIE session: Chapter_8_Level (Oct 2, 2019, 10:37:59 AM)
+[2019.10.02-20.37.59:672][899]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level
+[2019.10.02-20.37.59:674][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001508s)
+[2019.10.02-20.37.59:675][899]LogAIModule: Creating AISystem for world Chapter_8_Level
+[2019.10.02-20.37.59:675][899]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2019.10.02-20.37.59:675][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level to /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level (0.002586s)
+[2019.10.02-20.37.59:705][899]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.02-20.37.59:720][899]LogInit: FAudioDevice initialized.
+[2019.10.02-20.37.59:752][899]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.02-20.37.59:754][899]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level up for play (max tick rate 60) at 2019.10.02-15.37.59
+[2019.10.02-20.37.59:754][899]LogWorld: Bringing up level for play took: 0.001135
+[2019.10.02-20.37.59:768][899]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level 0.181
+[2019.10.02-20.37.59:768][899]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.38.43:562][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.38.43:562][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-20.38.43:594][525]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.02-20.38.43:594][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.38.43:617][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-20.38.43:674][528]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.10.02-20.43.18:415][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.02-20.43.26:055][512]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Avatar.BP_Avatar
+[2019.10.02-20.43.26:682][512]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 117 classes and 0 folders.
+[2019.10.02-20.43.27:630][512]LogSlate: Took 0.004469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.02-20.44.07:187][763]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.02-20.44.21:238][517]LogSlate: Window 'BP_Avatar*' being destroyed
+[2019.10.02-20.44.23:626][660]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.02-20.44.23:647][660]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.44.23:647][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.02-20.44.23:647][660]PIE: New page: PIE session: Chapter_8_Level (Oct 2, 2019, 10:44:23 AM)
+[2019.10.02-20.44.23:648][660]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level
+[2019.10.02-20.44.23:649][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001529s)
+[2019.10.02-20.44.23:650][660]LogAIModule: Creating AISystem for world Chapter_8_Level
+[2019.10.02-20.44.23:650][660]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2019.10.02-20.44.23:650][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level to /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level (0.002584s)
+[2019.10.02-20.44.23:689][660]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.02-20.44.23:704][660]LogInit: FAudioDevice initialized.
+[2019.10.02-20.44.23:739][660]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.02-20.44.23:741][660]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level up for play (max tick rate 60) at 2019.10.02-15.44.23
+[2019.10.02-20.44.23:741][660]LogWorld: Bringing up level for play took: 0.001533
+[2019.10.02-20.44.23:755][660]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level 0.169
+[2019.10.02-20.44.23:755][660]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.44.38:395][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.44.38:395][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-20.44.38:433][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.02-20.44.38:433][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.44.38:463][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-20.44.38:500][540]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.10.02-20.45.22:755][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.02-20.46.00:353][245]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Chapter_8_Level_Auto23D1C98AA4B1A50DA9396C1A7D7E74AC0.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Autosaves/Game/StarterContent/Maps/Chapter_8_Level_Auto2.umap'
+[2019.10.02-20.46.00:365][245]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Chapter_8_Level' took 0.349
+[2019.10.02-20.46.00:365][245]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.349
+[2019.10.02-20.46.00:368][245]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Avatar] ([1] browsable assets)...
+[2019.10.02-20.46.00:390][245]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Avatar.BP_Avatar]
+[2019.10.02-20.46.00:390][245]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Avatar]
+[2019.10.02-20.46.00:452][245]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/BP_Avatar_Auto219FB029A4FE8905AECC0B3A6D9D0829F.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Autosaves/Game/Blueprints/BP_Avatar_Auto2.uasset'
+[2019.10.02-20.46.00:454][245]LogFileHelpers: Auto-saving content packages took 0.086
+[2019.10.02-20.46.20:590][297]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.02-20.46.23:793][473]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.02-20.46.23:816][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.46.23:816][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.02-20.46.23:816][473]PIE: New page: PIE session: Chapter_8_Level (Oct 2, 2019, 10:46:23 AM)
+[2019.10.02-20.46.23:816][473]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level
+[2019.10.02-20.46.23:818][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001645s)
+[2019.10.02-20.46.23:818][473]LogAIModule: Creating AISystem for world Chapter_8_Level
+[2019.10.02-20.46.23:819][473]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2019.10.02-20.46.23:819][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level to /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level (0.002505s)
+[2019.10.02-20.46.23:859][473]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.02-20.46.23:875][473]LogInit: FAudioDevice initialized.
+[2019.10.02-20.46.23:907][473]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.02-20.46.23:909][473]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level up for play (max tick rate 60) at 2019.10.02-15.46.23
+[2019.10.02-20.46.23:909][473]LogWorld: Bringing up level for play took: 0.001200
+[2019.10.02-20.46.23:924][473]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level 0.338
+[2019.10.02-20.46.23:925][473]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.46.46:345][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.46.46:346][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-20.46.46:392][818]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.02-20.46.46:393][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.46.46:436][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-20.46.46:457][819]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.10.02-20.47.08:942][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.02-20.47.09:175][298]Candidate modules for hot reload:
+[2019.10.02-20.47.09:176][298]  Book_Project
+[2019.10.02-20.47.09:176][298]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,8705 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" -canskiplink "C:/Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" ]
+[2019.10.02-20.47.09:187][298]Warning: Starting HotReload took  0.0s.
+[2019.10.02-20.47.13:218][539]CompilerResultsLog: New page: Compilation - Oct 2, 2019, 10:47:13 AM
+[2019.10.02-20.47.13:219][539]CompilerResultsLog: Compiling game modules for hot reload
+[2019.10.02-20.47.13:219][539]CompilerResultsLog: Target is up to date
+[2019.10.02-20.47.13:219][539]CompilerResultsLog: Total build time: 3.59 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.10.02-20.47.13:219][539]LogMainFrame: MainFrame: Module compiling took 4.047 seconds
+[2019.10.02-20.47.13:513][539]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2661 classes and 624 folders.
+[2019.10.02-20.47.13:513][539]Display: HotReload took  4.4s.
+[2019.10.02-20.48.19:425][ 25]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Chapter_8_LevelB944091341D6D24799569E8CF34CA250.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/StarterContent/Maps/Chapter_8_Level.umap'
+[2019.10.02-20.48.19:473][ 25]LogFileHelpers: Saving map 'Chapter_8_Level' took 0.247
+[2019.10.02-20.48.19:530][ 25]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/BP_AvatarE000460E46686485A356E787A0EB0192.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Blueprints/BP_Avatar.uasset'
+[2019.10.02-20.48.22:613][205]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.02-20.48.22:636][205]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.48.22:636][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.02-20.48.22:636][205]PIE: New page: PIE session: Chapter_8_Level (Oct 2, 2019, 10:48:22 AM)
+[2019.10.02-20.48.22:636][205]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level
+[2019.10.02-20.48.22:638][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001512s)
+[2019.10.02-20.48.22:638][205]LogAIModule: Creating AISystem for world Chapter_8_Level
+[2019.10.02-20.48.22:639][205]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2019.10.02-20.48.22:639][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level to /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level (0.002205s)
+[2019.10.02-20.48.22:683][205]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.02-20.48.22:698][205]LogInit: FAudioDevice initialized.
+[2019.10.02-20.48.22:731][205]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.02-20.48.22:733][205]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level up for play (max tick rate 60) at 2019.10.02-15.48.22
+[2019.10.02-20.48.22:733][205]LogWorld: Bringing up level for play took: 0.001264
+[2019.10.02-20.48.22:747][205]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level -0.84
+[2019.10.02-20.48.22:747][205]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.48.45:767][583]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.48.45:767][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-20.48.45:802][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.02-20.48.45:802][583]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.48.45:830][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.02-20.48.45:871][585]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.10.02-20.51.53:407][476]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.02-20.52.18:674][985]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.02-20.52.18:699][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level' with GeneratedClass '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level:PersistentLevel.Chapter_8_Level'
+[2019.10.02-20.52.18:699][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.02-20.52.18:699][985]PIE: New page: PIE session: Chapter_8_Level (Oct 2, 2019, 10:52:18 AM)
+[2019.10.02-20.52.18:699][985]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level
+[2019.10.02-20.52.18:701][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001791s)
+[2019.10.02-20.52.18:701][985]LogAIModule: Creating AISystem for world Chapter_8_Level
+[2019.10.02-20.52.18:702][985]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2019.10.02-20.52.18:702][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Chapter_8_Level.Chapter_8_Level to /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level (0.003027s)
+[2019.10.02-20.52.18:742][985]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.02-20.52.18:758][985]LogInit: FAudioDevice initialized.
+[2019.10.02-20.52.18:789][985]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.02-20.52.18:791][985]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Chapter_8_Level.Chapter_8_Level up for play (max tick rate 60) at 2019.10.02-15.52.18
+[2019.10.02-20.52.18:791][985]LogWorld: Bringing up level for play took: 0.001243

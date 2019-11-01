@@ -1,0 +1,1374 @@
+﻿Log file open, 10/22/19 13:59:37
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Book_Project
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.328444
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.231s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.22-18.59.37:675][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.22-18.59.37:675][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.22-18.59.37:676][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.22-18.59.37:676][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.22-18.59.37:677][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.22-18.59.37:677][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.22-18.59.37:685][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.22-18.59.37:685][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.22-18.59.37:686][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.22-18.59.37:687][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.22-18.59.37:688][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.22-18.59.37:689][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.22-18.59.37:689][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.22-18.59.37:689][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.22-18.59.37:689][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.22-18.59.37:689][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:689][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.22-18.59.37:689][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.22-18.59.37:689][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.22-18.59.37:689][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.22-18.59.37:750][  0]LogHAL: Display: Platform has ~ 16 GB [17053204480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.22-18.59.37:750][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.10.22-18.59.37:750][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.22-18.59.37:750][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:750][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.22-18.59.37:750][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.22-18.59.37:750][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:750][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.22-18.59.37:750][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.22-18.59.37:751][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.22-18.59.37:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.22-18.59.37:753][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.22-18.59.37:754][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.22-18.59.37:754][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.22-18.59.37:754][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-18.59.37:754][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.22-18.59.37:754][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.22-18.59.37:754][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.22-18.59.37:754][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.22-18.59.37:754][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Config/Windows/Engine.ini]
+[2019.10.22-18.59.37:754][  0]LogInit: Computer: DESKTOP-2F1A5AQ
+[2019.10.22-18.59.37:755][  0]LogInit: User: BrennanKersey
+[2019.10.22-18.59.37:755][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.22-18.59.37:755][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.22-18.59.37:755][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.22-18.59.37:755][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.22-18.59.37:755][  0]LogMemory: Process Physical Memory: 103.34 MB used, 103.34 MB peak
+[2019.10.22-18.59.37:755][  0]LogMemory: Process Virtual Memory: 96.81 MB used, 96.81 MB peak
+[2019.10.22-18.59.37:755][  0]LogMemory: Physical Memory: 6840.52 MB used,  9422.69 MB free, 16263.20 MB total
+[2019.10.22-18.59.37:755][  0]LogMemory: Virtual Memory: 4641.31 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.10.22-18.59.37:790][  0]LogInit: Using OS detected language (en-US).
+[2019.10.22-18.59.37:790][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.22-18.59.37:791][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.22-18.59.38:340][  0]LogStreaming: Display: Took  0.550s to InitEngineTextLocalization.
+[2019.10.22-18.59.38:340][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.22-18.59.38:391][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.22-18.59.38:391][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.22-18.59.38:821][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.22-18.59.38:821][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.22-18.59.38:916][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P5000' (Feature Level 11_0)
+[2019.10.22-18.59.38:916][  0]LogD3D11RHI:       16250/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.22-18.59.38:937][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.10.22-18.59.38:937][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.22-18.59.38:939][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.22-18.59.38:939][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.22-18.59.38:939][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.22-18.59.39:009][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.22-18.59.39:009][  0]LogD3D11RHI:     GPU DeviceId: 0x1bb6 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.22-18.59.39:009][  0]LogWindows: EnumDisplayDevices:
+[2019.10.22-18.59.39:009][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.10.22-18.59.39:010][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.22-18.59.39:011][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.22-18.59.39:012][  0]LogWindows:    3. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.10.22-18.59.39:012][  0]LogWindows:    4. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.10.22-18.59.39:013][  0]LogWindows:    5. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.10.22-18.59.39:013][  0]LogWindows:    6. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.10.22-18.59.39:014][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.10.22-18.59.39:014][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P5000
+[2019.10.22-18.59.39:014][  0]LogD3D11RHI:   Driver Version: 385.73 (internal:22.21.13.8573, unified:385.73)
+[2019.10.22-18.59.39:014][  0]LogD3D11RHI:      Driver Date: 9-25-2017
+[2019.10.22-18.59.39:014][  0]LogRHI: Texture pool is 11375 MB (70% of 16250 MB)
+[2019.10.22-18.59.39:074][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.22-18.59.39:087][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.22-18.59.39:688][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.10.22-18.59.39:713][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.10.22-18.59.39:726][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.10.22-18.59.39:753][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.10.22-18.59.39:785][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.10.22-18.59.39:817][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.10.22-18.59.39:848][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.10.22-18.59.39:881][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.10.22-18.59.39:895][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.10.22-18.59.40:079][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:079][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:079][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:079][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:079][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:079][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.22-18.59.40:083][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.10.22-18.59.40:178][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.10.22-18.59.40:178][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.10.22-18.59.40:233][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.10.22-18.59.40:233][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.10.22-18.59.40:262][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.10.22-18.59.40:289][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.10.22-18.59.40:318][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.10.22-18.59.40:348][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.10.22-18.59.40:449][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.10.22-18.59.40:449][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.10.22-18.59.40:449][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.22-18.59.40:531][  0]LogShaderCompilers: Guid format shader working directory is -71 characters bigger than the processId version (../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Intermediate/Shaders/WorkingDirectory/18744/).
+[2019.10.22-18.59.40:531][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brennan Kersey/AppData/Local/Temp/UnrealShaderWorkingDir/B2CD060B43337CFBA33F3FA7CFD28D53/'.
+[2019.10.22-18.59.40:535][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.22-18.59.40:535][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.22-18.59.40:535][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.22-18.59.41:821][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.22-18.59.41:943][  0]LogDerivedDataCache: Loaded boot cache 0.12s 85MB C:/Users/Brennan Kersey/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.10.22-18.59.41:943][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Brennan Kersey/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.10.22-18.59.41:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.22-18.59.41:943][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.22-18.59.41:944][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.22-18.59.41:944][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.22-18.59.41:981][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.22-18.59.41:981][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.22-18.59.41:981][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.22-18.59.41:994][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brennan Kersey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.22-18.59.41:994][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.22-18.59.41:994][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.22-18.59.42:052][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.22-18.59.42:055][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.22-18.59.42:056][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.22-18.59.42:221][  0]LogAssetRegistry: FAssetRegistry took 0.0476 seconds to start up
+[2019.10.22-18.59.42:866][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.22-18.59.43:030][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.10.22-18.59.43:034][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.10.22-18.59.43:034][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.22-18.59.43:034][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.22-18.59.43:034][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.10.22-18.59.43:051][  0]LogNetVersion: Book_Project 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3858503964)
+[2019.10.22-18.59.43:689][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.130393 seconds
+[2019.10.22-18.59.43:695][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.10.22-18.59.43:695][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.10.22-18.59.43:695][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.22-18.59.44:623][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.22-18.59.44:635][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.22-18.59.46:279][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.959 s
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: 
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1095]
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: Unable to bind delegate to 'Teleport' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: Stack: 
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe3800ea3c UE4Editor-Book_Project-3917.dll!TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int,bool,FHitResult const &>::__Internal_AddDynamic<ATeleporter>() [c:\program files\epic games\ue_4.21\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:1175]
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe3800edc8 UE4Editor-Book_Project-3917.dll!ATeleporter::ATeleporter() [c:\users\brennan kersey\desktop\dev work\book_c_plus_plus_learning_exercise_location\book project\book_project\source\book_project\teleporter.cpp:20]
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe5da98973 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe5dd620a8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe5dd4819f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe5da9e977 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe5e11ca7e UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe5e2d9e66 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe9cc7cfec UE4Editor-Projects.dll!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe9cc7d2d4 UE4Editor-Projects.dll!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ff609d083a1 UE4Editor.exe!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ff609d0dc6b UE4Editor.exe!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ff609d05783 UE4Editor.exe!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ff609d059ea UE4Editor.exe!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ff609d148da UE4Editor.exe!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ff609d1659a UE4Editor.exe!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffec4277bd4 KERNEL32.DLL!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: [Callstack] 0x00007ffec5dcced1 ntdll.dll!UnknownFunction []
+[2019.10.22-18.59.46:279][  0]LogOutputDevice: Error: 
+[2019.10.22-18.59.46:280][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2019.10.22-18.59.47:033][  0]LogStats:                    SendNewReport -  0.754 s
+[2019.10.22-18.59.47:034][  0]LogStats:             FDebug::EnsureFailed -  1.713 s
+[2019.10.22-18.59.47:087][  0]SourceControl: Source control is disabled
+[2019.10.22-18.59.47:087][  0]SourceControl: Source control is disabled
+[2019.10.22-18.59.47:088][  0]SourceControl: Source control is disabled
+[2019.10.22-18.59.47:089][  0]SourceControl: Source control is disabled
+[2019.10.22-18.59.47:267][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.22-18.59.47:353][  0]LogOcInput: OculusInput pre-init called
+[2019.10.22-18.59.47:500][  0]LogEngine: Initializing Engine...
+[2019.10.22-18.59.47:501][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.22-18.59.47:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.10.22-18.59.47:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.10.22-18.59.47:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.10.22-18.59.47:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.10.22-18.59.47:755][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.22-18.59.47:769][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.22-18.59.47:789][  0]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-18.59.47:809][  0]LogInit: FAudioDevice initialized.
+[2019.10.22-18.59.47:810][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.22-18.59.47:876][  0]LogDerivedDataCache: Saved boot cache 0.07s 85MB C:/Users/Brennan Kersey/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.10.22-18.59.47:891][  0]LogInit: Texture streaming: Enabled
+[2019.10.22-18.59.47:908][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.22-18.59.47:927][  0]LogInit: Transaction tracking system initialized
+[2019.10.22-18.59.47:953][  0]BlueprintLog: New page: Editor Load
+[2019.10.22-18.59.48:026][  0]LocalizationService: Localization service is disabled
+[2019.10.22-18.59.48:558][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/' took 0.02s
+[2019.10.22-18.59.48:558][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.22-18.59.48:558][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.22-18.59.48:558][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.10.22-18.59.48:558][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.10.22-18.59.48:558][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.10.22-18.59.48:559][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.10.22-18.59.48:559][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.10.22-18.59.48:683][  0]SourceControl: Source control is disabled
+[2019.10.22-18.59.48:683][  0]LightingResults: New page: Lighting Build
+[2019.10.22-18.59.48:686][  0]MapCheck: New page: Map Check
+[2019.10.22-18.59.48:686][  0]LightingResults: New page: Lighting Build
+[2019.10.22-18.59.50:059][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-18.59.50:088][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.22-18.59.50:112][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.22-18.59.50:113][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.127ms to complete.
+[2019.10.22-18.59.50:113][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.430
+[2019.10.22-18.59.50:262][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-18.59.50:270][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-18.59.50:277][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-18.59.50:284][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-18.59.50:299][  0]LogCollectionManager: Loaded 0 collections in 0.001606 seconds
+[2019.10.22-18.59.50:336][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Collections/' took 0.01s
+[2019.10.22-18.59.50:336][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Developers/BrennanKersey/Collections/' took 0.00s
+[2019.10.22-18.59.50:336][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Collections/' took 0.01s
+[2019.10.22-18.59.50:336][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.10.22-18.59.50:349][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2661 classes and 622 folders.
+[2019.10.22-18.59.50:361][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.22-18.59.50:373][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:382][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:398][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:412][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:418][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:424][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:430][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:437][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:445][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:452][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:457][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:464][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:482][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:505][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:511][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:517][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:523][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:556][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:563][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-18.59.50:744][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.22-18.59.50:823][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.10.22-18.59.50:943][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.22-18.59.50:946][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.22-18.59.50:963][  0]LogSlate: Took 0.006849 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.22-18.59.51:157][  0]LogRenderer: Reallocating scene render targets to support 1080x572 Format 10 NumSamples 1 (Frame:1).
+[2019.10.22-18.59.51:329][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.10.22-18.59.51:329][  0]LogLoad: (Engine Initialization) Total time: 15.83 seconds
+[2019.10.22-18.59.51:329][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.22-18.59.51:398][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.22-18.59.51:445][  0]LogSlate: Took 0.005959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.22-18.59.51:956][  3]LogAssetRegistry: Asset discovery search completed in 9.7593 seconds
+[2019.10.22-18.59.51:958][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.10.22-18.59.51:958][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2019.10.22-18.59.52:481][ 12]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.22-19.00.02:785][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.00.05:167][312]LogAssetEditorManager: Opening Asset editor for Class /Script/Book_Project.Avatar
+[2019.10.22-19.15.20:443][529]LogEditorViewport: Clicking on Actor (LMB): spline_2_C (Our_Rail)
+[2019.10.22-19.16.51:404][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.16.51:640][257]LogAssetEditorManager: Opening Asset editor for Class /Script/Book_Project.TArrayActor
+[2019.10.22-19.21.41:720][243]Candidate modules for hot reload:
+[2019.10.22-19.21.41:720][243]  Book_Project
+[2019.10.22-19.21.41:720][243]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,3812 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" -canskiplink "C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" ]
+[2019.10.22-19.21.41:722][243]Warning: Starting HotReload took  0.5s.
+[2019.10.22-19.23.09:977][304]CompilerResultsLog: New page: Compilation - Oct 22, 2019, 9:23:09 AM
+[2019.10.22-19.23.09:977][304]CompilerResultsLog: Creating makefile for hot reloading Book_ProjectEditor (source directory changed)
+[2019.10.22-19.23.09:978][304]CompilerResultsLog: Compiling game modules for hot reload
+[2019.10.22-19.23.09:978][304]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.22-19.23.09:978][304]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.10.22-19.23.09:978][304]CompilerResultsLog:   [1/3] Avatar.cpp
+[2019.10.22-19.23.09:978][304]CompilerResultsLog:   [2/3] UE4Editor-Book_Project-3812.lib
+[2019.10.22-19.23.09:978][304]CompilerResultsLog:      Creating library C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-3812.lib and object C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-3812.exp
+[2019.10.22-19.23.09:978][304]CompilerResultsLog:   [3/3] UE4Editor-Book_Project-3812.dll
+[2019.10.22-19.23.09:978][304]CompilerResultsLog:      Creating library C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-3812.suppressed.lib and object C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-3812.suppressed.exp
+[2019.10.22-19.23.09:978][304]CompilerResultsLog: Total build time: 87.80 seconds (Parallel executor: 13.30 seconds)
+[2019.10.22-19.23.09:978][304]LogMainFrame: MainFrame: Module compiling took 88.263 seconds
+[2019.10.22-19.23.10:067][304]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.10.22-19.23.10:426][304]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.359 s
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: === Handled ensure: ===
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: 
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1095]
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: Unable to bind delegate to 'Teleport' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: Stack: 
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffeb7f2ea3c UE4Editor-Book_Project-3812.dll!TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int,bool,FHitResult const &>::__Internal_AddDynamic<ATeleporter>() [c:\program files\epic games\ue_4.21\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:1175]
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffeb7f2edc8 UE4Editor-Book_Project-3812.dll!ATeleporter::ATeleporter() [c:\users\brennan kersey\desktop\dev work\book_c_plus_plus_learning_exercise_location\book project\book_project\source\book_project\teleporter.cpp:20]
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe38717e39 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe38706580 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe3870f2ed UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe3871aa35 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe3871ae75 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe38712c76 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe5d9e9234 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe5dd60b0d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe5dd481a6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe5da9e977 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe5e11ca7e UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe5e2d9e66 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe5e2d9139 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe387105b3 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe3870dfc7 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe3870a04b UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe3870e8ff UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe387227c4 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ffe5e0b2c22 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ff609cf8847 UE4Editor.exe!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ff609d0596c UE4Editor.exe!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ff609d059ea UE4Editor.exe!UnknownFunction []
+[2019.10.22-19.23.10:426][304]LogOutputDevice: Error: [Callstack] 0x00007ff609d148da UE4Editor.exe!UnknownFunction []
+[2019.10.22-19.23.10:427][304]LogOutputDevice: Error: [Callstack] 0x00007ff609d1659a UE4Editor.exe!UnknownFunction []
+[2019.10.22-19.23.10:427][304]LogOutputDevice: Error: [Callstack] 0x00007ffec4277bd4 KERNEL32.DLL!UnknownFunction []
+[2019.10.22-19.23.10:427][304]LogOutputDevice: Error: [Callstack] 0x00007ffec5dcced1 ntdll.dll!UnknownFunction []
+[2019.10.22-19.23.10:427][304]LogOutputDevice: Error: 
+[2019.10.22-19.23.10:434][304]LogStats:                SubmitErrorReport -  0.000 s
+[2019.10.22-19.23.11:240][304]LogStats:                    SendNewReport -  0.807 s
+[2019.10.22-19.23.11:240][304]LogStats:             FDebug::EnsureFailed -  1.174 s
+[2019.10.22-19.23.11:242][304]LogContentBrowser: Native class hierarchy updated for 'Book_Project' in 0.0008 seconds. Added 10 classes and 2 folders.
+[2019.10.22-19.23.11:247][304]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.10.22-19.23.11:399][304]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2662 classes and 624 folders.
+[2019.10.22-19.23.11:399][304]Display: HotReload took 90.2s.
+[2019.10.22-19.23.16:755][498]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.23.16:794][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.23.16:794][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.23.16:794][498]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:23:16 AM)
+[2019.10.22-19.23.16:808][498]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.23.16:823][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014832s)
+[2019.10.22-19.23.16:824][498]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.23.16:825][498]LogPlayLevel: PIE: World Init took: (0.001632s)
+[2019.10.22-19.23.16:825][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017326s)
+[2019.10.22-19.23.16:868][498]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.23.16:890][498]LogInit: FAudioDevice initialized.
+[2019.10.22-19.23.16:939][498]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.23.16:943][498]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.10.22-14.23.16
+[2019.10.22-19.23.16:947][498]LogWorld: Bringing up level for play took: 0.005669
+[2019.10.22-19.23.17:032][498]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.10.22-19.23.17:037][498]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.486
+[2019.10.22-19.23.17:038][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.24.30:484][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.24.30:488][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.24.30:542][333]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.24.30:543][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.24.30:620][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.24.30:644][334]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.10.22-19.24.35:994][522]LogEditorViewport: Clicking on Actor (LMB): spline_2_C (Our_Rail)
+[2019.10.22-19.24.38:134][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.24.38:375][604]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/spline_2.spline_2
+[2019.10.22-19.24.39:194][604]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 117 classes and 0 folders.
+[2019.10.22-19.24.40:150][604]LogSlate: Took 0.006017 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.22-19.24.40:459][605]LogSlate: Took 0.008451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.22-19.25.05:710][607]LogSlate: Window 'spline_2' being destroyed
+[2019.10.22-19.25.09:263][756]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Avatar.BP_Avatar
+[2019.10.22-19.25.55:464][478]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.25.55:493][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.25.55:494][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.25.55:494][478]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:25:55 AM)
+[2019.10.22-19.25.55:494][478]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.25.55:499][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005474s)
+[2019.10.22-19.25.55:500][478]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.25.55:500][478]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2019.10.22-19.25.55:500][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006535s)
+[2019.10.22-19.25.55:548][478]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.25.55:559][478]LogInit: FAudioDevice initialized.
+[2019.10.22-19.25.55:597][478]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.25.55:601][478]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.10.22-14.25.55
+[2019.10.22-19.25.55:602][478]LogWorld: Bringing up level for play took: 0.003338
+[2019.10.22-19.25.55:623][478]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.101
+[2019.10.22-19.25.55:624][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.26.08:621][957]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.26.08:621][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.26.08:703][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.26.08:704][957]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.26.08:790][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.26.08:862][958]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.10.22-19.26.11:544][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.26.29:980][ 69]BlueprintLog: New page: Compile spline_2
+[2019.10.22-19.26.32:817][182]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.26.32:858][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.26.32:858][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.26.32:858][182]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:26:32 AM)
+[2019.10.22-19.26.32:858][182]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.26.32:865][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007152s)
+[2019.10.22-19.26.32:866][182]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.26.32:866][182]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2019.10.22-19.26.32:866][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008133s)
+[2019.10.22-19.26.32:914][182]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.26.32:926][182]LogInit: FAudioDevice initialized.
+[2019.10.22-19.26.32:963][182]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.26.32:968][182]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.10.22-14.26.32
+[2019.10.22-19.26.32:969][182]LogWorld: Bringing up level for play took: 0.003532
+[2019.10.22-19.26.32:987][182]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.535
+[2019.10.22-19.26.32:988][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.26.50:148][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.26.50:149][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.26.50:216][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.26.50:217][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.26.50:273][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.26.50:317][816]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.10.22-19.26.51:999][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.27.47:348][169]BlueprintLog: New page: Compile spline_2
+[2019.10.22-19.27.50:229][291]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.27.50:277][291]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.27.50:277][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.27.50:277][291]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:27:50 AM)
+[2019.10.22-19.27.50:277][291]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.27.50:290][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012844s)
+[2019.10.22-19.27.50:291][291]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.27.50:291][291]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2019.10.22-19.27.50:291][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013824s)
+[2019.10.22-19.27.50:334][291]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.27.50:346][291]LogInit: FAudioDevice initialized.
+[2019.10.22-19.27.50:381][291]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.27.50:387][291]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.10.22-14.27.50
+[2019.10.22-19.27.50:388][291]LogWorld: Bringing up level for play took: 0.004908
+[2019.10.22-19.27.50:406][291]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.884
+[2019.10.22-19.27.50:407][291]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.27.53:607][408]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_16
+[2019.10.22-19.27.53:662][410]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_15
+[2019.10.22-19.27.55:606][482]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_14
+[2019.10.22-19.27.55:881][492]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_13
+[2019.10.22-19.27.56:442][512]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_11
+[2019.10.22-19.27.56:442][512]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_10
+[2019.10.22-19.27.56:583][517]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_9
+[2019.10.22-19.27.56:803][525]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_8
+[2019.10.22-19.27.57:262][542]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_7
+[2019.10.22-19.27.57:798][562]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_6
+[2019.10.22-19.27.58:695][594]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_5
+[2019.10.22-19.27.58:995][605]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_4
+[2019.10.22-19.27.59:133][610]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_3
+[2019.10.22-19.28.00:061][644]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_3
+[2019.10.22-19.28.00:061][644]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_2
+[2019.10.22-19.28.00:666][666]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_1
+[2019.10.22-19.28.00:968][677]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_1
+[2019.10.22-19.28.00:968][677]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_0
+[2019.10.22-19.28.01:108][682]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0
+[2019.10.22-19.28.01:919][712]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0
+[2019.10.22-19.28.01:947][713]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_0
+[2019.10.22-19.28.02:637][738]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_2
+[2019.10.22-19.28.02:637][738]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_3
+[2019.10.22-19.28.03:582][772]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_6
+[2019.10.22-19.28.03:609][773]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_7
+[2019.10.22-19.28.03:805][780]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_8
+[2019.10.22-19.28.03:916][784]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_9
+[2019.10.22-19.28.04:392][801]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_11
+[2019.10.22-19.28.04:392][801]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_10
+[2019.10.22-19.28.04:531][806]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_12
+[2019.10.22-19.28.04:698][812]LogBlueprintUserMessages: [BP_Avatar_C_0] NODE_AddSplineMeshComponent-0_13
+[2019.10.22-19.28.07:177][903]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.28.07:178][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.28.07:249][903]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.28.07:249][903]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.28.07:348][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.28.07:428][904]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.10.22-19.28.50:926][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.29.22:744][228]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.22-19.29.35:964][ 15]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.22-19.29.37:847][ 93]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.29.37:879][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.29.37:880][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.29.37:880][ 93]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:29:37 AM)
+[2019.10.22-19.29.37:880][ 93]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.29.37:893][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013077s)
+[2019.10.22-19.29.37:893][ 93]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.29.37:894][ 93]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2019.10.22-19.29.37:894][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013905s)
+[2019.10.22-19.29.37:941][ 93]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.29.37:952][ 93]LogInit: FAudioDevice initialized.
+[2019.10.22-19.29.37:983][ 93]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.29.37:986][ 93]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.10.22-14.29.37
+[2019.10.22-19.29.37:987][ 93]LogWorld: Bringing up level for play took: 0.002422
+[2019.10.22-19.29.38:004][ 93]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.481
+[2019.10.22-19.29.38:004][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.29.40:921][198]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.29.40:976][200]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.29.41:172][207]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.29.41:335][213]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.29.41:558][221]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.29.41:696][226]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.29.41:889][233]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.29.43:480][290]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.29.44:903][341]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.29.44:904][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.29.44:980][341]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.29.44:980][341]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.29.45:063][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.29.45:133][342]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.10.22-19.29.46:720][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.29.48:461][493]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.22-19.30.41:965][669]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.22-19.30.44:394][774]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.30.44:430][774]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.30.44:430][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.30.44:430][774]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:30:44 AM)
+[2019.10.22-19.30.44:431][774]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.30.44:445][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014033s)
+[2019.10.22-19.30.44:445][774]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.30.44:446][774]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2019.10.22-19.30.44:446][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015004s)
+[2019.10.22-19.30.44:496][774]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.30.44:507][774]LogInit: FAudioDevice initialized.
+[2019.10.22-19.30.44:540][774]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.30.44:546][774]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.10.22-14.30.44
+[2019.10.22-19.30.44:547][774]LogWorld: Bringing up level for play took: 0.004661
+[2019.10.22-19.30.44:565][774]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.043
+[2019.10.22-19.30.44:566][774]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.30.47:479][879]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.47:812][891]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.47:895][894]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.48:066][900]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.48:424][913]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.48:453][914]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.48:618][920]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.48:618][920]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.48:757][925]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.48:952][932]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.49:063][936]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.49:256][943]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.49:449][950]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.50:430][985]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.50:430][985]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.50:598][991]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.50:769][997]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.30.52:096][ 45]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.30.52:097][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.30.52:168][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.30.52:168][ 45]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.30.52:239][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.30.52:311][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.10.22-19.31.18:459][955]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-19.31.18:767][955]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Minimal_Default_Auto13A25189C403A2738EFFD4693F4BD1405.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2019.10.22-19.31.18:777][955]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.277
+[2019.10.22-19.31.18:777][955]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.277
+[2019.10.22-19.31.18:779][955]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Avatar] ([1] browsable assets)...
+[2019.10.22-19.31.18:807][955]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Avatar.BP_Avatar]
+[2019.10.22-19.31.18:807][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Avatar]
+[2019.10.22-19.31.18:885][955]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/BP_Avatar_Auto1882A991642D1A8C1F2DC6B99CA6D6F9A.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Autosaves/Game/Blueprints/BP_Avatar_Auto1.uasset'
+[2019.10.22-19.31.18:886][955]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/spline_2] ([1] browsable assets)...
+[2019.10.22-19.31.18:886][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/spline_2]
+[2019.10.22-19.31.18:940][955]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/spline_2_Auto1AF6493F24B86C1172D038DB335B6B7B2.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Autosaves/Game/Blueprints/spline_2_Auto1.uasset'
+[2019.10.22-19.31.18:941][955]LogFileHelpers: Auto-saving content packages took 0.162
+[2019.10.22-19.31.57:305][231]LogEditorViewport: Clicking on Actor (LMB): spline_2_C (Our_Rail)
+[2019.10.22-19.32.04:678][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.32.34:805][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.33.38:803][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.41.37:141][ 46]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.22-19.41.41:121][390]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Minimal_DefaultE3715AF6424BA1A1226E0BAFC89D576B.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.10.22-19.41.41:198][390]LogFileHelpers: Saving map 'Minimal_Default' took 0.328
+[2019.10.22-19.41.41:348][390]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/BP_Avatar825DD6D348AED2E010F924A8247748AD.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Blueprints/BP_Avatar.uasset'
+[2019.10.22-19.41.41:440][390]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/spline_2796EA3DA4269E7A8316785B47D963231.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Blueprints/spline_2.uasset'
+[2019.10.22-19.41.44:642][543]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.41.44:671][543]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.41.44:672][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.41.44:672][543]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:41:44 AM)
+[2019.10.22-19.41.44:672][543]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.41.44:685][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013008s)
+[2019.10.22-19.41.44:686][543]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.41.44:686][543]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2019.10.22-19.41.44:686][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013929s)
+[2019.10.22-19.41.44:737][543]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.41.44:750][543]LogInit: FAudioDevice initialized.
+[2019.10.22-19.41.44:783][543]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.41.44:786][543]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.10.22-14.41.44
+[2019.10.22-19.41.44:787][543]LogWorld: Bringing up level for play took: 0.002659
+[2019.10.22-19.41.44:802][543]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.72
+[2019.10.22-19.41.44:803][543]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.41.50:548][753]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.41.50:549][753]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.41.50:603][755]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.41.50:604][755]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.41.53:981][881]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.41.53:981][881]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.41.54:228][890]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.41.54:229][890]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.41.54:423][897]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.41.54:423][897]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.41.54:590][903]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.41.54:590][903]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.41.54:757][909]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.41.54:758][909]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.41.54:923][915]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.41.54:923][915]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.41.56:602][977]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.41.56:602][977]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.41.56:795][984]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.41.56:795][984]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.41.59:013][ 65]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.41.59:014][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.41.59:092][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.41.59:093][ 65]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.41.59:162][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.41.59:222][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.10.22-19.42.03:276][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.42.24:473][ 66]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.42.24:510][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.42.24:511][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.42.24:511][ 66]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:42:24 AM)
+[2019.10.22-19.42.24:511][ 66]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.42.24:525][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013417s)
+[2019.10.22-19.42.24:525][ 66]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.42.24:525][ 66]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2019.10.22-19.42.24:525][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014395s)
+[2019.10.22-19.42.24:568][ 66]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.42.24:579][ 66]LogInit: FAudioDevice initialized.
+[2019.10.22-19.42.24:614][ 66]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.42.24:620][ 66]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.10.22-14.42.24
+[2019.10.22-19.42.24:621][ 66]LogWorld: Bringing up level for play took: 0.004809
+[2019.10.22-19.42.24:640][ 66]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.117
+[2019.10.22-19.42.24:641][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.42.27:812][181]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.42.27:813][181]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.42.29:168][231]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.42.29:168][231]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.42.31:401][313]LogBlueprintUserMessages: [BP_Avatar_C_0] SplineMeshComponent
+[2019.10.22-19.42.31:402][313]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.42.34:808][439]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.42.34:810][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.42.34:903][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.42.34:904][439]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.42.34:992][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.42.35:070][440]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.10.22-19.42.36:277][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.42.58:551][874]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.22-19.43.01:924][210]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/BP_Avatar5157A34C494EE625BE10C5A12B94C0B5.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Blueprints/BP_Avatar.uasset'
+[2019.10.22-19.43.03:597][320]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.43.03:629][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.43.03:630][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.43.03:630][320]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:43:03 AM)
+[2019.10.22-19.43.03:630][320]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.43.03:644][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013635s)
+[2019.10.22-19.43.03:644][320]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.43.03:645][320]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2019.10.22-19.43.03:645][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014691s)
+[2019.10.22-19.43.03:694][320]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.43.03:705][320]LogInit: FAudioDevice initialized.
+[2019.10.22-19.43.03:739][320]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.43.03:742][320]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.10.22-14.43.03
+[2019.10.22-19.43.03:743][320]LogWorld: Bringing up level for play took: 0.002231
+[2019.10.22-19.43.03:757][320]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.235
+[2019.10.22-19.43.03:757][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.43.07:003][438]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.DefaultSceneRoot
+[2019.10.22-19.43.11:861][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.43.11:862][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.43.11:946][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.43.11:946][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.43.12:040][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.43.12:109][619]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.10.22-19.43.13:802][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.43.22:886][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:889][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:893][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:896][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:899][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:904][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:909][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:912][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:916][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:920][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:924][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:927][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:931][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:934][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:937][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:941][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:944][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_329 via property DefaultSceneRoot, but TRASH_SceneComponent_329 is pending kill
+	spline_2_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Our_Rail
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:961][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_14 via property DefaultSceneRoot, but TRASH_SceneComponent_14 is pending kill
+	spline_2_C /Engine/Transient.World_3:PersistentLevel.spline_2_C_0
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.22:962][508]LogScript: Warning: Attempted to access TRASH_SceneComponent_14 via property DefaultSceneRoot, but TRASH_SceneComponent_14 is pending kill
+	spline_2_C /Engine/Transient.World_3:PersistentLevel.spline_2_C_0
+	Function /Game/Blueprints/spline_2.spline_2_C:UserConstructionScript:022E
+[2019.10.22-19.43.34:858][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.43.36:563][331]Cmd: TRANSACTION UNDO
+[2019.10.22-19.43.36:563][331]LogEditorTransaction: Undo Make New Scene Root
+[2019.10.22-19.46.42:230][390]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.22-19.46.45:585][605]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.46.45:619][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.46.45:620][605]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.10.22-19.46.45:633][605]LogPlayLevel: [PlayLevel] Compiling spline_2 before play...
+[2019.10.22-19.46.45:898][605]LogPlayLevel: PlayLevel: Blueprint regeneration took 278 ms (1 blueprints)
+[2019.10.22-19.46.45:898][605]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:46:45 AM)
+[2019.10.22-19.46.45:898][605]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.46.45:909][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011129s)
+[2019.10.22-19.46.45:910][605]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.46.45:910][605]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2019.10.22-19.46.45:911][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012416s)
+[2019.10.22-19.46.45:950][605]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.46.45:961][605]LogInit: FAudioDevice initialized.
+[2019.10.22-19.46.46:000][605]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.46.46:007][605]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.10.22-14.46.46
+[2019.10.22-19.46.46:009][605]LogWorld: Bringing up level for play took: 0.006020
+[2019.10.22-19.46.46:029][605]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.506
+[2019.10.22-19.46.46:030][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.46.49:786][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.46.49:786][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.46.49:860][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.46.49:861][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.46.49:964][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.46.50:043][744]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.10.22-19.46.50:764][768]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-19.46.51:941][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-19.46.52:203][807]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/Minimal_DefaultCCF29606487EA51C58B92597A6CDB2BB.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.10.22-19.46.52:272][807]LogFileHelpers: Saving map 'Minimal_Default' took 0.317
+[2019.10.22-19.46.52:396][807]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/BP_AvatarB6E1CA6D4F59117B656B4EB84E437817.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Blueprints/BP_Avatar.uasset'
+[2019.10.22-19.46.52:457][807]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/spline_20DC6D9324C2BE0B915FD10893E382C54.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Blueprints/spline_2.uasset'
+[2019.10.22-19.46.53:411][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.46.53:495][845]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.46.53:535][845]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.46.53:536][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.46.53:536][845]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:46:53 AM)
+[2019.10.22-19.46.53:536][845]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.46.53:552][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015638s)
+[2019.10.22-19.46.53:552][845]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.46.53:553][845]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2019.10.22-19.46.53:553][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016832s)
+[2019.10.22-19.46.53:600][845]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.46.53:611][845]LogInit: FAudioDevice initialized.
+[2019.10.22-19.46.53:644][845]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.46.53:649][845]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.10.22-14.46.53
+[2019.10.22-19.46.53:651][845]LogWorld: Bringing up level for play took: 0.004889
+[2019.10.22-19.46.53:668][845]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.146
+[2019.10.22-19.46.53:669][845]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.46.56:710][955]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.46.56:737][956]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.46.59:684][ 63]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.46.59:713][ 64]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.46.59:854][ 69]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.00:045][ 76]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.00:626][ 97]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.00:716][100]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.01:312][122]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.02:176][153]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.02:284][157]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.03:726][209]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.03:726][209]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.03:895][215]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.04:098][219]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.04:954][251]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.05:010][253]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.05:793][281]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.05:793][281]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_16 SM_PillarFrame300
+[2019.10.22-19.47.34:338][351]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.47.34:338][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.47.34:411][351]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.47.34:411][351]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.47.34:500][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.47.34:574][352]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.10.22-19.47.36:292][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.51.03:248][246]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.22-19.51.05:357][440]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/BP_Avatar48CB7234443C0A6EDED6479537DC0F73.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Blueprints/BP_Avatar.uasset'
+[2019.10.22-19.51.08:450][711]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.51.08:492][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.51.08:493][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.51.08:493][711]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:51:08 AM)
+[2019.10.22-19.51.08:493][711]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.51.08:509][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015741s)
+[2019.10.22-19.51.08:510][711]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.51.08:510][711]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2019.10.22-19.51.08:510][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016974s)
+[2019.10.22-19.51.08:566][711]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.51.08:579][711]LogInit: FAudioDevice initialized.
+[2019.10.22-19.51.08:622][711]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.51.08:624][711]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.10.22-14.51.08
+[2019.10.22-19.51.08:625][711]LogWorld: Bringing up level for play took: 0.002098
+[2019.10.22-19.51.08:640][711]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.118
+[2019.10.22-19.51.08:640][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.51.12:166][840]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_15 SM_PillarFrame300
+[2019.10.22-19.51.15:720][971]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_15 SM_PillarFrame300
+[2019.10.22-19.51.15:840][975]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_15 SM_PillarFrame300
+[2019.10.22-19.51.19:186][ 99]LogBlueprintUserMessages: [BP_Avatar_C_0] Our_Rail.NODE_AddSplineMeshComponent-0_15 SM_PillarFrame300
+[2019.10.22-19.51.25:998][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.51.25:998][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.51.26:075][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.51.26:076][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.51.26:146][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.51.26:216][351]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.10.22-19.51.26:929][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.51.58:948][627]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.10.22-19.51.59:455][628]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.10.22-19.52.35:421][730]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.22-19.53.21:926][898]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.22-19.53.54:541][651]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.22-19.53.58:063][862]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/BP_Avatar0209BB1C4B4DE3B24F7385A17232A3C0.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Blueprints/BP_Avatar.uasset'
+[2019.10.22-19.54.00:520][947]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.54.00:560][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.54.00:560][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.54.00:560][947]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:54:00 AM)
+[2019.10.22-19.54.00:560][947]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.54.00:574][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013532s)
+[2019.10.22-19.54.00:575][947]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.54.00:575][947]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2019.10.22-19.54.00:575][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014735s)
+[2019.10.22-19.54.00:629][947]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.54.00:643][947]LogInit: FAudioDevice initialized.
+[2019.10.22-19.54.00:676][947]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.54.00:681][947]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.10.22-14.54.00
+[2019.10.22-19.54.00:682][947]LogWorld: Bringing up level for play took: 0.004864
+[2019.10.22-19.54.00:702][947]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.821
+[2019.10.22-19.54.00:702][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.54.03:427][ 42]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.03:513][ 45]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.04:830][ 92]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.05:029][ 99]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.05:203][105]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.06:088][136]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.06:117][137]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.06:482][150]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.06:568][153]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.07:479][185]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called 
+[2019.10.22-19.54.07:994][203]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.08:023][204]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.08:395][217]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.08:508][221]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.08:983][238]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.09:094][242]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.09:369][252]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.09:480][256]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.09:640][261]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.14:476][437]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.17:963][565]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.18:047][568]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.19:100][607]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Our_Rail.Rail
+[2019.10.22-19.54.23:207][758]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.54.23:208][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.54.23:302][758]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.54.23:303][758]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.54.23:396][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.54.23:481][759]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.10.22-19.54.24:935][808]LogEditorViewport: Clicking on Actor (LMB): spline_2_C (Our_Rail)
+[2019.10.22-19.54.32:741][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.54.51:100][ 85]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.22-19.54.53:132][216]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-19.54.53:165][216]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.54.53:165][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-19.54.53:165][216]PIE: New page: PIE session: Minimal_Default (Oct 22, 2019, 9:54:53 AM)
+[2019.10.22-19.54.53:166][216]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.10.22-19.54.53:179][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013858s)
+[2019.10.22-19.54.53:180][216]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.10.22-19.54.53:180][216]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2019.10.22-19.54.53:180][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014934s)
+[2019.10.22-19.54.53:232][216]LogInit: XAudio2 using 'Headphones (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.22-19.54.53:243][216]LogInit: FAudioDevice initialized.
+[2019.10.22-19.54.53:280][216]LogLoad: Game class is 'BP_GameModeBook_C'
+[2019.10.22-19.54.53:289][216]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.10.22-14.54.53
+[2019.10.22-19.54.53:291][216]LogWorld: Bringing up level for play took: 0.007794
+[2019.10.22-19.54.53:312][216]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.21
+[2019.10.22-19.54.53:313][216]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.54.55:817][306]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.54.55:845][307]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.54.58:093][390]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.54.58:120][391]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.54.58:678][411]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.54.58:678][411]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.54.59:479][440]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.54.59:479][440]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.00:124][463]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.00:124][463]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.00:262][468]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.00:372][472]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.00:536][478]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.01:640][518]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.01:695][520]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.02:136][536]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.02:137][536]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.03:188][574]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.03:216][575]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.03:355][580]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.03:520][586]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.04:014][604]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.04:957][638]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.04:983][639]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.05:150][645]LogBlueprintUserMessages: [BP_Avatar_C_0] The spline component is called Rail
+[2019.10.22-19.55.06:742][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.55.06:743][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.55.06:822][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-19.55.06:823][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.10.22-19.55.06:871][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-19.55.06:924][704]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.10.22-19.55.09:049][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-19.56.06:366][159]BlueprintLog: New page: Compile BP_Avatar
+[2019.10.22-19.56.12:395][822]LogSavePackage: Moving '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Saved/BP_AvatarA06F700C4294209B214C5B81EF78D083.tmp' to '../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Content/Blueprints/BP_Avatar.uasset'
+[2019.10.22-19.57.03:926][ 12]Candidate modules for hot reload:
+[2019.10.22-19.57.03:926][ 12]  Book_Project
+[2019.10.22-19.57.03:927][ 12]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,5332 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" -canskiplink "C:/Users/Brennan Kersey/Desktop/Dev Work/book_C_plus_plus_learning_exercise_Location/Book Project/Book_Project/Book_Project.uproject" ]
+[2019.10.22-19.57.03:930][ 12]Warning: Starting HotReload took  0.0s.
+[2019.10.22-19.57.31:439][986]CompilerResultsLog: New page: Compilation - Oct 22, 2019, 9:57:31 AM
+[2019.10.22-19.57.31:439][986]CompilerResultsLog: Creating makefile for hot reloading Book_ProjectEditor (source directory changed)
+[2019.10.22-19.57.31:439][986]CompilerResultsLog: Compiling game modules for hot reload
+[2019.10.22-19.57.31:439][986]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.22-19.57.31:439][986]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2019.10.22-19.57.31:439][986]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Book_Project.uproject" "C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.22-19.57.31:440][986]CompilerResultsLog: Reflection code generated for Book_ProjectEditor in 14.2940105 seconds
+[2019.10.22-19.57.31:440][986]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.10.22-19.57.31:440][986]CompilerResultsLog:   [1/9] Book_Project.init.gen.cpp
+[2019.10.22-19.57.31:440][986]CompilerResultsLog:   [2/9] Avatar.gen.cpp
+[2019.10.22-19.57.31:440][986]CompilerResultsLog:   [3/9] Teleporter.cpp
+[2019.10.22-19.57.31:440][986]CompilerResultsLog:   C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\Teleporter.cpp(17): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.10.22-19.57.31:440][986]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2019.10.22-19.57.31:440][986]CompilerResultsLog:   [4/9] NPC.cpp
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\NPC.cpp(18): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   [5/9] Starting_Point.cpp
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   [6/9] PickupItem.cpp
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\PickupItem.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Source\Book_Project\PickupItem.cpp(21): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   [7/9] Avatar.cpp
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   [8/9] UE4Editor-Book_Project-5332.lib
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:      Creating library C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5332.lib and object C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5332.exp
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:   [9/9] UE4Editor-Book_Project-5332.dll
+[2019.10.22-19.57.31:441][986]CompilerResultsLog:      Creating library C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5332.suppressed.lib and object C:\Users\Brennan Kersey\Desktop\Dev Work\book_C_plus_plus_learning_exercise_Location\Book Project\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5332.suppressed.exp
+[2019.10.22-19.57.31:442][986]CompilerResultsLog: Total build time: 27.14 seconds (Parallel executor: 6.14 seconds)
+[2019.10.22-19.57.31:442][986]LogMainFrame: MainFrame: Module compiling took 27.532 seconds
+[2019.10.22-19.57.31:550][986]LogClass: Could not find existing class Avatar in package /Script/Book_Project for HotReload, assuming new class
+[2019.10.22-19.57.31:551][986]LogClass: Function beginGrind is new.
+[2019.10.22-19.57.31:583][986]LogHotReload: Re-instancing Avatar after hot-reload.
+[2019.10.22-19.57.31:624][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_4:PersistentLevel.BP_Avatar_C_0.CharacterMesh0.Character_Animation_BP_C_0
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:626][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_4:PersistentLevel.BP_Avatar_C_0.CharacterMesh0.Character_Animation_BP_C_1
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:627][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_2:PersistentLevel.BP_Avatar_C_10.CharacterMesh0.Character_Animation_BP_C_0
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:628][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_2:PersistentLevel.BP_Avatar_C_10.CharacterMesh0.Character_Animation_BP_C_1
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:750][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_4:PersistentLevel.BP_Avatar_C_0.CharacterMesh0.Character_Animation_BP_C_1
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:751][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_4:PersistentLevel.BP_Avatar_C_0.CharacterMesh0.Character_Animation_BP_C_1
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:752][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_2:PersistentLevel.BP_Avatar_C_10.CharacterMesh0.Character_Animation_BP_C_1
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:752][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_2:PersistentLevel.BP_Avatar_C_10.CharacterMesh0.Character_Animation_BP_C_1
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:753][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_2:PersistentLevel.BP_Avatar_C_11.CharacterMesh0.Character_Animation_BP_C_0
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:760][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_4:PersistentLevel.BP_Avatar_C_0.CharacterMesh0.Character_Animation_BP_C_1
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:761][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_4:PersistentLevel.BP_Avatar_C_0.CharacterMesh0.Character_Animation_BP_C_1
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:762][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_2:PersistentLevel.BP_Avatar_C_11.CharacterMesh0.Character_Animation_BP_C_0
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:762][986]LogScript: Warning: Attempted to access missing property 'isPunching'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Character_Animation_BP_C /Engine/Transient.World_2:PersistentLevel.BP_Avatar_C_11.CharacterMesh0.Character_Animation_BP_C_0
+	Function /Game/Third_Person_FBX/Character_Animation_BP.Character_Animation_BP_C:ExecuteUbergraph_Character_Animation_BP:0622
+[2019.10.22-19.57.31:889][986]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.10.22-19.57.32:190][986]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.301 s
+[2019.10.22-19.57.32:190][986]LogOutputDevice: Error: === Handled ensure: ===
+[2019.10.22-19.57.32:190][986]LogOutputDevice: Error: 
+[2019.10.22-19.57.32:190][986]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1095]
+[2019.10.22-19.57.32:190][986]LogOutputDevice: Error: Unable to bind delegate to 'Teleport' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2019.10.22-19.57.32:190][986]LogOutputDevice: Error: Stack: 
+[2019.10.22-19.57.32:190][986]LogOutputDevice: Error: [Callstack] 0x00007ffead81ea5c UE4Editor-Book_Project-5332.dll!TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int,bool,FHitResult const &>::__Internal_AddDynamic<ATeleporter>() [c:\program files\epic games\ue_4.21\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:1175]
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffead81ede8 UE4Editor-Book_Project-5332.dll!ATeleporter::ATeleporter() [c:\users\brennan kersey\desktop\dev work\book_c_plus_plus_learning_exercise_location\book project\book_project\source\book_project\teleporter.cpp:20]
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe38717e39 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe38706580 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe3870f2ed UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe3871aa35 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe3871ae75 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe38712c76 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe5d9e9234 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe5dd60b0d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe5dd481a6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe5da9e977 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe5e11ca7e UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe5e2d9e66 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe5e2d9139 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe387105b3 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe3870dfc7 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe3870a04b UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe3870e8ff UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe387227c4 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffe5e0b2c22 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ff609cf8847 UE4Editor.exe!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ff609d0596c UE4Editor.exe!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ff609d059ea UE4Editor.exe!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ff609d148da UE4Editor.exe!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ff609d1659a UE4Editor.exe!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffec4277bd4 KERNEL32.DLL!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: [Callstack] 0x00007ffec5dcced1 ntdll.dll!UnknownFunction []
+[2019.10.22-19.57.32:191][986]LogOutputDevice: Error: 
+[2019.10.22-19.57.32:197][986]LogStats:                SubmitErrorReport -  0.000 s
