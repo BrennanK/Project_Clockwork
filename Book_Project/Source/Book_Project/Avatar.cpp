@@ -14,6 +14,7 @@
 #include "Particles/ParticleSystemComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/SplineComponent.h"
+
 // Sets default values
 AAvatar::AAvatar()
 {
@@ -36,6 +37,7 @@ void AAvatar::BeginPlay()
 	teleportationParticle->DeactivateSystem();
 	BaseLookRate = 45.f;
 	distance = 0;
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The duration of our spline in seconds is " + FString::SanitizeFloat(ourSpline->Duration));
 }
 
 // Called every frame
@@ -127,12 +129,18 @@ void AAvatar::ToggleInventory() // Used to open inventory will have additional f
 
 void AAvatar::TurnAtRate(float Rate)  // Method for camera rotation on Z-axis
 {
-	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+	if(isGrinding==false)
+	{ 
+		AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+	}
 }
 
 void AAvatar::LookUpAtRate(float Rate) // Method for camera rotation on Y-axis
 {
-	AddControllerPitchInput(Rate * BaseLookRate * GetWorld()->GetDeltaSeconds());
+	if (isGrinding == false)
+	{
+		AddControllerPitchInput(Rate * BaseLookRate * GetWorld()->GetDeltaSeconds());
+	}
 }
 
 void AAvatar::printContentsOfBackpackOnScreen() // debug method of printing packpack contents
@@ -183,6 +191,7 @@ void AAvatar::transition()
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
 	if (distance >= 1.f || GetActorLocation().Equals(locationToGoTo,0.0f))
 	{
+		
 		GetWorldTimerManager().ClearTimer(testTimer);
 		GetCharacterMovement()->GravityScale = 1;
 		teleportationParticle->DeactivateSystem();
@@ -194,7 +203,22 @@ void AAvatar::transition()
 void AAvatar::beginGrind() // method to start the timer and begin rail grinding
 {
 	GetCharacterMovement()->GravityScale = 0;
+
+	// Disables Pawn Control Rotator such that the camera will auto-align behind the player
 	cameraBoom->bUsePawnControlRotation = false;
+	
+	// Returns and stores the distance along the spline in a 0 to Max count number of Spline minus 1 
+	float distanceOnContact=ourSpline->FindInputKeyClosestToWorldLocation(GetActorLocation());
+	
+	// Calculates and sets distance for moving along the spline
+	float splineDenominator = ourSpline->GetNumberOfSplinePoints() - 1;
+	distance = distanceOnContact / splineDenominator;
+
+	// Finds the location along spline based on contact point and aligns our character
+	FVector grindPointStartLocation = ourSpline->GetLocationAtDistanceAlongSpline(distance, ESplineCoordinateSpace::World);
+	SetActorLocation(grindPointStartLocation);
+
+	// Start timer to begin grinding
 	GetWorldTimerManager().SetTimer(railTimer, this, &AAvatar::grind, GetWorld()->GetDeltaSeconds(), true, 0.0f);
 	//GetCharacterMovement()->GravityScale = 0;
 }
@@ -206,7 +230,7 @@ void AAvatar::grind() // method for grinding along the rail
 	distance += percentOfMovement/100;
 	distance = FMath::Clamp(distance, 0.f, 1.f);
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
 
 	// Obtains full length of spline
 	float fullLength = ourSpline->GetSplineLength();
@@ -224,9 +248,18 @@ void AAvatar::grind() // method for grinding along the rail
 	// Clears the timer in order stop grinding and adds a hop off for our character
 	if (distance >= 1.f)
 	{
+		// Get reference to plyer controller to reset rotation
+		AController* controller = GetController();
+		controller->SetControlRotation(ourSpline->GetRotationAtDistanceAlongSpline(distance, ESplineCoordinateSpace::World));
+		
+		// Reset Gravity Scale before Jump Off
 		GetCharacterMovement()->GravityScale = 1;
+		
+		// Clear Timer Handle and Reset distance along spline scaled to 0 to 1 float 
 		GetWorldTimerManager().ClearTimer(railTimer);
 		distance = 0;
+		
+		// Launch Character in Air ,reset usage Pawn Controller, and Grind Boolean
 		ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
 		cameraBoom->bUsePawnControlRotation = true;
 		isGrinding = false;

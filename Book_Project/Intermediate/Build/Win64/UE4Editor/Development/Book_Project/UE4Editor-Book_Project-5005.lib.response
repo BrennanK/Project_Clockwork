@@ -1,0 +1,34 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Book_Project-5005.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Avatar.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Book_GameMode.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Book_Project.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Book_ProjectGameModeBase.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Message_UserDefinedStruct.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\NPC.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\NPC_HUD.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\PickupItem.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Starting_Point.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\TArrayActor.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\TArrayExample.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Teleporter.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Avatar.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Book_GameMode.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Book_Project.init.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Book_ProjectGameModeBase.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Message_UserDefinedStruct.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\NPC.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\NPC_HUD.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\PickupItem.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Starting_Point.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\TArrayActor.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Teleporter.gen.cpp.obj"
+"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\PCLaunch.rc.res"
+/OUT:"C:\Users\Brennan Kersey\Desktop\Dev Work\My First Solo Project\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5005.lib"
