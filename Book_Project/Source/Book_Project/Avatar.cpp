@@ -14,6 +14,7 @@
 #include "Particles/ParticleSystemComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/SplineComponent.h"
+#include "Camera/CameraComponent.h"
 
 // Sets default values
 AAvatar::AAvatar()
@@ -37,7 +38,16 @@ void AAvatar::BeginPlay()
 	teleportationParticle->DeactivateSystem();
 	BaseLookRate = 45.f;
 	distance = 0;
+	numberOfJumps = 0;
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The duration of our spline in seconds is " + FString::SanitizeFloat(ourSpline->Duration));
+}
+
+
+
+void AAvatar::Landed(const FHitResult & Hit)
+{
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
+	numberOfJumps = 0;
 }
 
 // Called every frame
@@ -116,10 +126,11 @@ void AAvatar::Pickup(APickupItem * item) // method called by pickup cable item a
 
 void AAvatar::ToggleInventory() // Used to open inventory will have additional functionality once inventroy UI is fully implemented
 {
+	/*FRotator cameraRotation = playerCamera->GetComponentRotation();
 	if (GEngine)
 	{
-		GEngine->AddOnScreenDebugMessage(int(distance), 6.0f, FColor::Blue, "Inventory has been opened");
-	}
+		GEngine->AddOnScreenDebugMessage(0, 6.0f, FColor::Blue,  FString::Printf());
+	}*/
 	/*distance += 1;
 	if (distance == 10.f)
 	{
@@ -252,6 +263,7 @@ void AAvatar::grind() // method for grinding along the rail
 		AController* controller = GetController();
 		controller->SetControlRotation(ourSpline->GetRotationAtDistanceAlongSpline(distance, ESplineCoordinateSpace::World));
 		
+		
 		// Reset Gravity Scale before Jump Off
 		GetCharacterMovement()->GravityScale = 1;
 		
@@ -268,9 +280,12 @@ void AAvatar::grind() // method for grinding along the rail
 
 void AAvatar::Jump() // method used to allow the player character to jump
 {
-	if (GetCharacterMovement()->IsMovingOnGround())
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a jump"));
+	if (GetCharacterMovement()->IsMovingOnGround() && numberOfJumps < 2)
 	{
 		ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
+		numberOfJumps++;
 	}
+	
 }
 

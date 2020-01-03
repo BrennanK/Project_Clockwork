@@ -24,6 +24,7 @@ public:
 	FTimerHandle railTimer;
 	FVector locationToGoTo;
 	float distance;
+	float numberOfJumps;
 	UPROPERTY(EditAnywhere, Category="Avatar Control Variables")
 	float BaseLookRate;
 	
@@ -38,6 +39,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite ,Category = "Alternate Skeleton")
 		class USkeletalMeshComponent* skeleton;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Grind Variables")
+		class UCameraComponent* playerCamera;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grind Variables")
 		class USpringArmComponent* cameraBoom;
@@ -65,6 +69,8 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	UFUNCTION(BlueprintCallable)
+	void Landed(const FHitResult& Hit) override;
 
 public:	
 	// Called every frame

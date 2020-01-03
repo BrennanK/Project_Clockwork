@@ -19,9 +19,12 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_beginGrind();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_enableAndDisableCollision();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Landed();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_USplineComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
 	static FName NAME_AAvatar_enableAndDisableCollision = FName(TEXT("enableAndDisableCollision"));
@@ -34,6 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		UClass* Class = AAvatar::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "beginGrind", &AAvatar::execbeginGrind },
+			{ "Landed", &AAvatar::execLanded },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -82,6 +86,46 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AAvatar_Landed_Statics
+	{
+		struct Avatar_eventLanded_Parms
+		{
+			FHitResult Hit;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Hit_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Hit;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_Landed_Statics::NewProp_Hit_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AAvatar_Landed_Statics::NewProp_Hit = { UE4CodeGen_Private::EPropertyClass::Struct, "Hit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010008008000182, 1, nullptr, STRUCT_OFFSET(Avatar_eventLanded_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_Landed_Statics::NewProp_Hit_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_Landed_Statics::NewProp_Hit_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAvatar_Landed_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAvatar_Landed_Statics::NewProp_Hit,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_Landed_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_Landed_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, "Landed", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04480401, sizeof(Avatar_eventLanded_Parms), Z_Construct_UFunction_AAvatar_Landed_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_Landed_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_Landed_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_Landed_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_Landed()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_Landed_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AAvatar_NoRegister()
 	{
 		return AAvatar::StaticClass();
@@ -119,6 +163,10 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cameraBoom;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerCamera_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_playerCamera;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_skeleton_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_skeleton;
@@ -150,6 +198,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAvatar_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AAvatar_beginGrind, "beginGrind" }, // 2693528111
 		{ &Z_Construct_UFunction_AAvatar_enableAndDisableCollision, "enableAndDisableCollision" }, // 3668430907
+		{ &Z_Construct_UFunction_AAvatar_Landed, "Landed" }, // 3700440757
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::Class_MetaDataParams[] = {
@@ -209,6 +258,14 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_cameraBoom = { UE4CodeGen_Private::EPropertyClass::Object, "cameraBoom", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(AAvatar, cameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_cameraBoom_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_cameraBoom_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_playerCamera_MetaData[] = {
+		{ "Category", "Grind Variables" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_playerCamera = { UE4CodeGen_Private::EPropertyClass::Object, "playerCamera", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000a000d, 1, nullptr, STRUCT_OFFSET(AAvatar, playerCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_playerCamera_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_playerCamera_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_skeleton_MetaData[] = {
 		{ "Category", "Alternate Skeleton" },
 		{ "EditInline", "true" },
@@ -255,6 +312,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_teleportationParticle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_transitionSpeedCap,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_cameraBoom,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_playerCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_skeleton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_isPunching,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_JumpHeight,
@@ -284,7 +342,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 1119276221);
+	IMPLEMENT_CLASS(AAvatar, 2492590427);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAvatar(Z_Construct_UClass_AAvatar, &AAvatar::StaticClass, TEXT("/Script/Book_Project"), TEXT("AAvatar"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAvatar);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

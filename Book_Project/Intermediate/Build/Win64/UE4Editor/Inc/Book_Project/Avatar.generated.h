@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FHitResult;
 #ifdef BOOK_PROJECT_Avatar_generated_h
 #error "Avatar.generated.h already included, missing '#pragma once' in Avatar.h"
 #endif
@@ -21,6 +22,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->beginGrind(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLanded) \
+	{ \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Landed(Z_Param_Out_Hit); \
+		P_NATIVE_END; \
 	}
 
 
@@ -31,6 +41,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->beginGrind(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLanded) \
+	{ \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Landed(Z_Param_Out_Hit); \
 		P_NATIVE_END; \
 	}
 
