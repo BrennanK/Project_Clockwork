@@ -39,6 +39,9 @@ void AAvatar::BeginPlay()
 	BaseLookRate = 45.f;
 	distance = 0;
 	numberOfJumps = 0;
+	numberOfAlternateJumps=0;
+	isCrouching = false;
+	isPunching = false;
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The duration of our spline in seconds is " + FString::SanitizeFloat(ourSpline->Duration));
 }
 
@@ -48,6 +51,7 @@ void AAvatar::Landed(const FHitResult & Hit)
 {
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
 	numberOfJumps = 0;
+	numberOfAlternateJumps = 0;
 }
 
 // Called every frame
@@ -75,11 +79,14 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) /
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AAvatar::Jump);
 	PlayerInputComponent->BindAction("Punch", IE_Pressed, this, &AAvatar::startPunching);
 	PlayerInputComponent->BindAction("Punch", IE_Released, this, &AAvatar::stopPunching);
-
+	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AAvatar::startCrouching);
+	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AAvatar::stopCrouching);
+	//PlayerInputComponent->BindAction("Crouch", IE_Repeat, this, &AAvatar::repeatCrouching);
 	//Touch Control bound
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AAvatar::TouchStarted);
 }
 
+#pragma region Character_Actions
 void AAvatar::MoveForward(float amount)      // detemines which direction is forward and moves actor in that direction by a specified amount
 {
 	if (Controller && amount!=0)
@@ -183,6 +190,30 @@ void AAvatar::stopPunching() // sets the controller variable for our punching an
 	enableAndDisableCollision();
 }
 
+void AAvatar::startCrouching()
+{
+	if (GetCharacterMovement()->IsMovingOnGround())
+	{
+		isCrouching = true;
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are crouching"));
+	}
+	
+}
+
+void AAvatar::stopCrouching()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are NOT crouching"));
+	isCrouching = false;
+}
+
+//void AAvatar::repeatCrouching()
+//{
+//	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are repeat crouching"));
+//}
+
+#pragma endregion Charect_Actions
+
+#pragma region MovingTeleport
 void AAvatar::lerpToDestination(FVector teleporterEndpoint)
 {
 	GetCharacterMovement()->GravityScale = 0;
@@ -210,7 +241,9 @@ void AAvatar::transition()
 		distance = 0;
 	}
 }
+#pragma endregion MovingTeleport
 
+#pragma region Character_Grinding
 void AAvatar::beginGrind() // method to start the timer and begin rail grinding
 {
 	GetCharacterMovement()->GravityScale = 0;
@@ -277,15 +310,69 @@ void AAvatar::grind() // method for grinding along the rail
 		isGrinding = false;
 	}
 }
+#pragma endregion CHaracter_Grinding
+
+#pragma region Jump
+
 
 void AAvatar::Jump() // method used to allow the player character to jump
 {
-	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a jump"));
-	if (GetCharacterMovement()->IsMovingOnGround() && numberOfJumps < 2)
+	if (isCrouching == true && numberOfAlternateJumps==0)
 	{
+		if (FMath::Abs(GetCharacterMovement()->Velocity.X)>400 || FMath::Abs(GetCharacterMovement()->Velocity.Y) > 400)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a  long jump"));
+			const FRotator Rotation = Controller->GetControlRotation();
+			const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+			// get right vector 
+			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+			//if (FMath::Abs(GetCharacterMovement()->Velocity.X) > 400)
+			//{
+			//	if (FMath::Abs(FMath::Abs(GetCharacterMovement()->Velocity.X) - FMath::Abs(FMath::Abs(GetCharacterMovement()->Velocity.X) < 500)))
+			//	{
+			//		ACharacter::LaunchCharacter(FVector(FMath::Sign(GetCharacterMovement()->Velocity.X) * longJumpVelocityXY, FMath::Sign(GetCharacterMovement()->Velocity.Y) * longJumpVelocityXY, longJumpHeight), false, true);
+			//	}
+			//	else
+			//	{
+			//		ACharacter::LaunchCharacter(FVector(FMath::Sign(GetCharacterMovement()->Velocity.X) * longJumpVelocityXY, 0, longJumpHeight), false, true);
+			//	}
+			//	numberOfAlternateJumps++;
+			//}
+			//else
+			//{
+			//	if (FMath::Abs(FMath::Abs(GetCharacterMovement()->Velocity.X) - FMath::Abs(FMath::Abs(GetCharacterMovement()->Velocity.X) < 500)))
+			//	{
+			//		ACharacter::LaunchCharacter(FVector(FMath::Sign(GetCharacterMovement()->Velocity.X) * longJumpVelocityXY, FMath::Sign(GetCharacterMovement()->Velocity.Y) * longJumpVelocityXY, longJumpHeight), false, true);
+			//	}
+			//	else
+			//	{
+			//		ACharacter::LaunchCharacter(FVector(0, FMath::Sign(GetCharacterMovement()->Velocity.Y) * longJumpVelocityXY, longJumpHeight), false, true);
+			//	}
+			//	//ACharacter::LaunchCharacter(FVector(FMath::Sign(GetCharacterMovement()->Velocity.X) * longJumpVelocityXY, FMath::Sign(GetCharacterMovement()->Velocity.Y) * longJumpVelocityXY, longJumpHeight), false, true);
+			//	numberOfAlternateJumps++;
+			//}
+			ACharacter::LaunchCharacter(FVector(Direction.X*longJumpVelocityXY,Direction.Y*longJumpVelocityXY,longJumpHeight), false, true);
+			numberOfAlternateJumps++;
+		}
+		else
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a High Jump"));
+			ACharacter::LaunchCharacter(FVector(0, 0, highJumpHeight), false, true);
+			numberOfAlternateJumps++;
+		}
+		
+	}
+
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a jump"));
+	if (numberOfJumps < 2 && numberOfAlternateJumps==0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a jump"));
 		ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
 		numberOfJumps++;
 	}
 	
 }
+
+#pragma endregion Jump
 

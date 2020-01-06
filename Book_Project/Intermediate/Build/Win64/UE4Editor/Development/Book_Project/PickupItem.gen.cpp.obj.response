@@ -412,21 +412,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "E:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project"
-/I "E:\Project Clockwork Backup\Project_Clockwork\Book_Project\Source"
-/I "E:\Project Clockwork Backup\Project_Clockwork\Book_Project\Source\Book_Project"
+/I "F:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project"
+/I "F:\Project Clockwork Backup\Project_Clockwork\Book_Project\Source"
+/I "F:\Project Clockwork Backup\Project_Clockwork\Book_Project\Source\Book_Project"
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"E:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"E:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\PickupItem.gen.cpp"
-/FI"E:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Definitions.Book_Project.h"
-/Fo"E:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\PickupItem.gen.cpp.obj"
+/FI"F:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"F:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"F:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"F:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\PickupItem.gen.cpp"
+/FI"F:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Definitions.Book_Project.h"
+/Fo"F:\Project Clockwork Backup\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\PickupItem.gen.cpp.obj"
 /TP
 /GR-
 /W4

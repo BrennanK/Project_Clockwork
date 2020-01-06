@@ -25,6 +25,7 @@ public:
 	FVector locationToGoTo;
 	float distance;
 	float numberOfJumps;
+	float numberOfAlternateJumps;
 	UPROPERTY(EditAnywhere, Category="Avatar Control Variables")
 	float BaseLookRate;
 	
@@ -33,9 +34,18 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "Avatar Control Variables")
 		float JumpHeight;
+
+	UPROPERTY(EditAnywhere, Category = "Avatar Control Variables")
+		float highJumpHeight;
+
+	UPROPERTY(EditAnywhere, Category = "Avatar Control Variables")
+		float longJumpHeight;
 	
-	UPROPERTY(VisibleAnywhere,BlueprintReadWrite,Category = "Avatar Animation Variables")
-		bool isPunching=false;
+	UPROPERTY(EditAnywhere, Category = "Avatar Control Variables")
+		float longJumpVelocityXY;
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category = "Avatar Animation Variables")
+		bool isPunching;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite ,Category = "Alternate Skeleton")
 		class USkeletalMeshComponent* skeleton;
@@ -66,6 +76,9 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Punching Colliders")
 		class USphereComponent* leftHandSphere;*/
+
+	bool isCrouching;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -100,6 +113,12 @@ public:
 	void startPunching();
 	
 	void stopPunching();
+
+	void startCrouching();
+
+	void stopCrouching();
+
+	void repeatCrouching();
 
 	void resetTimer();
 

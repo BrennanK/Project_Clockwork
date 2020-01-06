@@ -176,6 +176,18 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		static void NewProp_isPunching_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isPunching;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_longJumpVelocityXY_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_longJumpVelocityXY;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_longJumpHeight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_longJumpHeight;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_highJumpHeight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_highJumpHeight;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_JumpHeight_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_JumpHeight;
@@ -283,7 +295,28 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	{
 		((AAvatar*)Obj)->isPunching = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_isPunching = { UE4CodeGen_Private::EPropertyClass::Bool, "isPunching", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AAvatar), &Z_Construct_UClass_AAvatar_Statics::NewProp_isPunching_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_isPunching_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_isPunching_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_isPunching = { UE4CodeGen_Private::EPropertyClass::Bool, "isPunching", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AAvatar), &Z_Construct_UClass_AAvatar_Statics::NewProp_isPunching_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_isPunching_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_isPunching_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_longJumpVelocityXY_MetaData[] = {
+		{ "Category", "Avatar Control Variables" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_longJumpVelocityXY = { UE4CodeGen_Private::EPropertyClass::Float, "longJumpVelocityXY", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AAvatar, longJumpVelocityXY), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_longJumpVelocityXY_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_longJumpVelocityXY_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_longJumpHeight_MetaData[] = {
+		{ "Category", "Avatar Control Variables" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_longJumpHeight = { UE4CodeGen_Private::EPropertyClass::Float, "longJumpHeight", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AAvatar, longJumpHeight), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_longJumpHeight_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_longJumpHeight_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_highJumpHeight_MetaData[] = {
+		{ "Category", "Avatar Control Variables" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_highJumpHeight = { UE4CodeGen_Private::EPropertyClass::Float, "highJumpHeight", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AAvatar, highJumpHeight), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_highJumpHeight_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_highJumpHeight_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_JumpHeight_MetaData[] = {
 		{ "Category", "Avatar Control Variables" },
@@ -315,6 +348,9 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_playerCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_skeleton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_isPunching,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_longJumpVelocityXY,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_longJumpHeight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_highJumpHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_JumpHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate,
@@ -342,7 +378,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 2492590427);
+	IMPLEMENT_CLASS(AAvatar, 237248558);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAvatar(Z_Construct_UClass_AAvatar, &AAvatar::StaticClass, TEXT("/Script/Book_Project"), TEXT("AAvatar"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAvatar);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
