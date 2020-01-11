@@ -44,6 +44,9 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Avatar Control Variables")
 		float longJumpVelocityXY;
 
+	UPROPERTY(BlueprintReadWrite, Category = "Avatar Control Variables")
+		class UCapsuleComponent* capsuleA;
+
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category = "Avatar Animation Variables")
 		bool isPunching;
 

@@ -15,6 +15,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/SplineComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
 
 // Sets default values
 AAvatar::AAvatar()
@@ -322,36 +323,12 @@ void AAvatar::Jump() // method used to allow the player character to jump
 		if (FMath::Abs(GetCharacterMovement()->Velocity.X)>400 || FMath::Abs(GetCharacterMovement()->Velocity.Y) > 400)
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a  long jump"));
-			const FRotator Rotation = Controller->GetControlRotation();
+			const FRotator Rotation = capsuleA->GetComponentRotation();//Controller->GetControlRotation();
 			const FRotator YawRotation(0, Rotation.Yaw, 0);
 
 			// get right vector 
 			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-			//if (FMath::Abs(GetCharacterMovement()->Velocity.X) > 400)
-			//{
-			//	if (FMath::Abs(FMath::Abs(GetCharacterMovement()->Velocity.X) - FMath::Abs(FMath::Abs(GetCharacterMovement()->Velocity.X) < 500)))
-			//	{
-			//		ACharacter::LaunchCharacter(FVector(FMath::Sign(GetCharacterMovement()->Velocity.X) * longJumpVelocityXY, FMath::Sign(GetCharacterMovement()->Velocity.Y) * longJumpVelocityXY, longJumpHeight), false, true);
-			//	}
-			//	else
-			//	{
-			//		ACharacter::LaunchCharacter(FVector(FMath::Sign(GetCharacterMovement()->Velocity.X) * longJumpVelocityXY, 0, longJumpHeight), false, true);
-			//	}
-			//	numberOfAlternateJumps++;
-			//}
-			//else
-			//{
-			//	if (FMath::Abs(FMath::Abs(GetCharacterMovement()->Velocity.X) - FMath::Abs(FMath::Abs(GetCharacterMovement()->Velocity.X) < 500)))
-			//	{
-			//		ACharacter::LaunchCharacter(FVector(FMath::Sign(GetCharacterMovement()->Velocity.X) * longJumpVelocityXY, FMath::Sign(GetCharacterMovement()->Velocity.Y) * longJumpVelocityXY, longJumpHeight), false, true);
-			//	}
-			//	else
-			//	{
-			//		ACharacter::LaunchCharacter(FVector(0, FMath::Sign(GetCharacterMovement()->Velocity.Y) * longJumpVelocityXY, longJumpHeight), false, true);
-			//	}
-			//	//ACharacter::LaunchCharacter(FVector(FMath::Sign(GetCharacterMovement()->Velocity.X) * longJumpVelocityXY, FMath::Sign(GetCharacterMovement()->Velocity.Y) * longJumpVelocityXY, longJumpHeight), false, true);
-			//	numberOfAlternateJumps++;
-			//}
+			
 			ACharacter::LaunchCharacter(FVector(Direction.X*longJumpVelocityXY,Direction.Y*longJumpVelocityXY,longJumpHeight), false, true);
 			numberOfAlternateJumps++;
 		}

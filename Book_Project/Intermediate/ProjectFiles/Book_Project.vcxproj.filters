@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Book_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4382B58E-F0B8-43E9-A11A-851DAABDC5D8}</UniqueIdentifier>
+      <UniqueIdentifier>{2526EFC1-A863-43E8-BC43-F20B5640E5A7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Book_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5A45FA60-2C3D-4AC8-B979-D2F25EBBDE18}</UniqueIdentifier>
+      <UniqueIdentifier>{BA248DF2-A1E4-456D-BFCE-869B189A3EBA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Book_Project">
-      <UniqueIdentifier>{45F49F6A-9D4B-4BDA-84B3-7AEF8870CA7B}</UniqueIdentifier>
+      <UniqueIdentifier>{A1CB8E14-8D28-4ABE-A983-746DD651F869}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Book_Project\Avatar.cpp">
       <Filter>Source\Book_Project</Filter>
@@ -98,15 +98,11 @@
     <ClInclude Include="..\..\Source\Book_Project\TArrayExample.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Book_Project\Teleporter.h">
-      <Filter>Source\Book_Project</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\Book_Project\Teleporter.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Teleporter.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
