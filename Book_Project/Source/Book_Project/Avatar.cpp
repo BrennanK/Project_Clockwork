@@ -82,6 +82,8 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) /
 	PlayerInputComponent->BindAction("Punch", IE_Released, this, &AAvatar::stopPunching);
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AAvatar::startCrouching);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AAvatar::stopCrouching);
+
+	PlayerInputComponent->BindAction("Subtract Health", IE_Pressed, this, &AAvatar::MinusHealth);
 	//PlayerInputComponent->BindAction("Crouch", IE_Repeat, this, &AAvatar::repeatCrouching);
 	//Touch Control bound
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AAvatar::TouchStarted);
@@ -310,6 +312,11 @@ void AAvatar::grind() // method for grinding along the rail
 		cameraBoom->bUsePawnControlRotation = true;
 		isGrinding = false;
 	}
+}
+void AAvatar::MinusHealth()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Subtract health is being called"));
+	currentHealth -= 1.0f;
 }
 #pragma endregion CHaracter_Grinding
 

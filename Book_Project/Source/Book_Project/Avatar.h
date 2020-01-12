@@ -74,6 +74,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grind Variables")
 		float percentOfMovement;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Avatar Health Variables")
+		float currentHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Avatar Health Variables")
+		float maxHealth;
+
 	/*UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Punching Colliders")
 		class USphereComponent* rightHandSphere;
 	
@@ -134,4 +140,6 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void beginGrind();
 	void grind();
+
+	void MinusHealth();
 };
