@@ -141,5 +141,7 @@ public:
 	void beginGrind();
 	void grind();
 
+	UFUNCTION(BlueprintImplementableEvent)
+		void callWheelChange();
 	void MinusHealth();
 };

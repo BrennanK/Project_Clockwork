@@ -317,6 +317,7 @@ void AAvatar::MinusHealth()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Subtract health is being called"));
 	currentHealth -= 1.0f;
+	callWheelChange();
 }
 #pragma endregion CHaracter_Grinding
 
