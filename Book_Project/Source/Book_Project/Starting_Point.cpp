@@ -4,6 +4,7 @@
 #include "Avatar.h"
 #include "Kismet/GameplayStatics.h"
 #include "Engine/Engine.h"
+#include "Engine/World.h"
 
 // Sets default values
 AStarting_Point::AStarting_Point()
@@ -21,6 +22,15 @@ void AStarting_Point::BeginPlay()
 	AAvatar *avatar = Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(),0));
 	avatar->SetActorLocation(GetActorLocation());
 	avatar->SetActorRotation(GetActorRotation());
+	
+	PController=GetWorld()->GetFirstPlayerController();
+	if (PController == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Could not find controller."));
+		return;
+	}
+	PController->SetControlRotation(GetActorRotation());
+	avatar->LookUpAtRate(initialLookRate);
 }
 
 // Called every frame

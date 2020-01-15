@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeStarting_Point() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AStarting_Point();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Book_Project();
+	ENGINE_API UClass* Z_Construct_UClass_APlayerController_NoRegister();
 // End Cross Module References
 	void AStarting_Point::StaticRegisterNativesAStarting_Point()
 	{
@@ -31,6 +32,15 @@ void EmptyLinkFunctionForGeneratedCodeStarting_Point() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_initialLookRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_initialLookRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PController_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PController;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +54,23 @@ void EmptyLinkFunctionForGeneratedCodeStarting_Point() {}
 		{ "ModuleRelativePath", "Starting_Point.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate_MetaData[] = {
+		{ "Category", "Initial Camera Setup" },
+		{ "ModuleRelativePath", "Starting_Point.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate = { UE4CodeGen_Private::EPropertyClass::Float, "initialLookRate", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AStarting_Point, initialLookRate), METADATA_PARAMS(Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController_MetaData[] = {
+		{ "ModuleRelativePath", "Starting_Point.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController = { UE4CodeGen_Private::EPropertyClass::Object, "PController", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000000, 1, nullptr, STRUCT_OFFSET(AStarting_Point, PController), Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStarting_Point_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AStarting_Point_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AStarting_Point>::IsAbstract,
 	};
@@ -52,7 +79,7 @@ void EmptyLinkFunctionForGeneratedCodeStarting_Point() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_AStarting_Point_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AStarting_Point_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -67,7 +94,7 @@ void EmptyLinkFunctionForGeneratedCodeStarting_Point() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarting_Point, 4066422133);
+	IMPLEMENT_CLASS(AStarting_Point, 4228344616);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AStarting_Point(Z_Construct_UClass_AStarting_Point, &AStarting_Point::StaticClass, TEXT("/Script/Book_Project"), TEXT("AStarting_Point"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AStarting_Point);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -14,7 +14,10 @@ class BOOK_PROJECT_API AStarting_Point : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AStarting_Point();
-
+	UPROPERTY()
+		APlayerController* PController;
+	UPROPERTY(EditAnywhere, Category="Initial Camera Setup")
+		float initialLookRate;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
