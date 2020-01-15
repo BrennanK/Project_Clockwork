@@ -14,8 +14,8 @@ AColored_Floor_Switch::AColored_Floor_Switch(const FObjectInitializer& ObjectIni
 
 	floorBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Floor_Switch_Collider"));
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Item Mesh Component"));
-	Mesh->AttachTo(RootComponent);
-	floorBox->AttachTo(Mesh);
+	Mesh->SetupAttachment(RootComponent);
+	floorBox->SetupAttachment(Mesh);
 	floorBox->OnComponentBeginOverlap.AddDynamic(this, &AColored_Floor_Switch::Collision);
 
 }

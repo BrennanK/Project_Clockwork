@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Book_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2526EFC1-A863-43E8-BC43-F20B5640E5A7}</UniqueIdentifier>
+      <UniqueIdentifier>{54B71618-8191-4A33-9A20-3977BFA67230}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Book_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BA248DF2-A1E4-456D-BFCE-869B189A3EBA}</UniqueIdentifier>
+      <UniqueIdentifier>{68CAB959-77D7-492B-BA43-062706A378A0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Book_Project">
-      <UniqueIdentifier>{A1CB8E14-8D28-4ABE-A983-746DD651F869}</UniqueIdentifier>
+      <UniqueIdentifier>{62C80FF5-92EC-4302-BCD2-7043869D880F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Book_Project\Avatar.cpp">
       <Filter>Source\Book_Project</Filter>
@@ -54,6 +54,12 @@
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Book_Project\Book_ProjectGameModeBase.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Colored_Floor_Switch.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Colored_Floor_Switch.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Message_UserDefinedStruct.cpp">
@@ -104,5 +110,21 @@
     <ClInclude Include="..\..\Source\Book_Project\Teleporter.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Working_Bouncepad.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Working_Bouncepad.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Book_Project\Test_Create.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Book_Project\Test_Create.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

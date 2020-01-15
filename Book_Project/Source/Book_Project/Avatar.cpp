@@ -44,6 +44,7 @@ void AAvatar::BeginPlay()
 	isCrouching = false;
 	isPunching = false;
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The duration of our spline in seconds is " + FString::SanitizeFloat(ourSpline->Duration));
+	currentState = ECharacterState::NORMAL;
 }
 
 

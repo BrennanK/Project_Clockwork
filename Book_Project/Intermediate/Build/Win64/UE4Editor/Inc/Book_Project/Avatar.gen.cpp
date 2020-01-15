@@ -13,11 +13,13 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 // Cross Module References
+	BOOK_PROJECT_API UEnum* Z_Construct_UEnum_Book_Project_ECharacterState();
+	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_beginGrind();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callWheelChange();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_enableAndDisableCollision();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Landed();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
@@ -28,6 +30,59 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
 // End Cross Module References
+	static UEnum* ECharacterState_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Book_Project_ECharacterState, Z_Construct_UPackage__Script_Book_Project(), TEXT("ECharacterState"));
+		}
+		return Singleton;
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ECharacterState(ECharacterState_StaticEnum, TEXT("/Script/Book_Project"), TEXT("ECharacterState"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Book_Project_ECharacterState_CRC() { return 1205270175U; }
+	UEnum* Z_Construct_UEnum_Book_Project_ECharacterState()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_Book_Project();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ECharacterState"), 0, Get_Z_Construct_UEnum_Book_Project_ECharacterState_CRC(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "ECharacterState::NORMAL", (int64)ECharacterState::NORMAL },
+				{ "ECharacterState::STUNNED", (int64)ECharacterState::STUNNED },
+				{ "ECharacterState::DEAD", (int64)ECharacterState::DEAD },
+				{ "ECharacterState::INTERACTABLE", (int64)ECharacterState::INTERACTABLE },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Avatar.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_Book_Project,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				"ECharacterState",
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				nullptr,
+				(uint8)UEnum::ECppForm::EnumClass,
+				"ECharacterState",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
+	static FName NAME_AAvatar_callWheelChange = FName(TEXT("callWheelChange"));
+	void AAvatar::callWheelChange()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_callWheelChange),NULL);
+	}
 	static FName NAME_AAvatar_enableAndDisableCollision = FName(TEXT("enableAndDisableCollision"));
 	void AAvatar::enableAndDisableCollision()
 	{
@@ -61,6 +116,28 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_beginGrind_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_callWheelChange_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_callWheelChange_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_callWheelChange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, "callWheelChange", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_callWheelChange_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_callWheelChange_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_callWheelChange()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_callWheelChange_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -222,6 +299,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAvatar_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AAvatar_beginGrind, "beginGrind" }, // 2693528111
+		{ &Z_Construct_UFunction_AAvatar_callWheelChange, "callWheelChange" }, // 2084009681
 		{ &Z_Construct_UFunction_AAvatar_enableAndDisableCollision, "enableAndDisableCollision" }, // 3668430907
 		{ &Z_Construct_UFunction_AAvatar_Landed, "Landed" }, // 3700440757
 	};
@@ -416,7 +494,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 2727648109);
+	IMPLEMENT_CLASS(AAvatar, 890223419);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAvatar(Z_Construct_UClass_AAvatar, &AAvatar::StaticClass, TEXT("/Script/Book_Project"), TEXT("AAvatar"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAvatar);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

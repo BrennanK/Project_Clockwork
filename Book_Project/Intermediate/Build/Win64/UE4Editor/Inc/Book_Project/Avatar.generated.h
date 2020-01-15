@@ -131,4 +131,9 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID Book_Project_Source_Book_Project_Avatar_h
 
 
+#define FOREACH_ENUM_ECHARACTERSTATE(op) \
+	op(ECharacterState::NORMAL) \
+	op(ECharacterState::STUNNED) \
+	op(ECharacterState::DEAD) \
+	op(ECharacterState::INTERACTABLE) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

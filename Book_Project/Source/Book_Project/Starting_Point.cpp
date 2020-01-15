@@ -20,6 +20,7 @@ void AStarting_Point::BeginPlay()
 
 	AAvatar *avatar = Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(),0));
 	avatar->SetActorLocation(GetActorLocation());
+	avatar->SetActorRotation(GetActorRotation());
 }
 
 // Called every frame

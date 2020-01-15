@@ -1,11 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Avatar.generated.h"
 class APickupItem;
+UENUM() enum class ECharacterState: uint8 {NORMAL,STUNNED,DEAD,INTERACTABLE};
 UCLASS()
 class BOOK_PROJECT_API AAvatar : public ACharacter
 {
@@ -18,7 +18,7 @@ public:
 	TMap<FString, int> Backpack;
 	TMap<FString, UTexture2D*> Icons;
 	bool inventoryShowing;
-	
+	ECharacterState currentState;
 	/*Timer for Handling transport*/
 	FTimerHandle testTimer;
 	FTimerHandle railTimer;
