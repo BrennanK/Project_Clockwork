@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeBook_GameMode() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABook_GameMode_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "Book_GameMode.h" },
 		{ "ModuleRelativePath", "Book_GameMode.h" },
@@ -51,13 +52,17 @@ void EmptyLinkFunctionForGeneratedCodeBook_GameMode() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ABook_GameMode_Statics::ClassParams = {
 		&ABook_GameMode::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009002A8u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x009002A8u,
 		METADATA_PARAMS(Z_Construct_UClass_ABook_GameMode_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ABook_GameMode_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ABook_GameMode()
@@ -69,7 +74,11 @@ void EmptyLinkFunctionForGeneratedCodeBook_GameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABook_GameMode, 218181429);
+	IMPLEMENT_CLASS(ABook_GameMode, 806512006);
+	template<> BOOK_PROJECT_API UClass* StaticClass<ABook_GameMode>()
+	{
+		return ABook_GameMode::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABook_GameMode(Z_Construct_UClass_ABook_GameMode, &ABook_GameMode::StaticClass, TEXT("/Script/Book_Project"), TEXT("ABook_GameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABook_GameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -63,14 +63,14 @@ void EmptyLinkFunctionForGeneratedCodeTeleporter() {}
 		{ "ModuleRelativePath", "Teleporter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATeleporter_Statics::NewProp_collider = { UE4CodeGen_Private::EPropertyClass::Object, "collider", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080009, 1, nullptr, STRUCT_OFFSET(ATeleporter, collider), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATeleporter_Statics::NewProp_collider_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATeleporter_Statics::NewProp_collider_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATeleporter_Statics::NewProp_collider = { "collider", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATeleporter, collider), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATeleporter_Statics::NewProp_collider_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATeleporter_Statics::NewProp_collider_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATeleporter_Statics::NewProp_locationtoGoTo_MetaData[] = {
 		{ "Category", "Destination" },
 		{ "ModuleRelativePath", "Teleporter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATeleporter_Statics::NewProp_locationtoGoTo = { UE4CodeGen_Private::EPropertyClass::Struct, "locationtoGoTo", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ATeleporter, locationtoGoTo), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ATeleporter_Statics::NewProp_locationtoGoTo_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATeleporter_Statics::NewProp_locationtoGoTo_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATeleporter_Statics::NewProp_locationtoGoTo = { "locationtoGoTo", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATeleporter, locationtoGoTo), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ATeleporter_Statics::NewProp_locationtoGoTo_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATeleporter_Statics::NewProp_locationtoGoTo_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATeleporter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATeleporter_Statics::NewProp_collider,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATeleporter_Statics::NewProp_locationtoGoTo,
@@ -80,13 +80,17 @@ void EmptyLinkFunctionForGeneratedCodeTeleporter() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ATeleporter_Statics::ClassParams = {
 		&ATeleporter::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009000A0u,
-		nullptr, 0,
-		Z_Construct_UClass_ATeleporter_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ATeleporter_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		Z_Construct_UClass_ATeleporter_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		ARRAY_COUNT(Z_Construct_UClass_ATeleporter_Statics::PropPointers),
+		0,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_ATeleporter_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ATeleporter_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ATeleporter()
@@ -98,7 +102,11 @@ void EmptyLinkFunctionForGeneratedCodeTeleporter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATeleporter, 4227996238);
+	IMPLEMENT_CLASS(ATeleporter, 601300569);
+	template<> BOOK_PROJECT_API UClass* StaticClass<ATeleporter>()
+	{
+		return ATeleporter::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATeleporter(Z_Construct_UClass_ATeleporter, &ATeleporter::StaticClass, TEXT("/Script/Book_Project"), TEXT("ATeleporter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATeleporter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeMessage_UserDefinedStruct() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMessage_UserDefinedStruct_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "Message_UserDefinedStruct.h" },
 		{ "ModuleRelativePath", "Message_UserDefinedStruct.h" },
 	};
@@ -49,13 +50,17 @@ void EmptyLinkFunctionForGeneratedCodeMessage_UserDefinedStruct() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UMessage_UserDefinedStruct_Statics::ClassParams = {
 		&UMessage_UserDefinedStruct::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x001000A0u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x001000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UMessage_UserDefinedStruct_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UMessage_UserDefinedStruct_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UMessage_UserDefinedStruct()
@@ -67,7 +72,11 @@ void EmptyLinkFunctionForGeneratedCodeMessage_UserDefinedStruct() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMessage_UserDefinedStruct, 908364079);
+	IMPLEMENT_CLASS(UMessage_UserDefinedStruct, 3372491324);
+	template<> BOOK_PROJECT_API UClass* StaticClass<UMessage_UserDefinedStruct>()
+	{
+		return UMessage_UserDefinedStruct::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UMessage_UserDefinedStruct(Z_Construct_UClass_UMessage_UserDefinedStruct, &UMessage_UserDefinedStruct::StaticClass, TEXT("/Script/Book_Project"), TEXT("UMessage_UserDefinedStruct"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UMessage_UserDefinedStruct);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

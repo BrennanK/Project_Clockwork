@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeBook_ProjectGameModeBase() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABook_ProjectGameModeBase_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "Book_ProjectGameModeBase.h" },
 		{ "ModuleRelativePath", "Book_ProjectGameModeBase.h" },
@@ -51,13 +52,17 @@ void EmptyLinkFunctionForGeneratedCodeBook_ProjectGameModeBase() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ABook_ProjectGameModeBase_Statics::ClassParams = {
 		&ABook_ProjectGameModeBase::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009002A8u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x009002A8u,
 		METADATA_PARAMS(Z_Construct_UClass_ABook_ProjectGameModeBase_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ABook_ProjectGameModeBase_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ABook_ProjectGameModeBase()
@@ -69,7 +74,11 @@ void EmptyLinkFunctionForGeneratedCodeBook_ProjectGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABook_ProjectGameModeBase, 4203763393);
+	IMPLEMENT_CLASS(ABook_ProjectGameModeBase, 1603605637);
+	template<> BOOK_PROJECT_API UClass* StaticClass<ABook_ProjectGameModeBase>()
+	{
+		return ABook_ProjectGameModeBase::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABook_ProjectGameModeBase(Z_Construct_UClass_ABook_ProjectGameModeBase, &ABook_ProjectGameModeBase::StaticClass, TEXT("/Script/Book_Project"), TEXT("ABook_ProjectGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABook_ProjectGameModeBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

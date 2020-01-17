@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -60,13 +60,13 @@ void EmptyLinkFunctionForGeneratedCodeStarting_Point() {}
 		{ "ModuleRelativePath", "Starting_Point.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate = { UE4CodeGen_Private::EPropertyClass::Float, "initialLookRate", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AStarting_Point, initialLookRate), METADATA_PARAMS(Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate = { "initialLookRate", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarting_Point, initialLookRate), METADATA_PARAMS(Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController_MetaData[] = {
 		{ "ModuleRelativePath", "Starting_Point.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController = { UE4CodeGen_Private::EPropertyClass::Object, "PController", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000000, 1, nullptr, STRUCT_OFFSET(AStarting_Point, PController), Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController = { "PController", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarting_Point, PController), Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStarting_Point_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStarting_Point_Statics::NewProp_initialLookRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStarting_Point_Statics::NewProp_PController,
@@ -76,13 +76,17 @@ void EmptyLinkFunctionForGeneratedCodeStarting_Point() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AStarting_Point_Statics::ClassParams = {
 		&AStarting_Point::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009000A0u,
-		nullptr, 0,
-		Z_Construct_UClass_AStarting_Point_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AStarting_Point_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		Z_Construct_UClass_AStarting_Point_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		ARRAY_COUNT(Z_Construct_UClass_AStarting_Point_Statics::PropPointers),
+		0,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_AStarting_Point_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AStarting_Point_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AStarting_Point()
@@ -94,7 +98,11 @@ void EmptyLinkFunctionForGeneratedCodeStarting_Point() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarting_Point, 4228344616);
+	IMPLEMENT_CLASS(AStarting_Point, 680346531);
+	template<> BOOK_PROJECT_API UClass* StaticClass<AStarting_Point>()
+	{
+		return AStarting_Point::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AStarting_Point(Z_Construct_UClass_AStarting_Point, &AStarting_Point::StaticClass, TEXT("/Script/Book_Project"), TEXT("AStarting_Point"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AStarting_Point);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

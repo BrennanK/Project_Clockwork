@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -55,11 +55,12 @@ void EmptyLinkFunctionForGeneratedCodeNPC_HUD() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_HUD_Statics::NewProp_hudFont_MetaData[] = {
 		{ "Category", "HUDFont" },
+		{ "Comment", "//UPROPERTY()\n//TArray<struct Widget> piss;\n" },
 		{ "ModuleRelativePath", "NPC_HUD.h" },
 		{ "ToolTip", "UPROPERTY()\nTArray<struct Widget> piss;" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_HUD_Statics::NewProp_hudFont = { UE4CodeGen_Private::EPropertyClass::Object, "hudFont", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ANPC_HUD, hudFont), Z_Construct_UClass_UFont_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_HUD_Statics::NewProp_hudFont_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANPC_HUD_Statics::NewProp_hudFont_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_HUD_Statics::NewProp_hudFont = { "hudFont", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_HUD, hudFont), Z_Construct_UClass_UFont_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_HUD_Statics::NewProp_hudFont_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANPC_HUD_Statics::NewProp_hudFont_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANPC_HUD_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_HUD_Statics::NewProp_hudFont,
 	};
@@ -68,13 +69,17 @@ void EmptyLinkFunctionForGeneratedCodeNPC_HUD() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ANPC_HUD_Statics::ClassParams = {
 		&ANPC_HUD::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009002ACu,
-		nullptr, 0,
-		Z_Construct_UClass_ANPC_HUD_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ANPC_HUD_Statics::PropPointers),
 		"Game",
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		Z_Construct_UClass_ANPC_HUD_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		ARRAY_COUNT(Z_Construct_UClass_ANPC_HUD_Statics::PropPointers),
+		0,
+		0x009002ACu,
 		METADATA_PARAMS(Z_Construct_UClass_ANPC_HUD_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ANPC_HUD_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ANPC_HUD()
@@ -86,7 +91,11 @@ void EmptyLinkFunctionForGeneratedCodeNPC_HUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC_HUD, 2998449191);
+	IMPLEMENT_CLASS(ANPC_HUD, 1335861762);
+	template<> BOOK_PROJECT_API UClass* StaticClass<ANPC_HUD>()
+	{
+		return ANPC_HUD::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ANPC_HUD(Z_Construct_UClass_ANPC_HUD, &ANPC_HUD::StaticClass, TEXT("/Script/Book_Project"), TEXT("ANPC_HUD"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ANPC_HUD);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

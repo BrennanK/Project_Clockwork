@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -49,13 +49,17 @@ void EmptyLinkFunctionForGeneratedCodeTest_Create() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ATest_Create_Statics::ClassParams = {
 		&ATest_Create::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009000A0u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_ATest_Create_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ATest_Create_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ATest_Create()
@@ -67,7 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeTest_Create() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATest_Create, 3052228150);
+	IMPLEMENT_CLASS(ATest_Create, 592381514);
+	template<> BOOK_PROJECT_API UClass* StaticClass<ATest_Create>()
+	{
+		return ATest_Create::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATest_Create(Z_Construct_UClass_ATest_Create, &ATest_Create::StaticClass, TEXT("/Script/Book_Project"), TEXT("ATest_Create"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATest_Create);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

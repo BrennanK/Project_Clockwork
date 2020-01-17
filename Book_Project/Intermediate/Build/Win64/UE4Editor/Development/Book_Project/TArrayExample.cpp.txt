@@ -1,0 +1,2 @@
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project 4.23\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Definitions.Book_Project.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project 4.23\source\book_project\TArrayExample.h
