@@ -13,5 +13,4 @@ UCLASS()
 class BOOK_PROJECT_API ABook_GameMode : public AGameModeBase
 {
 	GENERATED_BODY()
-	
 };

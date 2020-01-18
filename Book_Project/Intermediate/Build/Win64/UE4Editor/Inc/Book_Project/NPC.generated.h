@@ -16,7 +16,7 @@ struct FHitResult;
 #endif
 #define BOOK_PROJECT_NPC_generated_h
 
-#define Book_Project_4_23_Source_Book_Project_NPC_h_12_RPC_WRAPPERS \
+#define Book_Project_Source_Book_Project_NPC_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execProx) \
 	{ \
@@ -33,7 +33,7 @@ struct FHitResult;
 	}
 
 
-#define Book_Project_4_23_Source_Book_Project_NPC_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Book_Project_Source_Book_Project_NPC_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execProx) \
 	{ \
@@ -50,7 +50,7 @@ struct FHitResult;
 	}
 
 
-#define Book_Project_4_23_Source_Book_Project_NPC_h_12_INCLASS_NO_PURE_DECLS \
+#define Book_Project_Source_Book_Project_NPC_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANPC(); \
 	friend struct Z_Construct_UClass_ANPC_Statics; \
@@ -59,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(ANPC)
 
 
-#define Book_Project_4_23_Source_Book_Project_NPC_h_12_INCLASS \
+#define Book_Project_Source_Book_Project_NPC_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesANPC(); \
 	friend struct Z_Construct_UClass_ANPC_Statics; \
@@ -68,7 +68,7 @@ public: \
 	DECLARE_SERIALIZER(ANPC)
 
 
-#define Book_Project_4_23_Source_Book_Project_NPC_h_12_STANDARD_CONSTRUCTORS \
+#define Book_Project_Source_Book_Project_NPC_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ANPC(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANPC) \
@@ -81,7 +81,7 @@ private: \
 public:
 
 
-#define Book_Project_4_23_Source_Book_Project_NPC_h_12_ENHANCED_CONSTRUCTORS \
+#define Book_Project_Source_Book_Project_NPC_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ANPC(ANPC&&); \
@@ -92,26 +92,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANPC); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANPC)
 
 
-#define Book_Project_4_23_Source_Book_Project_NPC_h_12_PRIVATE_PROPERTY_OFFSET
-#define Book_Project_4_23_Source_Book_Project_NPC_h_9_PROLOG
-#define Book_Project_4_23_Source_Book_Project_NPC_h_12_GENERATED_BODY_LEGACY \
+#define Book_Project_Source_Book_Project_NPC_h_12_PRIVATE_PROPERTY_OFFSET
+#define Book_Project_Source_Book_Project_NPC_h_9_PROLOG
+#define Book_Project_Source_Book_Project_NPC_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Book_Project_4_23_Source_Book_Project_NPC_h_12_PRIVATE_PROPERTY_OFFSET \
-	Book_Project_4_23_Source_Book_Project_NPC_h_12_RPC_WRAPPERS \
-	Book_Project_4_23_Source_Book_Project_NPC_h_12_INCLASS \
-	Book_Project_4_23_Source_Book_Project_NPC_h_12_STANDARD_CONSTRUCTORS \
+	Book_Project_Source_Book_Project_NPC_h_12_PRIVATE_PROPERTY_OFFSET \
+	Book_Project_Source_Book_Project_NPC_h_12_RPC_WRAPPERS \
+	Book_Project_Source_Book_Project_NPC_h_12_INCLASS \
+	Book_Project_Source_Book_Project_NPC_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Book_Project_4_23_Source_Book_Project_NPC_h_12_GENERATED_BODY \
+#define Book_Project_Source_Book_Project_NPC_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Book_Project_4_23_Source_Book_Project_NPC_h_12_PRIVATE_PROPERTY_OFFSET \
-	Book_Project_4_23_Source_Book_Project_NPC_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Book_Project_4_23_Source_Book_Project_NPC_h_12_INCLASS_NO_PURE_DECLS \
-	Book_Project_4_23_Source_Book_Project_NPC_h_12_ENHANCED_CONSTRUCTORS \
+	Book_Project_Source_Book_Project_NPC_h_12_PRIVATE_PROPERTY_OFFSET \
+	Book_Project_Source_Book_Project_NPC_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Book_Project_Source_Book_Project_NPC_h_12_INCLASS_NO_PURE_DECLS \
+	Book_Project_Source_Book_Project_NPC_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -119,7 +119,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BOOK_PROJECT_API UClass* StaticClass<class ANPC>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Book_Project_4_23_Source_Book_Project_NPC_h
+#define CURRENT_FILE_ID Book_Project_Source_Book_Project_NPC_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

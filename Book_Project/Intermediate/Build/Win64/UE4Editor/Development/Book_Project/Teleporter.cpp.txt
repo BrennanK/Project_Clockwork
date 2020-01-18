@@ -1,13 +1,13 @@
-D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project 4.23\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Definitions.Book_Project.h
-d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project 4.23\source\book_project\Teleporter.h
-D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project 4.23\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Teleporter.generated.h
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Definitions.Book_Project.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Teleporter.h
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Teleporter.generated.h
 C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
-d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project 4.23\source\book_project\Avatar.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Avatar.h
 C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project 4.23\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Avatar.generated.h
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Avatar.generated.h
