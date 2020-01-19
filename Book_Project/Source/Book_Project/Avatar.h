@@ -143,5 +143,5 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void callWheelChange();
-	void MinusHealth();
+	void MinusHealth(float damageTaken);
 };

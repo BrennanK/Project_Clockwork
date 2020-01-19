@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Book_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F319C079-65B4-4268-BBDD-CD125D1AFEDE}</UniqueIdentifier>
+      <UniqueIdentifier>{4E01B3D0-AC6F-439F-B22A-A16E53421EFE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Book_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{AA2A4520-3743-4C0A-8FA1-C970E8A0A8EA}</UniqueIdentifier>
+      <UniqueIdentifier>{F61B3A0E-3B3A-4926-82C9-A91C537AF000}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Book_Project">
-      <UniqueIdentifier>{FB5CA7ED-D77E-421F-AC87-21F174FEFB81}</UniqueIdentifier>
+      <UniqueIdentifier>{BFBEC991-44EC-4719-9CE8-1C91BE55F063}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Book_Project\Avatar.cpp">
       <Filter>Source\Book_Project</Filter>
@@ -56,6 +56,12 @@
     <ClInclude Include="..\..\Source\Book_Project\Book_ProjectGameModeBase.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Checkpoint.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Checkpoint.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Collission_Text.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
@@ -68,6 +74,12 @@
     <ClInclude Include="..\..\Source\Book_Project\Colored_Floor_Switch.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\DeathBounds.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\DeathBounds.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Distortion_Fragments.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
@@ -78,6 +90,12 @@
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Book_Project\Message_UserDefinedStruct.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\MyGameInstance.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\MyGameInstance.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\NPC.cpp">
@@ -134,6 +152,12 @@
     <ClInclude Include="..\..\Source\Book_Project\Test_Create.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Turret.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Turret.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Working_Bouncepad.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
@@ -142,24 +166,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\Book_Project\DeathBounds.h">
-      <Filter>Source\Book_Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Book_Project\MyGameInstance.h">
-      <Filter>Source\Book_Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Book_Project\Checkpoint.h">
+    <ClInclude Include="..\..\Source\Book_Project\Projectile.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Book_Project\DeathBounds.cpp">
-      <Filter>Source\Book_Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Book_Project\MyGameInstance.cpp">
-      <Filter>Source\Book_Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Book_Project\Checkpoint.cpp">
+    <ClCompile Include="..\..\Source\Book_Project\Projectile.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
   </ItemGroup>
