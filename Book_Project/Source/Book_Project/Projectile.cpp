@@ -8,6 +8,8 @@
 #include "Avatar.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/GameplayStatics.h"
+#include "Engine/World.h"
+#include "TimerManager.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -18,6 +20,7 @@ AProjectile::AProjectile()
 }
 AProjectile::AProjectile(const FObjectInitializer &ObjectInitializer) : Super(ObjectInitializer)
 {
+	PrimaryActorTick.bCanEverTick = true;
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Projectile Mesh"));
 	projectileCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Collider"));
 	mesh->AttachTo(RootComponent);
@@ -29,13 +32,29 @@ void AProjectile::BeginPlay()
 {
 	Super::BeginPlay();
 	player= Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
-	FVector forward = GetActorForwardVector();
-	SetActorLocation(GetActorLocation() + forward);
+	GetWorldTimerManager().SetTimer(moveTimer,this,&AProjectile::moveForward,callSpeed,true,0.0f);
+	//FVector forward = GetActorForwardVector();
+	//SetActorLocation(GetActorLocation() + forward);
 	//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "The forward vector for this actor is: " + FString("(") + FString::SanitizeFloat(forward.X) + FString(" , ") + FString::SanitizeFloat(forward.Y) + FString(" , ") + FString::SanitizeFloat(forward.Z) + FString(")"));
 }
 
 void AProjectile::moveForward()
 {
+	//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "MOVE FORWARD IS BEING CALLED ");
+	FVector forward;
+	switch (typeOfProjectile)
+	{
+		case EProjectileType::Standard:
+			forward = GetActorForwardVector();
+			SetActorLocation(GetActorLocation() + forward);
+			break;
+		
+		case EProjectileType::Tracking:
+			FRotator lookAtPlayer = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), player->GetActorLocation());
+			SetActorRotation(lookAtPlayer);
+			forward = GetActorForwardVector();
+			SetActorLocation(GetActorLocation() + forward*amountToMove);
+	}
 }
 
 void AProjectile::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
@@ -47,17 +66,20 @@ void AProjectile::Collision(UPrimitiveComponent * OverlappedComp, AActor * Other
 	if (player == nullptr)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "The forward vector for this actor is: " );
+		return;
 	}
 	player->MinusHealth(damage);
+	GetWorldTimerManager().ClearTimer(moveTimer);
+	Destroy();
 }
 
 // Called every frame
 void AProjectile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	FRotator lookAtPlayer = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), player->GetActorLocation());
-	//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "The forward vector for this actor is: " + FString("(") + FString::SanitizeFloat(lookAtPlayer.Vector.X) + FString(" , ") + FString::SanitizeFloat(lookAtPlayer.Vector.Y) + FString(" , ") + FString::SanitizeFloat(lookAtPlayer.Vector.Z) + FString(")"));
-	SetActorRotation(lookAtPlayer);
+	//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "Update is being called. ");
+	//FRotator lookAtPlayer = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), player->GetActorLocation());
+	////GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "The forward vector for this actor is: " + FString("(") + FString::SanitizeFloat(lookAtPlayer.Vector.X) + FString(" , ") + FString::SanitizeFloat(lookAtPlayer.Vector.Y) + FString(" , ") + FString::SanitizeFloat(lookAtPlayer.Vector.Z) + FString(")"));
+	//SetActorRotation(lookAtPlayer);
 }
 

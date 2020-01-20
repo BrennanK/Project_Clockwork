@@ -13,10 +13,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 // Cross Module References
+	BOOK_PROJECT_API UEnum* Z_Construct_UEnum_Book_Project_EProjectileType();
+	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AProjectile_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AProjectile();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AProjectile_Collision();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -24,6 +25,58 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
+	static UEnum* EProjectileType_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Book_Project_EProjectileType, Z_Construct_UPackage__Script_Book_Project(), TEXT("EProjectileType"));
+		}
+		return Singleton;
+	}
+	template<> BOOK_PROJECT_API UEnum* StaticEnum<EProjectileType>()
+	{
+		return EProjectileType_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EProjectileType(EProjectileType_StaticEnum, TEXT("/Script/Book_Project"), TEXT("EProjectileType"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Book_Project_EProjectileType_Hash() { return 2117740097U; }
+	UEnum* Z_Construct_UEnum_Book_Project_EProjectileType()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_Book_Project();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EProjectileType"), 0, Get_Z_Construct_UEnum_Book_Project_EProjectileType_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "EProjectileType::Standard", (int64)EProjectileType::Standard },
+				{ "EProjectileType::Tracking", (int64)EProjectileType::Tracking },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Projectile.h" },
+				{ "Standard.Name", "EProjectileType::Standard" },
+				{ "Tracking.Name", "EProjectileType::Tracking" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_Book_Project,
+				nullptr,
+				"EProjectileType",
+				"EProjectileType",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	void AProjectile::StaticRegisterNativesAProjectile()
 	{
 		UClass* Class = AProjectile::StaticClass();
@@ -136,6 +189,19 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_projectileCollider_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_projectileCollider;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_typeOfProjectile_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_typeOfProjectile;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_typeOfProjectile_Underlying;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_amountToMove_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_amountToMove;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_callSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_callSpeed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -177,10 +243,36 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_projectileCollider = { "projectileCollider", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectile, projectileCollider), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectile_Statics::NewProp_projectileCollider_MetaData, ARRAY_COUNT(Z_Construct_UClass_AProjectile_Statics::NewProp_projectileCollider_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectile_Statics::NewProp_typeOfProjectile_MetaData[] = {
+		{ "Category", "State Of Projectile" },
+		{ "ModuleRelativePath", "Projectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_typeOfProjectile = { "typeOfProjectile", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectile, typeOfProjectile), Z_Construct_UEnum_Book_Project_EProjectileType, METADATA_PARAMS(Z_Construct_UClass_AProjectile_Statics::NewProp_typeOfProjectile_MetaData, ARRAY_COUNT(Z_Construct_UClass_AProjectile_Statics::NewProp_typeOfProjectile_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_typeOfProjectile_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectile_Statics::NewProp_amountToMove_MetaData[] = {
+		{ "Category", "Projectile Variables" },
+		{ "ModuleRelativePath", "Projectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_amountToMove = { "amountToMove", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectile, amountToMove), METADATA_PARAMS(Z_Construct_UClass_AProjectile_Statics::NewProp_amountToMove_MetaData, ARRAY_COUNT(Z_Construct_UClass_AProjectile_Statics::NewProp_amountToMove_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectile_Statics::NewProp_callSpeed_MetaData[] = {
+		{ "Category", "Projectile Variables" },
+		{ "ModuleRelativePath", "Projectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_callSpeed = { "callSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectile, callSpeed), METADATA_PARAMS(Z_Construct_UClass_AProjectile_Statics::NewProp_callSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AProjectile_Statics::NewProp_callSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProjectile_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_damage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_projectileCollider,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_typeOfProjectile,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_typeOfProjectile_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_amountToMove,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_callSpeed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AProjectile_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AProjectile>::IsAbstract,
@@ -209,7 +301,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProjectile, 101228075);
+	IMPLEMENT_CLASS(AProjectile, 2579939120);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AProjectile>()
 	{
 		return AProjectile::StaticClass();

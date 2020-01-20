@@ -32,7 +32,7 @@ void ATurret::SpawnObject()
 			SpawnedActorRef = GetWorld()->SpawnActor<AActor>(ActorToSpawn[0], Loc, Rot, SpawnParams);
 			break;
 		case ETurretType::Tracking:
-			SpawnedActorRef = GetWorld()->SpawnActor<AActor>(ActorToSpawn[0], Loc, Rot, SpawnParams);
+			SpawnedActorRef = GetWorld()->SpawnActor<AActor>(ActorToSpawn[1], Loc, Rot, SpawnParams);
 			break;
 		default:
 			break;

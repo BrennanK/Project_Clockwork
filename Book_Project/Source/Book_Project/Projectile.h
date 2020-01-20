@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Projectile.generated.h"
-
+UENUM() enum class EProjectileType{Standard,Tracking};
 UCLASS()
 class BOOK_PROJECT_API AProjectile : public AActor
 {
@@ -15,8 +15,15 @@ public:
 	// Sets default values for this actor's properties
 	AProjectile();
 	AProjectile(const FObjectInitializer &ObjectInitializer);
-	FTimerHandle moveTimer;
+	UPROPERTY(EditAnywhere, Category = "Projectile Variables")
+		float callSpeed;
 
+	UPROPERTY(EditAnywhere, Category = "Projectile Variables")
+		float amountToMove;
+
+	FTimerHandle moveTimer;
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="State Of Projectile")
+		EProjectileType typeOfProjectile;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Projectile Variables")
 		class USphereComponent* projectileCollider;
 

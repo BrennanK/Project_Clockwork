@@ -122,4 +122,11 @@ template<> BOOK_PROJECT_API UClass* StaticClass<class AProjectile>();
 #define CURRENT_FILE_ID Book_Project_Source_Book_Project_Projectile_h
 
 
+#define FOREACH_ENUM_EPROJECTILETYPE(op) \
+	op(EProjectileType::Standard) \
+	op(EProjectileType::Tracking) 
+
+enum class EProjectileType;
+template<> BOOK_PROJECT_API UEnum* StaticEnum<EProjectileType>();
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

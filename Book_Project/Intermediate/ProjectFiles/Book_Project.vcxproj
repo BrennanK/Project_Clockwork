@@ -500,8 +500,10 @@
     <ClCompile Include="..\..\Source\Book_Project\PickupItem.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\PickupItem.h" />
     <ClCompile Include="..\..\Source\Book_Project\Projectile.cpp" />
+    <ClCompile Include="..\..\Source\Book_Project\Quick_Congrats_Screen.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Standard_Moving_Platform.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Projectile.h" />
+    <ClInclude Include="..\..\Source\Book_Project\Quick_Congrats_Screen.h" />
     <ClInclude Include="..\..\Source\Book_Project\Standard_Moving_Platform.h" />
     <ClCompile Include="..\..\Source\Book_Project\Starting_Point.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Starting_Point.h" />
