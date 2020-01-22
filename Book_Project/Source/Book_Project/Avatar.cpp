@@ -16,6 +16,7 @@
 #include "Components/SplineComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Collission_Text.h"
 
 // Sets default values
 AAvatar::AAvatar()
@@ -45,15 +46,31 @@ void AAvatar::BeginPlay()
 	isPunching = false;
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The duration of our spline in seconds is " + FString::SanitizeFloat(ourSpline->Duration));
 	currentState = ECharacterState::NORMAL;
+	capsuleA->OnComponentBeginOverlap.AddDynamic(this, &AAvatar::Collision);
 }
 
-
+void AAvatar::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Magenta, "Yay of Player Capsule Collider works with reference YAAAAAAAAAAAAAAAAY");
+	if (Cast<ACollission_Text>(OtherActor) != nullptr)
+	{
+		textCollider = Cast<ACollission_Text>(OtherActor);
+		currentState = ECharacterState::READTEXT;
+	}
+}
 
 void AAvatar::Landed(const FHitResult & Hit)
 {
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
 	numberOfJumps = 0;
 	numberOfAlternateJumps = 0;
+	isFalling = false;
+	timeFalling = 0.0f;
+}
+
+void AAvatar::Falling()
+{
+	isFalling = true;
 }
 
 // Called every frame
@@ -61,7 +78,10 @@ void AAvatar::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-
+	if (isFalling == true)
+	{
+		timeFalling += DeltaTime;
+	}
 }
 
 // Called to bind functionality to input
@@ -93,31 +113,54 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) /
 #pragma region Character_Actions
 void AAvatar::MoveForward(float amount)      // detemines which direction is forward and moves actor in that direction by a specified amount
 {
-	if (Controller && amount!=0)
+	switch (currentState)
 	{
-		// find out which way is right
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
+	case ECharacterState::NORMAL:
 
-		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		// add movement in that direction
-		AddMovementInput(Direction, amount);
+		if (Controller && amount != 0)
+		{
+			// find out which way is right
+			const FRotator Rotation = Controller->GetControlRotation();
+			const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+			// get right vector 
+			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+			// add movement in that direction
+			AddMovementInput(Direction, amount);
+		}
+		break;
+
+	case ECharacterState::INTERACTABLE:
+		break;
+
+	case ECharacterState::READTEXT:
+		break;
 	}
 }
 
 void AAvatar::MoveRight(float amount)  // determines which directions is right and moves actor in that direction by a specified amount
 {
-	if (Controller && amount != 0)
+	switch (currentState)
 	{
-		// find out which way is right
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
+		case ECharacterState::NORMAL:
+			if (Controller && amount != 0)
+			{
+			// find out which way is right
+				const FRotator Rotation = Controller->GetControlRotation();
+				const FRotator YawRotation(0, Rotation.Yaw, 0);
 
-		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		// add movement in that direction
-		AddMovementInput(Direction, amount);
+			// get right vector 
+				const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+			// add movement in that direction
+				AddMovementInput(Direction, amount);
+			}
+			break;
+		
+		case ECharacterState::INTERACTABLE:
+			break;
+
+		case ECharacterState::READTEXT:
+			break;
 	}
 }
 
@@ -151,18 +194,42 @@ void AAvatar::ToggleInventory() // Used to open inventory will have additional f
 
 void AAvatar::TurnAtRate(float Rate)  // Method for camera rotation on Z-axis
 {
-	if(isGrinding==false)
-	{ 
-		AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+	switch (currentState)
+	{
+	case ECharacterState::NORMAL:
+		if (isGrinding == false)
+		{
+			AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+		}
+		break;
+
+	case ECharacterState::INTERACTABLE:
+		break;
+
+	case ECharacterState::READTEXT:
+		break;
 	}
+	
 }
 
 void AAvatar::LookUpAtRate(float Rate) // Method for camera rotation on Y-axis
 {
-	if (isGrinding == false)
+	switch (currentState)
 	{
-		AddControllerPitchInput(Rate * BaseLookRate * GetWorld()->GetDeltaSeconds());
+	case ECharacterState::NORMAL:
+		if (isGrinding == false)
+		{
+			AddControllerPitchInput(Rate * BaseLookRate * GetWorld()->GetDeltaSeconds());
+		}
+		break;
+
+	case ECharacterState::INTERACTABLE:
+		break;
+
+	case ECharacterState::READTEXT:
+		break;
 	}
+	
 }
 
 void AAvatar::printContentsOfBackpackOnScreen() // debug method of printing packpack contents
@@ -184,30 +251,73 @@ void AAvatar::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)  // 
 
 void AAvatar::startPunching()  // sets the controller varaible for our punching animation to true and enables fist collision
 {
-	isPunching = true;
-	enableAndDisableCollision();
+	switch (currentState)
+	{
+	case ECharacterState::NORMAL:
+		isPunching = true;
+		enableAndDisableCollision();
+		break;
+
+	case ECharacterState::INTERACTABLE:
+		break;
+
+	case ECharacterState::READTEXT:
+		break;
+	}
 }
 
 void AAvatar::stopPunching() // sets the controller variable for our punching animation to false and disabales fist collision
 {
-	isPunching = false;
-	enableAndDisableCollision();
+	switch (currentState)
+	{
+	case ECharacterState::NORMAL:
+		isPunching = false;
+		enableAndDisableCollision();
+		break;
+
+	case ECharacterState::INTERACTABLE:
+		break;
+
+	case ECharacterState::READTEXT:
+		break;
+	}
 }
 
 void AAvatar::startCrouching()
 {
-	if (GetCharacterMovement()->IsMovingOnGround())
+	switch (currentState)
 	{
-		isCrouching = true;
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are crouching"));
+	case ECharacterState::NORMAL:
+		if (GetCharacterMovement()->IsMovingOnGround())
+		{
+			isCrouching = true;
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are crouching"));
+		}
+		break;
+
+	case ECharacterState::INTERACTABLE:
+		break;
+
+	case ECharacterState::READTEXT:
+		break;
 	}
-	
 }
 
 void AAvatar::stopCrouching()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are NOT crouching"));
-	isCrouching = false;
+	switch (currentState)
+	{
+	case ECharacterState::NORMAL:
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are NOT crouching"));
+		isCrouching = false;
+		break;
+
+	case ECharacterState::INTERACTABLE:
+		break;
+
+	case ECharacterState::READTEXT:
+		break;
+	}
 }
 
 //void AAvatar::repeatCrouching()
@@ -320,6 +430,7 @@ void AAvatar::MinusHealth(float damageTaken)
 	currentHealth -= damageTaken;
 	callWheelChange();
 }
+
 #pragma endregion CHaracter_Grinding
 
 #pragma region Jump
@@ -327,37 +438,67 @@ void AAvatar::MinusHealth(float damageTaken)
 
 void AAvatar::Jump() // method used to allow the player character to jump
 {
-	if (isCrouching == true && numberOfAlternateJumps==0)
+	switch (currentState)
 	{
-		if (FMath::Abs(GetCharacterMovement()->Velocity.X)>400 || FMath::Abs(GetCharacterMovement()->Velocity.Y) > 400)
+	case ECharacterState::NORMAL:
+		if (isCrouching == true && numberOfAlternateJumps == 0)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a  long jump"));
-			const FRotator Rotation = capsuleA->GetComponentRotation();//Controller->GetControlRotation();
-			const FRotator YawRotation(0, Rotation.Yaw, 0);
+			if (FMath::Abs(GetCharacterMovement()->Velocity.X) > 400 || FMath::Abs(GetCharacterMovement()->Velocity.Y) > 400)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a  long jump"));
+				const FRotator Rotation = capsuleA->GetComponentRotation();//Controller->GetControlRotation();
+				const FRotator YawRotation(0, Rotation.Yaw, 0);
 
-			// get right vector 
-			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-			
-			ACharacter::LaunchCharacter(FVector(Direction.X*longJumpVelocityXY,Direction.Y*longJumpVelocityXY,longJumpHeight), false, true);
-			numberOfAlternateJumps++;
+				// get right vector 
+				const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+
+				ACharacter::LaunchCharacter(FVector(Direction.X*longJumpVelocityXY, Direction.Y*longJumpVelocityXY, longJumpHeight), false, true);
+				numberOfAlternateJumps++;
+			}
+			else
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a High Jump"));
+				ACharacter::LaunchCharacter(FVector(0, 0, highJumpHeight), false, true);
+				numberOfAlternateJumps++;
+			}
+
 		}
-		else
+
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a jump"));
+		if (numberOfJumps < 2 && numberOfAlternateJumps == 0)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a High Jump"));
-			ACharacter::LaunchCharacter(FVector(0, 0, highJumpHeight), false, true);
-			numberOfAlternateJumps++;
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a jump"));
+			ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
+			numberOfJumps++;
 		}
-		
-	}
+		break;
 
-	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a jump"));
-	if (numberOfJumps < 2 && numberOfAlternateJumps==0)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a jump"));
-		ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
-		numberOfJumps++;
+	case ECharacterState::INTERACTABLE:
+		break;
+
+	case ECharacterState::READTEXT:
+		switch (textCollider->typeOfText)
+		{
+		case ETextType::oneText:
+			textCollider->HideTutorialText();
+			currentState = ECharacterState::NORMAL;
+			break;
+
+		case ETextType::MultiText:
+			if (textCollider->indexOfDataTable != textCollider->lastIndexToSee)
+			{
+				textCollider->indexOfDataTable += 1;
+				textCollider->ShowTutorialText();
+			}
+			else
+			{
+				textCollider->HideTutorialText();
+				currentState = ECharacterState::NORMAL;
+			}
+			break;
+		}
+		break;
 	}
-	
 }
 
 #pragma endregion Jump

@@ -8,6 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
 struct FHitResult;
 #ifdef BOOK_PROJECT_Avatar_generated_h
 #error "Avatar.generated.h already included, missing '#pragma once' in Avatar.h"
@@ -16,11 +18,33 @@ struct FHitResult;
 
 #define Book_Project_Source_Book_Project_Avatar_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execCollision) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Collision(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execbeginGrind) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->beginGrind(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFalling) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Falling(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -36,11 +60,33 @@ struct FHitResult;
 
 #define Book_Project_Source_Book_Project_Avatar_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execCollision) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Collision(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execbeginGrind) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->beginGrind(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFalling) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Falling(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -137,7 +183,8 @@ template<> BOOK_PROJECT_API UClass* StaticClass<class AAvatar>();
 	op(ECharacterState::NORMAL) \
 	op(ECharacterState::STUNNED) \
 	op(ECharacterState::DEAD) \
-	op(ECharacterState::INTERACTABLE) 
+	op(ECharacterState::INTERACTABLE) \
+	op(ECharacterState::READTEXT) 
 
 enum class ECharacterState : uint8;
 template<> BOOK_PROJECT_API UEnum* StaticEnum<ECharacterState>();

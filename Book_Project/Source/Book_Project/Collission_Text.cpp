@@ -19,7 +19,7 @@ ACollission_Text::ACollission_Text(const FObjectInitializer &ObjectInitializer) 
 	triggerBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Text Box"));
 	triggerBox->AttachTo(RootComponent);
 	triggerBox->OnComponentBeginOverlap.AddDynamic(this, &ACollission_Text::Collision);
-	triggerBox->OnComponentEndOverlap.AddDynamic(this, &ACollission_Text::EndCollision);
+	//triggerBox->OnComponentEndOverlap.AddDynamic(this, &ACollission_Text::EndCollision);
 }
 // Called when the game starts or when spawned
 void ACollission_Text::BeginPlay()

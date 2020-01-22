@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Collission_Text.generated.h"
-
+UENUM() enum class ETextType : uint8 { oneText,MultiText};
 UCLASS()
 class BOOK_PROJECT_API ACollission_Text : public AActor
 {
@@ -18,10 +18,17 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Text Detector")
 		class UBoxComponent* triggerBox;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Text Variables")
+		int indexOfDataTableReference;
 	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = "Text Variables")
 		int indexOfDataTable;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Text Variables")
+		int lastIndexToSee;
 	UPROPERTY(BlueprintReadOnly, Category = "Text Variables")
 		class AAvatar* player;
+
+	UPROPERTY(EditAnywhere, Category = "Type of Text Trigger")
+		ETextType typeOfText;
 
 protected:
 	// Called when the game starts or when spawned

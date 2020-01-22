@@ -13,10 +13,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCollission_Text() {}
 // Cross Module References
+	BOOK_PROJECT_API UEnum* Z_Construct_UEnum_Book_Project_ETextType();
+	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ACollission_Text_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ACollission_Text();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ACollission_Text_Collision();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -27,6 +28,58 @@ void EmptyLinkFunctionForGeneratedCodeCollission_Text() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
+	static UEnum* ETextType_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Book_Project_ETextType, Z_Construct_UPackage__Script_Book_Project(), TEXT("ETextType"));
+		}
+		return Singleton;
+	}
+	template<> BOOK_PROJECT_API UEnum* StaticEnum<ETextType>()
+	{
+		return ETextType_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETextType(ETextType_StaticEnum, TEXT("/Script/Book_Project"), TEXT("ETextType"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Book_Project_ETextType_Hash() { return 77601133U; }
+	UEnum* Z_Construct_UEnum_Book_Project_ETextType()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_Book_Project();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETextType"), 0, Get_Z_Construct_UEnum_Book_Project_ETextType_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "ETextType::oneText", (int64)ETextType::oneText },
+				{ "ETextType::MultiText", (int64)ETextType::MultiText },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Collission_Text.h" },
+				{ "MultiText.Name", "ETextType::MultiText" },
+				{ "oneText.Name", "ETextType::oneText" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_Book_Project,
+				nullptr,
+				"ETextType",
+				"ETextType",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	static FName NAME_ACollission_Text_HideTutorialText = FName(TEXT("HideTutorialText"));
 	void ACollission_Text::HideTutorialText()
 	{
@@ -243,13 +296,26 @@ void EmptyLinkFunctionForGeneratedCodeCollission_Text() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_typeOfText_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_typeOfText;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_typeOfText_Underlying;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_player_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_player;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_lastIndexToSee_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_lastIndexToSee;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_indexOfDataTable_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_indexOfDataTable;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_indexOfDataTableReference_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_indexOfDataTableReference;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_triggerBox_MetaData[];
 #endif
@@ -276,6 +342,14 @@ void EmptyLinkFunctionForGeneratedCodeCollission_Text() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollission_Text_Statics::NewProp_typeOfText_MetaData[] = {
+		{ "Category", "Type of Text Trigger" },
+		{ "ModuleRelativePath", "Collission_Text.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ACollission_Text_Statics::NewProp_typeOfText = { "typeOfText", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACollission_Text, typeOfText), Z_Construct_UEnum_Book_Project_ETextType, METADATA_PARAMS(Z_Construct_UClass_ACollission_Text_Statics::NewProp_typeOfText_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollission_Text_Statics::NewProp_typeOfText_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ACollission_Text_Statics::NewProp_typeOfText_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollission_Text_Statics::NewProp_player_MetaData[] = {
 		{ "Category", "Text Variables" },
 		{ "ModuleRelativePath", "Collission_Text.h" },
@@ -283,12 +357,26 @@ void EmptyLinkFunctionForGeneratedCodeCollission_Text() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACollission_Text_Statics::NewProp_player = { "player", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACollission_Text, player), Z_Construct_UClass_AAvatar_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACollission_Text_Statics::NewProp_player_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollission_Text_Statics::NewProp_player_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollission_Text_Statics::NewProp_lastIndexToSee_MetaData[] = {
+		{ "Category", "Text Variables" },
+		{ "ModuleRelativePath", "Collission_Text.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACollission_Text_Statics::NewProp_lastIndexToSee = { "lastIndexToSee", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACollission_Text, lastIndexToSee), METADATA_PARAMS(Z_Construct_UClass_ACollission_Text_Statics::NewProp_lastIndexToSee_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollission_Text_Statics::NewProp_lastIndexToSee_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollission_Text_Statics::NewProp_indexOfDataTable_MetaData[] = {
 		{ "Category", "Text Variables" },
 		{ "ModuleRelativePath", "Collission_Text.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACollission_Text_Statics::NewProp_indexOfDataTable = { "indexOfDataTable", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACollission_Text, indexOfDataTable), METADATA_PARAMS(Z_Construct_UClass_ACollission_Text_Statics::NewProp_indexOfDataTable_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollission_Text_Statics::NewProp_indexOfDataTable_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollission_Text_Statics::NewProp_indexOfDataTableReference_MetaData[] = {
+		{ "Category", "Text Variables" },
+		{ "ModuleRelativePath", "Collission_Text.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACollission_Text_Statics::NewProp_indexOfDataTableReference = { "indexOfDataTableReference", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACollission_Text, indexOfDataTableReference), METADATA_PARAMS(Z_Construct_UClass_ACollission_Text_Statics::NewProp_indexOfDataTableReference_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollission_Text_Statics::NewProp_indexOfDataTableReference_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollission_Text_Statics::NewProp_triggerBox_MetaData[] = {
 		{ "Category", "Text Detector" },
@@ -298,8 +386,12 @@ void EmptyLinkFunctionForGeneratedCodeCollission_Text() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACollission_Text_Statics::NewProp_triggerBox = { "triggerBox", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACollission_Text, triggerBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACollission_Text_Statics::NewProp_triggerBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollission_Text_Statics::NewProp_triggerBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACollission_Text_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollission_Text_Statics::NewProp_typeOfText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollission_Text_Statics::NewProp_typeOfText_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollission_Text_Statics::NewProp_player,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollission_Text_Statics::NewProp_lastIndexToSee,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollission_Text_Statics::NewProp_indexOfDataTable,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollission_Text_Statics::NewProp_indexOfDataTableReference,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollission_Text_Statics::NewProp_triggerBox,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACollission_Text_Statics::StaticCppClassTypeInfo = {
@@ -329,7 +421,7 @@ void EmptyLinkFunctionForGeneratedCodeCollission_Text() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACollission_Text, 2105570019);
+	IMPLEMENT_CLASS(ACollission_Text, 683169048);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ACollission_Text>()
 	{
 		return ACollission_Text::StaticClass();

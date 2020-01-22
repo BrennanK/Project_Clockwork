@@ -23,8 +23,12 @@ public:
 		class UStaticMeshComponent* Mesh;
 
 	UPROPERTY(EditAnywhere, Category = "Bounce Variables")
-		float bounceHeight;
+		float minBounceHeight;
 
+	UPROPERTY(EditAnywhere, Category = "Bounce Variables")
+		float maxBounceHeight;
+	UPROPERTY(EditAnywhere, Category = "Bounce Variables")
+		float bounceHeightPerSecondFalling;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -35,4 +39,7 @@ public:
 
 	UFUNCTION()
 	void Collision(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UFUNCTION()
+		void EndCollision(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 };

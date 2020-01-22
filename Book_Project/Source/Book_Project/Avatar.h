@@ -5,7 +5,7 @@
 #include "GameFramework/Character.h"
 #include "Avatar.generated.h"
 class APickupItem;
-UENUM() enum class ECharacterState: uint8 {NORMAL,STUNNED,DEAD,INTERACTABLE};
+UENUM() enum class ECharacterState: uint8 {NORMAL,STUNNED,DEAD,INTERACTABLE,READTEXT};
 UCLASS()
 class BOOK_PROJECT_API AAvatar : public ACharacter
 {
@@ -80,6 +80,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Avatar Health Variables")
 		float maxHealth;
 
+	UPROPERTY()
+		class ACollission_Text* textCollider;
 	/*UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Punching Colliders")
 		class USphereComponent* rightHandSphere;
 	
@@ -87,13 +89,17 @@ public:
 		class USphereComponent* leftHandSphere;*/
 
 	bool isCrouching;
+	bool isFalling;
 
+	UPROPERTY(VisibleAnywhere, Category = "Falling Time")
+		float timeFalling;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	UFUNCTION(BlueprintCallable)
 	void Landed(const FHitResult& Hit) override;
-
+	UFUNCTION(BlueprintCallable)
+		void Falling() override;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -144,4 +150,7 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 		void callWheelChange();
 	void MinusHealth(float damageTaken);
+
+	UFUNCTION()
+		void Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
 };

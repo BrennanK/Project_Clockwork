@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AWorking_Bouncepad_EndCollision();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
@@ -29,6 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		UClass* Class = AWorking_Bouncepad::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Collision", &AWorking_Bouncepad::execCollision },
+			{ "EndCollision", &AWorking_Bouncepad::execEndCollision },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -113,6 +115,66 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics
+	{
+		struct Working_Bouncepad_eventEndCollision_Parms
+		{
+			UPrimitiveComponent* OverlappedComp;
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			int32 OtherBodyIndex;
+		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_OtherBodyIndex;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OverlappedComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedComp;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OtherBodyIndex = { "OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Working_Bouncepad_eventEndCollision_Parms, OtherBodyIndex), METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OtherComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Working_Bouncepad_eventEndCollision_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OtherComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OtherComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Working_Bouncepad_eventEndCollision_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OverlappedComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OverlappedComp = { "OverlappedComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Working_Bouncepad_eventEndCollision_Parms, OverlappedComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OverlappedComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OverlappedComp_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OtherBodyIndex,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OtherComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OtherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::NewProp_OverlappedComp,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Working_Bouncepad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AWorking_Bouncepad, nullptr, "EndCollision", nullptr, nullptr, sizeof(Working_Bouncepad_eventEndCollision_Parms), Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AWorking_Bouncepad_EndCollision()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AWorking_Bouncepad_EndCollision_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AWorking_Bouncepad_NoRegister()
 	{
 		return AWorking_Bouncepad::StaticClass();
@@ -125,9 +187,17 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bounceHeight_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bounceHeightPerSecondFalling_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_bounceHeight;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_bounceHeightPerSecondFalling;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxBounceHeight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxBounceHeight;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_minBounceHeight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_minBounceHeight;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
 #endif
@@ -146,6 +216,7 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AWorking_Bouncepad_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AWorking_Bouncepad_Collision, "Collision" }, // 1225327848
+		{ &Z_Construct_UFunction_AWorking_Bouncepad_EndCollision, "EndCollision" }, // 4022386431
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::Class_MetaDataParams[] = {
@@ -155,12 +226,26 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeight_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeightPerSecondFalling_MetaData[] = {
 		{ "Category", "Bounce Variables" },
 		{ "ModuleRelativePath", "Working_Bouncepad.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeight = { "bounceHeight", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorking_Bouncepad, bounceHeight), METADATA_PARAMS(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeight_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeight_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeightPerSecondFalling = { "bounceHeightPerSecondFalling", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorking_Bouncepad, bounceHeightPerSecondFalling), METADATA_PARAMS(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeightPerSecondFalling_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeightPerSecondFalling_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_maxBounceHeight_MetaData[] = {
+		{ "Category", "Bounce Variables" },
+		{ "ModuleRelativePath", "Working_Bouncepad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_maxBounceHeight = { "maxBounceHeight", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorking_Bouncepad, maxBounceHeight), METADATA_PARAMS(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_maxBounceHeight_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_maxBounceHeight_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_minBounceHeight_MetaData[] = {
+		{ "Category", "Bounce Variables" },
+		{ "ModuleRelativePath", "Working_Bouncepad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_minBounceHeight = { "minBounceHeight", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorking_Bouncepad, minBounceHeight), METADATA_PARAMS(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_minBounceHeight_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_minBounceHeight_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "Components" },
@@ -178,7 +263,9 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceBox = { "bounceBox", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorking_Bouncepad, bounceBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AWorking_Bouncepad_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeightPerSecondFalling,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_maxBounceHeight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_minBounceHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_Mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceBox,
 	};
@@ -209,7 +296,7 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AWorking_Bouncepad, 288702908);
+	IMPLEMENT_CLASS(AWorking_Bouncepad, 2407988225);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AWorking_Bouncepad>()
 	{
 		return AWorking_Bouncepad::StaticClass();

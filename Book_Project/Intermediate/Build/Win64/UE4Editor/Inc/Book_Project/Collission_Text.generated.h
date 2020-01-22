@@ -153,4 +153,11 @@ template<> BOOK_PROJECT_API UClass* StaticClass<class ACollission_Text>();
 #define CURRENT_FILE_ID Book_Project_Source_Book_Project_Collission_Text_h
 
 
+#define FOREACH_ENUM_ETEXTTYPE(op) \
+	op(ETextType::oneText) \
+	op(ETextType::MultiText) 
+
+enum class ETextType : uint8;
+template<> BOOK_PROJECT_API UEnum* StaticEnum<ETextType>();
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

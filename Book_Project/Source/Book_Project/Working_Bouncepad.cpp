@@ -22,6 +22,7 @@ AWorking_Bouncepad::AWorking_Bouncepad(const FObjectInitializer& ObjectInitializ
 	Mesh->AttachTo(RootComponent);
 	bounceBox->AttachTo(Mesh);
 	bounceBox->OnComponentBeginOverlap.AddDynamic(this, &AWorking_Bouncepad::Collision);
+	bounceBox->OnComponentEndOverlap.AddDynamic(this, &AWorking_Bouncepad::EndCollision);
 }
 
 // Called when the game starts or when spawned
@@ -47,6 +48,38 @@ void AWorking_Bouncepad::Collision(UPrimitiveComponent * OverlappedComp, AActor 
 		return;
 	}
 
-	Cast<AAvatar>(OtherActor)->LaunchCharacter(FVector(0, 0, bounceHeight), true, true);
+	AAvatar* player= Cast<AAvatar>(OtherActor);
+	if (player->timeFalling*bounceHeightPerSecondFalling < minBounceHeight)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Min Case"));
+		player->LaunchCharacter(FVector(0, 0, minBounceHeight), true, true);
+		player->isFalling = false;
+		player->timeFalling = 0.0f;
+	}
+	else if (player->timeFalling*bounceHeightPerSecondFalling > maxBounceHeight)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Max Case"));
+		player->LaunchCharacter(FVector(0, 0, maxBounceHeight), true, true);
+		player->isFalling = false;
+		player->timeFalling = 0.0f;
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Mid Case"));
+		player->LaunchCharacter(FVector(0, 0, player->timeFalling*bounceHeightPerSecondFalling), true, true);
+		player->isFalling = false;
+		player->timeFalling = 0.0f;
+	}
+}
+
+void AWorking_Bouncepad::EndCollision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BOUNCE END"));
+	if (Cast <AAvatar>(OtherActor) == nullptr)
+	{
+		return;
+	}
+	AAvatar* player = Cast<AAvatar>(OtherActor);
+	player->isFalling = true;
 }
 
