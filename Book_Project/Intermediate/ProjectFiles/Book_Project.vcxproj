@@ -472,7 +472,9 @@
     <None Include="..\..\Config\DefaultInput.ini" />
     <ClCompile Include="..\..\Source\Book_Project\Avatar.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Avatar.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Block_Switch_Controller_01.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Book_GameMode.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\Block_Switch_Controller_01.h" />
     <ClInclude Include="..\..\Source\Book_Project\Book_GameMode.h" />
     <None Include="..\..\Source\Book_Project\Book_Project.Build.cs" />
     <ClCompile Include="..\..\Source\Book_Project\Book_Project.cpp" />
@@ -489,7 +491,9 @@
     <ClInclude Include="..\..\Source\Book_Project\DeathBounds.h" />
     <ClCompile Include="..\..\Source\Book_Project\Distortion_Fragments.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Distortion_Fragments.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Interactable_Object.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Message_UserDefinedStruct.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\Interactable_Object.h" />
     <ClInclude Include="..\..\Source\Book_Project\Message_UserDefinedStruct.h" />
     <ClCompile Include="..\..\Source\Book_Project\MyGameInstance.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\MyGameInstance.h" />

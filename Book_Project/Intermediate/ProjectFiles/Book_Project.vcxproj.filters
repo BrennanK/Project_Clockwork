@@ -172,12 +172,24 @@
     <ClInclude Include="..\..\Source\Book_Project\Quick_Congrats_Screen.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\Interactable_Object.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\Block_Switch_Controller_01.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Book_Project\Projectile.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Book_Project\Quick_Congrats_Screen.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\Interactable_Object.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\Block_Switch_Controller_01.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
   </ItemGroup>

@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	BOOK_PROJECT_API UClass* Z_Construct_UClass_ABlock_Switch_Controller_01_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
@@ -154,6 +155,10 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_switchManager_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_switchManager;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
@@ -181,6 +186,13 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_switchManager_MetaData[] = {
+		{ "Category", "Controller of the Switch" },
+		{ "ModuleRelativePath", "Colored_Floor_Switch.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_switchManager = { "switchManager", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AColored_Floor_Switch, switchManager), Z_Construct_UClass_ABlock_Switch_Controller_01_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_switchManager_MetaData, ARRAY_COUNT(Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_switchManager_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "Item" },
 		{ "EditInline", "true" },
@@ -197,6 +209,7 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_floorBox = { "floorBox", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AColored_Floor_Switch, floorBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_floorBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_floorBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AColored_Floor_Switch_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_switchManager,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_Mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AColored_Floor_Switch_Statics::NewProp_floorBox,
 	};
@@ -227,7 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AColored_Floor_Switch, 3245967825);
+	IMPLEMENT_CLASS(AColored_Floor_Switch, 2685791932);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AColored_Floor_Switch>()
 	{
 		return AColored_Floor_Switch::StaticClass();

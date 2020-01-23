@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_enableAndDisableCollision();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Falling();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Landed();
+	BOOK_PROJECT_API UClass* Z_Construct_UClass_AInteractable_Object_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ACollission_Text_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USplineComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
@@ -341,6 +342,10 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_timeFalling;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_interactable_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_interactable;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_textCollider_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_textCollider;
@@ -449,6 +454,12 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling = { "timeFalling", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, timeFalling), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_interactable_MetaData[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_interactable = { "interactable", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, interactable), Z_Construct_UClass_AInteractable_Object_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_interactable_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_interactable_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider_MetaData[] = {
 		{ "ModuleRelativePath", "Avatar.h" },
@@ -597,6 +608,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate = { "BaseLookRate", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, BaseLookRate), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAvatar_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_interactable,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_maxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_currentHealth,
@@ -644,7 +656,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 3042581964);
+	IMPLEMENT_CLASS(AAvatar, 2665465975);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();

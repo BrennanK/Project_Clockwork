@@ -17,6 +17,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Collission_Text.h"
+#include "Interactable_Object.h"
 
 // Sets default values
 AAvatar::AAvatar()
@@ -56,6 +57,10 @@ void AAvatar::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActo
 	{
 		textCollider = Cast<ACollission_Text>(OtherActor);
 		currentState = ECharacterState::READTEXT;
+	}
+	if (Cast<AInteractable_Object>(OtherActor) != nullptr)
+	{
+		interactable = Cast<AInteractable_Object>(OtherActor);
 	}
 }
 
@@ -131,6 +136,17 @@ void AAvatar::MoveForward(float amount)      // detemines which direction is for
 		break;
 
 	case ECharacterState::INTERACTABLE:
+		if (Controller && amount != 0)
+		{
+			// find out which way is right
+			const FRotator Rotation = Controller->GetControlRotation();
+			const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+			// get right vector 
+			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+			// add movement in that direction
+			AddMovementInput(Direction, amount);
+		}
 		break;
 
 	case ECharacterState::READTEXT:
@@ -157,6 +173,17 @@ void AAvatar::MoveRight(float amount)  // determines which directions is right a
 			break;
 		
 		case ECharacterState::INTERACTABLE:
+			if (Controller && amount != 0)
+			{
+				// find out which way is right
+				const FRotator Rotation = Controller->GetControlRotation();
+				const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+				// get right vector 
+				const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+				// add movement in that direction
+				AddMovementInput(Direction, amount);
+			}
 			break;
 
 		case ECharacterState::READTEXT:
@@ -204,6 +231,10 @@ void AAvatar::TurnAtRate(float Rate)  // Method for camera rotation on Z-axis
 		break;
 
 	case ECharacterState::INTERACTABLE:
+		if (isGrinding == false)
+		{
+			AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+		}
 		break;
 
 	case ECharacterState::READTEXT:
@@ -224,6 +255,10 @@ void AAvatar::LookUpAtRate(float Rate) // Method for camera rotation on Y-axis
 		break;
 
 	case ECharacterState::INTERACTABLE:
+		if (isGrinding == false)
+		{
+			AddControllerPitchInput(Rate * BaseLookRate * GetWorld()->GetDeltaSeconds());
+		}
 		break;
 
 	case ECharacterState::READTEXT:
@@ -474,6 +509,7 @@ void AAvatar::Jump() // method used to allow the player character to jump
 		break;
 
 	case ECharacterState::INTERACTABLE:
+		interactable->interactionAction(this);
 		break;
 
 	case ECharacterState::READTEXT:

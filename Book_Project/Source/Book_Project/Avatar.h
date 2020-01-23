@@ -82,6 +82,8 @@ public:
 
 	UPROPERTY()
 		class ACollission_Text* textCollider;
+	UPROPERTY()
+		class AInteractable_Object* interactable;
 	/*UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Punching Colliders")
 		class USphereComponent* rightHandSphere;
 	

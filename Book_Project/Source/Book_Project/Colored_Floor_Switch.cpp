@@ -5,7 +5,7 @@
 #include "Engine/Engine.h"
 #include "Components/StaticMeshComponent.h"
 #include "Avatar.h"
-
+#include "Block_Switch_Controller_01.h"
 
 
 AColored_Floor_Switch::AColored_Floor_Switch(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
@@ -46,5 +46,6 @@ void AColored_Floor_Switch::Collision(UPrimitiveComponent * OverlappedComp, AAct
 	}
 
 	changePanelColorToGreen();
+	switchManager->incrementSwitchCounter();
 }
 
