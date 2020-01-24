@@ -21,6 +21,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collectible Properties")
 		class UStaticMeshComponent* Mesh;
+
+	UPROPERTY(EditANywhere, Category = "Distortion Fragment Value")
+		int fragmentValue;
+
+	UPROPERTY(EditAnywhere)
+		class AUI_Data_Holder* UI_Data_Container;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

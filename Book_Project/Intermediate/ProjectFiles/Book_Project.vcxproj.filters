@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Book_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4E01B3D0-AC6F-439F-B22A-A16E53421EFE}</UniqueIdentifier>
+      <UniqueIdentifier>{CC4EFC3D-715F-483D-AD57-42BA9F68E09C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Book_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F61B3A0E-3B3A-4926-82C9-A91C537AF000}</UniqueIdentifier>
+      <UniqueIdentifier>{371EB858-FE5F-447D-B9CC-61EAFEB34A48}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Book_Project">
-      <UniqueIdentifier>{BFBEC991-44EC-4719-9CE8-1C91BE55F063}</UniqueIdentifier>
+      <UniqueIdentifier>{49001827-434C-4AA2-A759-7475872EEE9A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Book_Project\Avatar.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Book_Project\Avatar.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Block_Switch_Controller_01.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Block_Switch_Controller_01.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Book_GameMode.cpp">
@@ -86,6 +92,12 @@
     <ClInclude Include="..\..\Source\Book_Project\Distortion_Fragments.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Interactable_Object.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Interactable_Object.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Message_UserDefinedStruct.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
@@ -114,6 +126,18 @@
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Book_Project\PickupItem.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Projectile.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Projectile.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Quick_Congrats_Screen.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Quick_Congrats_Screen.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Standard_Moving_Platform.cpp">
@@ -158,39 +182,17 @@
     <ClInclude Include="..\..\Source\Book_Project\Turret.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\UI_Data_Holder.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\UI_Data_Holder.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Working_Bouncepad.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Book_Project\Working_Bouncepad.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Book_Project\Projectile.h">
-      <Filter>Source\Book_Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Book_Project\Quick_Congrats_Screen.h">
-      <Filter>Source\Book_Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Book_Project\Interactable_Object.h">
-      <Filter>Source\Book_Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Book_Project\Block_Switch_Controller_01.h">
-      <Filter>Source\Book_Project</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Book_Project\Projectile.cpp">
-      <Filter>Source\Book_Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Book_Project\Quick_Congrats_Screen.cpp">
-      <Filter>Source\Book_Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Book_Project\Interactable_Object.cpp">
-      <Filter>Source\Book_Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Book_Project\Block_Switch_Controller_01.cpp">
-      <Filter>Source\Book_Project</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

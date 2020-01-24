@@ -5,6 +5,7 @@
 #include "Colored_Floor_Switch.h"
 #include "Components/StaticMeshComponent.h"
 #include "TimerManager.h"
+#include "Engine/Engine.h"
 
 // Sets default values
 ABlock_Switch_Controller_01::ABlock_Switch_Controller_01()
@@ -53,14 +54,14 @@ void ABlock_Switch_Controller_01::incrementSwitchCounter()
 void ABlock_Switch_Controller_01::lerpTheDoor()
 {
 	distance += GetWorld()->GetDeltaSeconds()/secondsToTransition;
-	distance = FMath::Clamp(distance, 0.f, 1.f);
+	//distance = FMath::Clamp(distance, 0.f, 1.f);
 
 	FVector newLocation = FMath::Lerp(GetActorLocation(), Destination, distance);
 	SetActorLocation(newLocation);
-	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
 	if (distance >= 1.f || GetActorLocation().Equals(Destination, 0.0f))
 	{
-
+		GEngine->AddOnScreenDebugMessage(-1, 16.f, FColor::Black, "End of movement");
 		GetWorldTimerManager().ClearTimer(transitionTimer);
 		distance = 0;
 	}

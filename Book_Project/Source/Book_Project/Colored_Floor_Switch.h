@@ -26,6 +26,7 @@ public:
 
 	UPROPERTY(VisibleAnywhere,Category="Controller of the Switch")
 		class ABlock_Switch_Controller_01* switchManager;
+	bool isGreen;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

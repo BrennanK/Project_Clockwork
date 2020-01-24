@@ -26,7 +26,7 @@ AColored_Floor_Switch::AColored_Floor_Switch(const FObjectInitializer& ObjectIni
 void AColored_Floor_Switch::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	isGreen = false;
 }
 
 // Called every frame
@@ -44,8 +44,11 @@ void AColored_Floor_Switch::Collision(UPrimitiveComponent * OverlappedComp, AAct
 	{
 		return;
 	}
-
-	changePanelColorToGreen();
-	switchManager->incrementSwitchCounter();
+	if (isGreen == false)
+	{
+		changePanelColorToGreen();
+		switchManager->incrementSwitchCounter();
+		isGreen = true;
+	}
 }
 

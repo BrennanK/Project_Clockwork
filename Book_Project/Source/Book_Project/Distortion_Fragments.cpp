@@ -5,6 +5,8 @@
 #include "Components/SphereComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Avatar.h"
+#include "Kismet/GameplayStatics.h"
+#include "UI_Data_Holder.h"
 // Sets default values
 ADistortion_Fragments::ADistortion_Fragments()
 {

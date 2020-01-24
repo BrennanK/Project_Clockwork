@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_enableAndDisableCollision();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Falling();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Landed();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_showCollectables();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AInteractable_Object_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ACollission_Text_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USplineComponent_NoRegister();
@@ -103,6 +104,11 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	void AAvatar::enableAndDisableCollision()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AAvatar_enableAndDisableCollision),NULL);
+	}
+	static FName NAME_AAvatar_showCollectables = FName(TEXT("showCollectables"));
+	void AAvatar::showCollectables()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_showCollectables),NULL);
 	}
 	void AAvatar::StaticRegisterNativesAAvatar()
 	{
@@ -326,6 +332,30 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AAvatar_showCollectables_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_showCollectables_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// making use of macro for implementing a method in Blueprints\n" },
+		{ "ModuleRelativePath", "Avatar.h" },
+		{ "ToolTip", "making use of macro for implementing a method in Blueprints" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_showCollectables_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "showCollectables", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_showCollectables_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_showCollectables_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_showCollectables()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_showCollectables_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AAvatar_NoRegister()
 	{
 		return AAvatar::StaticClass();
@@ -438,6 +468,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		{ &Z_Construct_UFunction_AAvatar_enableAndDisableCollision, "enableAndDisableCollision" }, // 323744738
 		{ &Z_Construct_UFunction_AAvatar_Falling, "Falling" }, // 2666488954
 		{ &Z_Construct_UFunction_AAvatar_Landed, "Landed" }, // 2738603381
+		{ &Z_Construct_UFunction_AAvatar_showCollectables, "showCollectables" }, // 1815958859
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::Class_MetaDataParams[] = {
@@ -656,7 +687,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 2665465975);
+	IMPLEMENT_CLASS(AAvatar, 2074129123);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();
