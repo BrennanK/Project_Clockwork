@@ -28,6 +28,7 @@ void AUI_Data_Holder::Tick(float DeltaTime)
 void AUI_Data_Holder::incrementD_FragCount(int valueOfFragment)
 {
 	D_Frag_Count += valueOfFragment;
+	updateFragmentCount(D_Frag_Count);
 }
 
 void AUI_Data_Holder::incrementTA_FragCount()

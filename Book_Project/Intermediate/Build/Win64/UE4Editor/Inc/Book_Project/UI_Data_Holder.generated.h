@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Book_Project_Source_Book_Project_UI_Data_Holder_h_12_RPC_WRAPPERS
 #define Book_Project_Source_Book_Project_UI_Data_Holder_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Book_Project_Source_Book_Project_UI_Data_Holder_h_12_EVENT_PARMS \
+	struct UI_Data_Holder_eventupdateFragmentCount_Parms \
+	{ \
+		int32 shardWorth; \
+	};
+
+
+#define Book_Project_Source_Book_Project_UI_Data_Holder_h_12_CALLBACK_WRAPPERS
 #define Book_Project_Source_Book_Project_UI_Data_Holder_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAUI_Data_Holder(); \
@@ -58,12 +66,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUI_Data_Holder); \
 
 
 #define Book_Project_Source_Book_Project_UI_Data_Holder_h_12_PRIVATE_PROPERTY_OFFSET
-#define Book_Project_Source_Book_Project_UI_Data_Holder_h_9_PROLOG
+#define Book_Project_Source_Book_Project_UI_Data_Holder_h_9_PROLOG \
+	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_EVENT_PARMS
+
+
 #define Book_Project_Source_Book_Project_UI_Data_Holder_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_RPC_WRAPPERS \
+	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_INCLASS \
 	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -75,6 +87,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_INCLASS_NO_PURE_DECLS \
 	Book_Project_Source_Book_Project_UI_Data_Holder_h_12_ENHANCED_CONSTRUCTORS \
 private: \

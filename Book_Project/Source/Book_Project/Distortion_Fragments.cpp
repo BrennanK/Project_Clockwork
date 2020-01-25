@@ -29,6 +29,9 @@ ADistortion_Fragments::ADistortion_Fragments(const FObjectInitializer& ObjectIni
 void ADistortion_Fragments::BeginPlay()
 {
 	Super::BeginPlay();
+
+	UI_Data_Container=Cast<AUI_Data_Holder>(UGameplayStatics::GetActorOfClass(GetWorld(), AUI_Data_Holder::StaticClass()));
+
 	
 }
 
@@ -47,7 +50,7 @@ void ADistortion_Fragments::Collision(UPrimitiveComponent * OverlappedComp, AAct
 	{
 		return;
 	}
-
+	UI_Data_Container->incrementD_FragCount(fragmentValue);
 	Destroy();
 }
 

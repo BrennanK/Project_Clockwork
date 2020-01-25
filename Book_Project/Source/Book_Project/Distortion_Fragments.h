@@ -25,7 +25,7 @@ public:
 	UPROPERTY(EditANywhere, Category = "Distortion Fragment Value")
 		int fragmentValue;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 		class AUI_Data_Holder* UI_Data_Container;
 protected:
 	// Called when the game starts or when spawned
