@@ -19,6 +19,14 @@ struct FHitResult;
 
 #define Book_Project_Source_Book_Project_Interactable_Object_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execinheritanceExample) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->inheritanceExample(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execinteractionAction) \
 	{ \
 		P_GET_OBJECT(AAvatar,Z_Param_player); \
@@ -56,6 +64,14 @@ struct FHitResult;
 
 
 #define Book_Project_Source_Book_Project_Interactable_Object_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execinheritanceExample) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->inheritanceExample(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execinteractionAction) \
 	{ \

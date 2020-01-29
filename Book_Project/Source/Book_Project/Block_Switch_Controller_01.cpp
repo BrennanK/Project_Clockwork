@@ -18,7 +18,7 @@ ABlock_Switch_Controller_01::ABlock_Switch_Controller_01(const FObjectInitialize
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	door = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Door To Lerp"));
-	door->AttachTo(RootComponent);
+	//door->AttachTo(RootComponent);
 
 }
 // Called when the game starts or when spawned
@@ -47,8 +47,14 @@ void ABlock_Switch_Controller_01::incrementSwitchCounter()
 	numberOfGreenSwitches++;
 	if (numberOfGreenSwitches == switches.Num())
 	{
-		GetWorldTimerManager().SetTimer(transitionTimer, this, &ABlock_Switch_Controller_01::lerpTheDoor, GetWorld()->GetDeltaSeconds(), true, 0.0f);
+		//GetWorldTimerManager().SetTimer(transitionTimer, this, &ABlock_Switch_Controller_01::lerpTheDoor, GetWorld()->GetDeltaSeconds(), true, 0.0f);
+		changeCameraPerspective();
 	}
+}
+
+void ABlock_Switch_Controller_01::beginLerpingProcess()
+{
+	GetWorldTimerManager().SetTimer(transitionTimer, this, &ABlock_Switch_Controller_01::lerpTheDoor, GetWorld()->GetDeltaSeconds(), true, 0.0f);
 }
 
 void ABlock_Switch_Controller_01::lerpTheDoor()
@@ -58,10 +64,11 @@ void ABlock_Switch_Controller_01::lerpTheDoor()
 
 	FVector newLocation = FMath::Lerp(GetActorLocation(), Destination, distance);
 	SetActorLocation(newLocation);
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
 	if (distance >= 1.f || GetActorLocation().Equals(Destination, 0.0f))
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 16.f, FColor::Black, "End of movement");
+		changeCameraPerspective();
 		GetWorldTimerManager().ClearTimer(transitionTimer);
 		distance = 0;
 	}

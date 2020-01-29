@@ -61,3 +61,8 @@ void AInteractable_Object::interactionAction(AAvatar* player)
 	player->currentState = ECharacterState::INTERACTABLE;
 }
 
+void AInteractable_Object::inheritanceExample()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Orange, "Congrats Our Parent says hello");
+}
+

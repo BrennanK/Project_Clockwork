@@ -25,6 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AInteractable_Object_displayInteractionIcon();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AInteractable_Object_EndCollision();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AInteractable_Object_hideInteractionIcon();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AInteractable_Object_inheritanceExample();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AInteractable_Object_interactionAction();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -98,6 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Collision", &AInteractable_Object::execCollision },
 			{ "EndCollision", &AInteractable_Object::execEndCollision },
+			{ "inheritanceExample", &AInteractable_Object::execinheritanceExample },
 			{ "interactionAction", &AInteractable_Object::execinteractionAction },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -287,6 +289,28 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AInteractable_Object_inheritanceExample_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AInteractable_Object_inheritanceExample_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Interactable_Object.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AInteractable_Object_inheritanceExample_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AInteractable_Object, nullptr, "inheritanceExample", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AInteractable_Object_inheritanceExample_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AInteractable_Object_inheritanceExample_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AInteractable_Object_inheritanceExample()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AInteractable_Object_inheritanceExample_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics
 	{
 		struct Interactable_Object_eventinteractionAction_Parms
@@ -351,6 +375,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 		{ &Z_Construct_UFunction_AInteractable_Object_displayInteractionIcon, "displayInteractionIcon" }, // 2690558493
 		{ &Z_Construct_UFunction_AInteractable_Object_EndCollision, "EndCollision" }, // 1157729316
 		{ &Z_Construct_UFunction_AInteractable_Object_hideInteractionIcon, "hideInteractionIcon" }, // 3649786819
+		{ &Z_Construct_UFunction_AInteractable_Object_inheritanceExample, "inheritanceExample" }, // 3124875737
 		{ &Z_Construct_UFunction_AInteractable_Object_interactionAction, "interactionAction" }, // 2884480597
 	};
 #if WITH_METADATA
@@ -407,7 +432,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AInteractable_Object, 1010358092);
+	IMPLEMENT_CLASS(AInteractable_Object, 409590209);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AInteractable_Object>()
 	{
 		return AInteractable_Object::StaticClass();

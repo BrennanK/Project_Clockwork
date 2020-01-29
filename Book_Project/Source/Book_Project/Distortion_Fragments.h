@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Distortion_Fragments.generated.h"
-
+UENUM() enum class EPickupType:uint8{DistortionFragments,TimeAbilityShards,Lives};
 UCLASS()
 class BOOK_PROJECT_API ADistortion_Fragments : public AActor
 {
@@ -27,6 +27,8 @@ public:
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 		class AUI_Data_Holder* UI_Data_Container;
+	UPROPERTY(EditAnywhere,Category="UI test")
+		EPickupType typeOfPickUp;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

@@ -17,12 +17,93 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ABlock_Switch_Controller_01();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Book_Project();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AColored_Floor_Switch_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_ABlock_Switch_Controller_01_changeCameraPerspective = FName(TEXT("changeCameraPerspective"));
+	void ABlock_Switch_Controller_01::changeCameraPerspective()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ABlock_Switch_Controller_01_changeCameraPerspective),NULL);
+	}
 	void ABlock_Switch_Controller_01::StaticRegisterNativesABlock_Switch_Controller_01()
 	{
+		UClass* Class = ABlock_Switch_Controller_01::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "beginLerpingProcess", &ABlock_Switch_Controller_01::execbeginLerpingProcess },
+			{ "lerpTheDoor", &ABlock_Switch_Controller_01::execlerpTheDoor },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Block_Switch_Controller_01.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABlock_Switch_Controller_01, nullptr, "beginLerpingProcess", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Block_Switch_Controller_01.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABlock_Switch_Controller_01, nullptr, "changeCameraPerspective", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Block_Switch_Controller_01.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABlock_Switch_Controller_01, nullptr, "lerpTheDoor", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ABlock_Switch_Controller_01_NoRegister()
 	{
@@ -31,9 +112,14 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 	struct Z_Construct_UClass_ABlock_Switch_Controller_01_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cameraMan_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cameraMan;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_secondsToTransition_MetaData[];
 #endif
@@ -63,6 +149,11 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_Book_Project,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess, "beginLerpingProcess" }, // 3575911759
+		{ &Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective, "changeCameraPerspective" }, // 502574433
+		{ &Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor, "lerpTheDoor" }, // 588491028
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "Block_Switch_Controller_01.h" },
@@ -70,6 +161,13 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_cameraMan_MetaData[] = {
+		{ "Category", "Camera for View" },
+		{ "ModuleRelativePath", "Block_Switch_Controller_01.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_cameraMan = { "cameraMan", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABlock_Switch_Controller_01, cameraMan), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_cameraMan_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_cameraMan_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_secondsToTransition_MetaData[] = {
 		{ "Category", "Time For Door to Transition" },
@@ -108,6 +206,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door = { "door", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABlock_Switch_Controller_01, door), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_cameraMan,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_secondsToTransition,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_Destination,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_numberOfGreenSwitches,
@@ -123,11 +222,11 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		ARRAY_COUNT(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::PropPointers),
 		0,
 		0x009000A0u,
@@ -142,7 +241,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABlock_Switch_Controller_01, 2450685553);
+	IMPLEMENT_CLASS(ABlock_Switch_Controller_01, 3346899611);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ABlock_Switch_Controller_01>()
 	{
 		return ABlock_Switch_Controller_01::StaticClass();

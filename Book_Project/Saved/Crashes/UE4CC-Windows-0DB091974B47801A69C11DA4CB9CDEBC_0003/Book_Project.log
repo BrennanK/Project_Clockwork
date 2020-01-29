@@ -1,0 +1,868 @@
+﻿Log file open, 01/29/20 16:53:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Book_Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.092208
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/UE_4_23/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.01.29-22.53.12:009][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.01.29-22.53.12:009][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.29-22.53.12:010][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.01.29-22.53.12:010][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.29-22.53.12:010][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.29-22.53.12:012][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.29-22.53.12:013][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.29-22.53.12:014][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.29-22.53.12:014][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.29-22.53.12:014][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.29-22.53.12:018][  0]LogHAL: Display: Platform has ~ 16 GB [17108713472 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.01.29-22.53.12:018][  0]LogInit: Going up to parent DeviceProfile []
+[2020.01.29-22.53.12:018][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2020.01.29-22.53.12:018][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.01.29-22.53.12:019][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.29-22.53.12:019][  0]LogInit: Computer: SAFARIS-PC
+[2020.01.29-22.53.12:019][  0]LogInit: User: Safari
+[2020.01.29-22.53.12:019][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.01.29-22.53.12:019][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.29-22.53.12:020][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.01.29-22.53.12:020][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.29-22.53.12:020][  0]LogMemory: Process Physical Memory: 102.68 MB used, 102.68 MB peak
+[2020.01.29-22.53.12:020][  0]LogMemory: Process Virtual Memory: 91.61 MB used, 91.61 MB peak
+[2020.01.29-22.53.12:020][  0]LogMemory: Physical Memory: 5198.38 MB used,  11117.76 MB free, 16316.14 MB total
+[2020.01.29-22.53.12:020][  0]LogMemory: Virtual Memory: 4692.68 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2020.01.29-22.53.12:023][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.01.29-22.53.12:052][  0]LogInit: Using OS detected language (en-US).
+[2020.01.29-22.53.12:052][  0]LogInit: Using OS detected locale (en-US).
+[2020.01.29-22.53.12:053][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.01.29-22.53.12:257][  0]LogInit: Setting process to per monitor DPI aware
+[2020.01.29-22.53.12:299][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.01.29-22.53.12:299][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.01.29-22.53.12:512][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.29-22.53.12:512][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.29-22.53.12:595][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.01.29-22.53.12:595][  0]LogD3D11RHI:       4018/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.01.29-22.53.12:597][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.29-22.53.12:597][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.29-22.53.12:597][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.29-22.53.12:607][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.29-22.53.12:607][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.29-22.53.12:607][  0]LogWindows: EnumDisplayDevices:
+[2020.01.29-22.53.12:608][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.01.29-22.53.12:608][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.01.29-22.53.12:608][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.01.29-22.53.12:608][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.01.29-22.53.12:609][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.01.29-22.53.12:609][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.01.29-22.53.12:609][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
+[2020.01.29-22.53.12:609][  0]LogD3D11RHI:      Driver Date: 8-24-2019
+[2020.01.29-22.53.12:609][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.01.29-22.53.12:669][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.29-22.53.12:686][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.29-22.53.13:015][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.01.29-22.53.13:027][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.01.29-22.53.13:039][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.01.29-22.53.13:052][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.01.29-22.53.13:064][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.01.29-22.53.13:076][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.01.29-22.53.13:088][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.01.29-22.53.13:100][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.01.29-22.53.13:105][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.01.29-22.53.13:146][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.01.29-22.53.13:149][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.01.29-22.53.13:172][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.01.29-22.53.13:172][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.01.29-22.53.13:189][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.01.29-22.53.13:189][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.01.29-22.53.13:198][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.01.29-22.53.13:207][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.01.29-22.53.13:216][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.01.29-22.53.13:226][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.01.29-22.53.13:258][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.01.29-22.53.13:258][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.01.29-22.53.13:258][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.01.29-22.53.13:271][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.01.29-22.53.13:341][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Shaders/WorkingDirectory/18096/).
+[2020.01.29-22.53.13:342][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Safari/AppData/Local/Temp/UnrealShaderWorkingDir/65EC35CD4FE7A3AA40E8C2B3C238EBB2/'.
+[2020.01.29-22.53.13:345][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.01.29-22.53.13:345][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.01.29-22.53.13:345][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.01.29-22.53.14:063][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.01.29-22.53.14:109][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.29-22.53.14:110][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.01.29-22.53.14:110][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.29-22.53.14:110][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.29-22.53.14:110][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.29-22.53.14:110][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.29-22.53.14:124][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.29-22.53.14:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.29-22.53.14:124][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.01.29-22.53.14:125][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Safari/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.29-22.53.14:125][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.01.29-22.53.14:125][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.01.29-22.53.14:151][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.29-22.53.14:154][  0]LogSlate: Using FreeType 2.6.0
+[2020.01.29-22.53.14:155][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.29-22.53.14:223][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2020.01.29-22.53.14:552][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.29-22.53.14:722][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.29-22.53.14:722][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.01.29-22.53.14:722][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.01.29-22.53.14:722][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.01.29-22.53.14:722][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.01.29-22.53.14:733][  0]LogNetVersion: Book_Project 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4225194187)
+[2020.01.29-22.53.15:285][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.134148 seconds
+[2020.01.29-22.53.15:296][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.01.29-22.53.15:296][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.01.29-22.53.15:296][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.29-22.53.16:351][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.29-22.53.16:356][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.29-22.53.17:480][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.757 s
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: 
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1136]
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: Unable to bind delegate to 'Teleport' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: Stack: 
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb84f8431 UE4Editor-Book_Project-7283.dll!DispatchCheckVerify<bool,<lambda_2498fc5d6a3a630d3a964272300a8d53> >() [c:\ue_4_23\ue_4.23\engine\source\runtime\core\public\misc\assertionmacros.h:164]
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb84e849e UE4Editor-Book_Project-7283.dll!ATeleporter::ATeleporter() [d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\teleporter.cpp:20]
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ffee0fd09a5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ffee1243e5a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ffee1222246 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ffee1154fd5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ffee17f83d7 UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ffee1810ccb UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ffee3178fa7 UE4Editor-Projects.dll!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ffee3179299 UE4Editor-Projects.dll!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6aa95da01 UE4Editor.exe!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6aa9649f1 UE4Editor.exe!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6aa95a667 UE4Editor.exe!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6aa95a9fa UE4Editor.exe!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6aa96b92c UE4Editor.exe!UnknownFunction []
+[2020.01.29-22.53.17:480][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6aa96e60e UE4Editor.exe!UnknownFunction []
+[2020.01.29-22.53.17:481][  0]LogOutputDevice: Error: [Callstack] 0x00007fff264d7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.01.29-22.53.17:481][  0]LogOutputDevice: Error: [Callstack] 0x00007fff2730ced1 ntdll.dll!UnknownFunction []
+[2020.01.29-22.53.17:481][  0]LogOutputDevice: Error: 
+[2020.01.29-22.53.17:489][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.01.29-22.53.18:150][  0]LogStats:                    SendNewReport -  0.660 s
+[2020.01.29-22.53.18:150][  0]LogStats:             FDebug::EnsureFailed -  1.426 s
+[2020.01.29-22.53.18:189][  0]SourceControl: Source control is disabled
+[2020.01.29-22.53.18:189][  0]SourceControl: Source control is disabled
+[2020.01.29-22.53.18:190][  0]SourceControl: Source control is disabled
+[2020.01.29-22.53.18:192][  0]SourceControl: Source control is disabled
+[2020.01.29-22.53.18:320][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.29-22.53.18:469][  0]LogOcInput: OculusInput pre-init called
+[2020.01.29-22.53.18:479][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.01.29-22.53.18:479][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.01.29-22.53.18:594][  0]LogEngine: Initializing Engine...
+[2020.01.29-22.53.18:595][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.29-22.53.18:597][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.01.29-22.53.18:859][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.01.29-22.53.18:879][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.29-22.53.18:901][  0]LogInit: XAudio2 using 'Headphones (4- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.29-22.53.18:936][  0]LogInit: FAudioDevice initialized.
+[2020.01.29-22.53.18:936][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.01.29-22.53.19:021][  0]LogDerivedDataCache: Saved boot cache 0.09s 73MB C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.29-22.53.19:027][  0]LogInit: Texture streaming: Enabled
+[2020.01.29-22.53.19:055][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.29-22.53.19:055][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.01.29-22.53.19:056][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.01.29-22.53.19:141][  0]LogInit: Transaction tracking system initialized
+[2020.01.29-22.53.19:187][  0]BlueprintLog: New page: Editor Load
+[2020.01.29-22.53.19:304][  0]LocalizationService: Localization service is disabled
+[2020.01.29-22.53.19:671][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/' took 0.01s
+[2020.01.29-22.53.19:671][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.29-22.53.19:672][  0]LogCook: Display: Mobile HDR setting 1
+[2020.01.29-22.53.19:941][  0]SourceControl: Source control is disabled
+[2020.01.29-22.53.19:941][  0]Cmd: MAP LOAD FILE="D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Time_Jail.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.29-22.53.20:001][  0]LightingResults: New page: Lighting Build
+[2020.01.29-22.53.20:005][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-22.53.20:006][  0]MapCheck: New page: Map Check
+[2020.01.29-22.53.20:006][  0]LightingResults: New page: Lighting Build
+[2020.01.29-22.53.20:056][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.01.29-22.53.24:440][  0]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.29-22.53.24:459][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.29-22.53.24:507][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.01.29-22.53.24:507][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.29-22.53.24:507][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.148ms to complete.
+[2020.01.29-22.53.24:507][  0]LogFileHelpers: Loading map 'Time_Jail' took 4.566
+[2020.01.29-22.53.24:700][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-22.53.24:710][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-22.53.24:720][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-22.53.24:728][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-22.53.24:746][  0]LogCollectionManager: Loaded 0 collections in 0.002768 seconds
+[2020.01.29-22.53.24:765][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Collections/' took 0.00s
+[2020.01.29-22.53.24:765][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Developers/Safari/Collections/' took 0.00s
+[2020.01.29-22.53.24:765][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Collections/' took 0.00s
+[2020.01.29-22.53.24:765][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.01.29-22.53.24:778][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2889 classes and 682 folders.
+[2020.01.29-22.53.24:790][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.01.29-22.53.25:141][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.01.29-22.53.25:292][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.01.29-22.53.25:312][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.29-22.53.25:315][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.29-22.53.25:329][  0]LogSlate: Took 0.008220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.29-22.53.25:473][  0]LogRenderer: Reallocating scene render targets to support 1152x576 Format 10 NumSamples 1 (Frame:1).
+[2020.01.29-22.53.25:545][  0]LogSlate: Took 0.006821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.29-22.53.25:641][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.01.29-22.53.25:641][  0]LogLoad: (Engine Initialization) Total time: 15.59 seconds
+[2020.01.29-22.53.25:641][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.29-22.53.25:710][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.01.29-22.53.26:781][ 15]LogAssetRegistry: Asset discovery search completed in 12.5600 seconds
+[2020.01.29-22.53.26:786][ 15]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2020.01.29-22.53.26:786][ 15]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000115 seconds (updated 0 objects)
+[2020.01.29-22.54.25:640][ 66]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={23748E3F-4285-47CC-29BC-48B043778B82}
+[2020.01.29-22.55.33:860][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.29-22.55.34:063][275]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.29-22.55.34:070][275]LogAssetEditorManager: Opening Asset editor for Class /Script/Book_Project.Interactable_Object
+[2020.01.29-22.55.46:949][777]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.01.29-22.55.57:738][938]Candidate modules for hot reload:
+[2020.01.29-22.55.57:738][938]  Book_Project
+[2020.01.29-22.55.57:738][938]Launching UnrealBuildTool... [C:/UE_4_23/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,9910 Win64 Development -TargetType=Editor -Project="D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject" "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject"  -IgnoreJunk]
+[2020.01.29-22.55.57:742][938]Warning: Starting HotReload took  1.2s.
+[2020.01.29-22.58.57:011][914]CompilerResultsLog: New page: Compilation - Jan 29, 2020, 10:58:57 AM
+[2020.01.29-22.58.57:011][914]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork).
+[2020.01.29-22.58.57:011][914]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2020.01.29-22.58.57:011][914]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Book_Project.uproject" "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.29-22.58.57:012][914]CompilerResultsLog: Reflection code generated for Book_ProjectEditor in 27.9529478 seconds
+[2020.01.29-22.58.57:012][914]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.01.29-22.58.57:012][914]CompilerResultsLog: Building 6 actions with 16 processes...
+[2020.01.29-22.58.57:012][914]CompilerResultsLog:   [1/6] Interactable_Object.cpp
+[2020.01.29-22.58.57:012][914]CompilerResultsLog:   D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project\Interactable_Object.cpp(21): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.01.29-22.58.57:012][914]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.01.29-22.58.57:012][914]CompilerResultsLog:   D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project\Interactable_Object.cpp(22): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.01.29-22.58.57:012][914]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.01.29-22.58.57:012][914]CompilerResultsLog:   D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project\Interactable_Object.cpp(65): fatal error C1075: '{': no matching token found
+[2020.01.29-22.58.57:012][914]CompilerResultsLog:   [2/6] Avatar.cpp
+[2020.01.29-22.58.57:012][914]CompilerResultsLog:   [3/6] Collsion_Actor_Component.cpp
+[2020.01.29-22.58.57:012][914]LogMainFrame: MainFrame: Module compiling took 179.278 seconds
+[2020.01.29-22.58.57:012][914]Warning: HotReload failed, recompile failed
+[2020.01.29-22.59.58:049][427]Candidate modules for hot reload:
+[2020.01.29-22.59.58:049][427]  Book_Project
+[2020.01.29-22.59.58:050][427]Launching UnrealBuildTool... [C:/UE_4_23/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,9468 Win64 Development -TargetType=Editor -Project="D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject" "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject"  -IgnoreJunk]
+[2020.01.29-22.59.58:053][427]Warning: Starting HotReload took  0.0s.
+[2020.01.29-23.00.13:957][324]CompilerResultsLog: New page: Compilation - Jan 29, 2020, 11:00:13 AM
+[2020.01.29-23.00.13:957][324]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork).
+[2020.01.29-23.00.13:957][324]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Book_Project.uproject" "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.29-23.00.13:957][324]CompilerResultsLog: Reflection code generated for Book_ProjectEditor in 7.9874745 seconds
+[2020.01.29-23.00.13:957][324]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.01.29-23.00.13:957][324]CompilerResultsLog: Building 4 actions with 16 processes...
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:   [1/4] Interactable_Object.cpp
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:   D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project\Interactable_Object.cpp(21): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:   D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project\Interactable_Object.cpp(22): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:   [2/4] UE4Editor-Book_Project-9468.lib
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-9468.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-9468.exp
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:   [3/4] UE4Editor-Book_Project-9468.dll
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-9468.suppressed.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-9468.suppressed.exp
+[2020.01.29-23.00.13:957][324]CompilerResultsLog:   [4/4] Book_ProjectEditor.target
+[2020.01.29-23.00.13:957][324]CompilerResultsLog: Total time in Parallel executor: 6.45 seconds
+[2020.01.29-23.00.13:957][324]CompilerResultsLog: Total execution time: 15.80 seconds
+[2020.01.29-23.00.13:958][324]LogMainFrame: MainFrame: Module compiling took 15.911 seconds
+[2020.01.29-23.00.13:996][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.01.29-23.00.14:032][324]LogClass: Could not find existing class Interactable_Object in package /Script/Book_Project for HotReload, assuming new class
+[2020.01.29-23.00.14:032][324]LogClass: Function Collision is new.
+[2020.01.29-23.00.14:032][324]LogClass: Function EndCollision is new.
+[2020.01.29-23.00.14:032][324]LogClass: Function inheritanceExample is new.
+[2020.01.29-23.00.14:032][324]LogClass: Function interactionAction is new.
+[2020.01.29-23.00.14:054][324]LogClass: ECharacterState HotReload.
+[2020.01.29-23.00.14:054][324]LogClass: ETextType HotReload.
+[2020.01.29-23.00.14:054][324]LogClass: EPickupType HotReload.
+[2020.01.29-23.00.14:054][324]LogClass: EInteractionType HotReload.
+[2020.01.29-23.00.14:054][324]LogClass: EProjectileType HotReload.
+[2020.01.29-23.00.14:055][324]LogClass: EDIRECTIONOFMOVEMENT HotReload.
+[2020.01.29-23.00.14:055][324]LogClass: ETurretType HotReload.
+[2020.01.29-23.00.14:055][324]LogClass: EBOUNCE_TYPE HotReload.
+[2020.01.29-23.00.14:081][324]LogHotReload: Re-instancing Interactable_Object after hot-reload.
+[2020.01.29-23.00.14:087][324]LogActor: Warning: BP_Interactable_Object_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Interactable_Object_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.29-23.00.14:341][324]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.01.29-23.00.14:516][324]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.175 s
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: === Handled ensure: ===
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: 
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1136]
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: Unable to bind delegate to 'Teleport' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: Stack: 
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007fff0d6f8431 UE4Editor-Book_Project-9468.dll!DispatchCheckVerify<bool,<lambda_2498fc5d6a3a630d3a964272300a8d53> >() [c:\ue_4_23\ue_4.23\engine\source\runtime\core\public\misc\assertionmacros.h:164]
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007fff0d6e856e UE4Editor-Book_Project-9468.dll!ATeleporter::ATeleporter() [d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\teleporter.cpp:20]
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e94061 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8541a UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8c48d UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e967d9 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e96b64 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8f3d6 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffee0f3ac0b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffee1241be7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffee1222361 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffee1154fd5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffee17f83d7 UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.00.14:516][324]LogOutputDevice: Error: [Callstack] 0x00007ffee1810ccb UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ffee180fe63 UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8d5c3 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8b267 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8bc86 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e9c48f UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ffee15a382d UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ff6aa94a93e UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ff6aa95a91c UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ff6aa95a9fa UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ff6aa96b92c UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007ff6aa96e60e UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007fff264d7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: [Callstack] 0x00007fff2730ced1 ntdll.dll!UnknownFunction []
+[2020.01.29-23.00.14:517][324]LogOutputDevice: Error: 
+[2020.01.29-23.00.14:518][324]LogStats:                SubmitErrorReport -  0.000 s
+[2020.01.29-23.00.15:149][324]LogStats:                    SendNewReport -  0.632 s
+[2020.01.29-23.00.15:149][324]LogStats:             FDebug::EnsureFailed -  0.808 s
+[2020.01.29-23.00.15:152][324]LogHotReload: Re-instancing Working_Bouncepad after hot-reload.
+[2020.01.29-23.00.15:158][324]LogActor: Warning: BP_Single_Bounce_Bouncepad_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Single_Bounce_Bouncepad_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.29-23.00.15:159][324]LogActor: Warning: BP_BuildUp_Bounce_Bouncepad_Child_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_BuildUp_Bounce_Bouncepad_Child_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.29-23.00.15:296][324]LogActor: Warning: Working_Bouncepad /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Working_Bouncepad_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.29-23.00.15:432][324]LogContentBrowser: Native class hierarchy updated for 'Book_Project' in 0.0006 seconds. Added 26 classes and 2 folders.
+[2020.01.29-23.00.15:436][324]Display: HotReload successful (21 functions remapped  0 scriptstructs remapped)
+[2020.01.29-23.00.15:536][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.01.29-23.00.15:554][324]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2890 classes and 684 folders.
+[2020.01.29-23.00.15:555][324]Display: HotReload took 17.5s.
+[2020.01.29-23.03.25:731][834]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={565F32DD-4C25-F35B-0553-E3B6A1C6D24E}
+[2020.01.29-23.04.45:457][ 58]LogSlate: Took 0.007500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.29-23.05.03:067][114]Candidate modules for hot reload:
+[2020.01.29-23.05.03:067][114]  Book_Project
+[2020.01.29-23.05.03:067][114]Launching UnrealBuildTool... [C:/UE_4_23/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,8460 Win64 Development -TargetType=Editor -Project="D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject" "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject"  -IgnoreJunk]
+[2020.01.29-23.05.17:494][114]CompilerResultsLog: New page: Compilation - Jan 29, 2020, 11:05:17 AM
+[2020.01.29-23.05.17:494][114]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork).
+[2020.01.29-23.05.17:494][114]CompilerResultsLog: Invalidating makefile for Book_ProjectEditor (source file added)
+[2020.01.29-23.05.17:494][114]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2020.01.29-23.05.17:494][114]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Book_Project.uproject" "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.29-23.05.17:494][114]CompilerResultsLog: Reflection code generated for Book_ProjectEditor in 7.6384995 seconds
+[2020.01.29-23.05.17:494][114]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.01.29-23.05.17:494][114]CompilerResultsLog: Building 6 actions with 16 processes...
+[2020.01.29-23.05.17:494][114]CompilerResultsLog:   [1/6] Book_Project.init.gen.cpp
+[2020.01.29-23.05.17:494][114]CompilerResultsLog:   [2/6] Second_Interactable_Object.cpp
+[2020.01.29-23.05.17:494][114]CompilerResultsLog:   [3/6] Second_Interactable_Object.gen.cpp
+[2020.01.29-23.05.17:494][114]CompilerResultsLog:   [4/6] UE4Editor-Book_Project-8460.lib
+[2020.01.29-23.05.17:494][114]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-8460.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-8460.exp
+[2020.01.29-23.05.17:494][114]CompilerResultsLog:   [5/6] UE4Editor-Book_Project-8460.dll
+[2020.01.29-23.05.17:494][114]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-8460.suppressed.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-8460.suppressed.exp
+[2020.01.29-23.05.17:494][114]CompilerResultsLog:   [6/6] Book_ProjectEditor.target
+[2020.01.29-23.05.17:494][114]CompilerResultsLog: Total time in Parallel executor: 2.93 seconds
+[2020.01.29-23.05.17:495][114]CompilerResultsLog: Total execution time: 14.33 seconds
+[2020.01.29-23.05.17:495][114]LogMainFrame: MainFrame: Module compiling took 14.430 seconds
+[2020.01.29-23.05.17:537][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.01.29-23.05.17:588][114]LogClass: Could not find existing class Second_Interactable_Object in package /Script/Book_Project for HotReload, assuming new class
+[2020.01.29-23.05.17:601][114]LogClass: ECharacterState HotReload.
+[2020.01.29-23.05.17:601][114]LogClass: ETextType HotReload.
+[2020.01.29-23.05.17:601][114]LogClass: EPickupType HotReload.
+[2020.01.29-23.05.17:601][114]LogClass: EInteractionType HotReload.
+[2020.01.29-23.05.17:601][114]LogClass: EProjectileType HotReload.
+[2020.01.29-23.05.17:601][114]LogClass: EDIRECTIONOFMOVEMENT HotReload.
+[2020.01.29-23.05.17:601][114]LogClass: ETurretType HotReload.
+[2020.01.29-23.05.17:601][114]LogClass: EBOUNCE_TYPE HotReload.
+[2020.01.29-23.05.17:619][114]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.01.29-23.05.17:770][114]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.151 s
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: === Handled ensure: ===
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: 
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1136]
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: Unable to bind delegate to 'Teleport' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: Stack: 
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007fff0ced9431 UE4Editor-Book_Project-8460.dll!DispatchCheckVerify<bool,<lambda_2498fc5d6a3a630d3a964272300a8d53> >() [c:\ue_4_23\ue_4.23\engine\source\runtime\core\public\misc\assertionmacros.h:164]
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007fff0cec88be UE4Editor-Book_Project-8460.dll!ATeleporter::ATeleporter() [d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\teleporter.cpp:20]
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e94061 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8541a UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8c48d UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e967d9 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e96b64 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8f3d6 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007ffee0f3ac0b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007ffee1241be7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007ffee1222361 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.05.17:770][114]LogOutputDevice: Error: [Callstack] 0x00007ffee1154fd5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee17f83d7 UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee1810ccb UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee180fe63 UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8d5c3 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8b267 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8bc86 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e92b47 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e922f0 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffecb0dfd70 UE4Editor-GameProjectGeneration.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffecb0de28c UE4Editor-GameProjectGeneration.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffecb12e512 UE4Editor-GameProjectGeneration.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffecb126c48 UE4Editor-GameProjectGeneration.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffecd4a5879 UE4Editor-AppFramework.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffecd4700d4 UE4Editor-AppFramework.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee07e58b8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee08014b1 UE4Editor-Slate.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee0645231 UE4Editor-Slate.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee06cb4f1 UE4Editor-Slate.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee06b52e8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee06a9c91 UE4Editor-Slate.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee0b84e02 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee0b726df UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee0b87340 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee0b6edd0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007fff266d5b6d USER32.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007fff266d5562 USER32.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ffee0b888e9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ff6aa946980 UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ff6aa95a91c UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ff6aa95a9fa UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ff6aa96b92c UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007ff6aa96e60e UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007fff264d7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: [Callstack] 0x00007fff2730ced1 ntdll.dll!UnknownFunction []
+[2020.01.29-23.05.17:771][114]LogOutputDevice: Error: 
+[2020.01.29-23.05.17:775][114]LogStats:                SubmitErrorReport -  0.000 s
+[2020.01.29-23.05.18:499][114]LogStats:                    SendNewReport -  0.724 s
+[2020.01.29-23.05.18:499][114]LogStats:             FDebug::EnsureFailed -  0.880 s
+[2020.01.29-23.05.18:501][114]LogHotReload: Re-instancing Working_Bouncepad after hot-reload.
+[2020.01.29-23.05.18:507][114]LogActor: Warning: BP_Single_Bounce_Bouncepad_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Single_Bounce_Bouncepad_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.29-23.05.18:509][114]LogActor: Warning: BP_BuildUp_Bounce_Bouncepad_Child_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_BuildUp_Bounce_Bouncepad_Child_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.29-23.05.18:642][114]LogActor: Warning: Working_Bouncepad /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Working_Bouncepad_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.29-23.05.18:775][114]LogContentBrowser: Native class hierarchy updated for 'Book_Project' in 0.0006 seconds. Added 27 classes and 2 folders.
+[2020.01.29-23.05.18:780][114]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2020.01.29-23.05.18:863][114]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.01.29-23.05.18:880][114]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2891 classes and 684 folders.
+[2020.01.29-23.05.18:880][114]Display: HotReload took 15.8s.
+[2020.01.29-23.05.18:882][114]Warning: HotReload operation took 15.8s.
+[2020.01.29-23.05.19:374][114]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.01.29-23.05.19:386][114]LogHotReload: New module detected: UE4Editor-Book_Project-8460.dll
+[2020.01.29-23.05.19:451][115]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.29-23.05.19:512][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.01.29-23.05.19:517][115]LogContentBrowser: Native class hierarchy updated for 'Book_Project' in 0.0006 seconds. Added 27 classes and 2 folders.
+[2020.01.29-23.05.19:521][115]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.01.29-23.05.19:562][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.01.29-23.05.19:582][115]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2891 classes and 684 folders.
+[2020.01.29-23.05.19:585][115]Display: HotReload took  0.1s.
+[2020.01.29-23.10.30:186][245]Candidate modules for hot reload:
+[2020.01.29-23.10.30:187][245]  Book_Project
+[2020.01.29-23.10.30:187][245]Launching UnrealBuildTool... [C:/UE_4_23/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,5170 Win64 Development -TargetType=Editor -Project="D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject" "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject"  -IgnoreJunk]
+[2020.01.29-23.10.30:190][245]Warning: Starting HotReload took  0.0s.
+[2020.01.29-23.10.42:512][703]CompilerResultsLog: New page: Compilation - Jan 29, 2020, 11:10:42 AM
+[2020.01.29-23.10.42:512][703]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork).
+[2020.01.29-23.10.42:512][703]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2020.01.29-23.10.42:512][703]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Book_Project.uproject" "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.29-23.10.42:512][703]CompilerResultsLog: Reflection code generated for Book_ProjectEditor in 7.7614836 seconds
+[2020.01.29-23.10.42:512][703]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.01.29-23.10.42:512][703]CompilerResultsLog: Building 5 actions with 16 processes...
+[2020.01.29-23.10.42:513][703]CompilerResultsLog:   [1/5] Second_Interactable_Object.cpp
+[2020.01.29-23.10.42:513][703]CompilerResultsLog:   [2/5] Second_Interactable_Object.gen.cpp
+[2020.01.29-23.10.42:513][703]CompilerResultsLog:   [3/5] UE4Editor-Book_Project-5170.lib
+[2020.01.29-23.10.42:513][703]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5170.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5170.exp
+[2020.01.29-23.10.42:513][703]CompilerResultsLog:   [4/5] UE4Editor-Book_Project-5170.dll
+[2020.01.29-23.10.42:513][703]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5170.suppressed.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5170.suppressed.exp
+[2020.01.29-23.10.42:513][703]CompilerResultsLog:   [5/5] Book_ProjectEditor.target
+[2020.01.29-23.10.42:513][703]CompilerResultsLog: Total time in Parallel executor: 3.03 seconds
+[2020.01.29-23.10.42:513][703]CompilerResultsLog: Total execution time: 12.22 seconds
+[2020.01.29-23.10.42:513][703]LogMainFrame: MainFrame: Module compiling took 12.329 seconds
+[2020.01.29-23.10.42:555][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.01.29-23.10.42:617][703]LogClass: ECharacterState HotReload.
+[2020.01.29-23.10.42:617][703]LogClass: ETextType HotReload.
+[2020.01.29-23.10.42:617][703]LogClass: EPickupType HotReload.
+[2020.01.29-23.10.42:617][703]LogClass: EInteractionType HotReload.
+[2020.01.29-23.10.42:617][703]LogClass: EProjectileType HotReload.
+[2020.01.29-23.10.42:617][703]LogClass: EDIRECTIONOFMOVEMENT HotReload.
+[2020.01.29-23.10.42:617][703]LogClass: ETurretType HotReload.
+[2020.01.29-23.10.42:617][703]LogClass: EBOUNCE_TYPE HotReload.
+[2020.01.29-23.10.42:635][703]LogHotReload: Re-instancing Second_Interactable_Object after hot-reload.
+[2020.01.29-23.10.42:759][703]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.01.29-23.10.42:912][703]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.153 s
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: === Handled ensure: ===
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: 
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1136]
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: Unable to bind delegate to 'Teleport' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: Stack: 
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007fff03329431 UE4Editor-Book_Project-5170.dll!DispatchCheckVerify<bool,<lambda_2498fc5d6a3a630d3a964272300a8d53> >() [c:\ue_4_23\ue_4.23\engine\source\runtime\core\public\misc\assertionmacros.h:164]
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007fff0331889e UE4Editor-Book_Project-5170.dll!ATeleporter::ATeleporter() [d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\teleporter.cpp:20]
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e94061 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8541a UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8c48d UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e967d9 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e96b64 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8f3d6 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffee0f3ac0b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffee1241be7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffee1222361 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffee1154fd5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.29-23.10.42:912][703]LogOutputDevice: Error: [Callstack] 0x00007ffee17f83d7 UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ffee1810ccb UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ffee180fe63 UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8d5c3 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8b267 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e8bc86 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ffeb8e9c48f UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ffee15a382d UE4Editor-Core.dll!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ff6aa94a93e UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ff6aa95a91c UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ff6aa95a9fa UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ff6aa96b92c UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007ff6aa96e60e UE4Editor.exe!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007fff264d7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: [Callstack] 0x00007fff2730ced1 ntdll.dll!UnknownFunction []
+[2020.01.29-23.10.42:913][703]LogOutputDevice: Error: 
+[2020.01.29-23.10.42:923][703]LogStats:                SubmitErrorReport -  0.000 s

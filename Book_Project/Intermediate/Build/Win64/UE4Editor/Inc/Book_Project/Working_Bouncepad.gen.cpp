@@ -13,10 +13,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 // Cross Module References
+	BOOK_PROJECT_API UEnum* Z_Construct_UEnum_Book_Project_EBOUNCE_TYPE();
+	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AWorking_Bouncepad_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AWorking_Bouncepad();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AWorking_Bouncepad_Collision();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -25,6 +26,58 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
+	static UEnum* EBOUNCE_TYPE_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Book_Project_EBOUNCE_TYPE, Z_Construct_UPackage__Script_Book_Project(), TEXT("EBOUNCE_TYPE"));
+		}
+		return Singleton;
+	}
+	template<> BOOK_PROJECT_API UEnum* StaticEnum<EBOUNCE_TYPE>()
+	{
+		return EBOUNCE_TYPE_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBOUNCE_TYPE(EBOUNCE_TYPE_StaticEnum, TEXT("/Script/Book_Project"), TEXT("EBOUNCE_TYPE"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Book_Project_EBOUNCE_TYPE_Hash() { return 1608829318U; }
+	UEnum* Z_Construct_UEnum_Book_Project_EBOUNCE_TYPE()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_Book_Project();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EBOUNCE_TYPE"), 0, Get_Z_Construct_UEnum_Book_Project_EBOUNCE_TYPE_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "EBOUNCE_TYPE::Single", (int64)EBOUNCE_TYPE::Single },
+				{ "EBOUNCE_TYPE::Build_Up", (int64)EBOUNCE_TYPE::Build_Up },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "Build_Up.Name", "EBOUNCE_TYPE::Build_Up" },
+				{ "ModuleRelativePath", "Working_Bouncepad.h" },
+				{ "Single.Name", "EBOUNCE_TYPE::Single" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_Book_Project,
+				nullptr,
+				"EBOUNCE_TYPE",
+				"EBOUNCE_TYPE",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	void AWorking_Bouncepad::StaticRegisterNativesAWorking_Bouncepad()
 	{
 		UClass* Class = AWorking_Bouncepad::StaticClass();
@@ -187,6 +240,11 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_padType_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_padType;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_padType_Underlying;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bounceHeightPerSecondFalling_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_bounceHeightPerSecondFalling;
@@ -226,6 +284,14 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_padType_MetaData[] = {
+		{ "Category", "Type of Bounce_Pad" },
+		{ "ModuleRelativePath", "Working_Bouncepad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_padType = { "padType", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorking_Bouncepad, padType), Z_Construct_UEnum_Book_Project_EBOUNCE_TYPE, METADATA_PARAMS(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_padType_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_padType_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_padType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeightPerSecondFalling_MetaData[] = {
 		{ "Category", "Bounce Variables" },
 		{ "ModuleRelativePath", "Working_Bouncepad.h" },
@@ -263,6 +329,8 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceBox = { "bounceBox", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorking_Bouncepad, bounceBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AWorking_Bouncepad_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_padType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_padType_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeightPerSecondFalling,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_maxBounceHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_minBounceHeight,
@@ -296,7 +364,7 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AWorking_Bouncepad, 2407988225);
+	IMPLEMENT_CLASS(AWorking_Bouncepad, 107323940);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AWorking_Bouncepad>()
 	{
 		return AWorking_Bouncepad::StaticClass();

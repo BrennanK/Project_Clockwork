@@ -122,4 +122,12 @@ template<> BOOK_PROJECT_API UClass* StaticClass<class ADistortion_Fragments>();
 #define CURRENT_FILE_ID Book_Project_Source_Book_Project_Distortion_Fragments_h
 
 
+#define FOREACH_ENUM_EPICKUPTYPE(op) \
+	op(EPickupType::DistortionFragments) \
+	op(EPickupType::TimeAbilityShards) \
+	op(EPickupType::Lives) 
+
+enum class EPickupType : uint8;
+template<> BOOK_PROJECT_API UEnum* StaticEnum<EPickupType>();
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

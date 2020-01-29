@@ -34,6 +34,10 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Time For Door to Transition")
 		float secondsToTransition;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Camera for View")
+		AActor* cameraMan;
+
+	
 	float distance;
 protected:
 	// Called when the game starts or when spawned
@@ -43,5 +47,13 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	void incrementSwitchCounter();
-	void lerpTheDoor();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void changeCameraPerspective();
+
+	UFUNCTION(BlueprintCallable)
+		void beginLerpingProcess();
+
+	UFUNCTION()
+		void lerpTheDoor();
 };

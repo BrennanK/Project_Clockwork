@@ -30,13 +30,13 @@ void AStandard_Moving_Platform::Tick(float DeltaTime)
 	{
 	case EDIRECTIONOFMOVEMENT::X :
 		
-		if (Location.X == originalX + rangeOfMovement)
+		if (Location.X >= originalX + rangeOfMovement)
 		{
-			amountToMove = -1;
+			amountToMove *= -1;
 		}
-		else if (Location.X == originalX - rangeOfMovement)
+		else if (Location.X <= originalX - rangeOfMovement)
 		{
-			amountToMove = 1;
+			amountToMove *= -1;
 		}
 		
 			SetActorLocation(FVector(Location.X + amountToMove, Location.Y, Location.Z));
@@ -46,16 +46,17 @@ void AStandard_Moving_Platform::Tick(float DeltaTime)
 
 	case EDIRECTIONOFMOVEMENT::Y:
 		
-		if (Location.Y == originalY + rangeOfMovement)
+		if (Location.Y >= originalY + rangeOfMovement)
 		{
-			amountToMove = -1;
+			amountToMove *= -1;
 			SetActorLocation(FVector(Location.X, Location.Y + amountToMove, Location.Z));
 		}
-		else if (Location.Y == originalY - rangeOfMovement)
+		else if (Location.Y <= originalY - rangeOfMovement)
 		{
-			amountToMove = 1;
+			amountToMove *= -1;
 			//
-			SetActorLocation(FVector(Location.X, Location.Y + amountToMove, Location.Z));  
+			//SetActorLocation(FVector(Location.X, Location.Y + amountToMove, Location.Z));  
+			
 		}
 		
 			SetActorLocation(FVector(Location.X, Location.Y + amountToMove, Location.Z));
@@ -64,13 +65,13 @@ void AStandard_Moving_Platform::Tick(float DeltaTime)
 		break;
 	case EDIRECTIONOFMOVEMENT::Z:
 		
-		if (Location.Z == originalZ + rangeOfMovement)
+		if (Location.Z >= originalZ + rangeOfMovement)
 		{
-			amountToMove = -1;
+			amountToMove *= -1;
 		}
-		else if (Location.Z == originalZ - rangeOfMovement)
+		else if (Location.Z <= originalZ - rangeOfMovement)
 		{
-			amountToMove = 1;
+			amountToMove *= -1;
 		}
 		
 			SetActorLocation(FVector(Location.X, Location.Y, Location.Z + amountToMove));

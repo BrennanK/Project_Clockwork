@@ -13,10 +13,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeDistortion_Fragments() {}
 // Cross Module References
+	BOOK_PROJECT_API UEnum* Z_Construct_UEnum_Book_Project_EPickupType();
+	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ADistortion_Fragments_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ADistortion_Fragments();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ADistortion_Fragments_Collision();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -25,6 +26,60 @@ void EmptyLinkFunctionForGeneratedCodeDistortion_Fragments() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
+	static UEnum* EPickupType_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Book_Project_EPickupType, Z_Construct_UPackage__Script_Book_Project(), TEXT("EPickupType"));
+		}
+		return Singleton;
+	}
+	template<> BOOK_PROJECT_API UEnum* StaticEnum<EPickupType>()
+	{
+		return EPickupType_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EPickupType(EPickupType_StaticEnum, TEXT("/Script/Book_Project"), TEXT("EPickupType"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Book_Project_EPickupType_Hash() { return 2938870045U; }
+	UEnum* Z_Construct_UEnum_Book_Project_EPickupType()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_Book_Project();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EPickupType"), 0, Get_Z_Construct_UEnum_Book_Project_EPickupType_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "EPickupType::DistortionFragments", (int64)EPickupType::DistortionFragments },
+				{ "EPickupType::TimeAbilityShards", (int64)EPickupType::TimeAbilityShards },
+				{ "EPickupType::Lives", (int64)EPickupType::Lives },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "DistortionFragments.Name", "EPickupType::DistortionFragments" },
+				{ "Lives.Name", "EPickupType::Lives" },
+				{ "ModuleRelativePath", "Distortion_Fragments.h" },
+				{ "TimeAbilityShards.Name", "EPickupType::TimeAbilityShards" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_Book_Project,
+				nullptr,
+				"EPickupType",
+				"EPickupType",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	void ADistortion_Fragments::StaticRegisterNativesADistortion_Fragments()
 	{
 		UClass* Class = ADistortion_Fragments::StaticClass();
@@ -126,6 +181,11 @@ void EmptyLinkFunctionForGeneratedCodeDistortion_Fragments() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_typeOfPickUp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_typeOfPickUp;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_typeOfPickUp_Underlying;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UI_Data_Container_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UI_Data_Container;
@@ -160,6 +220,14 @@ void EmptyLinkFunctionForGeneratedCodeDistortion_Fragments() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_typeOfPickUp_MetaData[] = {
+		{ "Category", "UI test" },
+		{ "ModuleRelativePath", "Distortion_Fragments.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_typeOfPickUp = { "typeOfPickUp", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADistortion_Fragments, typeOfPickUp), Z_Construct_UEnum_Book_Project_EPickupType, METADATA_PARAMS(Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_typeOfPickUp_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_typeOfPickUp_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_typeOfPickUp_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_UI_Data_Container_MetaData[] = {
 		{ "Category", "Distortion_Fragments" },
 		{ "ModuleRelativePath", "Distortion_Fragments.h" },
@@ -190,6 +258,8 @@ void EmptyLinkFunctionForGeneratedCodeDistortion_Fragments() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_sphereCollider = { "sphereCollider", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADistortion_Fragments, sphereCollider), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_sphereCollider_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_sphereCollider_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADistortion_Fragments_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_typeOfPickUp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_typeOfPickUp_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_UI_Data_Container,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_fragmentValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_Mesh,
@@ -222,7 +292,7 @@ void EmptyLinkFunctionForGeneratedCodeDistortion_Fragments() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADistortion_Fragments, 1193962822);
+	IMPLEMENT_CLASS(ADistortion_Fragments, 1755950523);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ADistortion_Fragments>()
 	{
 		return ADistortion_Fragments::StaticClass();

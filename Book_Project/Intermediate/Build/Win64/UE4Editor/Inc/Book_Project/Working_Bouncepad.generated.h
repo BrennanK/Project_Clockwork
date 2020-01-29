@@ -146,4 +146,11 @@ template<> BOOK_PROJECT_API UClass* StaticClass<class AWorking_Bouncepad>();
 #define CURRENT_FILE_ID Book_Project_Source_Book_Project_Working_Bouncepad_h
 
 
+#define FOREACH_ENUM_EBOUNCE_TYPE(op) \
+	op(EBOUNCE_TYPE::Single) \
+	op(EBOUNCE_TYPE::Build_Up) 
+
+enum class EBOUNCE_TYPE : uint8;
+template<> BOOK_PROJECT_API UEnum* StaticEnum<EBOUNCE_TYPE>();
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

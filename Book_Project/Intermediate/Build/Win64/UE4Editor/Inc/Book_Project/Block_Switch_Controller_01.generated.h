@@ -13,8 +13,46 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BOOK_PROJECT_Block_Switch_Controller_01_generated_h
 
-#define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_RPC_WRAPPERS
-#define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execlerpTheDoor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->lerpTheDoor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execbeginLerpingProcess) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->beginLerpingProcess(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execlerpTheDoor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->lerpTheDoor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execbeginLerpingProcess) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->beginLerpingProcess(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_EVENT_PARMS
+#define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_CALLBACK_WRAPPERS
 #define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABlock_Switch_Controller_01(); \
@@ -58,12 +96,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABlock_Switch_Controller_01); \
 
 
 #define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_PRIVATE_PROPERTY_OFFSET
-#define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_9_PROLOG
+#define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_9_PROLOG \
+	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_EVENT_PARMS
+
+
 #define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_RPC_WRAPPERS \
+	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_INCLASS \
 	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -75,6 +117,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_INCLASS_NO_PURE_DECLS \
 	Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_ENHANCED_CONSTRUCTORS \
 private: \

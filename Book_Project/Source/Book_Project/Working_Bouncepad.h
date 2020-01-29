@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Working_Bouncepad.generated.h"
-
+UENUM() enum class EBOUNCE_TYPE:uint8 {Single,Build_Up};
 UCLASS()
 class BOOK_PROJECT_API AWorking_Bouncepad : public AActor
 {
@@ -27,8 +27,12 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "Bounce Variables")
 		float maxBounceHeight;
+	
 	UPROPERTY(EditAnywhere, Category = "Bounce Variables")
 		float bounceHeightPerSecondFalling;
+	
+	UPROPERTY(EditAnywhere, Category = "Type of Bounce_Pad")
+		EBOUNCE_TYPE padType;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

@@ -50,7 +50,20 @@ void ADistortion_Fragments::Collision(UPrimitiveComponent * OverlappedComp, AAct
 	{
 		return;
 	}
-	UI_Data_Container->incrementD_FragCount(fragmentValue);
+	switch (typeOfPickUp)
+	{
+	case EPickupType::DistortionFragments:
+		UI_Data_Container->incrementD_FragCount(fragmentValue);
+		break;
+
+	case EPickupType::TimeAbilityShards:
+		UI_Data_Container->incrementTA_FragCount();
+		break;
+
+	case EPickupType::Lives:
+		UI_Data_Container->incrementLifeCount();
+	}
+	//UI_Data_Container->incrementD_FragCount(fragmentValue);
 	Destroy();
 }
 

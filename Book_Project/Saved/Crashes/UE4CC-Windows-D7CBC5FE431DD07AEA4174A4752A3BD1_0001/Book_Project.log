@@ -1,0 +1,1508 @@
+﻿Log file open, 01/27/20 13:59:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Book_Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.088524
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/UE_4_23/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.27-19.59.28:786][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.01.27-19.59.28:786][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.27-19.59.28:786][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.27-19.59.28:789][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.27-19.59.28:789][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:789][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.27-19.59.28:790][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.27-19.59.28:790][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.27-19.59.28:790][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.27-19.59.28:794][  0]LogHAL: Display: Platform has ~ 16 GB [17108713472 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.01.27-19.59.28:794][  0]LogInit: Going up to parent DeviceProfile []
+[2020.01.27-19.59.28:794][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2020.01.27-19.59.28:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.01.27-19.59.28:795][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.01.27-19.59.28:795][  0]LogInit: Computer: SAFARIS-PC
+[2020.01.27-19.59.28:795][  0]LogInit: User: Safari
+[2020.01.27-19.59.28:796][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.01.27-19.59.28:796][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.27-19.59.28:796][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.01.27-19.59.28:796][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.27-19.59.28:796][  0]LogMemory: Process Physical Memory: 102.59 MB used, 102.60 MB peak
+[2020.01.27-19.59.28:796][  0]LogMemory: Process Virtual Memory: 102.18 MB used, 102.18 MB peak
+[2020.01.27-19.59.28:796][  0]LogMemory: Physical Memory: 4654.92 MB used,  11661.22 MB free, 16316.14 MB total
+[2020.01.27-19.59.28:796][  0]LogMemory: Virtual Memory: 4703.18 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2020.01.27-19.59.28:799][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.01.27-19.59.28:828][  0]LogInit: Using OS detected language (en-US).
+[2020.01.27-19.59.28:828][  0]LogInit: Using OS detected locale (en-US).
+[2020.01.27-19.59.28:829][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.01.27-19.59.29:025][  0]LogInit: Setting process to per monitor DPI aware
+[2020.01.27-19.59.29:068][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.01.27-19.59.29:068][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.01.27-19.59.29:276][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.27-19.59.29:276][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.27-19.59.29:359][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.01.27-19.59.29:359][  0]LogD3D11RHI:       4018/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.01.27-19.59.29:362][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.27-19.59.29:362][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.27-19.59.29:362][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.27-19.59.29:372][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.27-19.59.29:372][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.27-19.59.29:372][  0]LogWindows: EnumDisplayDevices:
+[2020.01.27-19.59.29:372][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.01.27-19.59.29:373][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.01.27-19.59.29:373][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.01.27-19.59.29:373][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.01.27-19.59.29:373][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.01.27-19.59.29:373][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.01.27-19.59.29:373][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
+[2020.01.27-19.59.29:373][  0]LogD3D11RHI:      Driver Date: 8-24-2019
+[2020.01.27-19.59.29:373][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.01.27-19.59.29:427][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.27-19.59.29:444][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.27-19.59.29:747][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.01.27-19.59.29:759][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.01.27-19.59.29:771][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.01.27-19.59.29:783][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.01.27-19.59.29:795][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.01.27-19.59.29:807][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.01.27-19.59.29:818][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.01.27-19.59.29:830][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.01.27-19.59.29:836][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.01.27-19.59.29:876][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.01.27-19.59.29:877][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.01.27-19.59.29:877][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.01.27-19.59.29:877][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.01.27-19.59.29:877][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.01.27-19.59.29:879][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.01.27-19.59.29:901][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.01.27-19.59.29:901][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.01.27-19.59.29:919][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.01.27-19.59.29:919][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.01.27-19.59.29:928][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.01.27-19.59.29:937][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.01.27-19.59.29:945][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.01.27-19.59.29:955][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.01.27-19.59.29:986][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.01.27-19.59.29:986][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.01.27-19.59.29:987][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.01.27-19.59.29:999][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.01.27-19.59.30:069][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Shaders/WorkingDirectory/13420/).
+[2020.01.27-19.59.30:070][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Safari/AppData/Local/Temp/UnrealShaderWorkingDir/D4E450A24D9200190CFEEAAD2F4498F3/'.
+[2020.01.27-19.59.30:073][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.01.27-19.59.30:073][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.01.27-19.59.30:073][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.01.27-19.59.30:766][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.01.27-19.59.30:812][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.27-19.59.30:813][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.01.27-19.59.30:813][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.27-19.59.30:813][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.27-19.59.30:813][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.27-19.59.30:813][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.27-19.59.30:827][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.27-19.59.30:827][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.27-19.59.30:827][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.01.27-19.59.30:828][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Safari/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.27-19.59.30:829][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.01.27-19.59.30:829][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.01.27-19.59.30:854][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.27-19.59.30:857][  0]LogSlate: Using FreeType 2.6.0
+[2020.01.27-19.59.30:858][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.27-19.59.30:924][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2020.01.27-19.59.31:249][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.27-19.59.31:420][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.27-19.59.31:420][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.01.27-19.59.31:420][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.01.27-19.59.31:420][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.01.27-19.59.31:420][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.01.27-19.59.31:432][  0]LogNetVersion: Book_Project 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4225194187)
+[2020.01.27-19.59.31:955][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.102565 seconds
+[2020.01.27-19.59.31:964][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.01.27-19.59.31:964][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.01.27-19.59.31:964][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.27-19.59.32:985][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.27-19.59.32:989][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.27-19.59.33:830][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.581 s
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: 
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1136]
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: Unable to bind delegate to 'Teleport' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: Stack: 
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeba5c7311 UE4Editor-Book_Project-7361.dll!DispatchCheckVerify<bool,<lambda_2498fc5d6a3a630d3a964272300a8d53> >() [c:\ue_4_23\ue_4.23\engine\source\runtime\core\public\misc\assertionmacros.h:164]
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeba5b783e UE4Editor-Book_Project-7361.dll!ATeleporter::ATeleporter() [d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\teleporter.cpp:20]
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ffedf8509a5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ffedfac3e5a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ffedfaa2246 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ffedf9d4fd5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ffedece83d7 UE4Editor-Core.dll!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeded00ccb UE4Editor-Core.dll!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ffedfea8fa7 UE4Editor-Projects.dll!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ffedfea9299 UE4Editor-Projects.dll!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6f104da01 UE4Editor.exe!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6f10549f1 UE4Editor.exe!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6f104a667 UE4Editor.exe!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6f104a9fa UE4Editor.exe!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6f105b92c UE4Editor.exe!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6f105e60e UE4Editor.exe!UnknownFunction []
+[2020.01.27-19.59.33:830][  0]LogOutputDevice: Error: [Callstack] 0x00007fff264d7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.01.27-19.59.33:831][  0]LogOutputDevice: Error: [Callstack] 0x00007fff2730ced1 ntdll.dll!UnknownFunction []
+[2020.01.27-19.59.33:831][  0]LogOutputDevice: Error: 
+[2020.01.27-19.59.33:833][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.01.27-19.59.34:445][  0]LogStats:                    SendNewReport -  0.611 s
+[2020.01.27-19.59.34:445][  0]LogStats:             FDebug::EnsureFailed -  1.195 s
+[2020.01.27-19.59.34:484][  0]SourceControl: Source control is disabled
+[2020.01.27-19.59.34:484][  0]SourceControl: Source control is disabled
+[2020.01.27-19.59.34:486][  0]SourceControl: Source control is disabled
+[2020.01.27-19.59.34:487][  0]SourceControl: Source control is disabled
+[2020.01.27-19.59.34:609][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.27-19.59.34:761][  0]LogOcInput: OculusInput pre-init called
+[2020.01.27-19.59.34:770][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.01.27-19.59.34:770][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.01.27-19.59.34:918][  0]LogEngine: Initializing Engine...
+[2020.01.27-19.59.34:919][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.27-19.59.34:921][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.01.27-19.59.35:198][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.01.27-19.59.35:217][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.27-19.59.35:238][  0]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-19.59.35:271][  0]LogInit: FAudioDevice initialized.
+[2020.01.27-19.59.35:271][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.01.27-19.59.35:359][  0]LogDerivedDataCache: Saved boot cache 0.09s 73MB C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.27-19.59.35:369][  0]LogInit: Texture streaming: Enabled
+[2020.01.27-19.59.35:397][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.27-19.59.35:397][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.01.27-19.59.35:398][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.01.27-19.59.35:488][  0]LogInit: Transaction tracking system initialized
+[2020.01.27-19.59.35:536][  0]BlueprintLog: New page: Editor Load
+[2020.01.27-19.59.35:653][  0]LocalizationService: Localization service is disabled
+[2020.01.27-19.59.35:983][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/' took 0.01s
+[2020.01.27-19.59.35:983][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.27-19.59.35:983][  0]LogCook: Display: Mobile HDR setting 1
+[2020.01.27-19.59.36:219][  0]SourceControl: Source control is disabled
+[2020.01.27-19.59.36:219][  0]Cmd: MAP LOAD FILE="D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Time_Jail.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.27-19.59.36:220][  0]LightingResults: New page: Lighting Build
+[2020.01.27-19.59.36:224][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-19.59.36:224][  0]MapCheck: New page: Map Check
+[2020.01.27-19.59.36:224][  0]LightingResults: New page: Lighting Build
+[2020.01.27-19.59.36:268][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.01.27-19.59.39:661][  0]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-19.59.39:673][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.27-19.59.39:722][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.01.27-19.59.39:723][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.27-19.59.39:723][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.14ms to complete.
+[2020.01.27-19.59.39:723][  0]LogFileHelpers: Loading map 'Time_Jail' took 3.503
+[2020.01.27-19.59.39:998][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-19.59.40:008][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-19.59.40:016][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-19.59.40:025][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-19.59.40:042][  0]LogCollectionManager: Loaded 0 collections in 0.002853 seconds
+[2020.01.27-19.59.40:062][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Collections/' took 0.00s
+[2020.01.27-19.59.40:062][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Developers/Safari/Collections/' took 0.00s
+[2020.01.27-19.59.40:062][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Collections/' took 0.00s
+[2020.01.27-19.59.40:062][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.01.27-19.59.40:075][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2888 classes and 682 folders.
+[2020.01.27-19.59.40:088][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.01.27-19.59.40:441][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.01.27-19.59.40:593][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.01.27-19.59.41:923][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.01.27-19.59.41:949][  0]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.27-19.59.41:953][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.27-19.59.41:967][  0]LogSlate: Took 0.007371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.27-19.59.42:108][  0]LogRenderer: Reallocating scene render targets to support 1152x576 Format 10 NumSamples 1 (Frame:1).
+[2020.01.27-19.59.42:205][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.01.27-19.59.42:205][  0]LogLoad: (Engine Initialization) Total time: 15.71 seconds
+[2020.01.27-19.59.42:205][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.27-19.59.42:319][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.01.27-19.59.42:354][  0]LogSlate: Took 0.006447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.27-19.59.43:248][ 14]LogAssetRegistry: Asset discovery search completed in 12.3249 seconds
+[2020.01.27-19.59.43:252][ 14]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2020.01.27-19.59.43:252][ 14]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2020.01.27-19.59.43:315][ 15]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.27-19.59.54:900][397]LogEditorViewport: Clicking on Actor (LMB): BP_Starting_Point_C (BP_Starting_Point)
+[2020.01.27-20.00.22:319][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.00.22:410][565]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.00.22:433][565]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.00.22:433][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.00.22:434][565]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:00:22 AM)
+[2020.01.27-20.00.22:436][565]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.01.27-20.00.22:440][565]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.00.22:448][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008431s)
+[2020.01.27-20.00.22:449][565]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.00.22:449][565]LogPlayLevel: PIE: World Init took: (0.001157s)
+[2020.01.27-20.00.22:450][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.009891s)
+[2020.01.27-20.00.22:497][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.01.27-20.00.22:515][565]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.00.22:530][565]LogInit: FAudioDevice initialized.
+[2020.01.27-20.00.22:545][565]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.00.22:548][565]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.00.22
+[2020.01.27-20.00.22:550][565]LogWorld: Bringing up level for play took: 0.003422
+[2020.01.27-20.00.22:550][565]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.01.27-20.00.22:562][565]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.01.27-20.00.22:591][565]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.00.22:592][565]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.00.22:596][565]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail 0.81
+[2020.01.27-20.00.22:597][565]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.00.42:209][911]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={BFD221E5-4A86-16D0-51A2-33927E6552EC}
+[2020.01.27-20.00.47:909][595]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.00.47:911][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.00.47:911][595]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.00.47:912][595]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.00.47:919][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.00.47:919][595]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.00.47:967][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.00.47:970][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.01.27-20.00.48:013][597]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.01.27-20.00.58:027][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Jail Cell Floor)
+[2020.01.27-20.01.04:444][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Jail Cell Floor)
+[2020.01.27-20.01.05:212][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Jail Cell Floor)
+[2020.01.27-20.01.05:929][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Jail Cell Floor)
+[2020.01.27-20.01.06:390][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Jail Cell Floor)
+[2020.01.27-20.01.09:594][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.01.12:756][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.01.43:699][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.01.43:791][181]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.01.43:813][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.01.43:813][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.01.43:813][181]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:01:43 AM)
+[2020.01.27-20.01.43:814][181]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.01.43:823][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008857s)
+[2020.01.27-20.01.43:824][181]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.01.43:824][181]LogPlayLevel: PIE: World Init took: (0.001352s)
+[2020.01.27-20.01.43:824][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.010416s)
+[2020.01.27-20.01.43:868][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.01.27-20.01.43:883][181]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.01.43:894][181]LogInit: FAudioDevice initialized.
+[2020.01.27-20.01.43:901][181]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.01.43:904][181]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.01.43
+[2020.01.27-20.01.43:905][181]LogWorld: Bringing up level for play took: 0.002960
+[2020.01.27-20.01.43:905][181]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.01.27-20.01.43:909][181]LogScript: Warning: Accessed None trying to read property Player UI Reference
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:007E
+[2020.01.27-20.01.43:909][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player UI Reference". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  Set Visibility
+[2020.01.27-20.01.43:909][181]LogScript: Warning: Accessed None
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:0093
+[2020.01.27-20.01.43:909][181]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  Set Visibility
+[2020.01.27-20.01.43:909][181]LogScript: Warning: Accessed None trying to read property Player UI Reference
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:00DB
+[2020.01.27-20.01.43:909][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player UI Reference". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  Play Animation
+[2020.01.27-20.01.43:909][181]LogScript: Warning: Accessed None trying to read property Player UI Reference
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:015A
+[2020.01.27-20.01.43:909][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player UI Reference". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  SetText (Text)
+[2020.01.27-20.01.43:909][181]LogScript: Warning: Accessed None
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:016F
+[2020.01.27-20.01.43:909][181]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  SetText (Text)
+[2020.01.27-20.01.43:910][181]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.01.43:910][181]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.01.43:911][181]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail 0.124
+[2020.01.27-20.01.43:911][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.01.47:016][550]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.27-20.01.57:300][782]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01
+[2020.01.27-20.01.57:672][782]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2020.01.27-20.01.58:798][782]LogActor: Warning: BP_Dispaly_Text_Type_01_C /Engine/Transient.World_2:PersistentLevel.BP_Dispaly_Text_Type_01_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.01.58:810][782]LogSlate: Took 0.006662 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.27-20.01.58:899][783]LogSlate: Took 0.005992 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.27-20.02.38:235][465]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.02.38:236][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.02.38:236][465]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.02.38:236][465]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.02.38:248][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.02.38:248][465]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.02.38:304][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.02.38:310][465]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2020.01.27-20.02.38:332][466]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.01.27-20.03.09:876][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.04.29:889][788]LogAssetEditorManager: Opening Asset editor for Class /Script/Book_Project.Collission_Text
+[2020.01.27-20.06.36:124][590]BlueprintLog: New page: Compile BP_Dispaly_Text_Type_01
+[2020.01.27-20.06.36:133][590]LogActor: Warning: BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.06.36:134][590]LogActor: Warning: BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.06.36:135][590]LogActor: Warning: BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.06.36:136][590]LogActor: Warning: BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.06.36:137][590]LogActor: Warning: BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.06.36:137][590]LogActor: Warning: BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.06.36:138][590]LogActor: Warning: BP_Dispaly_Text_Type_01_C /Engine/Transient.World_2:PersistentLevel.BP_Dispaly_Text_Type_01_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.06.36:407][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.01.27-20.06.38:206][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.01.27-20.06.38:270][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.01.27-20.06.38:644][791]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Time_Jail62428BC84014D9C3D981C9A2B5DC69F4.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Time_Jail.umap'
+[2020.01.27-20.06.38:700][791]LogFileHelpers: Saving map 'Time_Jail' took 0.481
+[2020.01.27-20.06.38:761][791]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/BP_Dispaly_Text_Type_0127C80F344077310FF429CF8FA2AFD158.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.uasset'
+[2020.01.27-20.06.40:765][ 25]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.06.40:794][ 25]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.06.40:795][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.06.40:795][ 25]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:06:40 AM)
+[2020.01.27-20.06.40:795][ 25]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.06.40:802][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007066s)
+[2020.01.27-20.06.40:803][ 25]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.06.40:804][ 25]LogPlayLevel: PIE: World Init took: (0.001168s)
+[2020.01.27-20.06.40:804][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.008440s)
+[2020.01.27-20.06.40:854][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.01.27-20.06.40:875][ 25]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.06.40:890][ 25]LogInit: FAudioDevice initialized.
+[2020.01.27-20.06.40:898][ 25]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.06.40:900][ 25]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.06.40
+[2020.01.27-20.06.40:901][ 25]LogWorld: Bringing up level for play took: 0.002610
+[2020.01.27-20.06.40:901][ 25]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.01.27-20.06.40:905][ 25]LogScript: Warning: Accessed None trying to read property Player UI Reference
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:0098
+[2020.01.27-20.06.40:905][ 25]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player UI Reference". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  Set Visibility
+[2020.01.27-20.06.40:905][ 25]LogScript: Warning: Accessed None
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:00AD
+[2020.01.27-20.06.40:905][ 25]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  Set Visibility
+[2020.01.27-20.06.40:905][ 25]LogScript: Warning: Accessed None trying to read property Player UI Reference
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:00F5
+[2020.01.27-20.06.40:905][ 25]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player UI Reference". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  Play Animation
+[2020.01.27-20.06.40:905][ 25]LogScript: Warning: Accessed None trying to read property Player UI Reference
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:0174
+[2020.01.27-20.06.40:905][ 25]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player UI Reference". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  SetText (Text)
+[2020.01.27-20.06.40:905][ 25]LogScript: Warning: Accessed None
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:0189
+[2020.01.27-20.06.40:905][ 25]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  SetText (Text)
+[2020.01.27-20.06.40:906][ 25]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.06.40:906][ 25]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.06.40:907][ 25]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.88
+[2020.01.27-20.06.40:907][ 25]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.07.09:608][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.07.09:608][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.07.09:608][463]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.07.09:609][463]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.07.09:624][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.07.09:625][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.07.09:679][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.07.09:683][463]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.01.27-20.07.09:708][464]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.01.27-20.07.13:605][926]LogEditorViewport: Clicking on Actor (LMB): BP_Dispaly_Text_Type_01_C (Tutorial_Text_1)
+[2020.01.27-20.07.21:181][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.27-20.07.30:602][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.07.30:718][970]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.07.30:742][970]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.07.30:742][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.07.30:742][970]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:07:30 AM)
+[2020.01.27-20.07.30:742][970]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.07.30:750][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007486s)
+[2020.01.27-20.07.30:751][970]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.07.30:751][970]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2020.01.27-20.07.30:751][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.008834s)
+[2020.01.27-20.07.30:797][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.01.27-20.07.30:813][970]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.07.30:824][970]LogInit: FAudioDevice initialized.
+[2020.01.27-20.07.30:833][970]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.07.30:836][970]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.07.30
+[2020.01.27-20.07.30:837][970]LogWorld: Bringing up level for play took: 0.002750
+[2020.01.27-20.07.30:837][970]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.01.27-20.07.30:841][970]LogScript: Warning: Accessed None trying to read property Player UI Reference
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:0098
+[2020.01.27-20.07.30:841][970]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player UI Reference". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  Set Visibility
+[2020.01.27-20.07.30:841][970]LogScript: Warning: Accessed None
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:00AD
+[2020.01.27-20.07.30:842][970]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  Set Visibility
+[2020.01.27-20.07.30:842][970]LogScript: Warning: Accessed None trying to read property Player UI Reference
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:00F5
+[2020.01.27-20.07.30:842][970]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player UI Reference". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  Play Animation
+[2020.01.27-20.07.30:842][970]LogScript: Warning: Accessed None trying to read property Player UI Reference
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:0174
+[2020.01.27-20.07.30:842][970]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player UI Reference". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  SetText (Text)
+[2020.01.27-20.07.30:842][970]LogScript: Warning: Accessed None
+	BP_Dispaly_Text_Type_01_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.Tutorial_Text_1
+	Function /Game/Blueprints/Level_Tools/BP_Dispaly_Text_Type_01.BP_Dispaly_Text_Type_01_C:ExecuteUbergraph_BP_Dispaly_Text_Type_01:0189
+[2020.01.27-20.07.30:842][970]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Dispaly_Text_Type_01 Function:  Execute Ubergraph BP Dispaly Text Type 01 Graph:  EventGraph Node:  SetText (Text)
+[2020.01.27-20.07.30:842][970]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.07.30:842][970]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.07.30:844][970]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail 1.057
+[2020.01.27-20.07.30:844][970]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.07.41:815][282]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.07.41:816][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.07.41:816][282]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.07.41:816][282]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.07.41:829][282]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.07.41:830][282]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.07.41:884][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.07.41:889][282]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.01.27-20.07.41:938][284]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.01.27-20.08.03:791][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.08.15:356][270]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters_NPC_S/BP_Avatar.BP_Avatar
+[2020.01.27-20.08.54:282][811]BlueprintLog: New page: Compile BP_Avatar
+[2020.01.27-20.08.54:648][811]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.01.27-20.09.50:734][511]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={56BB70C8-448A-5B33-7B8A-A48DF03A37BA}
+[2020.01.27-20.10.12:499][109]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2020.01.27-20.10.12:558][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.01.27-20.10.12:866][109]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Time_JailC6F60AB642F815FFD4417DA4066C4530.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Time_Jail.umap'
+[2020.01.27-20.10.12:913][109]LogFileHelpers: Saving map 'Time_Jail' took 0.402
+[2020.01.27-20.10.13:047][109]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/BP_AvatarABF1ADA6488128D57D7D22A50C9DEE99.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Blueprints/Characters_NPC_S/BP_Avatar.uasset'
+[2020.01.27-20.10.43:446][735]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.10.55:119][100]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.10.55:146][100]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.10.55:147][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.10.55:147][100]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:10:55 AM)
+[2020.01.27-20.10.55:147][100]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.10.55:155][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007826s)
+[2020.01.27-20.10.55:156][100]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.10.55:156][100]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2020.01.27-20.10.55:157][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.009284s)
+[2020.01.27-20.10.55:211][100]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.01.27-20.10.55:226][100]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.10.55:238][100]LogInit: FAudioDevice initialized.
+[2020.01.27-20.10.55:250][100]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.10.55:253][100]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.10.55
+[2020.01.27-20.10.55:253][100]LogWorld: Bringing up level for play took: 0.002612
+[2020.01.27-20.10.55:253][100]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.01.27-20.10.55:257][100]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.10.55:257][100]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.10.55:259][100]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.528
+[2020.01.27-20.10.55:259][100]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.11.08:866][724]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.11.08:866][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.11.08:866][724]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.11.08:866][724]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.11.08:880][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.11.08:880][724]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.11.08:934][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.11.08:939][724]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.01.27-20.11.08:983][726]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.01.27-20.11.18:416][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.11.18:532][871]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.11.18:562][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.11.18:562][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.11.18:562][871]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:11:18 AM)
+[2020.01.27-20.11.18:563][871]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.11.18:570][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007369s)
+[2020.01.27-20.11.18:571][871]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.11.18:572][871]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2020.01.27-20.11.18:572][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.008788s)
+[2020.01.27-20.11.18:620][871]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.01.27-20.11.18:634][871]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.11.18:645][871]LogInit: FAudioDevice initialized.
+[2020.01.27-20.11.18:651][871]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.11.18:654][871]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.11.18
+[2020.01.27-20.11.18:654][871]LogWorld: Bringing up level for play took: 0.002929
+[2020.01.27-20.11.18:654][871]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.01.27-20.11.18:658][871]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.11.18:658][871]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.11.18:660][871]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail 0.872
+[2020.01.27-20.11.18:660][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.11.28:831][ 88]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.11.28:832][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.11.28:832][ 88]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.11.28:832][ 88]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.11.28:845][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.11.28:846][ 88]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.11.28:895][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.11.28:899][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.01.27-20.11.28:943][ 90]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.01.27-20.11.44:650][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.12.02:978][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.12.03:063][103]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.12.03:091][103]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.12.03:091][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.12.03:092][103]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:12:03 AM)
+[2020.01.27-20.12.03:092][103]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.12.03:100][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007512s)
+[2020.01.27-20.12.03:101][103]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.12.03:101][103]LogPlayLevel: PIE: World Init took: (0.001309s)
+[2020.01.27-20.12.03:101][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.009066s)
+[2020.01.27-20.12.03:145][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.01.27-20.12.03:160][103]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.12.03:171][103]LogInit: FAudioDevice initialized.
+[2020.01.27-20.12.03:181][103]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.12.03:184][103]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.12.03
+[2020.01.27-20.12.03:184][103]LogWorld: Bringing up level for play took: 0.002693
+[2020.01.27-20.12.03:185][103]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.01.27-20.12.03:188][103]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.12.03:189][103]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.12.03:190][103]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.597
+[2020.01.27-20.12.03:190][103]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.12.15:041][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.12.15:042][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.12.15:042][522]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.12.15:042][522]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.12.15:052][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.12.15:052][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.12.15:106][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.12.15:111][522]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.01.27-20.12.15:155][524]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.01.27-20.12.17:317][783]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.12.52:874][985]LogAssetEditorManager: Opening Asset editor for DataTable /Game/Blueprints/Level_Tools/Data_Tables/Tutorial_Data_Tables.Tutorial_Data_Tables
+[2020.01.27-20.13.40:331][842]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.13.40:357][842]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.13.40:357][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.13.40:357][842]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:13:40 AM)
+[2020.01.27-20.13.40:358][842]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.13.40:366][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007576s)
+[2020.01.27-20.13.40:370][842]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.13.40:370][842]LogPlayLevel: PIE: World Init took: (0.004502s)
+[2020.01.27-20.13.40:370][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.012303s)
+[2020.01.27-20.13.40:451][842]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2020.01.27-20.13.40:469][842]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.13.40:481][842]LogInit: FAudioDevice initialized.
+[2020.01.27-20.13.40:490][842]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.13.40:493][842]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.13.40
+[2020.01.27-20.13.40:494][842]LogWorld: Bringing up level for play took: 0.002636
+[2020.01.27-20.13.40:494][842]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.01.27-20.13.40:497][842]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.13.40:498][842]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.13.40:499][842]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail 0.712
+[2020.01.27-20.13.40:499][842]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.14.09:509][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.14.09:509][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.14.09:509][319]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.14.09:509][319]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.14.09:525][319]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.14.09:525][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.14.09:582][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.14.09:592][319]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.01.27-20.14.09:616][320]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.01.27-20.14.13:069][733]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.27-20.14.14:358][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.14.35:783][272]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.14.35:810][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.14.35:810][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.14.35:810][272]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:14:35 AM)
+[2020.01.27-20.14.35:810][272]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.14.35:818][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007457s)
+[2020.01.27-20.14.35:819][272]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.14.35:819][272]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2020.01.27-20.14.35:819][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.008848s)
+[2020.01.27-20.14.35:874][272]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.01.27-20.14.35:891][272]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.14.35:903][272]LogInit: FAudioDevice initialized.
+[2020.01.27-20.14.35:912][272]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.14.35:915][272]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.14.35
+[2020.01.27-20.14.35:916][272]LogWorld: Bringing up level for play took: 0.002649
+[2020.01.27-20.14.35:916][272]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.01.27-20.14.35:920][272]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.14.35:920][272]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.14.35:921][272]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail 0.134
+[2020.01.27-20.14.35:921][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.17.34:341][654]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.17.34:341][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.17.34:341][654]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.17.34:341][654]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.17.34:356][654]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.17.34:356][654]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.17.34:416][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.17.34:422][654]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.01.27-20.17.34:446][655]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.01.27-20.17.36:148][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.18.03:857][181]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup2)
+[2020.01.27-20.18.25:329][675]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup3)
+[2020.01.27-20.18.25:902][736]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup4)
+[2020.01.27-20.18.29:122][ 50]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup5)
+[2020.01.27-20.18.29:713][113]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup)
+[2020.01.27-20.18.33:278][491]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup6)
+[2020.01.27-20.18.33:870][555]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup7)
+[2020.01.27-20.18.34:518][626]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup8)
+[2020.01.27-20.18.35:653][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Circular Jump Area)
+[2020.01.27-20.18.42:011][498]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup4)
+[2020.01.27-20.18.53:234][359]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.27-20.19.11:206][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.19.20:619][560]LogAssetEditorManager: Opening Asset editor for Class /Script/Book_Project.Test_Create
+[2020.01.27-20.19.44:072][747]LogAssetEditorManager: Opening Asset editor for Class /Script/Book_Project.MyGameInstance
+[2020.01.27-20.23.30:857][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Circular Jump Area)
+[2020.01.27-20.23.36:240][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Circular Area Inner Portion)
+[2020.01.27-20.23.37:350][299]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Circular Jump Area)
+[2020.01.27-20.23.37:392][299]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.27-20.23.38:284][391]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.27-20.24.05:523][376]LogEditorViewport: Clicking on Actor (LMB): BP_UI_Data_Holder_C (BP_UI_Data_Holder)
+[2020.01.27-20.24.17:737][741]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup2)
+[2020.01.27-20.24.53:149][663]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup3)
+[2020.01.27-20.24.58:165][229]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup2)
+[2020.01.27-20.24.59:603][388]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.25.08:400][421]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup6)
+[2020.01.27-20.25.09:978][601]Cmd: EDIT CUT
+[2020.01.27-20.25.10:001][601]LogEditorActor: Deleted Actor: BP_Distortion_Fragments_C
+[2020.01.27-20.25.10:067][601]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2020.01.27-20.25.10:068][601]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2020.01.27-20.25.11:057][719]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup7)
+[2020.01.27-20.25.11:702][788]Cmd: EDIT CUT
+[2020.01.27-20.25.11:714][788]LogEditorActor: Deleted Actor: BP_Distortion_Fragments_C
+[2020.01.27-20.25.11:767][788]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.01.27-20.25.11:768][788]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2020.01.27-20.25.12:349][857]LogEditorViewport: Clicking on Actor (LMB): BP_Distortion_Fragments_C (Frag Pickup8)
+[2020.01.27-20.25.13:398][974]Cmd: EDIT CUT
+[2020.01.27-20.25.13:409][974]LogEditorActor: Deleted Actor: BP_Distortion_Fragments_C
+[2020.01.27-20.25.13:464][974]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.01.27-20.25.13:464][974]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2020.01.27-20.25.52:024][559]LogEditorViewport: Clicking on Actor (LMB): BP_Starting_Point_C (BP_Starting_Point)
+[2020.01.27-20.27.02:628][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.27.09:776][297]LogSlate: Window 'Tutorial_Data_Tables' being destroyed
+[2020.01.27-20.27.11:117][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.28.31:513][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.31.44:918][240]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.01.27-20.31.45:310][240]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Time_Jail_Auto1C2F4F24D451A23C169F9D5A814D2D05B.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Autosaves/Game/StarterContent/Maps/Time_Jail_Auto1.umap'
+[2020.01.27-20.31.45:319][240]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Time_Jail' took 0.462
+[2020.01.27-20.31.45:319][240]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.462
+[2020.01.27-20.31.45:322][240]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Level_Tools/Data_Tables/Tutorial_Data_Tables] ([1] browsable assets)...
+[2020.01.27-20.31.45:323][240]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Level_Tools/Data_Tables/Tutorial_Data_Tables]
+[2020.01.27-20.31.45:367][240]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Tutorial_Data_Tables_Auto1B997336A4E66741C363974AE2DD60CE9.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Autosaves/Game/Blueprints/Level_Tools/Data_Tables/Tutorial_Data_Tables_Auto1.uasset'
+[2020.01.27-20.31.45:368][240]LogFileHelpers: Auto-saving content packages took 0.046
+[2020.01.27-20.32.52:433][268]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2020.01.27-20.32.52:500][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.01.27-20.32.52:843][268]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Time_Jail50CD8E36497F36916E59119C537A2134.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Time_Jail.umap'
+[2020.01.27-20.32.52:894][268]LogFileHelpers: Saving map 'Time_Jail' took 0.448
+[2020.01.27-20.32.52:922][268]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Tutorial_Data_Tables79C8318C472C710F22F754835D5CBACF.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Blueprints/Level_Tools/Data_Tables/Tutorial_Data_Tables.uasset'
+[2020.01.27-20.33.25:069][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.34.12:869][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Long Jump Landing Platform2)
+[2020.01.27-20.34.36:972][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.34.39:796][554]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.27-20.34.42:016][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Long Jump Landing Platform2)
+[2020.01.27-20.34.46:296][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.34.46:724][352]LogActorFactory: Actor Factory created Cube
+[2020.01.27-20.34.49:180][611]LogActorFactory: Actor Factory created Cube
+[2020.01.27-20.34.59:358][773]Cmd: EDIT CUT
+[2020.01.27-20.34.59:369][773]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.01.27-20.34.59:421][773]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2020.01.27-20.34.59:421][773]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2020.01.27-20.35.04:181][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.35.04:341][353]LogActor: Warning: BP_Colored_Floor_Switch_C /Engine/Transient.World_5:PersistentLevel.BP_Colored_Floor_Switch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.35.05:714][511]LogActor: Warning: BP_Single_Bounce_Bouncepad_C /Engine/Transient.World_6:PersistentLevel.BP_Single_Bounce_Bouncepad_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.35.05:720][511]LogActor: Warning: BP_BuildUp_Bounce_Bouncepad_Child_C /Engine/Transient.World_7:PersistentLevel.BP_BuildUp_Bounce_Bouncepad_Child_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.35.05:733][512]LogActor: Warning: BP_Block_Switch_Controller_01_C /Engine/Transient.World_8:PersistentLevel.BP_Block_Switch_Controller_01_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.35.24:532][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.35.24:635][467]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.35.24:662][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.35.24:662][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.35.24:663][467]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:35:24 AM)
+[2020.01.27-20.35.24:663][467]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.35.24:671][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007890s)
+[2020.01.27-20.35.24:672][467]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.35.24:672][467]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2020.01.27-20.35.24:672][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.009286s)
+[2020.01.27-20.35.24:731][467]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.01.27-20.35.24:749][467]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.35.24:769][467]LogInit: FAudioDevice initialized.
+[2020.01.27-20.35.24:778][467]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.35.24:781][467]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.35.24
+[2020.01.27-20.35.24:781][467]LogWorld: Bringing up level for play took: 0.002504
+[2020.01.27-20.35.24:781][467]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.01.27-20.35.24:785][467]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.35.24:785][467]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.35.24:787][467]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail 0.999
+[2020.01.27-20.35.24:787][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.35.34:816][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.35.34:817][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.35.34:817][667]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.35.34:817][667]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.35.34:834][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.35.34:834][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.35.34:890][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.35.34:895][667]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.01.27-20.35.34:917][668]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.01.27-20.35.51:896][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.36.16:142][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.36.46:092][682]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.27-20.36.54:806][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.27-20.37.06:378][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.37.34:679][136]LogEditorViewport: Clicking on Actor (LMB): BP_Standard_Moving_Platform_C (BP_Standard_Moving_Platform)
+[2020.01.27-20.37.54:623][497]LogEditorViewport: Clicking on Actor (LMB): BP_Starting_Point_C (BP_Starting_Point)
+[2020.01.27-20.38.12:036][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.38.12:121][551]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.38.12:149][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.38.12:149][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.38.12:149][551]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:38:12 AM)
+[2020.01.27-20.38.12:150][551]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.38.12:158][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008175s)
+[2020.01.27-20.38.12:159][551]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.38.12:159][551]LogPlayLevel: PIE: World Init took: (0.001292s)
+[2020.01.27-20.38.12:159][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.009701s)
+[2020.01.27-20.38.12:215][551]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.01.27-20.38.12:231][551]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.38.12:241][551]LogInit: FAudioDevice initialized.
+[2020.01.27-20.38.12:252][551]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.38.12:255][551]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.38.12
+[2020.01.27-20.38.12:255][551]LogWorld: Bringing up level for play took: 0.002568
+[2020.01.27-20.38.12:256][551]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.01.27-20.38.12:260][551]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.38.12:260][551]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.38.12:262][551]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail 0.475
+[2020.01.27-20.38.12:262][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.38.14:853][853]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.38.14:853][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.38.14:853][853]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.38.14:853][853]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.38.14:864][853]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.38.14:864][853]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.38.14:921][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.38.14:927][853]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.01.27-20.38.14:953][855]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.01.27-20.38.17:879][203]LogEditorViewport: Clicking on Actor (LMB): BP_Standard_Moving_Platform_C (BP_Standard_Moving_Platform)
+[2020.01.27-20.38.21:081][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.38.49:624][632]EditorErrors: New page: Actor attachment
+[2020.01.27-20.39.09:520][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.39.09:620][906]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.39.09:648][906]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.39.09:648][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.39.09:648][906]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:39:09 AM)
+[2020.01.27-20.39.09:649][906]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.39.09:656][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007301s)
+[2020.01.27-20.39.09:657][906]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.39.09:657][906]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2020.01.27-20.39.09:658][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.008622s)
+[2020.01.27-20.39.09:708][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.01.27-20.39.09:722][906]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.39.09:733][906]LogInit: FAudioDevice initialized.
+[2020.01.27-20.39.09:746][906]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.39.09:748][906]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.39.09
+[2020.01.27-20.39.09:749][906]LogWorld: Bringing up level for play took: 0.002521
+[2020.01.27-20.39.09:749][906]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.01.27-20.39.09:753][906]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.39.09:753][906]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.39.09:754][906]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.033
+[2020.01.27-20.39.09:754][906]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.39.21:909][361]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.39.21:910][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.39.21:910][361]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.39.21:910][361]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.39.21:923][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.39.21:923][361]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.39.21:976][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.39.21:981][361]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2020.01.27-20.39.22:022][363]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.01.27-20.39.23:314][518]LogEditorViewport: Clicking on Actor (LMB): BP_Standard_Moving_Platform_C (Segment platform 1)
+[2020.01.27-20.39.25:006][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.27-20.39.30:116][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.39.30:203][313]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.39.30:232][313]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.39.30:233][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.39.30:233][313]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:39:30 AM)
+[2020.01.27-20.39.30:233][313]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.39.30:240][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007118s)
+[2020.01.27-20.39.30:242][313]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.39.30:242][313]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2020.01.27-20.39.30:242][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.008470s)
+[2020.01.27-20.39.30:289][313]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.01.27-20.39.30:303][313]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.39.30:314][313]LogInit: FAudioDevice initialized.
+[2020.01.27-20.39.30:323][313]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.39.30:326][313]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.39.30
+[2020.01.27-20.39.30:327][313]LogWorld: Bringing up level for play took: 0.002532
+[2020.01.27-20.39.30:327][313]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.01.27-20.39.30:331][313]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.39.30:331][313]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.39.30:333][313]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail 0.545
+[2020.01.27-20.39.30:333][313]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.40.06:009][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.40.06:010][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.40.06:010][590]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.40.06:010][590]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.40.06:020][590]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.40.06:020][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.40.06:074][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.40.06:079][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.01.27-20.40.06:125][592]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.01.27-20.40.11:892][282]LogEditorViewport: Clicking on Actor (LMB): BP_Standard_Moving_Platform_C (Segment platform 1)
+[2020.01.27-20.40.18:819][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Long Jump Landing Platform2)
+[2020.01.27-20.40.22:032][454]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.01.27-20.40.28:172][150]LogEditorViewport: Clicking on Actor (LMB): BP_Standard_Moving_Platform_C (Segment platform 1)
+[2020.01.27-20.40.30:406][410]Cmd: DUPLICATE
+[2020.01.27-20.40.30:406][410]Cmd: ACTOR DUPLICATE
+[2020.01.27-20.40.45:329][109]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.27-20.40.51:399][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.41.04:598][343]LogEditorViewport: Clicking on Actor (LMB): BP_Standard_Moving_Platform_C (Segment platform 2)
+[2020.01.27-20.41.26:925][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.41.27:009][  8]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.41.27:037][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.41.27:037][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.41.27:037][  8]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:41:27 AM)
+[2020.01.27-20.41.27:038][  8]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.41.27:045][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007451s)
+[2020.01.27-20.41.27:046][  8]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.41.27:047][  8]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2020.01.27-20.41.27:047][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.008849s)
+[2020.01.27-20.41.27:103][  8]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.01.27-20.41.27:117][  8]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.41.27:128][  8]LogInit: FAudioDevice initialized.
+[2020.01.27-20.41.27:135][  8]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.41.27:138][  8]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.41.27
+[2020.01.27-20.41.27:139][  8]LogWorld: Bringing up level for play took: 0.002559
+[2020.01.27-20.41.27:139][  8]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.01.27-20.41.27:143][  8]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.41.27:143][  8]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.41.27:144][  8]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.643
+[2020.01.27-20.41.27:144][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.41.34:007][828]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.41.34:007][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.41.34:007][828]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.41.34:008][828]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.41.34:020][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.41.34:020][828]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.41.34:074][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.41.34:079][828]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.01.27-20.41.34:126][830]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.01.27-20.41.40:228][543]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.27-20.41.40:819][603]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.27-20.41.42:410][787]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.27-20.41.42:827][834]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2020.01.27-20.41.43:947][961]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2020.01.27-20.41.47:053][287]LogEditorViewport: Clicking on Actor (LMB): BP_DeathBounds_C (BP_DeathBounds2)
+[2020.01.27-20.41.51:978][858]Cmd: DUPLICATE
+[2020.01.27-20.41.51:978][858]Cmd: ACTOR DUPLICATE
+[2020.01.27-20.41.51:987][858]LogActor: Warning: BP_DeathBounds_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_DeathBounds2_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.42.15:726][606]LogEditorViewport: Clicking on Actor (LMB): BP_Standard_Moving_Platform_C (Segment platform 2)
+[2020.01.27-20.42.17:256][785]Cmd: DUPLICATE
+[2020.01.27-20.42.17:256][785]Cmd: ACTOR DUPLICATE
+[2020.01.27-20.42.42:727][732]LogEditorViewport: Clicking on Actor (LMB): BP_Standard_Moving_Platform_C (Segment platform 3)
+[2020.01.27-20.42.45:444][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.27-20.42.48:309][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.42.53:055][937]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.42.53:083][937]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.42.53:083][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.42.53:083][937]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:42:53 AM)
+[2020.01.27-20.42.53:084][937]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.42.53:091][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007280s)
+[2020.01.27-20.42.53:092][937]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.42.53:092][937]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2020.01.27-20.42.53:092][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.008598s)
+[2020.01.27-20.42.53:144][937]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.01.27-20.42.53:158][937]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.42.53:169][937]LogInit: FAudioDevice initialized.
+[2020.01.27-20.42.53:179][937]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.42.53:182][937]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.42.53
+[2020.01.27-20.42.53:182][937]LogWorld: Bringing up level for play took: 0.002598
+[2020.01.27-20.42.53:182][937]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.01.27-20.42.53:186][937]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.42.53:186][937]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.42.53:188][937]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.599
+[2020.01.27-20.42.53:188][937]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.03:171][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.03:171][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.43.03:171][126]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.43.03:172][126]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.43.03:182][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.43.03:182][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.03:238][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.43.03:243][126]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.01.27-20.43.03:288][128]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.01.27-20.43.10:897][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.43.10:972][ 50]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.43.11:000][ 50]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.11:000][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.43.11:000][ 50]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:43:11 AM)
+[2020.01.27-20.43.11:001][ 50]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.43.11:009][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007721s)
+[2020.01.27-20.43.11:010][ 50]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.43.11:010][ 50]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2020.01.27-20.43.11:010][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.009056s)
+[2020.01.27-20.43.11:064][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.01.27-20.43.11:078][ 50]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.43.11:089][ 50]LogInit: FAudioDevice initialized.
+[2020.01.27-20.43.11:100][ 50]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.43.11:105][ 50]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.43.11
+[2020.01.27-20.43.11:106][ 50]LogWorld: Bringing up level for play took: 0.004915
+[2020.01.27-20.43.11:106][ 50]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.01.27-20.43.11:110][ 50]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.43.11:110][ 50]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.43.11:112][ 50]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.676
+[2020.01.27-20.43.11:112][ 50]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.20:778][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.20:779][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.43.20:779][206]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.43.20:779][206]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.43.20:788][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.43.20:788][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.20:843][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.43.20:849][206]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2020.01.27-20.43.20:893][208]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.01.27-20.43.23:378][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.43.23:461][516]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.43.23:487][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.23:488][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.43.23:488][516]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:43:23 AM)
+[2020.01.27-20.43.23:488][516]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.43.23:497][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008337s)
+[2020.01.27-20.43.23:498][516]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.43.23:498][516]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2020.01.27-20.43.23:498][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.009806s)
+[2020.01.27-20.43.23:555][516]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.01.27-20.43.23:569][516]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.43.23:580][516]LogInit: FAudioDevice initialized.
+[2020.01.27-20.43.23:587][516]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.43.23:590][516]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.43.23
+[2020.01.27-20.43.23:591][516]LogWorld: Bringing up level for play took: 0.002645
+[2020.01.27-20.43.23:591][516]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.01.27-20.43.23:595][516]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.43.23:595][516]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.43.23:596][516]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.191
+[2020.01.27-20.43.23:596][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.52:853][ 23]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.52:853][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.43.52:853][ 23]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.43.52:854][ 23]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.43.52:863][ 23]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.43.52:863][ 23]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.43.52:921][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.43.52:927][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.01.27-20.43.52:973][ 25]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.01.27-20.44.08:263][859]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.27-20.44.16:735][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.44.21:862][389]Cmd: DUPLICATE
+[2020.01.27-20.44.21:862][389]Cmd: ACTOR DUPLICATE
+[2020.01.27-20.44.21:872][389]LogActor: Warning: BP_Checkpoint_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Checkpoint3_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.44.35:864][988]Cmd: DUPLICATE
+[2020.01.27-20.44.35:864][988]Cmd: ACTOR DUPLICATE
+[2020.01.27-20.44.35:874][988]LogActor: Warning: BP_Checkpoint_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Checkpoint4_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.44.56:068][354]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.27-20.45.05:848][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.45.34:963][731]Cmd: DUPLICATE
+[2020.01.27-20.45.34:963][731]Cmd: ACTOR DUPLICATE
+[2020.01.27-20.45.34:973][731]LogActor: Warning: BP_Checkpoint_C /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Checkpoint5_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.01.27-20.46.13:400][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.46.13:486][175]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.46.13:512][175]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.46.13:512][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.46.13:513][175]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:46:13 AM)
+[2020.01.27-20.46.13:513][175]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.46.13:522][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008731s)
+[2020.01.27-20.46.13:523][175]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.46.13:523][175]LogPlayLevel: PIE: World Init took: (0.001353s)
+[2020.01.27-20.46.13:524][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.010319s)
+[2020.01.27-20.46.13:571][175]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2020.01.27-20.46.13:588][175]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.46.13:600][175]LogInit: FAudioDevice initialized.
+[2020.01.27-20.46.13:609][175]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.46.13:612][175]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.46.13
+[2020.01.27-20.46.13:612][175]LogWorld: Bringing up level for play took: 0.003128
+[2020.01.27-20.46.13:613][175]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.01.27-20.46.13:617][175]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.46.13:617][175]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.46.13:618][175]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.169
+[2020.01.27-20.46.13:618][175]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.46.27:248][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.46.27:249][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.46.27:249][807]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.46.27:249][807]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.46.27:258][807]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.46.27:258][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.46.27:317][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.46.27:322][807]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.01.27-20.46.27:369][809]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.01.27-20.46.31:435][280]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.27-20.46.32:226][366]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.27-20.46.38:070][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.46.52:869][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.46.52:948][766]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.46.52:976][766]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.46.52:977][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.46.52:977][766]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:46:52 AM)
+[2020.01.27-20.46.52:977][766]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.46.52:985][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007342s)
+[2020.01.27-20.46.52:986][766]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.46.52:986][766]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2020.01.27-20.46.52:986][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.008726s)
+[2020.01.27-20.46.53:040][766]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.01.27-20.46.53:056][766]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.46.53:068][766]LogInit: FAudioDevice initialized.
+[2020.01.27-20.46.53:080][766]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.46.53:083][766]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.46.53
+[2020.01.27-20.46.53:084][766]LogWorld: Bringing up level for play took: 0.002635
+[2020.01.27-20.46.53:084][766]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.01.27-20.46.53:088][766]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.46.53:088][766]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.46.53:089][766]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.698
+[2020.01.27-20.46.53:089][766]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.47.30:219][212]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.47.30:219][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.47.30:219][212]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.47.30:219][212]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.47.30:230][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.47.30:231][212]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.47.30:290][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.47.30:296][212]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.01.27-20.47.30:317][213]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.01.27-20.48.02:606][ 56]LogEditorViewport: Clicking on Actor (LMB): BP_Standard_Moving_Platform_C (Segment platform 3)
+[2020.01.27-20.48.04:763][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.48.07:784][639]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.48.07:812][639]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.48.07:812][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.48.07:812][639]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:48:07 AM)
+[2020.01.27-20.48.07:812][639]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.48.07:820][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007719s)
+[2020.01.27-20.48.07:821][639]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.48.07:821][639]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2020.01.27-20.48.07:821][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.009055s)
+[2020.01.27-20.48.07:872][639]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.01.27-20.48.07:888][639]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.48.07:898][639]LogInit: FAudioDevice initialized.
+[2020.01.27-20.48.07:908][639]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.48.07:911][639]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.48.07
+[2020.01.27-20.48.07:911][639]LogWorld: Bringing up level for play took: 0.002612
+[2020.01.27-20.48.07:911][639]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.01.27-20.48.07:915][639]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.48.07:916][639]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.48.07:917][639]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail 0.13
+[2020.01.27-20.48.07:917][639]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.48.15:740][573]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.48.15:740][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.48.15:741][573]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.48.15:741][573]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.48.15:754][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.48.15:755][573]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.48.15:811][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.48.15:817][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.01.27-20.48.15:843][575]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.01.27-20.48.17:576][781]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-20.48.17:604][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.48.17:604][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-20.48.17:604][781]PIE: New page: PIE session: Time_Jail (Jan 27, 2020, 8:48:17 AM)
+[2020.01.27-20.48.17:604][781]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.48.17:612][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007527s)
+[2020.01.27-20.48.17:613][781]LogAIModule: Creating AISystem for world Time_Jail
+[2020.01.27-20.48.17:613][781]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2020.01.27-20.48.17:613][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Time_Jail.Time_Jail to /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail (0.008855s)
+[2020.01.27-20.48.17:667][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.01.27-20.48.17:681][781]LogInit: XAudio2 using 'Headphones (2- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.27-20.48.17:691][781]LogInit: FAudioDevice initialized.
+[2020.01.27-20.48.17:700][781]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.01.27-20.48.17:704][781]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.01.27-14.48.17
+[2020.01.27-20.48.17:704][781]LogWorld: Bringing up level for play took: 0.003465
+[2020.01.27-20.48.17:705][781]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.01.27-20.48.17:709][781]Cmd: DisableAllOnScreenMessages
+[2020.01.27-20.48.17:709][781]Command not recognized: DisableAllOnScreenMessages
+[2020.01.27-20.48.17:710][781]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail -0.077
+[2020.01.27-20.48.17:710][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.48.19:526][995]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.48.19:526][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.48.19:526][995]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.01.27-20.48.19:526][995]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-20.48.19:541][995]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-20.48.19:541][995]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail' with GeneratedClass '/Game/StarterContent/Maps/Time_Jail.Time_Jail_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.Time_Jail'
+[2020.01.27-20.48.19:600][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-20.48.19:606][995]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.01.27-20.48.19:632][997]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.01.27-20.48.40:040][412]LogAssetEditorManager: Opening Asset editor for Class /Script/Book_Project.Standard_Moving_Platform
+[2020.01.27-20.51.18:413][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-20.51.18:688][238]Candidate modules for hot reload:
+[2020.01.27-20.51.18:688][238]  Book_Project
+[2020.01.27-20.51.18:688][238]Launching UnrealBuildTool... [C:/UE_4_23/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,5954 Win64 Development -TargetType=Editor -Project="D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject" "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject"  -IgnoreJunk]
+[2020.01.27-20.51.18:691][238]Warning: Starting HotReload took  0.2s.
+[2020.01.27-20.51.47:116][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.01.27-20.51.47:487][597]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Time_Jail_Auto2898B51964B44EFF90780ABB00A254A2A.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Autosaves/Game/StarterContent/Maps/Time_Jail_Auto2.umap'
+[2020.01.27-20.51.47:494][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Time_Jail' took 0.428
+[2020.01.27-20.51.47:494][597]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.428
+[2020.01.27-20.52.28:746][529]CompilerResultsLog: New page: Compilation - Jan 27, 2020, 8:52:28 AM
+[2020.01.27-20.52.28:746][529]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork).
+[2020.01.27-20.52.28:746][529]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2020.01.27-20.52.28:746][529]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Book_Project.uproject" "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.27-20.52.28:746][529]CompilerResultsLog: Reflection code generated for Book_ProjectEditor in 26.75196 seconds
+[2020.01.27-20.52.28:746][529]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.01.27-20.52.28:746][529]CompilerResultsLog: Building 4 actions with 16 processes...
+[2020.01.27-20.52.28:746][529]CompilerResultsLog:   [1/4] Standard_Moving_Platform.cpp
+[2020.01.27-20.52.28:746][529]CompilerResultsLog:   [2/4] UE4Editor-Book_Project-5954.lib
+[2020.01.27-20.52.28:746][529]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5954.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5954.exp
+[2020.01.27-20.52.28:746][529]CompilerResultsLog:   [3/4] UE4Editor-Book_Project-5954.dll
+[2020.01.27-20.52.28:746][529]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5954.suppressed.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-5954.suppressed.exp
+[2020.01.27-20.52.28:746][529]CompilerResultsLog:   [4/4] Book_ProjectEditor.target
+[2020.01.27-20.52.28:746][529]CompilerResultsLog: Total time in Parallel executor: 40.03 seconds
+[2020.01.27-20.52.28:746][529]CompilerResultsLog: Total execution time: 69.95 seconds
+[2020.01.27-20.52.28:746][529]LogMainFrame: MainFrame: Module compiling took 70.062 seconds
+[2020.01.27-20.52.28:800][529]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2020.01.27-20.52.28:895][529]LogClass: ECharacterState HotReload.
+[2020.01.27-20.52.28:895][529]LogClass: ETextType HotReload.
+[2020.01.27-20.52.28:895][529]LogClass: EPickupType HotReload.
+[2020.01.27-20.52.28:895][529]LogClass: EInteractionType HotReload.
+[2020.01.27-20.52.28:895][529]LogClass: EProjectileType HotReload.
+[2020.01.27-20.52.28:895][529]LogClass: EDIRECTIONOFMOVEMENT HotReload.
+[2020.01.27-20.52.28:895][529]LogClass: ETurretType HotReload.
+[2020.01.27-20.52.28:895][529]LogClass: EBOUNCE_TYPE HotReload.
+[2020.01.27-20.52.28:913][529]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.01.27-20.52.29:092][529]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.179 s
+[2020.01.27-20.52.29:092][529]LogOutputDevice: Error: === Handled ensure: ===
+[2020.01.27-20.52.29:092][529]LogOutputDevice: Error: 
+[2020.01.27-20.52.29:092][529]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1136]
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: Unable to bind delegate to 'Teleport' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: Stack: 
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007fff1ca67311 UE4Editor-Book_Project-5954.dll!DispatchCheckVerify<bool,<lambda_2498fc5d6a3a630d3a964272300a8d53> >() [c:\ue_4_23\ue_4.23\engine\source\runtime\core\public\misc\assertionmacros.h:164]
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007fff1ca5782e UE4Editor-Book_Project-5954.dll!ATeleporter::ATeleporter() [d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\teleporter.cpp:20]
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffebaf14061 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffebaf0541a UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffebaf0c48d UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffebaf167d9 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffebaf16b64 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffebaf0f3d6 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffedf7bac0b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffedfac1be7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffedfaa2361 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffedf9d4fd5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffedece83d7 UE4Editor-Core.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffeded00ccb UE4Editor-Core.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffedecffe63 UE4Editor-Core.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffebaf0d5c3 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffebaf0b267 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffebaf0bc86 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffebaf1c48f UE4Editor-HotReload.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ffedea9382d UE4Editor-Core.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ff6f103a93e UE4Editor.exe!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ff6f104a91c UE4Editor.exe!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ff6f104a9fa UE4Editor.exe!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ff6f105b92c UE4Editor.exe!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007ff6f105e60e UE4Editor.exe!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007fff264d7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: [Callstack] 0x00007fff2730ced1 ntdll.dll!UnknownFunction []
+[2020.01.27-20.52.29:093][529]LogOutputDevice: Error: 
+[2020.01.27-20.52.29:095][529]LogStats:                SubmitErrorReport -  0.000 s

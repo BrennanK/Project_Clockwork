@@ -34,10 +34,12 @@ void AUI_Data_Holder::incrementD_FragCount(int valueOfFragment)
 void AUI_Data_Holder::incrementTA_FragCount()
 {
 	TA_Frag_Count++;
+	updateAbilityShardCount();
 }
 
 void AUI_Data_Holder::incrementLifeCount()
 {
 	Life_Obtained_Count++;
+	updateLifeCount();
 }
 

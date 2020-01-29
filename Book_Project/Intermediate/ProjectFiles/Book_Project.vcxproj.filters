@@ -195,4 +195,20 @@
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Book_Project\Collsion_Actor_Component.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\Second_Interactable_Object.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Book_Project\Collsion_Actor_Component.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\Second_Interactable_Object.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

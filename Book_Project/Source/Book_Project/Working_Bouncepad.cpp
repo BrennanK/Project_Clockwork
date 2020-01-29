@@ -47,29 +47,42 @@ void AWorking_Bouncepad::Collision(UPrimitiveComponent * OverlappedComp, AActor 
 	{
 		return;
 	}
+	AAvatar* player = Cast<AAvatar>(OtherActor);
+	switch (padType)
+	{
+		case EBOUNCE_TYPE::Single:
+			player->LaunchCharacter(FVector(0, 0, maxBounceHeight), true, true);
+			break;
 
-	AAvatar* player= Cast<AAvatar>(OtherActor);
-	if (player->timeFalling*bounceHeightPerSecondFalling < minBounceHeight)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Min Case"));
-		player->LaunchCharacter(FVector(0, 0, minBounceHeight), true, true);
-		player->isFalling = false;
-		player->timeFalling = 0.0f;
+		case EBOUNCE_TYPE::Build_Up:
+			if (player->timeFalling*bounceHeightPerSecondFalling < minBounceHeight)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Min Case"));
+				player->LaunchCharacter(FVector(0, 0, minBounceHeight), true, true);
+				player->isFalling = false;
+				player->timeFalling = 0.0f;
+			}
+			else if (player->timeFalling*bounceHeightPerSecondFalling > maxBounceHeight)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Max Case"));
+				player->LaunchCharacter(FVector(0, 0, maxBounceHeight), true, true);
+				player->isFalling = false;
+				player->timeFalling = 0.0f;
+			}
+			else
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Mid Case"));
+				player->LaunchCharacter(FVector(0, 0, player->timeFalling*bounceHeightPerSecondFalling), true, true);
+				player->isFalling = false;
+				player->timeFalling = 0.0f;
+			}
+			break;
+		default:
+			break;
 	}
-	else if (player->timeFalling*bounceHeightPerSecondFalling > maxBounceHeight)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Max Case"));
-		player->LaunchCharacter(FVector(0, 0, maxBounceHeight), true, true);
-		player->isFalling = false;
-		player->timeFalling = 0.0f;
-	}
-	else
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Mid Case"));
-		player->LaunchCharacter(FVector(0, 0, player->timeFalling*bounceHeightPerSecondFalling), true, true);
-		player->isFalling = false;
-		player->timeFalling = 0.0f;
-	}
+
+	
+	
 }
 
 void AWorking_Bouncepad::EndCollision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)

@@ -18,7 +18,8 @@ public:
 	TMap<FString, int> Backpack;
 	TMap<FString, UTexture2D*> Icons;
 	bool inventoryShowing;
-	ECharacterState currentState;
+	UPROPERTY(BlueprintReadWrite)
+		ECharacterState currentState;
 	/*Timer for Handling transport*/
 	FTimerHandle testTimer;
 	FTimerHandle railTimer;

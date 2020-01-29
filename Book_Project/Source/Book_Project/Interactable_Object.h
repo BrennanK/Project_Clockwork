@@ -45,4 +45,7 @@ public:
 
 	UFUNCTION()
 		void interactionAction(AAvatar* player);
+
+	UFUNCTION()
+		virtual void inheritanceExample();
 };
