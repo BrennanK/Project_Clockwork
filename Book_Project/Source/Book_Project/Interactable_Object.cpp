@@ -16,12 +16,12 @@ AInteractable_Object::AInteractable_Object()
 }
 AInteractable_Object::AInteractable_Object(const FObjectInitializer &ObjectInitializer): Super(ObjectInitializer)
 {
-	interBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Interaction Box"));
+	/*interBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Interaction Box"));
 	mesh= CreateDefaultSubobject<UStaticMeshComponent>(TEXT("mesh"));
 	mesh->AttachTo(RootComponent);
 	interBox->AttachTo(mesh);
 	interBox->OnComponentBeginOverlap.AddDynamic(this, &AInteractable_Object::Collision);
-	interBox->OnComponentEndOverlap.AddDynamic(this, &AInteractable_Object::EndCollision);
+	interBox->OnComponentEndOverlap.AddDynamic(this, &AInteractable_Object::EndCollision);*/
 }
 // Called when the game starts or when spawned
 void AInteractable_Object::BeginPlay()
@@ -43,6 +43,7 @@ void AInteractable_Object::Collision(UPrimitiveComponent * OverlappedComp, AActo
 	{
 		return;
 	}
+	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Orange, "Parent Collion via Child works");
 	AAvatar* player = Cast<AAvatar>(OtherActor);
 	player->currentState = ECharacterState::INTERACTABLE;
 	displayInteractionIcon();

@@ -18,11 +18,15 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AWorking_Bouncepad_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AWorking_Bouncepad();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AWorking_Bouncepad_changeCameraPerspective();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AWorking_Bouncepad_Collision();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AWorking_Bouncepad_EndCollision();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AWorking_Bouncepad_interActionCommand();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AWorking_Bouncepad_Move();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
@@ -78,14 +82,43 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		}
 		return ReturnEnum;
 	}
+	static FName NAME_AWorking_Bouncepad_changeCameraPerspective = FName(TEXT("changeCameraPerspective"));
+	void AWorking_Bouncepad::changeCameraPerspective()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AWorking_Bouncepad_changeCameraPerspective),NULL);
+	}
 	void AWorking_Bouncepad::StaticRegisterNativesAWorking_Bouncepad()
 	{
 		UClass* Class = AWorking_Bouncepad::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Collision", &AWorking_Bouncepad::execCollision },
 			{ "EndCollision", &AWorking_Bouncepad::execEndCollision },
+			{ "interActionCommand", &AWorking_Bouncepad::execinterActionCommand },
+			{ "Move", &AWorking_Bouncepad::execMove },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AWorking_Bouncepad_changeCameraPerspective_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AWorking_Bouncepad_changeCameraPerspective_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Working_Bouncepad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AWorking_Bouncepad_changeCameraPerspective_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AWorking_Bouncepad, nullptr, "changeCameraPerspective", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AWorking_Bouncepad_changeCameraPerspective_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AWorking_Bouncepad_changeCameraPerspective_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AWorking_Bouncepad_changeCameraPerspective()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AWorking_Bouncepad_changeCameraPerspective_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AWorking_Bouncepad_Collision_Statics
 	{
@@ -228,6 +261,50 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AWorking_Bouncepad_interActionCommand_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AWorking_Bouncepad_interActionCommand_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Working_Bouncepad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AWorking_Bouncepad_interActionCommand_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AWorking_Bouncepad, nullptr, "interActionCommand", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AWorking_Bouncepad_interActionCommand_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AWorking_Bouncepad_interActionCommand_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AWorking_Bouncepad_interActionCommand()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AWorking_Bouncepad_interActionCommand_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AWorking_Bouncepad_Move_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AWorking_Bouncepad_Move_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Working_Bouncepad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AWorking_Bouncepad_Move_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AWorking_Bouncepad, nullptr, "Move", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AWorking_Bouncepad_Move_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AWorking_Bouncepad_Move_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AWorking_Bouncepad_Move()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AWorking_Bouncepad_Move_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AWorking_Bouncepad_NoRegister()
 	{
 		return AWorking_Bouncepad::StaticClass();
@@ -239,6 +316,14 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_destination_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_destination;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_originalLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_originalLocation;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_padType_MetaData[];
 #endif
@@ -273,8 +358,11 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Book_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AWorking_Bouncepad_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AWorking_Bouncepad_changeCameraPerspective, "changeCameraPerspective" }, // 2371839183
 		{ &Z_Construct_UFunction_AWorking_Bouncepad_Collision, "Collision" }, // 1225327848
 		{ &Z_Construct_UFunction_AWorking_Bouncepad_EndCollision, "EndCollision" }, // 4022386431
+		{ &Z_Construct_UFunction_AWorking_Bouncepad_interActionCommand, "interActionCommand" }, // 2109214806
+		{ &Z_Construct_UFunction_AWorking_Bouncepad_Move, "Move" }, // 635300545
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::Class_MetaDataParams[] = {
@@ -283,6 +371,20 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_destination_MetaData[] = {
+		{ "Category", "Working_Bouncepad" },
+		{ "ModuleRelativePath", "Working_Bouncepad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_destination = { "destination", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorking_Bouncepad, destination), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_destination_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_destination_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_originalLocation_MetaData[] = {
+		{ "Category", "Bouncepad starting point" },
+		{ "ModuleRelativePath", "Working_Bouncepad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_originalLocation = { "originalLocation", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorking_Bouncepad, originalLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_originalLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_originalLocation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_padType_MetaData[] = {
 		{ "Category", "Type of Bounce_Pad" },
@@ -329,6 +431,8 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceBox = { "bounceBox", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorking_Bouncepad, bounceBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AWorking_Bouncepad_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_destination,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_originalLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_padType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_padType_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorking_Bouncepad_Statics::NewProp_bounceHeightPerSecondFalling,
@@ -364,7 +468,7 @@ void EmptyLinkFunctionForGeneratedCodeWorking_Bouncepad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AWorking_Bouncepad, 107323940);
+	IMPLEMENT_CLASS(AWorking_Bouncepad, 3542486898);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AWorking_Bouncepad>()
 	{
 		return AWorking_Bouncepad::StaticClass();

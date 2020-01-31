@@ -17,7 +17,7 @@ ATeleporter::ATeleporter(const FObjectInitializer& ObjectInitializer) : Super(Ob
 	collider->AttachTo(RootComponent);
 	collider->SetSphereRadius(100);
 	collider->SetHiddenInGame(true);
-	collider->OnComponentBeginOverlap.AddDynamic(this, &ATeleporter::Teleport);
+//	collider->OnComponentBeginOverlap.AddDynamic(this, &ATeleporter::Teleport);
 }
 
 // Called when the game starts or when spawned

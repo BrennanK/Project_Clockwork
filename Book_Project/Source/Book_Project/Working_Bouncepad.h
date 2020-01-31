@@ -16,6 +16,7 @@ public:
 	AWorking_Bouncepad();
 	AWorking_Bouncepad(const FObjectInitializer& ObjectInitializer);
 
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly,Category = "Components")
 		class UBoxComponent* bounceBox;
 
@@ -33,6 +34,16 @@ public:
 	
 	UPROPERTY(EditAnywhere, Category = "Type of Bounce_Pad")
 		EBOUNCE_TYPE padType;
+
+	float lerpAlpha;
+
+	UPROPERTY(VisibleAnywhere, Category="Bouncepad starting point")
+	FVector originalLocation;
+
+	UPROPERTY(EditAnywhere)
+		FVector destination;
+
+	FTimerHandle movementTimer;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -46,4 +57,13 @@ public:
 
 	UFUNCTION()
 		void EndCollision(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	UFUNCTION()
+		void interActionCommand();
+	
+	UFUNCTION()
+		void Move();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void changeCameraPerspective();
 };

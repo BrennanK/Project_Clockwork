@@ -16,11 +16,14 @@ public:
 	AInteractable_Object();
 	AInteractable_Object(const FObjectInitializer &ObjectInitializer);
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable Properties")
+	UPROPERTY(EditAnywhere, Category = "Actor to Spawn")
+		TArray<AActor*> ActorToInfluence;
+
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable Properties")
 		class UBoxComponent* interBox;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable Properties")
-		class UStaticMeshComponent* mesh;
+		class UStaticMeshComponent* mesh;*/
 
 	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Trial of Link")
 		class ADistortion_Fragments* frag;*/
@@ -44,7 +47,7 @@ public:
 		void hideInteractionIcon();
 
 	UFUNCTION()
-		void interactionAction(AAvatar* player);
+		virtual void interactionAction(AAvatar* player);
 
 	UFUNCTION()
 		virtual void inheritanceExample();

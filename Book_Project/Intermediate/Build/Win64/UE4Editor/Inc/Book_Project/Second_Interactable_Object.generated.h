@@ -54,7 +54,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASecond_Interactable_Object); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASecond_Interactable_Object); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASecond_Interactable_Object)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASecond_Interactable_Object)
 
 
 #define Book_Project_Source_Book_Project_Second_Interactable_Object_h_15_PRIVATE_PROPERTY_OFFSET

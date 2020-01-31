@@ -5,6 +5,7 @@
 #include "Avatar.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
+#include "TimerManager.h"
 
 // Sets default values
 AWorking_Bouncepad::AWorking_Bouncepad()
@@ -29,7 +30,7 @@ AWorking_Bouncepad::AWorking_Bouncepad(const FObjectInitializer& ObjectInitializ
 void AWorking_Bouncepad::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	originalLocation = GetActorLocation();
 }
 
 // Called every frame
@@ -94,5 +95,29 @@ void AWorking_Bouncepad::EndCollision(UPrimitiveComponent * OverlappedComp, AAct
 	}
 	AAvatar* player = Cast<AAvatar>(OtherActor);
 	player->isFalling = true;
+}
+
+void AWorking_Bouncepad::interActionCommand()
+{
+	GetWorldTimerManager().SetTimer(movementTimer, this, &AWorking_Bouncepad::Move, GetWorld()->GetDeltaSeconds(), true, 0.0f);
+}
+
+
+void AWorking_Bouncepad::Move()
+{
+	lerpAlpha += GetWorld()->GetDeltaSeconds();
+	lerpAlpha = FMath::Clamp(lerpAlpha, 0.f, 1.f);
+
+	FVector newLocation = FMath::Lerp(originalLocation, destination, lerpAlpha);
+	SetActorLocation(newLocation);
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of lerpAlpha is " + FString::SanitizeFloat(lerpAlpha));
+	if (lerpAlpha >= 1.f )
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 16.f, FColor::Black, "End of movement");
+		bounceBox->SetGenerateOverlapEvents(true);
+		//changeCameraPerspective();
+		GetWorldTimerManager().ClearTimer(movementTimer);
+		lerpAlpha = 0;
+	}
 }
 

@@ -28,8 +28,6 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AInteractable_Object_inheritanceExample();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AInteractable_Object_interactionAction();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
 	static UEnum* EInteractionType_StaticEnum()
 	{
@@ -333,7 +331,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 		{ "ModuleRelativePath", "Interactable_Object.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AInteractable_Object, nullptr, "interactionAction", nullptr, nullptr, sizeof(Interactable_Object_eventinteractionAction_Parms), Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AInteractable_Object, nullptr, "interactionAction", nullptr, nullptr, sizeof(Interactable_Object_eventinteractionAction_Parms), Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AInteractable_Object_interactionAction_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AInteractable_Object_interactionAction()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -355,13 +353,10 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_mesh_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActorToInfluence_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_mesh;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_interBox_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_interBox;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ActorToInfluence;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorToInfluence_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -376,7 +371,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 		{ &Z_Construct_UFunction_AInteractable_Object_EndCollision, "EndCollision" }, // 1157729316
 		{ &Z_Construct_UFunction_AInteractable_Object_hideInteractionIcon, "hideInteractionIcon" }, // 3649786819
 		{ &Z_Construct_UFunction_AInteractable_Object_inheritanceExample, "inheritanceExample" }, // 3124875737
-		{ &Z_Construct_UFunction_AInteractable_Object_interactionAction, "interactionAction" }, // 2884480597
+		{ &Z_Construct_UFunction_AInteractable_Object_interactionAction, "interactionAction" }, // 1668015609
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractable_Object_Statics::Class_MetaDataParams[] = {
@@ -386,24 +381,16 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractable_Object_Statics::NewProp_mesh_MetaData[] = {
-		{ "Category", "Interactable Properties" },
-		{ "EditInline", "true" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractable_Object_Statics::NewProp_ActorToInfluence_MetaData[] = {
+		{ "Category", "Actor to Spawn" },
 		{ "ModuleRelativePath", "Interactable_Object.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractable_Object_Statics::NewProp_mesh = { "mesh", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractable_Object, mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractable_Object_Statics::NewProp_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractable_Object_Statics::NewProp_mesh_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractable_Object_Statics::NewProp_interBox_MetaData[] = {
-		{ "Category", "Interactable Properties" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Interactable_Object.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractable_Object_Statics::NewProp_interBox = { "interBox", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractable_Object, interBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractable_Object_Statics::NewProp_interBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractable_Object_Statics::NewProp_interBox_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AInteractable_Object_Statics::NewProp_ActorToInfluence = { "ActorToInfluence", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractable_Object, ActorToInfluence), METADATA_PARAMS(Z_Construct_UClass_AInteractable_Object_Statics::NewProp_ActorToInfluence_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractable_Object_Statics::NewProp_ActorToInfluence_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractable_Object_Statics::NewProp_ActorToInfluence_Inner = { "ActorToInfluence", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AInteractable_Object_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractable_Object_Statics::NewProp_mesh,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractable_Object_Statics::NewProp_interBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractable_Object_Statics::NewProp_ActorToInfluence,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractable_Object_Statics::NewProp_ActorToInfluence_Inner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AInteractable_Object_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AInteractable_Object>::IsAbstract,
@@ -432,7 +419,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable_Object() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AInteractable_Object, 409590209);
+	IMPLEMENT_CLASS(AInteractable_Object, 1811319602);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AInteractable_Object>()
 	{
 		return AInteractable_Object::StaticClass();

@@ -18,6 +18,22 @@ struct FHitResult;
 
 #define Book_Project_Source_Book_Project_Working_Bouncepad_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execMove) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Move(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execinterActionCommand) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->interActionCommand(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execEndCollision) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
@@ -47,6 +63,22 @@ struct FHitResult;
 
 #define Book_Project_Source_Book_Project_Working_Bouncepad_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execMove) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Move(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execinterActionCommand) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->interActionCommand(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execEndCollision) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
@@ -74,6 +106,8 @@ struct FHitResult;
 	}
 
 
+#define Book_Project_Source_Book_Project_Working_Bouncepad_h_12_EVENT_PARMS
+#define Book_Project_Source_Book_Project_Working_Bouncepad_h_12_CALLBACK_WRAPPERS
 #define Book_Project_Source_Book_Project_Working_Bouncepad_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWorking_Bouncepad(); \
@@ -117,12 +151,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AWorking_Bouncepad); \
 
 
 #define Book_Project_Source_Book_Project_Working_Bouncepad_h_12_PRIVATE_PROPERTY_OFFSET
-#define Book_Project_Source_Book_Project_Working_Bouncepad_h_9_PROLOG
+#define Book_Project_Source_Book_Project_Working_Bouncepad_h_9_PROLOG \
+	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_EVENT_PARMS
+
+
 #define Book_Project_Source_Book_Project_Working_Bouncepad_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_RPC_WRAPPERS \
+	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_INCLASS \
 	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -134,6 +172,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_INCLASS_NO_PURE_DECLS \
 	Book_Project_Source_Book_Project_Working_Bouncepad_h_12_ENHANCED_CONSTRUCTORS \
 private: \
