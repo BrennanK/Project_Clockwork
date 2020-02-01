@@ -26,7 +26,6 @@ void AStarting_Point::BeginPlay()
 	PController=GetWorld()->GetFirstPlayerController();
 	if (PController == nullptr)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Could not find controller."));
 		return;
 	}
 	PController->SetControlRotation(GetActorRotation());

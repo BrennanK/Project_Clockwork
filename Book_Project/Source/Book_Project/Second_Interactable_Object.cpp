@@ -25,12 +25,12 @@ ASecond_Interactable_Object::ASecond_Interactable_Object(const FObjectInitialize
 
 void ASecond_Interactable_Object::BeginPlay()
 {
-	inheritanceExample();
+	
 }
 
 void ASecond_Interactable_Object::inheritanceExample()
 {
-	GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Orange,"THE CHILD OVERRIDE WAS SUCCESSFUL");
+	//GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Orange,"THE CHILD OVERRIDE WAS SUCCESSFUL");
 }
 
 void ASecond_Interactable_Object::interactionAction(AAvatar * player)

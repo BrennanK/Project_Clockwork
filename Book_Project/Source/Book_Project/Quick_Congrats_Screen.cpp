@@ -4,6 +4,7 @@
 #include "Quick_Congrats_Screen.h"
 #include "Components/BoxComponent.h"
 #include "Engine/Engine.h"
+#include "Avatar.h"
 
 // Sets default values
 AQuick_Congrats_Screen::AQuick_Congrats_Screen()
@@ -36,6 +37,7 @@ void AQuick_Congrats_Screen::Tick(float DeltaTime)
 
 void AQuick_Congrats_Screen::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
+	Cast<AAvatar>(OtherActor)->currentState = ECharacterState::DEAD;
 	showCongrats();
 }
 

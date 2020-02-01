@@ -36,8 +36,7 @@ void ACollission_Text::Tick(float DeltaTime)
 }
 
 void ACollission_Text::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
-{
-	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "We are colliding with a text box");
+{	
 	if (Cast<AAvatar>(OtherActor) == nullptr)
 	{
 		return;
@@ -50,7 +49,6 @@ void ACollission_Text::Collision(UPrimitiveComponent * OverlappedComp, AActor * 
 
 void ACollission_Text::EndCollision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Our collision with Text box has ended");
 	HideTutorialText();
 }
 

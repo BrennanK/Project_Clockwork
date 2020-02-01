@@ -42,7 +42,6 @@ void AWorking_Bouncepad::Tick(float DeltaTime)
 
 void AWorking_Bouncepad::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are bouncing"));
 
 	if (Cast <AAvatar>(OtherActor) == nullptr)
 	{
@@ -58,21 +57,18 @@ void AWorking_Bouncepad::Collision(UPrimitiveComponent * OverlappedComp, AActor 
 		case EBOUNCE_TYPE::Build_Up:
 			if (player->timeFalling*bounceHeightPerSecondFalling < minBounceHeight)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Min Case"));
 				player->LaunchCharacter(FVector(0, 0, minBounceHeight), true, true);
 				player->isFalling = false;
 				player->timeFalling = 0.0f;
 			}
 			else if (player->timeFalling*bounceHeightPerSecondFalling > maxBounceHeight)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Max Case"));
 				player->LaunchCharacter(FVector(0, 0, maxBounceHeight), true, true);
 				player->isFalling = false;
 				player->timeFalling = 0.0f;
 			}
 			else
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Mid Case"));
 				player->LaunchCharacter(FVector(0, 0, player->timeFalling*bounceHeightPerSecondFalling), true, true);
 				player->isFalling = false;
 				player->timeFalling = 0.0f;
@@ -88,7 +84,6 @@ void AWorking_Bouncepad::Collision(UPrimitiveComponent * OverlappedComp, AActor 
 
 void AWorking_Bouncepad::EndCollision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BOUNCE END"));
 	if (Cast <AAvatar>(OtherActor) == nullptr)
 	{
 		return;
@@ -113,7 +108,6 @@ void AWorking_Bouncepad::Move()
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of lerpAlpha is " + FString::SanitizeFloat(lerpAlpha));
 	if (lerpAlpha >= 1.f )
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 16.f, FColor::Black, "End of movement");
 		bounceBox->SetGenerateOverlapEvents(true);
 		//changeCameraPerspective();
 		GetWorldTimerManager().ClearTimer(movementTimer);

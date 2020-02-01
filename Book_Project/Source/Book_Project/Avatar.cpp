@@ -327,7 +327,6 @@ void AAvatar::startCrouching()
 		if (GetCharacterMovement()->IsMovingOnGround())
 		{
 			isCrouching = true;
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are crouching"));
 		}
 		break;
 
@@ -344,7 +343,6 @@ void AAvatar::stopCrouching()
 	switch (currentState)
 	{
 	case ECharacterState::NORMAL:
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are NOT crouching"));
 		isCrouching = false;
 		break;
 
@@ -380,7 +378,7 @@ void AAvatar::transition()
 	distance=FMath::Clamp(distance, 0.f, 1.f);
 	FVector newLocation=FMath::Lerp(GetActorLocation(), locationToGoTo, distance);
 	SetActorLocation(newLocation);
-	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
+	
 	if (distance >= 1.f || GetActorLocation().Equals(locationToGoTo,0.0f))
 	{
 		
@@ -424,7 +422,7 @@ void AAvatar::grind() // method for grinding along the rail
 	distance += percentOfMovement/100;
 	distance = FMath::Clamp(distance, 0.f, 1.f);
 
-	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
+	
 
 	// Obtains full length of spline
 	float fullLength = ourSpline->GetSplineLength();
@@ -462,7 +460,6 @@ void AAvatar::grind() // method for grinding along the rail
 }
 void AAvatar::MinusHealth(float damageTaken)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Subtract health is being called"));
 	currentHealth -= damageTaken;
 	callWheelChange();
 }
@@ -477,33 +474,32 @@ void AAvatar::Jump() // method used to allow the player character to jump
 	switch (currentState)
 	{
 	case ECharacterState::NORMAL:
+
+		// Segment to determine whether it is a High Jump or a Long Jump
 		if (isCrouching == true && numberOfAlternateJumps == 0)
 		{
-			if (FMath::Abs(GetCharacterMovement()->Velocity.X) > 400 || FMath::Abs(GetCharacterMovement()->Velocity.Y) > 400)
+			if (FMath::Abs(GetCharacterMovement()->Velocity.X) > 400 || FMath::Abs(GetCharacterMovement()->Velocity.Y) > 400) // Long Jump segment
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a  long jump"));
 				const FRotator Rotation = capsuleA->GetComponentRotation();//Controller->GetControlRotation();
 				const FRotator YawRotation(0, Rotation.Yaw, 0);
 
-				// get right vector 
+				
 				const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 
 				ACharacter::LaunchCharacter(FVector(Direction.X*longJumpVelocityXY, Direction.Y*longJumpVelocityXY, longJumpHeight), false, true);
 				numberOfAlternateJumps++;
 			}
-			else
+			else // High Jump Segment
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a High Jump"));
 				ACharacter::LaunchCharacter(FVector(0, 0, highJumpHeight), false, true);
 				numberOfAlternateJumps++;
 			}
 
 		}
 
-		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a jump"));
+		// Regular Jump/Double Jump segment
 		if (numberOfJumps < 2 && numberOfAlternateJumps == 0)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is a jump"));
 			ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
 			numberOfJumps++;
 		}

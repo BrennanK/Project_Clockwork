@@ -16,12 +16,7 @@ AInteractable_Object::AInteractable_Object()
 }
 AInteractable_Object::AInteractable_Object(const FObjectInitializer &ObjectInitializer): Super(ObjectInitializer)
 {
-	/*interBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Interaction Box"));
-	mesh= CreateDefaultSubobject<UStaticMeshComponent>(TEXT("mesh"));
-	mesh->AttachTo(RootComponent);
-	interBox->AttachTo(mesh);
-	interBox->OnComponentBeginOverlap.AddDynamic(this, &AInteractable_Object::Collision);
-	interBox->OnComponentEndOverlap.AddDynamic(this, &AInteractable_Object::EndCollision);*/
+	
 }
 // Called when the game starts or when spawned
 void AInteractable_Object::BeginPlay()
@@ -43,7 +38,6 @@ void AInteractable_Object::Collision(UPrimitiveComponent * OverlappedComp, AActo
 	{
 		return;
 	}
-	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Orange, "Parent Collion via Child works");
 	AAvatar* player = Cast<AAvatar>(OtherActor);
 	player->currentState = ECharacterState::INTERACTABLE;
 	displayInteractionIcon();
@@ -58,12 +52,11 @@ void AInteractable_Object::EndCollision(UPrimitiveComponent * OverlappedComp, AA
 
 void AInteractable_Object::interactionAction(AAvatar* player)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Orange, "Congrats Our Interaction Works");
 	player->currentState = ECharacterState::INTERACTABLE;
 }
 
 void AInteractable_Object::inheritanceExample()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Orange, "Congrats Our Parent says hello");
+
 }
 

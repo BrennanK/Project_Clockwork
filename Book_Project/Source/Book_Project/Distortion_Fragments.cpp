@@ -44,7 +44,6 @@ void ADistortion_Fragments::Tick(float DeltaTime)
 
 void ADistortion_Fragments::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "You collected a distortion");
 
 	if (Cast<AAvatar>(OtherActor) == nullptr)
 	{
@@ -63,7 +62,7 @@ void ADistortion_Fragments::Collision(UPrimitiveComponent * OverlappedComp, AAct
 	case EPickupType::Lives:
 		UI_Data_Container->incrementLifeCount();
 	}
-	//UI_Data_Container->incrementD_FragCount(fragmentValue);
+
 	Destroy();
 }
 

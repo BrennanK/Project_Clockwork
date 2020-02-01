@@ -33,20 +33,26 @@ void AProjectile::BeginPlay()
 	Super::BeginPlay();
 	player= Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
 	GetWorldTimerManager().SetTimer(moveTimer,this,&AProjectile::moveForward,callSpeed,true,0.0f);
-	//FVector forward = GetActorForwardVector();
-	//SetActorLocation(GetActorLocation() + forward);
-	//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "The forward vector for this actor is: " + FString("(") + FString::SanitizeFloat(forward.X) + FString(" , ") + FString::SanitizeFloat(forward.Y) + FString(" , ") + FString::SanitizeFloat(forward.Z) + FString(")"));
+	life = 0.f;
+	
 }
 
 void AProjectile::moveForward()
 {
-	//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "MOVE FORWARD IS BEING CALLED ");
 	FVector forward;
 	switch (typeOfProjectile)
 	{
 		case EProjectileType::Standard:
 			forward = GetActorForwardVector();
-			SetActorLocation(GetActorLocation() + forward);
+			SetActorLocation(GetActorLocation() + (forward * speed));
+
+			life += callSpeed;
+
+			if (life >= lifeTime)
+			{
+				GetWorldTimerManager().ClearTimer(moveTimer);
+				Destroy();
+			}
 			break;
 		
 		case EProjectileType::Tracking:
@@ -54,6 +60,15 @@ void AProjectile::moveForward()
 			SetActorRotation(lookAtPlayer);
 			forward = GetActorForwardVector();
 			SetActorLocation(GetActorLocation() + forward*amountToMove);
+			
+			life += callSpeed;
+
+			if (life >= lifeTime)
+			{
+				GetWorldTimerManager().ClearTimer(moveTimer);
+				Destroy();
+			}
+			break;
 	}
 }
 
@@ -65,7 +80,6 @@ void AProjectile::Collision(UPrimitiveComponent * OverlappedComp, AActor * Other
 	}
 	if (player == nullptr)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "The forward vector for this actor is: " );
 		return;
 	}
 	player->MinusHealth(damage);
@@ -77,9 +91,5 @@ void AProjectile::Collision(UPrimitiveComponent * OverlappedComp, AActor * Other
 void AProjectile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "Update is being called. ");
-	//FRotator lookAtPlayer = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), player->GetActorLocation());
-	////GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Emerald, "The forward vector for this actor is: " + FString("(") + FString::SanitizeFloat(lookAtPlayer.Vector.X) + FString(" , ") + FString::SanitizeFloat(lookAtPlayer.Vector.Y) + FString(" , ") + FString::SanitizeFloat(lookAtPlayer.Vector.Z) + FString(")"));
-	//SetActorRotation(lookAtPlayer);
 }
 

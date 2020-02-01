@@ -39,24 +39,19 @@ void ADeathBounds::Tick(float DeltaTime)
 
 void ADeathBounds::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "DIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
 	if (Cast<AAvatar>(OtherActor)==nullptr)
 	{
 		return;
 	}
 
-	
-	//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "2222222222222222222222222222222222222");
 	gameInstance = Cast<UMyGameInstance>(GetWorld()->GetGameInstance());
 	
 	if (gameInstance==nullptr)
 	{
 		return;
 	}
-	//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "3333333333333333333333333333333333");
+	
 	AAvatar* player=Cast<AAvatar>(OtherActor);
-
-	//player->GetRootComponent()->ComponentVelocity = FVector(0, 0, 0);
 
 	player->SetActorLocation(gameInstance->Location);
 
@@ -67,7 +62,6 @@ void ADeathBounds::Collision(UPrimitiveComponent * OverlappedComp, AActor * Othe
 
 	if (PController == nullptr)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Could not find controller."));
 		return;
 	}
 	PController->SetControlRotation(gameInstance->Rotation);

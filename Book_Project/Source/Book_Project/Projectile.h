@@ -34,6 +34,14 @@ public:
 		float damage;
 
 	class AAvatar* player;
+
+	UPROPERTY(EditAnywhere, Category = "Projectile Variables")
+		float speed;
+
+	UPROPERTY(EditAnywhere, Category = "Projectile Variables")
+		float lifeTime;
+
+	float life;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

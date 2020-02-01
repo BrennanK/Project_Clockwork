@@ -38,7 +38,6 @@ void AColored_Floor_Switch::Tick(float DeltaTime)
 
 void AColored_Floor_Switch::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Floor Pad is colliding with something"));
 
 	if (Cast <AAvatar>(OtherActor) == nullptr)
 	{
