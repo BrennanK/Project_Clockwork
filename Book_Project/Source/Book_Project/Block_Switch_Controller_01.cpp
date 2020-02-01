@@ -26,7 +26,7 @@ void ABlock_Switch_Controller_01::BeginPlay()
 {
 	Super::BeginPlay();
 	numberOfGreenSwitches = 0;
-	
+	originalLocation = GetActorLocation();
 	for (int i=0;i<switches.Num();i++)
 	{
 		switches[i]->switchManager = this;
@@ -62,7 +62,7 @@ void ABlock_Switch_Controller_01::lerpTheDoor()
 	distance += GetWorld()->GetDeltaSeconds()/secondsToTransition;
 	//distance = FMath::Clamp(distance, 0.f, 1.f);
 
-	FVector newLocation = FMath::Lerp(GetActorLocation(), Destination, distance);
+	FVector newLocation = FMath::Lerp(originalLocation, Destination, distance);
 	SetActorLocation(newLocation);
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
 	if (distance >= 1.f || GetActorLocation().Equals(Destination, 0.0f))

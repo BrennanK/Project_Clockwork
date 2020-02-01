@@ -7,6 +7,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "MyGameInstance.h"
 #include "Engine/Engine.h"
+#include "UI_Data_Holder.h"
 
 // Sets default values
 ADeathBounds::ADeathBounds()
@@ -55,10 +56,13 @@ void ADeathBounds::Collision(UPrimitiveComponent * OverlappedComp, AActor * Othe
 	//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "3333333333333333333333333333333333");
 	AAvatar* player=Cast<AAvatar>(OtherActor);
 
+	//player->GetRootComponent()->ComponentVelocity = FVector(0, 0, 0);
+
 	player->SetActorLocation(gameInstance->Location);
 
 	player->SetActorRotation(gameInstance->Rotation);
 
+	player->GetRootComponent()->ComponentVelocity = FVector(0, 0, 0);
 	APlayerController* PController = GetWorld()->GetFirstPlayerController();
 
 	if (PController == nullptr)
@@ -67,4 +71,7 @@ void ADeathBounds::Collision(UPrimitiveComponent * OverlappedComp, AActor * Othe
 		return;
 	}
 	PController->SetControlRotation(gameInstance->Rotation);
+
+	AUI_Data_Holder* UI_Data_Container = Cast<AUI_Data_Holder>(UGameplayStatics::GetActorOfClass(GetWorld(), AUI_Data_Holder::StaticClass()));
+	UI_Data_Container->decrementLifeCount();
 }

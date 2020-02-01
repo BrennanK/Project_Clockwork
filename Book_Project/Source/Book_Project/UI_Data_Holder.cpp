@@ -43,3 +43,9 @@ void AUI_Data_Holder::incrementLifeCount()
 	updateLifeCount();
 }
 
+void AUI_Data_Holder::decrementLifeCount()
+{
+	Life_Obtained_Count--;
+	updateLifeCount();
+}
+

@@ -117,6 +117,10 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timeToTransitionCamera_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_timeToTransitionCamera;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cameraMan_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cameraMan;
@@ -162,6 +166,13 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_timeToTransitionCamera_MetaData[] = {
+		{ "Category", "Time for the Camera to Lerp" },
+		{ "ModuleRelativePath", "Block_Switch_Controller_01.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_timeToTransitionCamera = { "timeToTransitionCamera", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABlock_Switch_Controller_01, timeToTransitionCamera), METADATA_PARAMS(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_timeToTransitionCamera_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_timeToTransitionCamera_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_cameraMan_MetaData[] = {
 		{ "Category", "Camera for View" },
 		{ "ModuleRelativePath", "Block_Switch_Controller_01.h" },
@@ -206,6 +217,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door = { "door", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABlock_Switch_Controller_01, door), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_timeToTransitionCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_cameraMan,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_secondsToTransition,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_Destination,
@@ -241,7 +253,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABlock_Switch_Controller_01, 3346899611);
+	IMPLEMENT_CLASS(ABlock_Switch_Controller_01, 2351489716);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ABlock_Switch_Controller_01>()
 	{
 		return ABlock_Switch_Controller_01::StaticClass();

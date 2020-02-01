@@ -22,7 +22,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collectible Properties")
 		class UStaticMeshComponent* Mesh;
 
-	UPROPERTY(EditANywhere, Category = "Distortion Fragment Value")
+	UPROPERTY(EditANywhere,BlueprintReadOnly,Category = "Distortion Fragment Value")
 		int fragmentValue;
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite)

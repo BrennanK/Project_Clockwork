@@ -44,6 +44,7 @@ public:
 	void incrementD_FragCount(int valueOfFragment);
 	void incrementTA_FragCount();
 	void incrementLifeCount();
+	void decrementLifeCount();
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void updateFragmentCount(int shardWorth);
@@ -54,8 +55,8 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 		void updateLifeCount();
 	
-	UFUNCTION(BlueprintImplementableEvent)
-		void decrementLifeCount();
+	/*UFUNCTION(BlueprintImplementableEvent)
+		void decrementLifeCount();*/
 
 
 };

@@ -17,16 +17,10 @@ void EmptyLinkFunctionForGeneratedCodeUI_Data_Holder() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AUI_Data_Holder();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Book_Project();
-	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AUI_Data_Holder_decrementLifeCount();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AUI_Data_Holder_updateAbilityShardCount();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AUI_Data_Holder_updateFragmentCount();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AUI_Data_Holder_updateLifeCount();
 // End Cross Module References
-	static FName NAME_AUI_Data_Holder_decrementLifeCount = FName(TEXT("decrementLifeCount"));
-	void AUI_Data_Holder::decrementLifeCount()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_AUI_Data_Holder_decrementLifeCount),NULL);
-	}
 	static FName NAME_AUI_Data_Holder_updateAbilityShardCount = FName(TEXT("updateAbilityShardCount"));
 	void AUI_Data_Holder::updateAbilityShardCount()
 	{
@@ -46,28 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeUI_Data_Holder() {}
 	}
 	void AUI_Data_Holder::StaticRegisterNativesAUI_Data_Holder()
 	{
-	}
-	struct Z_Construct_UFunction_AUI_Data_Holder_decrementLifeCount_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AUI_Data_Holder_decrementLifeCount_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "UI_Data_Holder.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AUI_Data_Holder_decrementLifeCount_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AUI_Data_Holder, nullptr, "decrementLifeCount", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AUI_Data_Holder_decrementLifeCount_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AUI_Data_Holder_decrementLifeCount_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AUI_Data_Holder_decrementLifeCount()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUI_Data_Holder_decrementLifeCount_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AUI_Data_Holder_updateAbilityShardCount_Statics
 	{
@@ -185,7 +157,6 @@ void EmptyLinkFunctionForGeneratedCodeUI_Data_Holder() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Book_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AUI_Data_Holder_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AUI_Data_Holder_decrementLifeCount, "decrementLifeCount" }, // 1126584224
 		{ &Z_Construct_UFunction_AUI_Data_Holder_updateAbilityShardCount, "updateAbilityShardCount" }, // 3481528861
 		{ &Z_Construct_UFunction_AUI_Data_Holder_updateFragmentCount, "updateFragmentCount" }, // 2797364582
 		{ &Z_Construct_UFunction_AUI_Data_Holder_updateLifeCount, "updateLifeCount" }, // 3957342567
@@ -273,7 +244,7 @@ void EmptyLinkFunctionForGeneratedCodeUI_Data_Holder() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUI_Data_Holder, 3197166146);
+	IMPLEMENT_CLASS(AUI_Data_Holder, 4037100005);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AUI_Data_Holder>()
 	{
 		return AUI_Data_Holder::StaticClass();

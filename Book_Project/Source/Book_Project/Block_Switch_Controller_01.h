@@ -37,8 +37,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Camera for View")
 		AActor* cameraMan;
 
-	
-	float distance;
+		float distance;
+
+		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Time for the Camera to Lerp")
+			float timeToTransitionCamera;
+
+		FVector originalLocation;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

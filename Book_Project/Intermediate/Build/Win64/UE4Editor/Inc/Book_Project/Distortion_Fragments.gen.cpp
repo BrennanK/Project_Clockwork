@@ -240,7 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeDistortion_Fragments() {}
 		{ "ModuleRelativePath", "Distortion_Fragments.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_fragmentValue = { "fragmentValue", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADistortion_Fragments, fragmentValue), METADATA_PARAMS(Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_fragmentValue_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_fragmentValue_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_fragmentValue = { "fragmentValue", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADistortion_Fragments, fragmentValue), METADATA_PARAMS(Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_fragmentValue_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_fragmentValue_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADistortion_Fragments_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "Collectible Properties" },
@@ -292,7 +292,7 @@ void EmptyLinkFunctionForGeneratedCodeDistortion_Fragments() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADistortion_Fragments, 1755950523);
+	IMPLEMENT_CLASS(ADistortion_Fragments, 2560373637);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ADistortion_Fragments>()
 	{
 		return ADistortion_Fragments::StaticClass();
