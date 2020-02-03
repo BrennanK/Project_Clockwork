@@ -13,66 +13,12 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStandard_Moving_Platform() {}
 // Cross Module References
-	BOOK_PROJECT_API UEnum* Z_Construct_UEnum_Book_Project_EDIRECTIONOFMOVEMENT();
-	UPackage* Z_Construct_UPackage__Script_Book_Project();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AStandard_Moving_Platform_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AStandard_Moving_Platform();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	UPackage* Z_Construct_UPackage__Script_Book_Project();
+	BOOK_PROJECT_API UEnum* Z_Construct_UEnum_Book_Project_EDIRECTIONOFMOVEMENT();
 // End Cross Module References
-	static UEnum* EDIRECTIONOFMOVEMENT_StaticEnum()
-	{
-		static UEnum* Singleton = nullptr;
-		if (!Singleton)
-		{
-			Singleton = GetStaticEnum(Z_Construct_UEnum_Book_Project_EDIRECTIONOFMOVEMENT, Z_Construct_UPackage__Script_Book_Project(), TEXT("EDIRECTIONOFMOVEMENT"));
-		}
-		return Singleton;
-	}
-	template<> BOOK_PROJECT_API UEnum* StaticEnum<EDIRECTIONOFMOVEMENT>()
-	{
-		return EDIRECTIONOFMOVEMENT_StaticEnum();
-	}
-	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EDIRECTIONOFMOVEMENT(EDIRECTIONOFMOVEMENT_StaticEnum, TEXT("/Script/Book_Project"), TEXT("EDIRECTIONOFMOVEMENT"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Book_Project_EDIRECTIONOFMOVEMENT_Hash() { return 979772663U; }
-	UEnum* Z_Construct_UEnum_Book_Project_EDIRECTIONOFMOVEMENT()
-	{
-#if WITH_HOT_RELOAD
-		UPackage* Outer = Z_Construct_UPackage__Script_Book_Project();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EDIRECTIONOFMOVEMENT"), 0, Get_Z_Construct_UEnum_Book_Project_EDIRECTIONOFMOVEMENT_Hash(), false);
-#else
-		static UEnum* ReturnEnum = nullptr;
-#endif // WITH_HOT_RELOAD
-		if (!ReturnEnum)
-		{
-			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
-				{ "EDIRECTIONOFMOVEMENT::X", (int64)EDIRECTIONOFMOVEMENT::X },
-				{ "EDIRECTIONOFMOVEMENT::Y", (int64)EDIRECTIONOFMOVEMENT::Y },
-				{ "EDIRECTIONOFMOVEMENT::Z", (int64)EDIRECTIONOFMOVEMENT::Z },
-			};
-#if WITH_METADATA
-			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
-				{ "ModuleRelativePath", "Standard_Moving_Platform.h" },
-				{ "X.Name", "EDIRECTIONOFMOVEMENT::X" },
-				{ "Y.Name", "EDIRECTIONOFMOVEMENT::Y" },
-				{ "Z.Name", "EDIRECTIONOFMOVEMENT::Z" },
-			};
-#endif
-			static const UE4CodeGen_Private::FEnumParams EnumParams = {
-				(UObject*(*)())Z_Construct_UPackage__Script_Book_Project,
-				nullptr,
-				"EDIRECTIONOFMOVEMENT",
-				"EDIRECTIONOFMOVEMENT",
-				Enumerators,
-				ARRAY_COUNT(Enumerators),
-				RF_Public|RF_Transient|RF_MarkAsNative,
-				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				(uint8)UEnum::ECppForm::EnumClass,
-				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
-			};
-			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
-		}
-		return ReturnEnum;
-	}
 	void AStandard_Moving_Platform::StaticRegisterNativesAStandard_Moving_Platform()
 	{
 	}
@@ -109,8 +55,10 @@ void EmptyLinkFunctionForGeneratedCodeStandard_Moving_Platform() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStandard_Moving_Platform_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "//UENUM() enum class EDIRECTIONOFMOVEMENT : uint8 { X,Y,Z };\n" },
 		{ "IncludePath", "Standard_Moving_Platform.h" },
 		{ "ModuleRelativePath", "Standard_Moving_Platform.h" },
+		{ "ToolTip", "UENUM() enum class EDIRECTIONOFMOVEMENT : uint8 { X,Y,Z };" },
 	};
 #endif
 #if WITH_METADATA
@@ -168,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeStandard_Moving_Platform() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStandard_Moving_Platform, 2615343869);
+	IMPLEMENT_CLASS(AStandard_Moving_Platform, 281080051);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AStandard_Moving_Platform>()
 	{
 		return AStandard_Moving_Platform::StaticClass();

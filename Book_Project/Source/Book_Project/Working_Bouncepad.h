@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Working_Bouncepad.generated.h"
-UENUM() enum class EBOUNCE_TYPE:uint8 {Single,Build_Up};
+//UENUM() enum class EBOUNCE_TYPE:uint8 {Single,Build_Up};
 UCLASS()
 class BOOK_PROJECT_API AWorking_Bouncepad : public AActor
 {
@@ -32,8 +32,8 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Bounce Variables")
 		float bounceHeightPerSecondFalling;
 	
-	UPROPERTY(EditAnywhere, Category = "Type of Bounce_Pad")
-		EBOUNCE_TYPE padType;
+	//UPROPERTY(EditAnywhere, Category = "Type of Bounce_Pad")
+		//EBOUNCE_TYPE padType;
 
 	float lerpAlpha;
 
@@ -52,17 +52,17 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UFUNCTION()
-	void Collision(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	//UFUNCTION()
+	//void Collision(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
-	UFUNCTION()
-		void EndCollision(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	//UFUNCTION()
+	//	void EndCollision(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-	UFUNCTION()
-		void interActionCommand();
-	
-	UFUNCTION()
-		void Move();
+	////UFUNCTION()
+	//	virtual void interActionCommand();
+	//
+	////UFUNCTION()
+	//	virtual void Move();
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void changeCameraPerspective();

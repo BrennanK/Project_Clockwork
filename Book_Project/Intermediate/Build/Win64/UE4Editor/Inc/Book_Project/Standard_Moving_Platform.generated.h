@@ -87,12 +87,4 @@ template<> BOOK_PROJECT_API UClass* StaticClass<class AStandard_Moving_Platform>
 #define CURRENT_FILE_ID Book_Project_Source_Book_Project_Standard_Moving_Platform_h
 
 
-#define FOREACH_ENUM_EDIRECTIONOFMOVEMENT(op) \
-	op(EDIRECTIONOFMOVEMENT::X) \
-	op(EDIRECTIONOFMOVEMENT::Y) \
-	op(EDIRECTIONOFMOVEMENT::Z) 
-
-enum class EDIRECTIONOFMOVEMENT : uint8;
-template<> BOOK_PROJECT_API UEnum* StaticEnum<EDIRECTIONOFMOVEMENT>();
-
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

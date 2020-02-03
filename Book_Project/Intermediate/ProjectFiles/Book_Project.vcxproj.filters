@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Book_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C553110E-CE7B-4B1A-94FF-9D967DAEEC1A}</UniqueIdentifier>
+      <UniqueIdentifier>{F7BC7975-F694-444B-9294-49341F57DB6A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Book_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{36BD14F3-E53A-492B-BD0A-209FA027EC8A}</UniqueIdentifier>
+      <UniqueIdentifier>{CAF7D3EB-0893-46F4-A14A-9BA82C9AA5B8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Book_Project">
-      <UniqueIdentifier>{6FCF6B24-BE52-43DC-9321-F21ABDF47CF8}</UniqueIdentifier>
+      <UniqueIdentifier>{BF0ABB27-B95A-4B04-A3EE-B5435F2F4351}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Book_Project\Avatar.cpp">
       <Filter>Source\Book_Project</Filter>
@@ -104,6 +104,18 @@
     <ClInclude Include="..\..\Source\Book_Project\Interactable_Object.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Large_Spinning_Object.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Large_Spinning_Object.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Manipulable_Object.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Manipulable_Object.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Message_UserDefinedStruct.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
@@ -114,6 +126,18 @@
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Book_Project\MyGameInstance.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\NewBounce_Pad.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\NewBounce_Pad.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\NewStandardMoving_Platform.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\NewStandardMoving_Platform.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\NPC.cpp">

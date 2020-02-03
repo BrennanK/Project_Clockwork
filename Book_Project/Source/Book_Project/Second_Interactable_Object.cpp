@@ -7,7 +7,7 @@
 #include "Engine/Engine.h"
 #include "Avatar.h"
 #include "Working_Bouncepad.h"
-
+#include "Manipulable_Object.h"
 ASecond_Interactable_Object::ASecond_Interactable_Object()
 {
 
@@ -37,6 +37,6 @@ void ASecond_Interactable_Object::interactionAction(AAvatar * player)
 {
 	for (int i = 0; i < ActorToInfluence.Num(); i++)
 	{
-		Cast<AWorking_Bouncepad>(ActorToInfluence[i])->interActionCommand();
+		Cast<AManipulable_Object>(ActorToInfluence[i])->interActionCommand();
 	}
 }

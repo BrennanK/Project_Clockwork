@@ -25,59 +25,59 @@ void AStandard_Moving_Platform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	FVector Location = GetActorLocation();
-	switch (direction)
-	{
-	case EDIRECTIONOFMOVEMENT::X :
-		
-		if (Location.X >= originalX + rangeOfMovement)
-		{
-			amountToMove *= -1;
-		}
-		else if (Location.X <= originalX - rangeOfMovement)
-		{
-			amountToMove *= -1;
-		}
-		
-			SetActorLocation(FVector(Location.X + amountToMove, Location.Y, Location.Z));
-		
+	//FVector Location = GetActorLocation();
+	//switch (direction)
+	//{
+	//case EDIRECTIONOFMOVEMENT::X :
+	//	
+	//	if (Location.X >= originalX + rangeOfMovement)
+	//	{
+	//		amountToMove *= -1;
+	//	}
+	//	else if (Location.X <= originalX - rangeOfMovement)
+	//	{
+	//		amountToMove *= -1;
+	//	}
+	//	
+	//		SetActorLocation(FVector(Location.X + amountToMove, Location.Y, Location.Z));
+	//	
 
-		break;
+	//	break;
 
-	case EDIRECTIONOFMOVEMENT::Y:
-		
-		if (Location.Y >= originalY + rangeOfMovement)
-		{
-			amountToMove *= -1;
-			SetActorLocation(FVector(Location.X, Location.Y + amountToMove, Location.Z));
-		}
-		else if (Location.Y <= originalY - rangeOfMovement)
-		{
-			amountToMove *= -1;
-			//
-			//SetActorLocation(FVector(Location.X, Location.Y + amountToMove, Location.Z));  
-			
-		}
-		
-			SetActorLocation(FVector(Location.X, Location.Y + amountToMove, Location.Z));
-		
+	//case EDIRECTIONOFMOVEMENT::Y:
+	//	
+	//	if (Location.Y >= originalY + rangeOfMovement)
+	//	{
+	//		amountToMove *= -1;
+	//		SetActorLocation(FVector(Location.X, Location.Y + amountToMove, Location.Z));
+	//	}
+	//	else if (Location.Y <= originalY - rangeOfMovement)
+	//	{
+	//		amountToMove *= -1;
+	//		//
+	//		//SetActorLocation(FVector(Location.X, Location.Y + amountToMove, Location.Z));  
+	//		
+	//	}
+	//	
+	//		SetActorLocation(FVector(Location.X, Location.Y + amountToMove, Location.Z));
+	//	
 
-		break;
-	case EDIRECTIONOFMOVEMENT::Z:
-		
-		if (Location.Z >= originalZ + rangeOfMovement)
-		{
-			amountToMove *= -1;
-		}
-		else if (Location.Z <= originalZ - rangeOfMovement)
-		{
-			amountToMove *= -1;
-		}
-		
-			SetActorLocation(FVector(Location.X, Location.Y, Location.Z + amountToMove));
+	//	break;
+	//case EDIRECTIONOFMOVEMENT::Z:
+	//	
+	//	if (Location.Z >= originalZ + rangeOfMovement)
+	//	{
+	//		amountToMove *= -1;
+	//	}
+	//	else if (Location.Z <= originalZ - rangeOfMovement)
+	//	{
+	//		amountToMove *= -1;
+	//	}
+	//	
+	//		SetActorLocation(FVector(Location.X, Location.Y, Location.Z + amountToMove));
 
-		break;
-	default:
-		break;
-	}
+	//	break;
+	//default:
+	//	break;
+	//}
 }

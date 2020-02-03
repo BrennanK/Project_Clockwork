@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Standard_Moving_Platform.generated.h"
-UENUM() enum class EDIRECTIONOFMOVEMENT : uint8 { X,Y,Z };
+//UENUM() enum class EDIRECTIONOFMOVEMENT : uint8 { X,Y,Z };
 UCLASS()
 class BOOK_PROJECT_API AStandard_Moving_Platform : public AActor
 {
