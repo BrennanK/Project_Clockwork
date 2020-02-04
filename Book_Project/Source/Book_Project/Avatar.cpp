@@ -18,6 +18,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Collission_Text.h"
 #include "Interactable_Object.h"
+#include "Components/SplineComponent.h"
 
 // Sets default values
 AAvatar::AAvatar()
@@ -61,6 +62,20 @@ void AAvatar::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActo
 	if (Cast<AInteractable_Object>(OtherActor) != nullptr)
 	{
 		interactable = Cast<AInteractable_Object>(OtherActor);
+	}
+
+	
+	if (OtherActor->FindComponentByClass<USplineComponent>())
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 4.f, FColor::Orange, "We have detected the spline component");
+
+		if (isGrinding == false)
+		{
+			ourSpline = OtherActor->FindComponentByClass<USplineComponent>();
+			isGrinding = true;
+			beginGrind();
+		}
+		
 	}
 }
 
@@ -453,7 +468,7 @@ void AAvatar::grind() // method for grinding along the rail
 		distance = 0;
 		
 		// Launch Character in Air ,reset usage Pawn Controller, and Grind Boolean
-		ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
+		ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), true, true);
 		cameraBoom->bUsePawnControlRotation = true;
 		isGrinding = false;
 	}

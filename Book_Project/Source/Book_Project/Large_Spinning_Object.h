@@ -20,7 +20,10 @@ class BOOK_PROJECT_API ALarge_Spinning_Object : public AManipulable_Object
 		UPROPERTY(EditAnywhere, Category="Rotation Properties")
 		float rateOfRotation;
 
-		UPROPERTY(EditAnywhere, Category = "Rotation Properties")
+		
+			float originalRotationRate;
+
+		UPROPERTY(EditAnywhere,BlueprintReadOnly, Category = "Rotation Properties")
 			float amountToRotate;
 
 		UPROPERTY(EditAnywhere, Category = "Rotation Properties")

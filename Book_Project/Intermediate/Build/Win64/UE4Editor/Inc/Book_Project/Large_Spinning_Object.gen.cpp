@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeLarge_Spinning_Object() {}
 		{ "ModuleRelativePath", "Large_Spinning_Object.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALarge_Spinning_Object_Statics::NewProp_amountToRotate = { "amountToRotate", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALarge_Spinning_Object, amountToRotate), METADATA_PARAMS(Z_Construct_UClass_ALarge_Spinning_Object_Statics::NewProp_amountToRotate_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALarge_Spinning_Object_Statics::NewProp_amountToRotate_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALarge_Spinning_Object_Statics::NewProp_amountToRotate = { "amountToRotate", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALarge_Spinning_Object, amountToRotate), METADATA_PARAMS(Z_Construct_UClass_ALarge_Spinning_Object_Statics::NewProp_amountToRotate_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALarge_Spinning_Object_Statics::NewProp_amountToRotate_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALarge_Spinning_Object_Statics::NewProp_rateOfRotation_MetaData[] = {
 		{ "Category", "Rotation Properties" },
@@ -111,7 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeLarge_Spinning_Object() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALarge_Spinning_Object, 1848893797);
+	IMPLEMENT_CLASS(ALarge_Spinning_Object, 1018133772);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ALarge_Spinning_Object>()
 	{
 		return ALarge_Spinning_Object::StaticClass();
