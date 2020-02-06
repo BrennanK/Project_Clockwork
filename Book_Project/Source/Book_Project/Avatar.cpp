@@ -19,6 +19,7 @@
 #include "Collission_Text.h"
 #include "Interactable_Object.h"
 #include "Components/SplineComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AAvatar::AAvatar()
@@ -451,13 +452,14 @@ void AAvatar::grind() // method for grinding along the rail
 	
 	// Method used to set location and rotation of actor along spline, offset of 100 is used for distance of skeleton center from rail
 	SetActorLocationAndRotation(FVector(newestLocation.X,newestLocation.Y,newestLocation.Z+75.f), newestRotation);
-	
+	//APlayerController* PController = GetWorld()->GetFirstPlayerController();
+	//PController->SetControlRotation(ourSpline->GetRotationAtDistanceAlongSpline(distance, ESplineCoordinateSpace::World));
+
 	// Clears the timer in order stop grinding and adds a hop off for our character
 	if (distance >= 1.f)
 	{
 		// Get reference to plyer controller to reset rotation
-		AController* controller = GetController();
-		controller->SetControlRotation(ourSpline->GetRotationAtDistanceAlongSpline(distance, ESplineCoordinateSpace::World));
+		//PController->SetControlRotation(ourSpline->GetRotationAtDistanceAlongSpline(distance, ESplineCoordinateSpace::World));
 		
 		
 		// Reset Gravity Scale before Jump Off
@@ -468,8 +470,10 @@ void AAvatar::grind() // method for grinding along the rail
 		distance = 0;
 		
 		// Launch Character in Air ,reset usage Pawn Controller, and Grind Boolean
-		ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), true, true);
+		ACharacter::LaunchCharacter((GetActorForwardVector()*200) + FVector(0, 0, JumpHeight), true, true);
 		cameraBoom->bUsePawnControlRotation = true;
+		AController* controller = GetController();
+		controller->SetControlRotation(GetActorRotation());
 		isGrinding = false;
 	}
 }
