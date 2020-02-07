@@ -159,4 +159,7 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)  // making use of macro for implementing a method in Blueprints
 		void showCollectables();
+
+	UFUNCTION(BlueprintImplementableEvent)  // making use of macro for implementing a method in Blueprints
+		void changeTimePowers();
 };

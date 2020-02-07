@@ -125,7 +125,7 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) /
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AAvatar::startCrouching);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AAvatar::stopCrouching);
 	PlayerInputComponent->BindAction("Check Collectables", IE_Pressed, this, &AAvatar::showCollectables);
-
+	PlayerInputComponent->BindAction("Change Time Powers", IE_Pressed, this, &AAvatar::changeTimePowers);
 	//PlayerInputComponent->BindAction("Subtract Health", IE_Pressed, this, &AAvatar::MinusHealth);
 	//PlayerInputComponent->BindAction("Crouch", IE_Repeat, this, &AAvatar::repeatCrouching);
 	//Touch Control bound

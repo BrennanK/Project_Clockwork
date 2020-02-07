@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_beginGrind();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callWheelChange();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeTimePowers();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Collision();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -100,6 +101,11 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AAvatar_callWheelChange),NULL);
 	}
+	static FName NAME_AAvatar_changeTimePowers = FName(TEXT("changeTimePowers"));
+	void AAvatar::changeTimePowers()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_changeTimePowers),NULL);
+	}
 	static FName NAME_AAvatar_enableAndDisableCollision = FName(TEXT("enableAndDisableCollision"));
 	void AAvatar::enableAndDisableCollision()
 	{
@@ -162,6 +168,30 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_callWheelChange_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_changeTimePowers_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_changeTimePowers_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// making use of macro for implementing a method in Blueprints\n" },
+		{ "ModuleRelativePath", "Avatar.h" },
+		{ "ToolTip", "making use of macro for implementing a method in Blueprints" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_changeTimePowers_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "changeTimePowers", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_changeTimePowers_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_changeTimePowers_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_changeTimePowers()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_changeTimePowers_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -469,6 +499,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAvatar_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AAvatar_beginGrind, "beginGrind" }, // 1691124014
 		{ &Z_Construct_UFunction_AAvatar_callWheelChange, "callWheelChange" }, // 1327484095
+		{ &Z_Construct_UFunction_AAvatar_changeTimePowers, "changeTimePowers" }, // 500874639
 		{ &Z_Construct_UFunction_AAvatar_Collision, "Collision" }, // 2207561626
 		{ &Z_Construct_UFunction_AAvatar_enableAndDisableCollision, "enableAndDisableCollision" }, // 323744738
 		{ &Z_Construct_UFunction_AAvatar_Falling, "Falling" }, // 2666488954
@@ -702,7 +733,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 739218583);
+	IMPLEMENT_CLASS(AAvatar, 2184478257);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();
