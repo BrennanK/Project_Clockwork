@@ -20,6 +20,7 @@
 #include "Interactable_Object.h"
 #include "Components/SplineComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "Grindable_Rail.h"
 
 // Sets default values
 AAvatar::AAvatar()
@@ -73,8 +74,12 @@ void AAvatar::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActo
 		if (isGrinding == false)
 		{
 			ourSpline = OtherActor->FindComponentByClass<USplineComponent>();
-			isGrinding = true;
-			beginGrind();
+			if (Cast<AGrindable_Rail>(OtherActor))
+			{
+				isGrinding = true;
+				timeToGrind = Cast<AGrindable_Rail>(OtherActor)->secondsToSpendOnRail;
+				beginGrind();
+			}
 		}
 		
 	}
@@ -126,7 +131,7 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) /
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AAvatar::stopCrouching);
 	PlayerInputComponent->BindAction("Check Collectables", IE_Pressed, this, &AAvatar::showCollectables);
 	PlayerInputComponent->BindAction("Change Time Powers", IE_Pressed, this, &AAvatar::changeTimePowers);
-	//PlayerInputComponent->BindAction("Subtract Health", IE_Pressed, this, &AAvatar::MinusHealth);
+	PlayerInputComponent->BindAction("Subtract Health", IE_Pressed, this, &AAvatar::MinusEnergy);
 	//PlayerInputComponent->BindAction("Crouch", IE_Repeat, this, &AAvatar::repeatCrouching);
 	//Touch Control bound
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AAvatar::TouchStarted);
@@ -435,7 +440,8 @@ void AAvatar::grind() // method for grinding along the rail
 {
 	// Adds a value between 0 and 1 to a float in order to assist calculating how far along the spline we should be
 	// Also clamps the value so we do not go over 1 for our linear interpolation
-	distance += percentOfMovement/100;
+	//distance += percentOfMovement/100;
+	distance += (GetWorld()->GetDeltaSeconds()) / timeToGrind;
 	distance = FMath::Clamp(distance, 0.f, 1.f);
 
 	
@@ -483,6 +489,13 @@ void AAvatar::MinusHealth(float damageTaken)
 	callWheelChange();
 }
 
+void AAvatar::MinusEnergy()
+{
+	float energyUsed = 5.f;
+	currentEnergy -= energyUsed;
+	callEnergyBarChange();
+}
+
 #pragma endregion CHaracter_Grinding
 
 #pragma region Jump
@@ -519,7 +532,14 @@ void AAvatar::Jump() // method used to allow the player character to jump
 		// Regular Jump/Double Jump segment
 		if (numberOfJumps < 2 && numberOfAlternateJumps == 0)
 		{
-			ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
+			if (numberOfJumps == 0)
+			{
+				ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), true, false);
+			}
+			else
+			{
+				ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), true, false);
+			}
 			numberOfJumps++;
 		}
 		break;

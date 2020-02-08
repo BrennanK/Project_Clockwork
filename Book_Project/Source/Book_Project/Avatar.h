@@ -75,11 +75,20 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grind Variables")
 		float percentOfMovement;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grind Variables")
+		float timeToGrind;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Avatar Health Variables")
 		float currentHealth;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Avatar Health Variables")
 		float maxHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Avatar Energy Variables")
+		float currentEnergy;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Avatar Energy Variables")
+		float maxEnergy;
 
 	UPROPERTY()
 		class ACollission_Text* textCollider;
@@ -152,7 +161,13 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void callWheelChange();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void callEnergyBarChange();
+
 	void MinusHealth(float damageTaken);
+
+	void MinusEnergy();
 
 	UFUNCTION()
 		void Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);

@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_beginGrind();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callEnergyBarChange();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callWheelChange();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeTimePowers();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Collision();
@@ -96,6 +97,11 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return ReturnEnum;
 	}
+	static FName NAME_AAvatar_callEnergyBarChange = FName(TEXT("callEnergyBarChange"));
+	void AAvatar::callEnergyBarChange()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_callEnergyBarChange),NULL);
+	}
 	static FName NAME_AAvatar_callWheelChange = FName(TEXT("callWheelChange"));
 	void AAvatar::callWheelChange()
 	{
@@ -146,6 +152,28 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_beginGrind_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_callEnergyBarChange_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_callEnergyBarChange_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_callEnergyBarChange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "callEnergyBarChange", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_callEnergyBarChange_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_callEnergyBarChange_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_callEnergyBarChange()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_callEnergyBarChange_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -410,6 +438,14 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_textCollider;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxEnergy_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxEnergy;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentEnergy_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_currentEnergy;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxHealth_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxHealth;
@@ -417,6 +453,10 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentHealth_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_currentHealth;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timeToGrind_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_timeToGrind;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_percentOfMovement_MetaData[];
 #endif
@@ -498,6 +538,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAvatar_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AAvatar_beginGrind, "beginGrind" }, // 1691124014
+		{ &Z_Construct_UFunction_AAvatar_callEnergyBarChange, "callEnergyBarChange" }, // 4154856328
 		{ &Z_Construct_UFunction_AAvatar_callWheelChange, "callWheelChange" }, // 1327484095
 		{ &Z_Construct_UFunction_AAvatar_changeTimePowers, "changeTimePowers" }, // 500874639
 		{ &Z_Construct_UFunction_AAvatar_Collision, "Collision" }, // 2207561626
@@ -534,6 +575,20 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider = { "textCollider", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, textCollider), Z_Construct_UClass_ACollission_Text_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_maxEnergy_MetaData[] = {
+		{ "Category", "Avatar Energy Variables" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_maxEnergy = { "maxEnergy", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, maxEnergy), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_maxEnergy_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_maxEnergy_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_currentEnergy_MetaData[] = {
+		{ "Category", "Avatar Energy Variables" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_currentEnergy = { "currentEnergy", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, currentEnergy), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_currentEnergy_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_currentEnergy_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_maxHealth_MetaData[] = {
 		{ "Category", "Avatar Health Variables" },
 		{ "ModuleRelativePath", "Avatar.h" },
@@ -547,6 +602,13 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_currentHealth = { "currentHealth", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, currentHealth), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_currentHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_currentHealth_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_timeToGrind_MetaData[] = {
+		{ "Category", "Grind Variables" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_timeToGrind = { "timeToGrind", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, timeToGrind), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_timeToGrind_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_timeToGrind_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_percentOfMovement_MetaData[] = {
 		{ "Category", "Grind Variables" },
@@ -685,8 +747,11 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_interactable,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_maxEnergy,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_currentEnergy,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_maxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_currentHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_timeToGrind,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_percentOfMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_isGrinding,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_ourSpline,
@@ -733,7 +798,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 2184478257);
+	IMPLEMENT_CLASS(AAvatar, 3294116937);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();

@@ -10,6 +10,8 @@
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Colored_Floor_Switch.gen.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/DeathBounds.gen.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Distortion_Fragments.gen.cpp"
+#include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Energy_Restorer.gen.cpp"
+#include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Grindable_Rail.gen.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Interactable_Object.gen.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Large_Spinning_Object.gen.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Manipulable_Object.gen.cpp"

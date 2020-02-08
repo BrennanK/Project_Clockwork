@@ -1,0 +1,27 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "Grindable_Rail.generated.h"
+
+UCLASS()
+class BOOK_PROJECT_API AGrindable_Rail : public AActor
+{
+	GENERATED_BODY()
+	
+public:	
+	// Sets default values for this actor's properties
+	AGrindable_Rail();
+	UPROPERTY(EditAnywhere,Category="Rail Variables")
+		float secondsToSpendOnRail;
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+};
