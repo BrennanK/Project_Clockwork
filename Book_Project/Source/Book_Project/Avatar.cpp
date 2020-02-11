@@ -506,7 +506,7 @@ void AAvatar::Jump() // method used to allow the player character to jump
 	switch (currentState)
 	{
 	case ECharacterState::NORMAL:
-
+	
 		// Segment to determine whether it is a High Jump or a Long Jump
 		if (isCrouching == true && numberOfAlternateJumps == 0)
 		{
@@ -532,13 +532,18 @@ void AAvatar::Jump() // method used to allow the player character to jump
 		// Regular Jump/Double Jump segment
 		if (numberOfJumps < 2 && numberOfAlternateJumps == 0)
 		{
+			const FRotator Rotation = capsuleA->GetComponentRotation();//Controller->GetControlRotation();
+			const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+
+			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 			if (numberOfJumps == 0)
 			{
-				ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), true, false);
+				ACharacter::LaunchCharacter(FVector(Direction.X*600, Direction.Y*600, JumpHeight), true, true);
 			}
 			else
 			{
-				ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), true, false);
+				ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
 			}
 			numberOfJumps++;
 		}
