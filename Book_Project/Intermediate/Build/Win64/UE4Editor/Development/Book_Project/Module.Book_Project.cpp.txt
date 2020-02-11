@@ -719,6 +719,13 @@ D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clo
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Large_Spinning_Object.cpp
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Large_Spinning_Object.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Large_Spinning_Object.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Lock_On_Actor.cpp
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Lock_On_Actor.h
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Lock_On_Actor.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+c:\ue_4_23\ue_4.23\engine\source\runtime\engine\classes\kismet\KismetMathLibrary.inl
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Manipulable_Object.cpp
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Message_UserDefinedStruct.cpp
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Message_UserDefinedStruct.h
@@ -740,10 +747,6 @@ D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clo
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Projectile.cpp
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Projectile.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Projectile.generated.h
-C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
-C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
-C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
-c:\ue_4_23\ue_4.23\engine\source\runtime\engine\classes\kismet\KismetMathLibrary.inl
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Quick_Congrats_Screen.cpp
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Quick_Congrats_Screen.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Quick_Congrats_Screen.generated.h

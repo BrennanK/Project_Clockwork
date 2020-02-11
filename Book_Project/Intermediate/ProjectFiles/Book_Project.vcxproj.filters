@@ -238,12 +238,18 @@
     <ClInclude Include="..\..\Source\Book_Project\Grindable_Rail.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\Lock_On_Actor.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Book_Project\Energy_Restorer.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Book_Project\Grindable_Rail.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\Lock_On_Actor.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
   </ItemGroup>
