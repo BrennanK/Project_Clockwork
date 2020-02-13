@@ -22,19 +22,29 @@ void ALock_On_Actor::BeginPlay()
 
 void ALock_On_Actor::Tick(float DeltaTime)
 {
-	FVector playerLocation = player->GetActorLocation();
-	FVector lockTargetLocation = GetActorLocation();
-
-	FVector distanceBetween = lockTargetLocation - playerLocation;
-
-	float insertIntoRange = FMath::Sqrt(FMath::Square(distanceBetween.X) + FMath::Square(distanceBetween.Y) + FMath::Square(distanceBetween.Z));
-
-	normalizedDistance=UKismetMathLibrary::NormalizeToRange(insertIntoRange, 0, rangeInVectorUnits);
-
-	//GEngine->AddOnScreenDebugMessage(-1, 3.f, FColor::Green, "The value of the normalizedDistance is " + FString::SanitizeFloat(normalizedDistance));
-
-	if (normalizedDistance <= closenessRange)
+	if (player->isLockedOn == false)
 	{
-		LockOn();
+		FVector playerLocation = player->GetActorLocation();
+		FVector lockTargetLocation = GetActorLocation();
+
+		FVector distanceBetween = lockTargetLocation - playerLocation;
+
+		float insertIntoRange = FMath::Sqrt(FMath::Square(distanceBetween.X) + FMath::Square(distanceBetween.Y) + FMath::Square(distanceBetween.Z));
+
+		normalizedDistance = UKismetMathLibrary::NormalizeToRange(insertIntoRange, 0, rangeInVectorUnits);
+
+		//GEngine->AddOnScreenDebugMessage(-1, 3.f, FColor::Green, "The value of the normalizedDistance is " + FString::SanitizeFloat(normalizedDistance));
+
+		if (normalizedDistance <= closenessRange && normalizedDistance > turnOffRange)
+		{
+			LockOn();
+			player->playerTarget = this;
+		}
+
+		if (normalizedDistance <= turnOffRange || normalizedDistance > 1.0)
+		{
+			LockOff();
+			player->playerTarget = nullptr;
+		}
 	}
 }

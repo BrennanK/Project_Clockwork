@@ -58,6 +58,14 @@ C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Gameplay
 C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Grindable_Rail.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Grindable_Rail.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Lock_On_Actor.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Manipulable_Object.h
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Manipulable_Object.generated.h
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Lock_On_Actor.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+c:\ue_4_23\ue_4.23\engine\source\runtime\engine\classes\kismet\KismetMathLibrary.inl
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Block_Switch_Controller_01.cpp
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Block_Switch_Controller_01.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Colored_Floor_Switch.h
@@ -711,8 +719,6 @@ d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clo
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Distortion_Fragments.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Energy_Restorer.cpp
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Energy_Restorer.h
-d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Manipulable_Object.h
-D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Manipulable_Object.generated.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Energy_Restorer.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Grindable_Rail.cpp
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Interactable_Object.cpp
@@ -720,12 +726,6 @@ D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clo
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Large_Spinning_Object.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Large_Spinning_Object.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Lock_On_Actor.cpp
-d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Lock_On_Actor.h
-D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Lock_On_Actor.generated.h
-C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
-C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
-C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
-c:\ue_4_23\ue_4.23\engine\source\runtime\engine\classes\kismet\KismetMathLibrary.inl
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Manipulable_Object.cpp
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Message_UserDefinedStruct.cpp
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Message_UserDefinedStruct.h

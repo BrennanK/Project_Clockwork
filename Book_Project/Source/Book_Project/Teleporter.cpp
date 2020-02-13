@@ -44,7 +44,7 @@ void ATeleporter::Teleport(UPrimitiveComponent * OverlappedComp, AActor * OtherA
 	APlayerController* PController = GetWorld()->GetFirstPlayerController();
 	if (PController)
 	{
-		Cast<AAvatar>(OtherActor)->lerpToDestination(locationtoGoTo);
+		//Cast<AAvatar>(OtherActor)->lerpToDestination(locationtoGoTo);
 	}
 }
 

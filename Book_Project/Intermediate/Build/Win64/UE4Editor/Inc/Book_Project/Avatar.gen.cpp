@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_activateLockOnFunction();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_beginGrind();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callEnergyBarChange();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callWheelChange();
@@ -29,6 +30,10 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_enableAndDisableCollision();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Falling();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Landed();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_lockCameraToTarget();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_removeLockOnTarget();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_setLockOnTarget();
+	BOOK_PROJECT_API UClass* Z_Construct_UClass_ALock_On_Actor_NoRegister();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_showCollectables();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AInteractable_Object_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ACollission_Text_NoRegister();
@@ -126,12 +131,38 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	{
 		UClass* Class = AAvatar::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "activateLockOnFunction", &AAvatar::execactivateLockOnFunction },
 			{ "beginGrind", &AAvatar::execbeginGrind },
 			{ "Collision", &AAvatar::execCollision },
 			{ "Falling", &AAvatar::execFalling },
 			{ "Landed", &AAvatar::execLanded },
+			{ "lockCameraToTarget", &AAvatar::execlockCameraToTarget },
+			{ "removeLockOnTarget", &AAvatar::execremoveLockOnTarget },
+			{ "setLockOnTarget", &AAvatar::execsetLockOnTarget },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AAvatar_activateLockOnFunction_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_activateLockOnFunction_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_activateLockOnFunction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "activateLockOnFunction", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_activateLockOnFunction_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_activateLockOnFunction_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_activateLockOnFunction()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_activateLockOnFunction_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AAvatar_beginGrind_Statics
 	{
@@ -390,6 +421,82 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AAvatar_lockCameraToTarget_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_lockCameraToTarget_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_lockCameraToTarget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "lockCameraToTarget", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_lockCameraToTarget_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_lockCameraToTarget_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_lockCameraToTarget()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_lockCameraToTarget_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_removeLockOnTarget_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_removeLockOnTarget_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_removeLockOnTarget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "removeLockOnTarget", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_removeLockOnTarget_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_removeLockOnTarget_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_removeLockOnTarget()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_removeLockOnTarget_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics
+	{
+		struct Avatar_eventsetLockOnTarget_Parms
+		{
+			ALock_On_Actor* target;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_target;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics::NewProp_target = { "target", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Avatar_eventsetLockOnTarget_Parms, target), Z_Construct_UClass_ALock_On_Actor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics::NewProp_target,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "setLockOnTarget", nullptr, nullptr, sizeof(Avatar_eventsetLockOnTarget_Parms), Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_setLockOnTarget()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_setLockOnTarget_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AAvatar_showCollectables_Statics
 	{
 #if WITH_METADATA
@@ -437,6 +544,15 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_textCollider_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_textCollider;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isLockedOn_MetaData[];
+#endif
+		static void NewProp_isLockedOn_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isLockedOn;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerTarget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_playerTarget;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxEnergy_MetaData[];
 #endif
@@ -537,6 +653,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Book_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAvatar_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AAvatar_activateLockOnFunction, "activateLockOnFunction" }, // 1490460370
 		{ &Z_Construct_UFunction_AAvatar_beginGrind, "beginGrind" }, // 1691124014
 		{ &Z_Construct_UFunction_AAvatar_callEnergyBarChange, "callEnergyBarChange" }, // 4154856328
 		{ &Z_Construct_UFunction_AAvatar_callWheelChange, "callWheelChange" }, // 1327484095
@@ -545,6 +662,9 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		{ &Z_Construct_UFunction_AAvatar_enableAndDisableCollision, "enableAndDisableCollision" }, // 323744738
 		{ &Z_Construct_UFunction_AAvatar_Falling, "Falling" }, // 2666488954
 		{ &Z_Construct_UFunction_AAvatar_Landed, "Landed" }, // 2738603381
+		{ &Z_Construct_UFunction_AAvatar_lockCameraToTarget, "lockCameraToTarget" }, // 514597717
+		{ &Z_Construct_UFunction_AAvatar_removeLockOnTarget, "removeLockOnTarget" }, // 3285503318
+		{ &Z_Construct_UFunction_AAvatar_setLockOnTarget, "setLockOnTarget" }, // 1295108670
 		{ &Z_Construct_UFunction_AAvatar_showCollectables, "showCollectables" }, // 1815958859
 	};
 #if WITH_METADATA
@@ -574,6 +694,24 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider = { "textCollider", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, textCollider), Z_Construct_UClass_ACollission_Text_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_isLockedOn_MetaData[] = {
+		{ "Category", "Lock-On properties" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	void Z_Construct_UClass_AAvatar_Statics::NewProp_isLockedOn_SetBit(void* Obj)
+	{
+		((AAvatar*)Obj)->isLockedOn = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_isLockedOn = { "isLockedOn", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AAvatar), &Z_Construct_UClass_AAvatar_Statics::NewProp_isLockedOn_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_isLockedOn_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_isLockedOn_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_playerTarget_MetaData[] = {
+		{ "Category", "Target for Lock On" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_playerTarget = { "playerTarget", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, playerTarget), Z_Construct_UClass_ALock_On_Actor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_playerTarget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_playerTarget_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_maxEnergy_MetaData[] = {
 		{ "Category", "Avatar Energy Variables" },
@@ -747,6 +885,8 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_interactable,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_isLockedOn,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_playerTarget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_maxEnergy,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_currentEnergy,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_maxHealth,
@@ -798,7 +938,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 3294116937);
+	IMPLEMENT_CLASS(AAvatar, 3527246049);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();

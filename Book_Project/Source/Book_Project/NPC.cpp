@@ -57,7 +57,7 @@ void ANPC::Prox(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimit
 		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, FString::Printf(TEXT("We are reaching PController if statement")));
 		ANPC_HUD* hud = Cast<ANPC_HUD>(PController->GetHUD());
 		//hud->addMessage(Message(NpcMessage, 5.f, FColor::White));
-		Cast<AAvatar>(OtherActor)->lerpToDestination(location);
+		//Cast<AAvatar>(OtherActor)->lerpToDestination(location);
 	}
 }
 

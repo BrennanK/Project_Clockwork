@@ -30,7 +30,11 @@ class BOOK_PROJECT_API ALock_On_Actor : public AManipulable_Object
 			float closenessRange;
 
 		UPROPERTY(EditAnywhere, Category = "Lock-On properties")
+			float turnOffRange;
+
+		UPROPERTY(EditAnywhere, Category = "Lock-On properties")
 			float rangeInVectorUnits;
+
 
 		float normalizedDistance;
 
@@ -44,4 +48,10 @@ class BOOK_PROJECT_API ALock_On_Actor : public AManipulable_Object
 
 		UFUNCTION(BlueprintImplementableEvent)
 			void LockOff();
+		
+		UFUNCTION(BlueprintImplementableEvent)
+			void indicateLock();
+		
+		UFUNCTION(BlueprintImplementableEvent)
+			void reverseLock();
 };

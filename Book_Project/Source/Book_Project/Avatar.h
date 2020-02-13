@@ -23,6 +23,7 @@ public:
 	/*Timer for Handling transport*/
 	FTimerHandle testTimer;
 	FTimerHandle railTimer;
+	FTimerHandle cameraTimer;
 	FVector locationToGoTo;
 	float distance;
 	float numberOfJumps;
@@ -90,6 +91,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Avatar Energy Variables")
 		float maxEnergy;
 
+	UPROPERTY(VisibleAnywhere, Category = "Target for Lock On")
+		class ALock_On_Actor* playerTarget;
+
+	UPROPERTY(VisibleAnywhere, Category = "Lock-On properties")
+		bool isLockedOn;
+
 	UPROPERTY()
 		class ACollission_Text* textCollider;
 	UPROPERTY()
@@ -152,8 +159,9 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)  // making use of macro for implementing a method in Blueprints
 		void enableAndDisableCollision();
 
-	void lerpToDestination(FVector teleporterEndpoint);
-	void transition();
+	void lerpToDestination();
+	void transitionWrapper();
+	void transition(FVector originalLocation);
 
 	UFUNCTION(BlueprintCallable)
 	void beginGrind();
@@ -177,4 +185,16 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)  // making use of macro for implementing a method in Blueprints
 		void changeTimePowers();
+
+	UFUNCTION()
+		void setLockOnTarget(class ALock_On_Actor* target);
+
+	UFUNCTION()
+		void removeLockOnTarget();
+
+	UFUNCTION()
+		void activateLockOnFunction();
+
+	UFUNCTION()
+		void lockCameraToTarget();
 };

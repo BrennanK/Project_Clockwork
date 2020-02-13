@@ -17,11 +17,18 @@ void EmptyLinkFunctionForGeneratedCodeLock_On_Actor() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ALock_On_Actor();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AManipulable_Object();
 	UPackage* Z_Construct_UPackage__Script_Book_Project();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ALock_On_Actor_indicateLock();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ALock_On_Actor_LockOff();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ALock_On_Actor_LockOn();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ALock_On_Actor_reverseLock();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
+	static FName NAME_ALock_On_Actor_indicateLock = FName(TEXT("indicateLock"));
+	void ALock_On_Actor::indicateLock()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ALock_On_Actor_indicateLock),NULL);
+	}
 	static FName NAME_ALock_On_Actor_LockOff = FName(TEXT("LockOff"));
 	void ALock_On_Actor::LockOff()
 	{
@@ -32,8 +39,35 @@ void EmptyLinkFunctionForGeneratedCodeLock_On_Actor() {}
 	{
 		ProcessEvent(FindFunctionChecked(NAME_ALock_On_Actor_LockOn),NULL);
 	}
+	static FName NAME_ALock_On_Actor_reverseLock = FName(TEXT("reverseLock"));
+	void ALock_On_Actor::reverseLock()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ALock_On_Actor_reverseLock),NULL);
+	}
 	void ALock_On_Actor::StaticRegisterNativesALock_On_Actor()
 	{
+	}
+	struct Z_Construct_UFunction_ALock_On_Actor_indicateLock_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALock_On_Actor_indicateLock_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Lock_On_Actor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALock_On_Actor_indicateLock_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALock_On_Actor, nullptr, "indicateLock", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALock_On_Actor_indicateLock_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ALock_On_Actor_indicateLock_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALock_On_Actor_indicateLock()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALock_On_Actor_indicateLock_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ALock_On_Actor_LockOff_Statics
 	{
@@ -79,6 +113,28 @@ void EmptyLinkFunctionForGeneratedCodeLock_On_Actor() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ALock_On_Actor_reverseLock_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALock_On_Actor_reverseLock_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Lock_On_Actor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALock_On_Actor_reverseLock_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALock_On_Actor, nullptr, "reverseLock", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALock_On_Actor_reverseLock_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ALock_On_Actor_reverseLock_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALock_On_Actor_reverseLock()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALock_On_Actor_reverseLock_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ALock_On_Actor_NoRegister()
 	{
 		return ALock_On_Actor::StaticClass();
@@ -94,6 +150,10 @@ void EmptyLinkFunctionForGeneratedCodeLock_On_Actor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_rangeInVectorUnits_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_rangeInVectorUnits;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_turnOffRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_turnOffRange;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_closenessRange_MetaData[];
 #endif
@@ -119,8 +179,10 @@ void EmptyLinkFunctionForGeneratedCodeLock_On_Actor() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Book_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ALock_On_Actor_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ALock_On_Actor_indicateLock, "indicateLock" }, // 3857092510
 		{ &Z_Construct_UFunction_ALock_On_Actor_LockOff, "LockOff" }, // 2185155772
 		{ &Z_Construct_UFunction_ALock_On_Actor_LockOn, "LockOn" }, // 687615757
+		{ &Z_Construct_UFunction_ALock_On_Actor_reverseLock, "reverseLock" }, // 2901904331
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALock_On_Actor_Statics::Class_MetaDataParams[] = {
@@ -136,6 +198,13 @@ void EmptyLinkFunctionForGeneratedCodeLock_On_Actor() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_rangeInVectorUnits = { "rangeInVectorUnits", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALock_On_Actor, rangeInVectorUnits), METADATA_PARAMS(Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_rangeInVectorUnits_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_rangeInVectorUnits_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_turnOffRange_MetaData[] = {
+		{ "Category", "Lock-On properties" },
+		{ "ModuleRelativePath", "Lock_On_Actor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_turnOffRange = { "turnOffRange", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALock_On_Actor, turnOffRange), METADATA_PARAMS(Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_turnOffRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_turnOffRange_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_closenessRange_MetaData[] = {
 		{ "Category", "Lock-On properties" },
@@ -165,6 +234,7 @@ void EmptyLinkFunctionForGeneratedCodeLock_On_Actor() {}
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_VectorOffset = { "VectorOffset", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALock_On_Actor, VectorOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_VectorOffset_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_VectorOffset_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALock_On_Actor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_rangeInVectorUnits,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_turnOffRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_closenessRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_player,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALock_On_Actor_Statics::NewProp_normalizationTolerence,
@@ -197,7 +267,7 @@ void EmptyLinkFunctionForGeneratedCodeLock_On_Actor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALock_On_Actor, 4053386043);
+	IMPLEMENT_CLASS(ALock_On_Actor, 184601767);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ALock_On_Actor>()
 	{
 		return ALock_On_Actor::StaticClass();

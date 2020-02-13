@@ -21,6 +21,8 @@
 #include "Components/SplineComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Grindable_Rail.h"
+#include "Lock_On_Actor.h"
+#include "Kismet/KismetMathLibrary.h"
 
 // Sets default values
 AAvatar::AAvatar()
@@ -85,6 +87,60 @@ void AAvatar::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActo
 	}
 }
 
+
+void AAvatar::setLockOnTarget(ALock_On_Actor * target)
+{
+	playerTarget = target;
+
+}
+
+void AAvatar::removeLockOnTarget()
+{
+	playerTarget = nullptr;
+}
+
+void AAvatar::activateLockOnFunction()
+{
+	if (playerTarget == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Purple, "There is no target to lock onto");
+		return;
+	}
+
+
+	if (isLockedOn == false)
+	{
+		playerTarget->indicateLock();
+		lockCameraToTarget();
+		isLockedOn = true;
+	}
+	else
+	{
+		playerTarget->reverseLock();
+		FRotator actorRotation = GetActorRotation();
+		FRotator controllerRotation = GetWorld()->GetFirstPlayerController()->GetControlRotation();
+		GetWorld()->GetFirstPlayerController()->SetControlRotation(FRotator(controllerRotation.Pitch,controllerRotation.Yaw,actorRotation.Roll));
+		isLockedOn = false;
+	}
+}
+
+void AAvatar::lockCameraToTarget()
+{
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+
+	FRotator controllerRotation = PController->GetControlRotation();
+	
+	FVector cameraLocation=playerCamera->GetComponentLocation();
+
+	FVector targetLocation = playerTarget->GetActorLocation();
+
+	FRotator playerLookingAtTarget = UKismetMathLibrary::FindLookAtRotation(cameraLocation, targetLocation);
+
+	FRotator ZrotationNeeded = UKismetMathLibrary::RInterpTo(controllerRotation, playerLookingAtTarget, 1.f, .7f);
+
+	PController->SetControlRotation(FRotator(controllerRotation.Pitch, ZrotationNeeded.Yaw, controllerRotation.Roll));
+}
+
 void AAvatar::Landed(const FHitResult & Hit)
 {
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
@@ -131,7 +187,8 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) /
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AAvatar::stopCrouching);
 	PlayerInputComponent->BindAction("Check Collectables", IE_Pressed, this, &AAvatar::showCollectables);
 	PlayerInputComponent->BindAction("Change Time Powers", IE_Pressed, this, &AAvatar::changeTimePowers);
-	PlayerInputComponent->BindAction("Subtract Health", IE_Pressed, this, &AAvatar::MinusEnergy);
+	PlayerInputComponent->BindAction("Subtract Health", IE_Pressed, this, &AAvatar::lerpToDestination);
+	PlayerInputComponent->BindAction("Lock onto Target", IE_Pressed, this, &AAvatar::activateLockOnFunction);
 	//PlayerInputComponent->BindAction("Crouch", IE_Repeat, this, &AAvatar::repeatCrouching);
 	//Touch Control bound
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AAvatar::TouchStarted);
@@ -249,6 +306,7 @@ void AAvatar::TurnAtRate(float Rate)  // Method for camera rotation on Z-axis
 		if (isGrinding == false)
 		{
 			AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+			FVector cameraRotation = playerCamera->GetComponentLocation();
 		}
 		break;
 
@@ -383,17 +441,27 @@ void AAvatar::stopCrouching()
 #pragma endregion Charect_Actions
 
 #pragma region MovingTeleport
-void AAvatar::lerpToDestination(FVector teleporterEndpoint)
+void AAvatar::lerpToDestination()
 {
+	if (playerTarget == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Purple, "There is no target to lock onto");
+		return;
+	}
 	GetCharacterMovement()->GravityScale = 0;
 	skeleton->SetVisibility(false);
 	teleportationParticle->ActivateSystem();
 	//teleportationParticle->Activate(true);
-	locationToGoTo = teleporterEndpoint;
-	GetWorldTimerManager().SetTimer(testTimer, this, &AAvatar::transition, transitionSpeedCap * GetWorld()->GetDeltaSeconds(), true, 0.0f);
+	locationToGoTo = playerTarget->VectorOffset+playerTarget->GetActorLocation();
+	GetWorldTimerManager().SetTimer(testTimer, this, &AAvatar::transitionWrapper, GetWorld()->GetDeltaSeconds(), true, 0.0f);
 }
 
-void AAvatar::transition()
+void AAvatar::transitionWrapper()
+{
+	transition(GetActorLocation());
+}
+
+void AAvatar::transition(FVector originalLocation)
 {
 	distance += GetWorld()->GetDeltaSeconds();
 	distance=FMath::Clamp(distance, 0.f, 1.f);
@@ -539,7 +607,7 @@ void AAvatar::Jump() // method used to allow the player character to jump
 			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 			if (numberOfJumps == 0)
 			{
-				ACharacter::LaunchCharacter(FVector(Direction.X*600, Direction.Y*600, JumpHeight), true, true);
+				ACharacter::LaunchCharacter(FVector(Direction.X*FMath::Abs(GetCharacterMovement()->Velocity.X), Direction.Y*FMath::Abs(GetCharacterMovement()->Velocity.Y), JumpHeight), true, true);
 			}
 			else
 			{
