@@ -111,12 +111,14 @@ void AAvatar::activateLockOnFunction()
 	if (isLockedOn == false)
 	{
 		playerTarget->indicateLock();
-		lockCameraToTarget();
+		//lockCameraToTarget();
+		GetWorldTimerManager().SetTimer(cameraTimer, this, &AAvatar::lockCameraToTarget, GetWorld()->GetDeltaSeconds(), true, 0.0f);
 		isLockedOn = true;
 	}
 	else
 	{
 		playerTarget->reverseLock();
+		GetWorldTimerManager().ClearTimer(cameraTimer);
 		FRotator actorRotation = GetActorRotation();
 		FRotator controllerRotation = GetWorld()->GetFirstPlayerController()->GetControlRotation();
 		GetWorld()->GetFirstPlayerController()->SetControlRotation(FRotator(controllerRotation.Pitch,controllerRotation.Yaw,actorRotation.Roll));
@@ -126,6 +128,11 @@ void AAvatar::activateLockOnFunction()
 
 void AAvatar::lockCameraToTarget()
 {
+	/*if (distance <= 1)
+	{
+		distance += GetWorld()->GetDeltaSeconds();
+		distance = FMath::Clamp(distance, 0.f, 1.f);
+	}*/
 	APlayerController* PController = GetWorld()->GetFirstPlayerController();
 
 	FRotator controllerRotation = PController->GetControlRotation();
