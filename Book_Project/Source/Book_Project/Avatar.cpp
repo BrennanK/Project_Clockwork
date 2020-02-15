@@ -53,6 +53,8 @@ void AAvatar::BeginPlay()
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The duration of our spline in seconds is " + FString::SanitizeFloat(ourSpline->Duration));
 	currentState = ECharacterState::NORMAL;
 	capsuleA->OnComponentBeginOverlap.AddDynamic(this, &AAvatar::Collision);
+	firstPower = ETimeAbility::None;
+	secondPower = ETimeAbility::None;
 }
 
 void AAvatar::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
@@ -148,6 +150,53 @@ void AAvatar::lockCameraToTarget()
 	PController->SetControlRotation(FRotator(controllerRotation.Pitch, ZrotationNeeded.Yaw, controllerRotation.Roll));
 }
 
+void AAvatar::LeftTimePower()
+{
+	if (currentState == ECharacterState::NORMAL)
+	{
+		useTimePower(firstPower);
+	}
+}
+
+void AAvatar::RightTimePower()
+{
+	if (currentState == ECharacterState::NORMAL)
+	{
+		useTimePower(secondPower);
+	}
+}
+
+void AAvatar::useTimePower(ETimeAbility ability)
+{
+	switch (ability)
+	{
+	case ETimeAbility::Acceleration:
+		break;
+
+	case ETimeAbility::Barrier:
+		break;
+
+	case ETimeAbility::Mold:
+		break;
+
+	case ETimeAbility::None:
+		break;
+
+	case ETimeAbility::Repair:
+		break;
+
+	case ETimeAbility::Stasis:
+		break;
+
+	case ETimeAbility::Warp:
+		lerpToDestination();
+		break;
+
+	case ETimeAbility::Water:
+		break;
+	}
+}
+
 void AAvatar::Landed(const FHitResult & Hit)
 {
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
@@ -186,7 +235,7 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) /
 	PlayerInputComponent->BindAxis("TurnRate", this, &AAvatar::TurnAtRate);
 
 	// Actions to be bound
-	PlayerInputComponent->BindAction("Inventory", IE_Pressed, this, &AAvatar::ToggleInventory);
+	//PlayerInputComponent->BindAction("Inventory", IE_Pressed, this, &AAvatar::ToggleInventory);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AAvatar::Jump);
 	PlayerInputComponent->BindAction("Punch", IE_Pressed, this, &AAvatar::startPunching);
 	PlayerInputComponent->BindAction("Punch", IE_Released, this, &AAvatar::stopPunching);
@@ -194,7 +243,8 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) /
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AAvatar::stopCrouching);
 	PlayerInputComponent->BindAction("Check Collectables", IE_Pressed, this, &AAvatar::showCollectables);
 	PlayerInputComponent->BindAction("Change Time Powers", IE_Pressed, this, &AAvatar::changeTimePowers);
-	PlayerInputComponent->BindAction("Subtract Health", IE_Pressed, this, &AAvatar::lerpToDestination);
+	PlayerInputComponent->BindAction("Left Time Power", IE_Pressed, this, &AAvatar::LeftTimePower);
+	PlayerInputComponent->BindAction("Right Time Power", IE_Pressed, this, &AAvatar::RightTimePower);
 	PlayerInputComponent->BindAction("Lock onto Target", IE_Pressed, this, &AAvatar::activateLockOnFunction);
 	//PlayerInputComponent->BindAction("Crouch", IE_Repeat, this, &AAvatar::repeatCrouching);
 	//Touch Control bound
@@ -277,33 +327,6 @@ void AAvatar::MoveRight(float amount)  // determines which directions is right a
 	}
 }
 
-void AAvatar::Pickup(APickupItem * item) // method called by pickup cable item and adds it to inventory
-{
-	if (Backpack.Find(item->Name))  //Searches to see if Backpack already contains that item and adds it to inventory
-	{
-		Backpack[item->Name] += item->Quantity;
-	}
-
-	else							// If item not found then add it to backpack
-	{
-		Backpack.Add(item->Name, item->Quantity);
-		Icons.Add(item->Name, item->Icon);
-	}
-}
-
-void AAvatar::ToggleInventory() // Used to open inventory will have additional functionality once inventroy UI is fully implemented
-{
-	/*FRotator cameraRotation = playerCamera->GetComponentRotation();
-	if (GEngine)
-	{
-		GEngine->AddOnScreenDebugMessage(0, 6.0f, FColor::Blue,  FString::Printf());
-	}*/
-	/*distance += 1;
-	if (distance == 10.f)
-	{
-		GetWorldTimerManager().ClearTimer(testTimer);
-	}*/
-}
 
 void AAvatar::TurnAtRate(float Rate)  // Method for camera rotation on Z-axis
 {
@@ -456,23 +479,21 @@ void AAvatar::lerpToDestination()
 		return;
 	}
 	GetCharacterMovement()->GravityScale = 0;
-	skeleton->SetVisibility(false);
-	teleportationParticle->ActivateSystem();
+	//skeleton->SetVisibility(false);
+	//teleportationParticle->ActivateSystem();
 	//teleportationParticle->Activate(true);
 	locationToGoTo = playerTarget->VectorOffset+playerTarget->GetActorLocation();
-	GetWorldTimerManager().SetTimer(testTimer, this, &AAvatar::transitionWrapper, GetWorld()->GetDeltaSeconds(), true, 0.0f);
+	locationBeforeWarp = GetActorLocation();
+	changeToWarpMaterial();
+	GetWorldTimerManager().SetTimer(testTimer, this, &AAvatar::transition, GetWorld()->GetDeltaSeconds(), true, 0.0f);
 }
 
-void AAvatar::transitionWrapper()
-{
-	transition(GetActorLocation());
-}
 
-void AAvatar::transition(FVector originalLocation)
+void AAvatar::transition()
 {
 	distance += GetWorld()->GetDeltaSeconds();
 	distance=FMath::Clamp(distance, 0.f, 1.f);
-	FVector newLocation=FMath::Lerp(GetActorLocation(), locationToGoTo, distance);
+	FVector newLocation=FMath::Lerp(locationBeforeWarp, locationToGoTo, distance);
 	SetActorLocation(newLocation);
 	
 	if (distance >= 1.f || GetActorLocation().Equals(locationToGoTo,0.0f))
@@ -480,8 +501,11 @@ void AAvatar::transition(FVector originalLocation)
 		
 		GetWorldTimerManager().ClearTimer(testTimer);
 		GetCharacterMovement()->GravityScale = 1;
-		teleportationParticle->DeactivateSystem();
-		skeleton->SetVisibility(true);
+		activateLockOnFunction();
+		changeToNormalMaterial();
+		isLockedOn = false;
+		//teleportationParticle->DeactivateSystem();
+		//skeleton->SetVisibility(true);
 		distance = 0;
 	}
 }
@@ -618,7 +642,7 @@ void AAvatar::Jump() // method used to allow the player character to jump
 			}
 			else
 			{
-				ACharacter::LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
+				ACharacter::LaunchCharacter(FVector(Direction.X, Direction.Y, JumpHeight), false, true);
 			}
 			numberOfJumps++;
 		}

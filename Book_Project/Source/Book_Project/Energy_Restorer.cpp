@@ -44,6 +44,7 @@ void AEnergy_Restorer::Collision(UPrimitiveComponent * OverlappedComp, AActor * 
 
 	player = Cast<AAvatar>(OtherActor);
 	originalAmountOfEnergy = player->currentEnergy;
+	player->changeToEnergyMaterial();
 	GetWorld()->GetTimerManager().SetTimer(movementTimer, this, &AEnergy_Restorer::Move, GetWorld()->GetDeltaSeconds(), true, 0.f);
 }
 
@@ -59,6 +60,7 @@ void AEnergy_Restorer::Move()
 	{
 		GetWorldTimerManager().ClearTimer(movementTimer);
 		lerpAlpha = 0;
+		player->changeToNormalMaterial();
 	}
 
 }
@@ -69,5 +71,6 @@ void AEnergy_Restorer::EndCollision(UPrimitiveComponent * OverlappedComp, AActor
 	{
 		GetWorldTimerManager().ClearTimer(movementTimer);
 		lerpAlpha = 0;
+		player->changeToNormalMaterial();
 	}
 }

@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 // Cross Module References
 	BOOK_PROJECT_API UEnum* Z_Construct_UEnum_Book_Project_ECharacterState();
 	UPackage* Z_Construct_UPackage__Script_Book_Project();
+	BOOK_PROJECT_API UEnum* Z_Construct_UEnum_Book_Project_ETimeAbility();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
@@ -23,6 +24,9 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callEnergyBarChange();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callWheelChange();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeTimePowers();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeToEnergyMaterial();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeToNormalMaterial();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeToWarpMaterial();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Collision();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -30,11 +34,14 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_enableAndDisableCollision();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Falling();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Landed();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_LeftTimePower();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_lockCameraToTarget();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_removeLockOnTarget();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_RightTimePower();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_setLockOnTarget();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ALock_On_Actor_NoRegister();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_showCollectables();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_useTimePower();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AInteractable_Object_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ACollission_Text_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USplineComponent_NoRegister();
@@ -102,6 +109,70 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return ReturnEnum;
 	}
+	static UEnum* ETimeAbility_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Book_Project_ETimeAbility, Z_Construct_UPackage__Script_Book_Project(), TEXT("ETimeAbility"));
+		}
+		return Singleton;
+	}
+	template<> BOOK_PROJECT_API UEnum* StaticEnum<ETimeAbility>()
+	{
+		return ETimeAbility_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETimeAbility(ETimeAbility_StaticEnum, TEXT("/Script/Book_Project"), TEXT("ETimeAbility"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Book_Project_ETimeAbility_Hash() { return 3819345487U; }
+	UEnum* Z_Construct_UEnum_Book_Project_ETimeAbility()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_Book_Project();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETimeAbility"), 0, Get_Z_Construct_UEnum_Book_Project_ETimeAbility_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "ETimeAbility::None", (int64)ETimeAbility::None },
+				{ "ETimeAbility::Water", (int64)ETimeAbility::Water },
+				{ "ETimeAbility::Warp", (int64)ETimeAbility::Warp },
+				{ "ETimeAbility::Barrier", (int64)ETimeAbility::Barrier },
+				{ "ETimeAbility::Mold", (int64)ETimeAbility::Mold },
+				{ "ETimeAbility::Repair", (int64)ETimeAbility::Repair },
+				{ "ETimeAbility::Stasis", (int64)ETimeAbility::Stasis },
+				{ "ETimeAbility::Acceleration", (int64)ETimeAbility::Acceleration },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "Acceleration.Name", "ETimeAbility::Acceleration" },
+				{ "Barrier.Name", "ETimeAbility::Barrier" },
+				{ "ModuleRelativePath", "Avatar.h" },
+				{ "Mold.Name", "ETimeAbility::Mold" },
+				{ "None.Name", "ETimeAbility::None" },
+				{ "Repair.Name", "ETimeAbility::Repair" },
+				{ "Stasis.Name", "ETimeAbility::Stasis" },
+				{ "Warp.Name", "ETimeAbility::Warp" },
+				{ "Water.Name", "ETimeAbility::Water" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_Book_Project,
+				nullptr,
+				"ETimeAbility",
+				"ETimeAbility",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	static FName NAME_AAvatar_callEnergyBarChange = FName(TEXT("callEnergyBarChange"));
 	void AAvatar::callEnergyBarChange()
 	{
@@ -116,6 +187,21 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	void AAvatar::changeTimePowers()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AAvatar_changeTimePowers),NULL);
+	}
+	static FName NAME_AAvatar_changeToEnergyMaterial = FName(TEXT("changeToEnergyMaterial"));
+	void AAvatar::changeToEnergyMaterial()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_changeToEnergyMaterial),NULL);
+	}
+	static FName NAME_AAvatar_changeToNormalMaterial = FName(TEXT("changeToNormalMaterial"));
+	void AAvatar::changeToNormalMaterial()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_changeToNormalMaterial),NULL);
+	}
+	static FName NAME_AAvatar_changeToWarpMaterial = FName(TEXT("changeToWarpMaterial"));
+	void AAvatar::changeToWarpMaterial()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_changeToWarpMaterial),NULL);
 	}
 	static FName NAME_AAvatar_enableAndDisableCollision = FName(TEXT("enableAndDisableCollision"));
 	void AAvatar::enableAndDisableCollision()
@@ -136,9 +222,12 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 			{ "Collision", &AAvatar::execCollision },
 			{ "Falling", &AAvatar::execFalling },
 			{ "Landed", &AAvatar::execLanded },
+			{ "LeftTimePower", &AAvatar::execLeftTimePower },
 			{ "lockCameraToTarget", &AAvatar::execlockCameraToTarget },
 			{ "removeLockOnTarget", &AAvatar::execremoveLockOnTarget },
+			{ "RightTimePower", &AAvatar::execRightTimePower },
 			{ "setLockOnTarget", &AAvatar::execsetLockOnTarget },
+			{ "useTimePower", &AAvatar::execuseTimePower },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -251,6 +340,72 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_changeTimePowers_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_changeToEnergyMaterial_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_changeToEnergyMaterial_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_changeToEnergyMaterial_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "changeToEnergyMaterial", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_changeToEnergyMaterial_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_changeToEnergyMaterial_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_changeToEnergyMaterial()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_changeToEnergyMaterial_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_changeToNormalMaterial_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_changeToNormalMaterial_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_changeToNormalMaterial_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "changeToNormalMaterial", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_changeToNormalMaterial_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_changeToNormalMaterial_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_changeToNormalMaterial()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_changeToNormalMaterial_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_changeToWarpMaterial_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_changeToWarpMaterial_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_changeToWarpMaterial_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "changeToWarpMaterial", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_changeToWarpMaterial_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_changeToWarpMaterial_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_changeToWarpMaterial()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_changeToWarpMaterial_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -421,6 +576,28 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AAvatar_LeftTimePower_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_LeftTimePower_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_LeftTimePower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "LeftTimePower", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_LeftTimePower_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_LeftTimePower_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_LeftTimePower()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_LeftTimePower_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AAvatar_lockCameraToTarget_Statics
 	{
 #if WITH_METADATA
@@ -462,6 +639,28 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_removeLockOnTarget_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_RightTimePower_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_RightTimePower_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_RightTimePower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "RightTimePower", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_RightTimePower_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_RightTimePower_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_RightTimePower()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_RightTimePower_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -518,6 +717,41 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_showCollectables_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_useTimePower_Statics
+	{
+		struct Avatar_eventuseTimePower_Parms
+		{
+			ETimeAbility ability;
+		};
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_ability;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_ability_Underlying;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_AAvatar_useTimePower_Statics::NewProp_ability = { "ability", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Avatar_eventuseTimePower_Parms, ability), Z_Construct_UEnum_Book_Project_ETimeAbility, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AAvatar_useTimePower_Statics::NewProp_ability_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAvatar_useTimePower_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAvatar_useTimePower_Statics::NewProp_ability,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAvatar_useTimePower_Statics::NewProp_ability_Underlying,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_useTimePower_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_useTimePower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "useTimePower", nullptr, nullptr, sizeof(Avatar_eventuseTimePower_Parms), Z_Construct_UFunction_AAvatar_useTimePower_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_useTimePower_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_useTimePower_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_useTimePower_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_useTimePower()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_useTimePower_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -640,6 +874,16 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookRate;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_secondPower_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_secondPower;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_secondPower_Underlying;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_firstPower_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_firstPower;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_firstPower_Underlying;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentState_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_currentState;
@@ -658,14 +902,20 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		{ &Z_Construct_UFunction_AAvatar_callEnergyBarChange, "callEnergyBarChange" }, // 4154856328
 		{ &Z_Construct_UFunction_AAvatar_callWheelChange, "callWheelChange" }, // 1327484095
 		{ &Z_Construct_UFunction_AAvatar_changeTimePowers, "changeTimePowers" }, // 500874639
+		{ &Z_Construct_UFunction_AAvatar_changeToEnergyMaterial, "changeToEnergyMaterial" }, // 1428613946
+		{ &Z_Construct_UFunction_AAvatar_changeToNormalMaterial, "changeToNormalMaterial" }, // 4204553965
+		{ &Z_Construct_UFunction_AAvatar_changeToWarpMaterial, "changeToWarpMaterial" }, // 141364775
 		{ &Z_Construct_UFunction_AAvatar_Collision, "Collision" }, // 2207561626
 		{ &Z_Construct_UFunction_AAvatar_enableAndDisableCollision, "enableAndDisableCollision" }, // 323744738
 		{ &Z_Construct_UFunction_AAvatar_Falling, "Falling" }, // 2666488954
 		{ &Z_Construct_UFunction_AAvatar_Landed, "Landed" }, // 2738603381
+		{ &Z_Construct_UFunction_AAvatar_LeftTimePower, "LeftTimePower" }, // 438080966
 		{ &Z_Construct_UFunction_AAvatar_lockCameraToTarget, "lockCameraToTarget" }, // 514597717
 		{ &Z_Construct_UFunction_AAvatar_removeLockOnTarget, "removeLockOnTarget" }, // 3285503318
+		{ &Z_Construct_UFunction_AAvatar_RightTimePower, "RightTimePower" }, // 2393503033
 		{ &Z_Construct_UFunction_AAvatar_setLockOnTarget, "setLockOnTarget" }, // 1295108670
 		{ &Z_Construct_UFunction_AAvatar_showCollectables, "showCollectables" }, // 1815958859
+		{ &Z_Construct_UFunction_AAvatar_useTimePower, "useTimePower" }, // 2278580059
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::Class_MetaDataParams[] = {
@@ -874,6 +1124,22 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate = { "BaseLookRate", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, BaseLookRate), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_secondPower_MetaData[] = {
+		{ "Category", "Avatar" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_secondPower = { "secondPower", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, secondPower), Z_Construct_UEnum_Book_Project_ETimeAbility, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_secondPower_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_secondPower_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_secondPower_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_firstPower_MetaData[] = {
+		{ "Category", "Avatar" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_firstPower = { "firstPower", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, firstPower), Z_Construct_UEnum_Book_Project_ETimeAbility, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_firstPower_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_firstPower_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_firstPower_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_currentState_MetaData[] = {
 		{ "Category", "Avatar" },
 		{ "ModuleRelativePath", "Avatar.h" },
@@ -908,6 +1174,10 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_JumpHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_secondPower,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_secondPower_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_firstPower,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_firstPower_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_currentState,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_currentState_Underlying,
 	};
@@ -938,7 +1208,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 3527246049);
+	IMPLEMENT_CLASS(AAvatar, 2257213003);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();

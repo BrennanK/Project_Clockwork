@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+enum class ETimeAbility : uint8;
 class ALock_On_Actor;
 class UPrimitiveComponent;
 class AActor;
@@ -18,6 +19,31 @@ struct FHitResult;
 #define BOOK_PROJECT_Avatar_generated_h
 
 #define Book_Project_Source_Book_Project_Avatar_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execuseTimePower) \
+	{ \
+		P_GET_ENUM(ETimeAbility,Z_Param_ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->useTimePower(ETimeAbility(Z_Param_ability)); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRightTimePower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RightTimePower(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLeftTimePower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LeftTimePower(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execlockCameraToTarget) \
 	{ \
@@ -93,6 +119,31 @@ struct FHitResult;
 
 
 #define Book_Project_Source_Book_Project_Avatar_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execuseTimePower) \
+	{ \
+		P_GET_ENUM(ETimeAbility,Z_Param_ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->useTimePower(ETimeAbility(Z_Param_ability)); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRightTimePower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RightTimePower(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLeftTimePower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LeftTimePower(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execlockCameraToTarget) \
 	{ \
@@ -255,5 +306,18 @@ template<> BOOK_PROJECT_API UClass* StaticClass<class AAvatar>();
 
 enum class ECharacterState : uint8;
 template<> BOOK_PROJECT_API UEnum* StaticEnum<ECharacterState>();
+
+#define FOREACH_ENUM_ETIMEABILITY(op) \
+	op(ETimeAbility::None) \
+	op(ETimeAbility::Water) \
+	op(ETimeAbility::Warp) \
+	op(ETimeAbility::Barrier) \
+	op(ETimeAbility::Mold) \
+	op(ETimeAbility::Repair) \
+	op(ETimeAbility::Stasis) \
+	op(ETimeAbility::Acceleration) 
+
+enum class ETimeAbility : uint8;
+template<> BOOK_PROJECT_API UEnum* StaticEnum<ETimeAbility>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

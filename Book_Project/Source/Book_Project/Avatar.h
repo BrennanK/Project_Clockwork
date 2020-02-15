@@ -4,8 +4,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Avatar.generated.h"
-class APickupItem;
-UENUM() enum class ECharacterState: uint8 {NORMAL,STUNNED,DEAD,INTERACTABLE,READTEXT};
+UENUM() enum class ETimeAbility:uint8{None,Water,Warp,Barrier,Mold,Repair,Stasis,Acceleration};
+UENUM() enum class ECharacterState: uint8 {NORMAL,STUNNED,DEAD,INTERACTABLE,READTEXT}; 
 UCLASS()
 class BOOK_PROJECT_API AAvatar : public ACharacter
 {
@@ -20,6 +20,10 @@ public:
 	bool inventoryShowing;
 	UPROPERTY(BlueprintReadWrite)
 		ECharacterState currentState;
+	UPROPERTY(BlueprintReadWrite)
+		ETimeAbility firstPower;
+	UPROPERTY(BlueprintReadWrite)
+		ETimeAbility secondPower;
 	/*Timer for Handling transport*/
 	FTimerHandle testTimer;
 	FTimerHandle railTimer;
@@ -119,6 +123,8 @@ protected:
 	void Landed(const FHitResult& Hit) override;
 	UFUNCTION(BlueprintCallable)
 		void Falling() override;
+
+	FVector locationBeforeWarp;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -129,8 +135,6 @@ public:
 	void MoveForward(float amount);
 	
 	void MoveRight(float amount);
-	
-	void Pickup(APickupItem *item);
 	
 	void ToggleInventory();
 	
@@ -160,8 +164,7 @@ public:
 		void enableAndDisableCollision();
 
 	void lerpToDestination();
-	void transitionWrapper();
-	void transition(FVector originalLocation);
+	void transition();
 
 	UFUNCTION(BlueprintCallable)
 	void beginGrind();
@@ -197,4 +200,20 @@ public:
 
 	UFUNCTION()
 		void lockCameraToTarget();
+
+	UFUNCTION()
+		void LeftTimePower();
+	UFUNCTION()
+		void RightTimePower();
+	UFUNCTION()
+		void useTimePower(ETimeAbility ability);
+	
+	UFUNCTION(BlueprintImplementableEvent)
+		void changeToWarpMaterial();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void changeToEnergyMaterial();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void changeToNormalMaterial();
 };

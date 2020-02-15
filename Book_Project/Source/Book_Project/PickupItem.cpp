@@ -31,7 +31,7 @@ void APickupItem::Prox(UPrimitiveComponent * OverlappedComp, AActor * OtherActor
 	}
 
 	AAvatar *avatar = Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
-	avatar->Pickup(this);
+	//avatar->Pickup(this);
 
 	APlayerController* PController = GetWorld()->GetFirstPlayerController();
 
