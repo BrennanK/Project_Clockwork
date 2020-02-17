@@ -101,6 +101,15 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Lock-On properties")
 		bool isLockedOn;
 
+	UPROPERTY(BlueprintReadWrite)
+		bool isPaused;
+
+	UPROPERTY(BlueprintReadOnly)
+		float playTime;
+
+	UPROPERTY(EditAnywhere, Category = "Warp Variables")
+		float warpTimeInSeconds;
+
 	UPROPERTY()
 		class ACollission_Text* textCollider;
 	UPROPERTY()

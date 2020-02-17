@@ -73,7 +73,7 @@ void AAvatar::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActo
 	
 	if (OtherActor->FindComponentByClass<USplineComponent>())
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 4.f, FColor::Orange, "We have detected the spline component");
+		
 
 		if (isGrinding == false)
 		{
@@ -189,6 +189,8 @@ void AAvatar::useTimePower(ETimeAbility ability)
 		break;
 
 	case ETimeAbility::Warp:
+		currentEnergy -= 10;
+		callEnergyBarChange();
 		lerpToDestination();
 		break;
 
@@ -219,6 +221,11 @@ void AAvatar::Tick(float DeltaTime)
 	if (isFalling == true)
 	{
 		timeFalling += DeltaTime;
+	}
+
+	if (isPaused == false)
+	{
+		playTime += DeltaTime;
 	}
 }
 
@@ -491,7 +498,7 @@ void AAvatar::lerpToDestination()
 
 void AAvatar::transition()
 {
-	distance += GetWorld()->GetDeltaSeconds();
+	distance += GetWorld()->GetDeltaSeconds()/warpTimeInSeconds;
 	distance=FMath::Clamp(distance, 0.f, 1.f);
 	FVector newLocation=FMath::Lerp(locationBeforeWarp, locationToGoTo, distance);
 	SetActorLocation(newLocation);
@@ -501,7 +508,11 @@ void AAvatar::transition()
 		
 		GetWorldTimerManager().ClearTimer(testTimer);
 		GetCharacterMovement()->GravityScale = 1;
-		activateLockOnFunction();
+		if (isLockedOn == true)
+		{
+			activateLockOnFunction();
+		}
+		//activateLockOnFunction();
 		changeToNormalMaterial();
 		isLockedOn = false;
 		//teleportationParticle->DeactivateSystem();

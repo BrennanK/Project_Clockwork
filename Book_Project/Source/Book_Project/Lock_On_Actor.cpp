@@ -44,7 +44,7 @@ void ALock_On_Actor::Tick(float DeltaTime)
 		if (normalizedDistance <= turnOffRange || normalizedDistance > 1.0)
 		{
 			LockOff();
-			player->playerTarget = nullptr;
+			//player->playerTarget = nullptr;
 		}
 	}
 }
