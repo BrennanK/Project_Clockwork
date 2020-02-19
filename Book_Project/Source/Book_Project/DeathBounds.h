@@ -24,7 +24,8 @@ public:
 
 	class UMyGameInstance* gameInstance;
 	
-	
+	UPROPERTY(EditAnywhere)
+		float testValueForSave;
 
 protected:
 	// Called when the game starts or when spawned

@@ -8,13 +8,75 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FLeaderboardSlot;
 #ifdef BOOK_PROJECT_MyGameInstance_generated_h
 #error "MyGameInstance.generated.h already included, missing '#pragma once' in MyGameInstance.h"
 #endif
 #define BOOK_PROJECT_MyGameInstance_generated_h
 
-#define Book_Project_Source_Book_Project_MyGameInstance_h_15_RPC_WRAPPERS
-#define Book_Project_Source_Book_Project_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Book_Project_Source_Book_Project_MyGameInstance_h_10_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLeaderboardSlot_Statics; \
+	BOOK_PROJECT_API static class UScriptStruct* StaticStruct();
+
+
+template<> BOOK_PROJECT_API UScriptStruct* StaticStruct<struct FLeaderboardSlot>();
+
+#define Book_Project_Source_Book_Project_MyGameInstance_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execcreateASampleBoard) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->createASampleBoard(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLoadGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LoadGame(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSaveGame) \
+	{ \
+		P_GET_TARRAY(FLeaderboardSlot,Z_Param_boardToSave); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SaveGame(Z_Param_boardToSave); \
+		P_NATIVE_END; \
+	}
+
+
+#define Book_Project_Source_Book_Project_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execcreateASampleBoard) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->createASampleBoard(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLoadGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LoadGame(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSaveGame) \
+	{ \
+		P_GET_TARRAY(FLeaderboardSlot,Z_Param_boardToSave); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SaveGame(Z_Param_boardToSave); \
+		P_NATIVE_END; \
+	}
+
+
 #define Book_Project_Source_Book_Project_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyGameInstance(); \

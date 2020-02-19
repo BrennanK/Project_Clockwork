@@ -51,6 +51,7 @@ void ADeathBounds::Collision(UPrimitiveComponent * OverlappedComp, AActor * Othe
 		return;
 	}
 	
+
 	AAvatar* player=Cast<AAvatar>(OtherActor);
 
 	player->SetActorLocation(gameInstance->Location);

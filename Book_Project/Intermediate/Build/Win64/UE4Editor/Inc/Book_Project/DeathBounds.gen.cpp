@@ -124,6 +124,10 @@ void EmptyLinkFunctionForGeneratedCodeDeathBounds() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_testValueForSave_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_testValueForSave;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_deathBox_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_deathBox;
@@ -146,6 +150,13 @@ void EmptyLinkFunctionForGeneratedCodeDeathBounds() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADeathBounds_Statics::NewProp_testValueForSave_MetaData[] = {
+		{ "Category", "DeathBounds" },
+		{ "ModuleRelativePath", "DeathBounds.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ADeathBounds_Statics::NewProp_testValueForSave = { "testValueForSave", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADeathBounds, testValueForSave), METADATA_PARAMS(Z_Construct_UClass_ADeathBounds_Statics::NewProp_testValueForSave_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADeathBounds_Statics::NewProp_testValueForSave_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADeathBounds_Statics::NewProp_deathBox_MetaData[] = {
 		{ "Category", "Death Box Properties" },
 		{ "EditInline", "true" },
@@ -154,6 +165,7 @@ void EmptyLinkFunctionForGeneratedCodeDeathBounds() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADeathBounds_Statics::NewProp_deathBox = { "deathBox", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADeathBounds, deathBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADeathBounds_Statics::NewProp_deathBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADeathBounds_Statics::NewProp_deathBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADeathBounds_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADeathBounds_Statics::NewProp_testValueForSave,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADeathBounds_Statics::NewProp_deathBox,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ADeathBounds_Statics::StaticCppClassTypeInfo = {
@@ -183,7 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeDeathBounds() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADeathBounds, 1418013725);
+	IMPLEMENT_CLASS(ADeathBounds, 1486851657);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ADeathBounds>()
 	{
 		return ADeathBounds::StaticClass();

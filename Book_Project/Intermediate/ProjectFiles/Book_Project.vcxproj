@@ -501,8 +501,10 @@
     <ClInclude Include="..\..\Source\Book_Project\Interactable_Object.h" />
     <ClCompile Include="..\..\Source\Book_Project\Large_Spinning_Object.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Large_Spinning_Object.h" />
+    <ClCompile Include="..\..\Source\Book_Project\LeaderBoardSave.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Lock_On_Actor.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Manipulable_Object.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\LeaderBoardSave.h" />
     <ClInclude Include="..\..\Source\Book_Project\Lock_On_Actor.h" />
     <ClInclude Include="..\..\Source\Book_Project\Manipulable_Object.h" />
     <ClCompile Include="..\..\Source\Book_Project\Message_UserDefinedStruct.cpp" />
