@@ -24,6 +24,51 @@ D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clo
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Book_ProjectGameModeBase.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Book_ProjectGameModeBase.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Book_ProjectGameModeBase.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/BTService_CheckForPlayer.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/BTService_CheckForPlayer.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTService.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTAuxiliaryNode.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTNode.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeTypes.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeTypes.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeComponent.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\GameplayTags\Classes\GameplayTagContainer.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags\GameplayTagContainer.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\AITypes.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAreaBase.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAreaBase.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavArea.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationQueryFilter.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystemTypes.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemConfig.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemConfig.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITypes.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BrainComponent.h
+c:\ue_4_23\ue_4.23\engine\source\runtime\aimodule\classes\AIResourceInterface.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIResourceInterface.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BrainComponent.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeComponent.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTaskOwnerInterface.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\GameplayTasks\Public\GameplayTaskTypes.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTaskOwnerInterface.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\Tasks/AITask.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTask.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/WeakInterfacePtr.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTask.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITask.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTNode.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTAuxiliaryNode.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTService.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\BTService_CheckForPlayer.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/BTTask_MoveToPlayer.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/BTTask_MoveToPlayer.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Tasks/BTTask_BlackboardBase.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTTaskNode.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTaskNode.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTask_BlackboardBase.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\BTTask_MoveToPlayer.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Checkpoint.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Checkpoint.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Checkpoint.generated.h
@@ -40,6 +85,32 @@ d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clo
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Distortion_Fragments.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Distortion_Fragments.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Distortion_Fragments.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/EnemyAI.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/EnemyAI.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\AIModule\Classes\AIController.h
+c:\ue_4_23\ue_4.23\engine\source\runtime\aimodule\classes\Navigation/PathFollowingComponent.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavigationData.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationDataInterface.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationDataInterface.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationData.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PathFollowingAgentInterface.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\PathFollowingComponent.generated.h
+c:\ue_4_23\ue_4.23\engine\source\runtime\aimodule\classes\Perception/AIPerceptionListenerInterface.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionListenerInterface.generated.h
+c:\ue_4_23\ue_4.23\engine\source\runtime\aimodule\classes\GenericTeamAgentInterface.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\GenericTeamAgentInterface.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\EnemyAI.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/EnemyCharacter.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/EnemyCharacter.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\EnemyCharacter.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Energy_Restorer.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Energy_Restorer.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Manipulable_Object.h
