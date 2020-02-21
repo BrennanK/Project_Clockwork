@@ -19,8 +19,10 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_UMyGameInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UGameInstance();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_createASampleBoard();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_isNewScore();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_LoadGame();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_SaveGame();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_updateLeaderboard();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
@@ -137,8 +139,10 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		UClass* Class = UMyGameInstance::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "createASampleBoard", &UMyGameInstance::execcreateASampleBoard },
+			{ "isNewScore", &UMyGameInstance::execisNewScore },
 			{ "LoadGame", &UMyGameInstance::execLoadGame },
 			{ "SaveGame", &UMyGameInstance::execSaveGame },
+			{ "updateLeaderboard", &UMyGameInstance::execupdateLeaderboard },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -161,6 +165,42 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_createASampleBoard_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics
+	{
+		struct MyGameInstance_eventisNewScore_Parms
+		{
+			int32 scoreToEvaluate;
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_scoreToEvaluate;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventisNewScore_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::NewProp_scoreToEvaluate = { "scoreToEvaluate", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventisNewScore_Parms, scoreToEvaluate), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::NewProp_scoreToEvaluate,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyGameInstance, nullptr, "isNewScore", nullptr, nullptr, sizeof(MyGameInstance_eventisNewScore_Parms), Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyGameInstance_isNewScore()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_isNewScore_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -221,6 +261,50 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics
+	{
+		struct MyGameInstance_eventupdateLeaderboard_Parms
+		{
+			int32 indexOfNewScore;
+			FString playerName;
+			float playerTime;
+			int32 newHighscore;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_newHighscore;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_playerTime;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_playerName;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_indexOfNewScore;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::NewProp_newHighscore = { "newHighscore", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventupdateLeaderboard_Parms, newHighscore), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::NewProp_playerTime = { "playerTime", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventupdateLeaderboard_Parms, playerTime), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::NewProp_playerName = { "playerName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventupdateLeaderboard_Parms, playerName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::NewProp_indexOfNewScore = { "indexOfNewScore", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventupdateLeaderboard_Parms, indexOfNewScore), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::NewProp_newHighscore,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::NewProp_playerTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::NewProp_playerName,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::NewProp_indexOfNewScore,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyGameInstance, nullptr, "updateLeaderboard", nullptr, nullptr, sizeof(MyGameInstance_eventupdateLeaderboard_Parms), Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyGameInstance_updateLeaderboard()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_updateLeaderboard_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UMyGameInstance_NoRegister()
 	{
 		return UMyGameInstance::StaticClass();
@@ -255,8 +339,10 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyGameInstance_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UMyGameInstance_createASampleBoard, "createASampleBoard" }, // 2325904907
+		{ &Z_Construct_UFunction_UMyGameInstance_isNewScore, "isNewScore" }, // 3050386131
 		{ &Z_Construct_UFunction_UMyGameInstance_LoadGame, "LoadGame" }, // 2088876940
 		{ &Z_Construct_UFunction_UMyGameInstance_SaveGame, "SaveGame" }, // 2678333439
+		{ &Z_Construct_UFunction_UMyGameInstance_updateLeaderboard, "updateLeaderboard" }, // 395599873
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::Class_MetaDataParams[] = {
@@ -319,7 +405,7 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyGameInstance, 3489738506);
+	IMPLEMENT_CLASS(UMyGameInstance, 2362461615);
 	template<> BOOK_PROJECT_API UClass* StaticClass<UMyGameInstance>()
 	{
 		return UMyGameInstance::StaticClass();

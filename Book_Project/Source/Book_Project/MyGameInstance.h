@@ -31,4 +31,10 @@ class BOOK_PROJECT_API UMyGameInstance : public UGameInstance
 
 		UPROPERTY(EditAnywhere,BlueprintReadWrite,Category = "Array of LeaderboardSlot Structs")
 			TArray<FLeaderboardSlot> leaderboardToPresent;
+
+		UFUNCTION(BlueprintCallable)
+			int isNewScore(int scoreToEvaluate);
+
+		UFUNCTION(BlueprintCallable)
+			void updateLeaderboard(int indexOfNewScore, FString playerName, float playerTime,int newHighscore);
 };

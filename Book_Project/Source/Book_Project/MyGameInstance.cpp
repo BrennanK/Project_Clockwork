@@ -28,6 +28,7 @@ void UMyGameInstance::LoadGame()
 	}
 
 	myLeaderBoard = Cast<ULeaderBoardSave>(UGameplayStatics::LoadGameFromSlot("MyLeaderBoard", 0));
+	leaderboardToPresent = myLeaderBoard->leaderboardToSave;
 	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Orange, "Load has been acomplished");
 }
 
@@ -40,6 +41,41 @@ void UMyGameInstance::createASampleBoard()
 	for (int i = 0; i < 5; i++)
 	{
 		leaderboardToPresent.Add(emptySlot);
+	}
+	SaveGame(leaderboardToPresent);
+}
+
+int UMyGameInstance::isNewScore(int scoreToEvaluate)
+{
+	float number = scoreToEvaluate;
+	LoadGame();
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Orange, "This is the score being passed to checker " + FString::SanitizeFloat(number));
+	for (int i = 0; i < leaderboardToPresent.Num(); i++)
+	{
+		if (scoreToEvaluate > leaderboardToPresent[i].playerScore)
+		{
+			number = leaderboardToPresent[i].playerScore;
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Orange, "This is the score of the index " + FString::SanitizeFloat(number));
+			return i;
+		}
+	}
+	return -1;
+}
+
+void UMyGameInstance::updateLeaderboard(int indexOfNewScore,FString playerName,float playerTime,int newHighscore)
+{
+	for (int i = leaderboardToPresent.Num() - 1; i > indexOfNewScore - 1; i--)
+	{
+		if (i == indexOfNewScore)
+		{
+			leaderboardToPresent[i].playerScore=newHighscore;
+			leaderboardToPresent[i].name = playerName;
+			leaderboardToPresent[i].timeTakenToCompleteLevel = playerTime;
+		}
+		else
+		{
+			leaderboardToPresent[i] = leaderboardToPresent[i - 1];
+		}
 	}
 	SaveGame(leaderboardToPresent);
 }

@@ -23,6 +23,27 @@ template<> BOOK_PROJECT_API UScriptStruct* StaticStruct<struct FLeaderboardSlot>
 
 #define Book_Project_Source_Book_Project_MyGameInstance_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execupdateLeaderboard) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_indexOfNewScore); \
+		P_GET_PROPERTY(UStrProperty,Z_Param_playerName); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_playerTime); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_newHighscore); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->updateLeaderboard(Z_Param_indexOfNewScore,Z_Param_playerName,Z_Param_playerTime,Z_Param_newHighscore); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execisNewScore) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_scoreToEvaluate); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->isNewScore(Z_Param_scoreToEvaluate); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execcreateASampleBoard) \
 	{ \
 		P_FINISH; \
@@ -50,6 +71,27 @@ template<> BOOK_PROJECT_API UScriptStruct* StaticStruct<struct FLeaderboardSlot>
 
 
 #define Book_Project_Source_Book_Project_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execupdateLeaderboard) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_indexOfNewScore); \
+		P_GET_PROPERTY(UStrProperty,Z_Param_playerName); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_playerTime); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_newHighscore); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->updateLeaderboard(Z_Param_indexOfNewScore,Z_Param_playerName,Z_Param_playerTime,Z_Param_newHighscore); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execisNewScore) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_scoreToEvaluate); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->isNewScore(Z_Param_scoreToEvaluate); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execcreateASampleBoard) \
 	{ \
