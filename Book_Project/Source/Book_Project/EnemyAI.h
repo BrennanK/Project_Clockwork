@@ -27,4 +27,6 @@ class BOOK_PROJECT_API AEnemyAI : public AAIController
 		virtual void OnPossess(APawn *InPawn) override;
 
 		uint8 EnemyKeyID;
+
+		uint8 PawnKeyID;
 };

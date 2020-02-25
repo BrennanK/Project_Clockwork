@@ -1,0 +1,833 @@
+﻿Log file open, 02/24/20 16:33:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Book_Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.089719
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/UE_4_23/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.02.24-22.33.43:714][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.24-22.33.43:714][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.24-22.33.43:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.02.24-22.33.43:715][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.02.24-22.33.43:718][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:718][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.24-22.33.43:718][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.24-22.33.43:718][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:718][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.24-22.33.43:718][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:718][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.24-22.33.43:718][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.24-22.33.43:718][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.24-22.33.43:718][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.24-22.33.43:718][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.24-22.33.43:719][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.24-22.33.43:720][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.24-22.33.43:720][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.24-22.33.43:720][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.24-22.33.43:725][  0]LogHAL: Display: Platform has ~ 16 GB [17108713472 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.24-22.33.43:725][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.24-22.33.43:725][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.24-22.33.43:725][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2020.02.24-22.33.43:726][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.24-22.33.43:727][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.24-22.33.43:727][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.24-22.33.43:727][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.02.24-22.33.43:727][  0]LogInit: Computer: SAFARIS-PC
+[2020.02.24-22.33.43:727][  0]LogInit: User: Safari
+[2020.02.24-22.33.43:727][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.02.24-22.33.43:727][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.24-22.33.43:727][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.02.24-22.33.43:727][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.24-22.33.43:727][  0]LogMemory: Process Physical Memory: 103.39 MB used, 103.39 MB peak
+[2020.02.24-22.33.43:727][  0]LogMemory: Process Virtual Memory: 104.71 MB used, 104.71 MB peak
+[2020.02.24-22.33.43:727][  0]LogMemory: Physical Memory: 5458.27 MB used,  10857.87 MB free, 16316.14 MB total
+[2020.02.24-22.33.43:727][  0]LogMemory: Virtual Memory: 4705.62 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2020.02.24-22.33.43:731][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.02.24-22.33.43:766][  0]LogInit: Using OS detected language (en-US).
+[2020.02.24-22.33.43:766][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.24-22.33.43:767][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.24-22.33.43:967][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.24-22.33.44:012][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.24-22.33.44:012][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.24-22.33.44:220][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.24-22.33.44:220][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.24-22.33.44:311][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.02.24-22.33.44:311][  0]LogD3D11RHI:       4018/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.02.24-22.33.44:316][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.24-22.33.44:316][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.24-22.33.44:316][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.24-22.33.44:327][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.24-22.33.44:327][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.24-22.33.44:327][  0]LogWindows: EnumDisplayDevices:
+[2020.02.24-22.33.44:327][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.02.24-22.33.44:327][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.02.24-22.33.44:328][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.02.24-22.33.44:328][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.02.24-22.33.44:328][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.02.24-22.33.44:328][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.02.24-22.33.44:328][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
+[2020.02.24-22.33.44:328][  0]LogD3D11RHI:      Driver Date: 8-24-2019
+[2020.02.24-22.33.44:328][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.02.24-22.33.44:392][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.24-22.33.44:409][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.24-22.33.44:711][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.24-22.33.44:723][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.24-22.33.44:735][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.24-22.33.44:748][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.24-22.33.44:760][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.24-22.33.44:772][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.24-22.33.44:784][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.24-22.33.44:797][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.24-22.33.44:804][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.24-22.33.44:845][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.24-22.33.44:847][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.24-22.33.44:881][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.24-22.33.44:881][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.24-22.33.44:900][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.24-22.33.44:900][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.24-22.33.44:909][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.24-22.33.44:919][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.24-22.33.44:932][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.24-22.33.44:943][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.24-22.33.44:975][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.24-22.33.44:975][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.24-22.33.44:975][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.24-22.33.44:988][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.24-22.33.45:074][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Shaders/WorkingDirectory/8692/).
+[2020.02.24-22.33.45:074][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Safari/AppData/Local/Temp/UnrealShaderWorkingDir/96EACEE444640996EE064CB57FC09012/'.
+[2020.02.24-22.33.45:078][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.24-22.33.45:078][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.24-22.33.45:078][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.24-22.33.45:799][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.24-22.33.45:846][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.02.24-22.33.45:846][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.02.24-22.33.45:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.24-22.33.45:846][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.24-22.33.45:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.24-22.33.45:846][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.24-22.33.45:860][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.24-22.33.45:860][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.24-22.33.45:860][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.24-22.33.45:862][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Safari/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.24-22.33.45:862][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.24-22.33.45:862][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.24-22.33.45:888][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.24-22.33.45:891][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.24-22.33.45:892][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.24-22.33.45:960][  0]LogAssetRegistry: FAssetRegistry took 0.0036 seconds to start up
+[2020.02.24-22.33.46:305][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.24-22.33.46:487][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.24-22.33.46:487][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.24-22.33.46:487][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.24-22.33.46:487][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.24-22.33.46:487][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.24-22.33.46:500][  0]LogNetVersion: Book_Project 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4225194187)
+[2020.02.24-22.33.46:995][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.069748 seconds
+[2020.02.24-22.33.47:007][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.02.24-22.33.47:007][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.02.24-22.33.47:007][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.24-22.33.48:032][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.24-22.33.48:036][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.24-22.33.48:157][  0]SourceControl: Source control is disabled
+[2020.02.24-22.33.48:157][  0]SourceControl: Source control is disabled
+[2020.02.24-22.33.48:159][  0]SourceControl: Source control is disabled
+[2020.02.24-22.33.48:160][  0]SourceControl: Source control is disabled
+[2020.02.24-22.33.48:284][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.24-22.33.48:443][  0]LogOcInput: OculusInput pre-init called
+[2020.02.24-22.33.48:452][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.02.24-22.33.48:452][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.02.24-22.33.48:536][  0]LogEngine: Initializing Engine...
+[2020.02.24-22.33.48:537][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.24-22.33.48:539][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.24-22.33.48:790][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.24-22.33.48:810][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.24-22.33.48:831][  0]LogInit: XAudio2 using 'Headphones (4- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.24-22.33.48:852][  0]LogInit: FAudioDevice initialized.
+[2020.02.24-22.33.48:853][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.24-22.33.48:939][  0]LogDerivedDataCache: Saved boot cache 0.09s 73MB C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.02.24-22.33.48:949][  0]LogInit: Texture streaming: Enabled
+[2020.02.24-22.33.48:980][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.24-22.33.48:980][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.02.24-22.33.48:981][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.02.24-22.33.49:081][  0]LogInit: Transaction tracking system initialized
+[2020.02.24-22.33.49:127][  0]BlueprintLog: New page: Editor Load
+[2020.02.24-22.33.49:239][  0]LocalizationService: Localization service is disabled
+[2020.02.24-22.33.49:551][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/' took 0.01s
+[2020.02.24-22.33.49:551][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.24-22.33.49:551][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.24-22.33.49:791][  0]SourceControl: Source control is disabled
+[2020.02.24-22.33.49:791][  0]Cmd: MAP LOAD FILE="D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Time_Jail.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.24-22.33.49:792][  0]LightingResults: New page: Lighting Build
+[2020.02.24-22.33.49:796][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.02.24-22.33.49:796][  0]MapCheck: New page: Map Check
+[2020.02.24-22.33.49:796][  0]LightingResults: New page: Lighting Build
+[2020.02.24-22.33.49:843][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.02.24-22.33.50:828][  0]LogAIModule: Creating AISystem for world Time_Jail
+[2020.02.24-22.33.50:877][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives_2.Frag 1: Material index 0 is invalid.
+[2020.02.24-22.33.50:877][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives_2.Frag 2: Material index 0 is invalid.
+[2020.02.24-22.33.50:877][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives_2.Frag 3: Material index 0 is invalid.
+[2020.02.24-22.33.50:881][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives3_5.Frag 1: Material index 0 is invalid.
+[2020.02.24-22.33.50:881][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives3_5.Frag 2: Material index 0 is invalid.
+[2020.02.24-22.33.50:881][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives3_5.Frag 3: Material index 0 is invalid.
+[2020.02.24-22.33.50:883][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives4_8.Frag 1: Material index 0 is invalid.
+[2020.02.24-22.33.50:883][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives4_8.Frag 2: Material index 0 is invalid.
+[2020.02.24-22.33.50:883][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives4_8.Frag 3: Material index 0 is invalid.
+[2020.02.24-22.33.50:884][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives5_11.Frag 1: Material index 0 is invalid.
+[2020.02.24-22.33.50:884][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives5_11.Frag 2: Material index 0 is invalid.
+[2020.02.24-22.33.50:884][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/Time_Jail.Time_Jail:PersistentLevel.BP_Lives5_11.Frag 3: Material index 0 is invalid.
+[2020.02.24-22.33.50:978][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.24-22.33.51:034][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.02.24-22.33.51:035][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.24-22.33.51:035][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.382ms to complete.
+[2020.02.24-22.33.51:035][  0]LogFileHelpers: Loading map 'Time_Jail' took 1.244
+[2020.02.24-22.33.51:160][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-22.33.51:169][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-22.33.51:177][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-22.33.51:185][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-22.33.51:194][  0]LogCollectionManager: Loaded 0 collections in 0.003222 seconds
+[2020.02.24-22.33.51:204][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Collections/' took 0.00s
+[2020.02.24-22.33.51:204][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Developers/Safari/Collections/' took 0.00s
+[2020.02.24-22.33.51:204][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Collections/' took 0.00s
+[2020.02.24-22.33.51:204][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.24-22.33.51:216][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2902 classes and 682 folders.
+[2020.02.24-22.33.51:226][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.24-22.33.51:286][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.24-22.33.51:398][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.02.24-22.33.52:688][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.02.24-22.33.52:714][  0]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.24-22.33.52:717][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.24-22.33.52:797][  0]LogRenderer: Reallocating scene render targets to support 1196x572 Format 10 NumSamples 1 (Frame:1).
+[2020.02.24-22.33.52:912][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.02.24-22.33.52:913][  0]LogLoad: (Engine Initialization) Total time: 10.87 seconds
+[2020.02.24-22.33.52:913][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.24-22.33.53:008][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.02.24-22.33.53:036][  1]LogAssetRegistry: Asset discovery search completed in 7.0768 seconds
+[2020.02.24-22.33.53:040][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2020.02.24-22.33.53:040][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2020.02.24-22.33.53:967][105]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.24-22.33.55:427][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-22.33.55:429][276]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.24-22.33.55:463][276]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.24-22.33.55:529][282]LogActor: Warning: BP_Second_Interactable_Object_C /Engine/Transient.World_1:PersistentLevel.BP_Second_Interactable_Object_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.24-22.33.55:545][283]LogActor: Warning: BP_Projectile_Tracker_C /Engine/Transient.World_2:PersistentLevel.BP_Projectile_Tracker_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.24-22.33.55:564][284]LogActor: Warning: BP_Projectile_C /Engine/Transient.World_3:PersistentLevel.BP_Projectile_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.24-22.34.02:818][989]LogAIModule: Creating AISystem for world Dev_Playground
+[2020.02.24-22.34.02:869][989]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/Dev_Playground.Dev_Playground
+[2020.02.24-22.34.02:928][989]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.02.24-22.34.02:931][989]LightingResults: New page: Lighting Build
+[2020.02.24-22.34.02:931][989]LoadErrors: New page: Loading map: Dev_Playground.umap
+[2020.02.24-22.34.02:933][989]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.02.24-22.34.02:934][989]MapCheck: New page: Map Check
+[2020.02.24-22.34.02:934][989]LightingResults: New page: Lighting Build
+[2020.02.24-22.34.02:982][989]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.02.24-22.34.03:385][989]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.24-22.34.03:443][989]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.02.24-22.34.03:501][989]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.24-22.34.03:503][989]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.934ms to complete.
+[2020.02.24-22.34.03:503][989]LogFileHelpers: Loading map 'Dev_Playground' took 0.573
+[2020.02.24-22.34.25:397][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.02.24-22.34.27:277][796]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.24-22.34.27:306][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground' with GeneratedClass '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground'
+[2020.02.24-22.34.27:306][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.24-22.34.27:306][796]PIE: New page: PIE session: Dev_Playground (Feb 24, 2020, 10:34:27 AM)
+[2020.02.24-22.34.27:307][796]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.02.24-22.34.27:309][796]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground
+[2020.02.24-22.34.27:378][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068785s)
+[2020.02.24-22.34.27:379][796]LogAIModule: Creating AISystem for world Dev_Playground
+[2020.02.24-22.34.27:379][796]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2020.02.24-22.34.27:380][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Dev_Playground.Dev_Playground to /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground.Dev_Playground (0.070504s)
+[2020.02.24-22.34.27:427][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.02.24-22.34.27:444][796]LogInit: XAudio2 using 'Headphones (4- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.24-22.34.27:457][796]LogInit: FAudioDevice initialized.
+[2020.02.24-22.34.27:469][796]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.02.24-22.34.27:478][796]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground.Dev_Playground up for play (max tick rate 0) at 2020.02.24-16.34.27
+[2020.02.24-22.34.27:481][796]LogWorld: Bringing up level for play took: 0.010955
+[2020.02.24-22.34.27:481][796]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.02.24-22.34.27:492][796]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.02.24-22.34.27:496][796]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground 0.233
+[2020.02.24-22.34.27:497][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground' with GeneratedClass '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground'
+[2020.02.24-22.34.36:131][825]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground' with GeneratedClass '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground'
+[2020.02.24-22.34.36:131][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-22.34.36:131][825]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground
+[2020.02.24-22.34.36:131][825]LogWorld: UWorld::CleanupWorld for Dev_Playground, bSessionEnded=true, bCleanupResources=true
+[2020.02.24-22.34.36:140][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.24-22.34.36:140][825]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground' with GeneratedClass '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground'
+[2020.02.24-22.34.36:192][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-22.34.36:197][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.02.24-22.34.36:245][827]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.02.24-22.34.39:879][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-22.34.50:059][389]LogAssetEditorManager: Opening Asset editor for Class /Script/Book_Project.BTTask_MoveToPlayer
+[2020.02.24-22.34.54:473][530]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.02.24-22.35.30:613][146]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP2)
+[2020.02.24-22.35.31:977][266]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.24-22.35.33:278][383]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.24-22.35.34:157][462]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.24-22.35.34:160][462]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/AI/EnemyCharacter_BP.EnemyCharacter_BP
+[2020.02.24-22.35.34:469][462]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2020.02.24-22.35.37:465][583]LogSlate: Window 'EnemyCharacter_BP' being destroyed
+[2020.02.24-22.35.37:471][583]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.02.24-22.35.37:538][583]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.24-22.35.37:542][583]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/AI/EnemyCharacter_BP.EnemyCharacter_BP
+[2020.02.24-22.35.38:006][583]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.24-22.35.39:209][655]LogRenderer: Reallocating scene render targets to support 1196x592 Format 10 NumSamples 1 (Frame:1).
+[2020.02.24-22.35.54:567][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-22.35.54:646][635]BlueprintLog: New page: Compile EnemyCharacter_BP
+[2020.02.24-22.35.55:064][635]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2020.02.24-22.35.59:209][925]LogRenderer: Reallocating scene render targets to support 1196x596 Format 10 NumSamples 1 (Frame:1280).
+[2020.02.24-22.35.59:357][933]LogRenderer: Reallocating scene render targets to support 1196x708 Format 10 NumSamples 1 (Frame:1291).
+[2020.02.24-22.35.59:713][973]LogSlate: Window 'EnemyCharacter_BP' being destroyed
+[2020.02.24-22.36.03:685][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-22.36.06:960][740]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.02.24-22.36.07:020][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.02.24-22.36.07:580][740]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Dev_PlaygroundCE132A784166E2DF229EE1917F11A06E.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Dev_Playground.umap'
+[2020.02.24-22.36.07:648][740]LogFileHelpers: Saving map 'Dev_Playground' took 0.673
+[2020.02.24-22.36.07:867][740]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/EnemyCharacter_BP7A5B948A4A6EDD21986C2BAE1FE7BA4C.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Blueprints/AI/EnemyCharacter_BP.uasset'
+[2020.02.24-22.37.33:043][176]Candidate modules for hot reload:
+[2020.02.24-22.37.33:043][176]  Book_Project
+[2020.02.24-22.37.33:044][176]Launching UnrealBuildTool... [C:/UE_4_23/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,7167 Win64 Development -TargetType=Editor -Project="D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject" "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject"  -IgnoreJunk]
+[2020.02.24-22.37.33:046][176]Warning: Starting HotReload took  0.1s.
+[2020.02.24-22.38.00:256][679]CompilerResultsLog: New page: Compilation - Feb 24, 2020, 10:38:00 AM
+[2020.02.24-22.38.00:256][679]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork).
+[2020.02.24-22.38.00:256][679]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2020.02.24-22.38.00:256][679]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Book_Project.uproject" "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.24-22.38.00:256][679]CompilerResultsLog: Reflection code generated for Book_ProjectEditor in 7.8051012 seconds
+[2020.02.24-22.38.00:256][679]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.24-22.38.00:256][679]CompilerResultsLog: Building 4 actions with 16 processes...
+[2020.02.24-22.38.00:256][679]CompilerResultsLog:   [1/4] Module.Book_Project.cpp
+[2020.02.24-22.38.00:256][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Checkpoint.cpp(22): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:256][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:256][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Collission_Text.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/DeathBounds.cpp(23): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Distortion_Fragments.cpp(24): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Energy_Restorer.cpp(22): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Energy_Restorer.cpp(23): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/NewBounce_Pad.cpp(22): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/NewBounce_Pad.cpp(23): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/NPC.cpp(18): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/PickupItem.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/PickupItem.cpp(21): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Projectile.cpp(26): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Projectile.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Quick_Congrats_Screen.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Second_Interactable_Object.cpp(21): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Teleporter.cpp(17): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:257][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:258][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Working_Bouncepad.cpp(23): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:258][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:258][679]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Working_Bouncepad.cpp(24): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-22.38.00:258][679]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-22.38.00:258][679]CompilerResultsLog:   [2/4] UE4Editor-Book_Project-7167.lib
+[2020.02.24-22.38.00:258][679]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-7167.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-7167.exp
+[2020.02.24-22.38.00:258][679]CompilerResultsLog:   [3/4] UE4Editor-Book_Project-7167.dll
+[2020.02.24-22.38.00:258][679]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-7167.suppressed.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-7167.suppressed.exp
+[2020.02.24-22.38.00:258][679]CompilerResultsLog:   [4/4] Book_ProjectEditor.target
+[2020.02.24-22.38.00:258][679]CompilerResultsLog: Total time in Parallel executor: 18.06 seconds
+[2020.02.24-22.38.00:258][679]CompilerResultsLog: Total execution time: 27.11 seconds
+[2020.02.24-22.38.00:258][679]LogMainFrame: MainFrame: Module compiling took 27.218 seconds
+[2020.02.24-22.38.00:308][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.02.24-22.38.00:444][679]LogClass: ECharacterState HotReload.
+[2020.02.24-22.38.00:444][679]LogClass: ETimeAbility HotReload.
+[2020.02.24-22.38.00:444][679]LogClass: ETextType HotReload.
+[2020.02.24-22.38.00:444][679]LogClass: EPickupType HotReload.
+[2020.02.24-22.38.00:444][679]LogClass: EInteractionType HotReload.
+[2020.02.24-22.38.00:444][679]LogClass: EBOUNCE HotReload.
+[2020.02.24-22.38.00:444][679]LogClass: EDIRECTIONOFMOVEMENT HotReload.
+[2020.02.24-22.38.00:444][679]LogClass: EProjectileType HotReload.
+[2020.02.24-22.38.00:444][679]LogClass: ETurretType HotReload.
+[2020.02.24-22.38.00:444][679]LogClass: LeaderboardSlot HotReload.
+[2020.02.24-22.38.00:470][679]LogHotReload: Re-instancing Working_Bouncepad after hot-reload.
+[2020.02.24-22.38.00:697][679]LogContentBrowser: Native class hierarchy updated for 'Book_Project' in 0.0008 seconds. Added 39 classes and 2 folders.
+[2020.02.24-22.38.00:704][679]Display: HotReload successful (45 functions remapped  1 scriptstructs remapped)
+[2020.02.24-22.38.00:821][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.02.24-22.38.00:844][679]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2903 classes and 684 folders.
+[2020.02.24-22.38.00:844][679]Display: HotReload took 27.9s.
+[2020.02.24-22.38.11:833][345]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.24-22.38.11:865][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground' with GeneratedClass '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground'
+[2020.02.24-22.38.11:865][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.24-22.38.11:865][345]PIE: New page: PIE session: Dev_Playground (Feb 24, 2020, 10:38:11 AM)
+[2020.02.24-22.38.11:865][345]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground
+[2020.02.24-22.38.11:929][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063756s)
+[2020.02.24-22.38.11:931][345]LogAIModule: Creating AISystem for world Dev_Playground
+[2020.02.24-22.38.11:931][345]LogPlayLevel: PIE: World Init took: (0.001624s)
+[2020.02.24-22.38.11:931][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Dev_Playground.Dev_Playground to /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground.Dev_Playground (0.065625s)
+[2020.02.24-22.38.12:020][345]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2020.02.24-22.38.12:036][345]LogInit: XAudio2 using 'Headphones (4- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.24-22.38.12:047][345]LogInit: FAudioDevice initialized.
+[2020.02.24-22.38.12:057][345]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.02.24-22.38.12:066][345]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground.Dev_Playground up for play (max tick rate 0) at 2020.02.24-16.38.12
+[2020.02.24-22.38.12:068][345]LogWorld: Bringing up level for play took: 0.010304
+[2020.02.24-22.38.12:069][345]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.02.24-22.38.12:074][345]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground 0.811
+[2020.02.24-22.38.12:074][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground' with GeneratedClass '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground'
+[2020.02.24-22.38.19:214][143]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground' with GeneratedClass '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground'
+[2020.02.24-22.38.19:214][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-22.38.19:214][143]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground
+[2020.02.24-22.38.19:215][143]LogWorld: UWorld::CleanupWorld for Dev_Playground, bSessionEnded=true, bCleanupResources=true
+[2020.02.24-22.38.19:224][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.24-22.38.19:224][143]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground' with GeneratedClass '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground'
+[2020.02.24-22.38.19:282][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-22.38.19:293][143]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2020.02.24-22.38.19:317][144]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.02.24-22.43.57:634][729]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={9D835A1C-4AD9-07EF-B08F-1886887DB6F2}
+[2020.02.24-22.43.57:634][729]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={7C1364F4-47E4-1CE6-5A7C-D8AE7AD88524}
+[2020.02.24-23.24.48:408][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.24-23.24.50:513][237]Candidate modules for hot reload:
+[2020.02.24-23.24.50:513][237]  Book_Project
+[2020.02.24-23.24.50:514][237]Launching UnrealBuildTool... [C:/UE_4_23/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Book_Project,2098 Win64 Development -TargetType=Editor -Project="D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject" "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Book_Project.uproject"  -IgnoreJunk]
+[2020.02.24-23.24.50:516][237]Warning: Starting HotReload took  0.0s.
+[2020.02.24-23.25.18:539][525]CompilerResultsLog: New page: Compilation - Feb 24, 2020, 11:25:18 AM
+[2020.02.24-23.25.18:539][525]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork).
+[2020.02.24-23.25.18:539][525]CompilerResultsLog: Parsing headers for Book_ProjectEditor
+[2020.02.24-23.25.18:539][525]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Book_Project.uproject" "D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\Book_ProjectEditor\Development\Book_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.24-23.25.18:539][525]CompilerResultsLog: Reflection code generated for Book_ProjectEditor in 7.8164629 seconds
+[2020.02.24-23.25.18:539][525]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.24-23.25.18:539][525]CompilerResultsLog: Building 5 actions with 16 processes...
+[2020.02.24-23.25.18:539][525]CompilerResultsLog:   [1/5] Module.Book_Project.gen.cpp
+[2020.02.24-23.25.18:539][525]CompilerResultsLog:   [2/5] Module.Book_Project.cpp
+[2020.02.24-23.25.18:539][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Checkpoint.cpp(22): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:539][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:539][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Collission_Text.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:539][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:539][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/DeathBounds.cpp(23): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:539][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Distortion_Fragments.cpp(24): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Energy_Restorer.cpp(22): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Energy_Restorer.cpp(23): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/NewBounce_Pad.cpp(22): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/NewBounce_Pad.cpp(23): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/NPC.cpp(18): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/PickupItem.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/PickupItem.cpp(21): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Projectile.cpp(26): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Projectile.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Quick_Congrats_Screen.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Second_Interactable_Object.cpp(21): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Teleporter.cpp(17): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Working_Bouncepad.cpp(23): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:540][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:541][525]CompilerResultsLog:   D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Working_Bouncepad.cpp(24): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.02.24-23.25.18:541][525]CompilerResultsLog:   C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(658): note: see declaration of 'USceneComponent::AttachTo'
+[2020.02.24-23.25.18:541][525]CompilerResultsLog:   [3/5] UE4Editor-Book_Project-2098.lib
+[2020.02.24-23.25.18:541][525]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-2098.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-2098.exp
+[2020.02.24-23.25.18:541][525]CompilerResultsLog:   [4/5] UE4Editor-Book_Project-2098.dll
+[2020.02.24-23.25.18:541][525]CompilerResultsLog:      Creating library D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-2098.suppressed.lib and object D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\UE4Editor-Book_Project-2098.suppressed.exp
+[2020.02.24-23.25.18:541][525]CompilerResultsLog:   [5/5] Book_ProjectEditor.target
+[2020.02.24-23.25.18:541][525]CompilerResultsLog: Total time in Parallel executor: 18.89 seconds
+[2020.02.24-23.25.18:541][525]CompilerResultsLog: Total execution time: 27.93 seconds
+[2020.02.24-23.25.18:541][525]LogMainFrame: MainFrame: Module compiling took 28.030 seconds
+[2020.02.24-23.25.18:592][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.02.24-23.25.18:659][525]LogClass: Could not find existing class EnemyCharacter in package /Script/Book_Project for HotReload, assuming new class
+[2020.02.24-23.25.18:742][525]LogClass: ECharacterState HotReload.
+[2020.02.24-23.25.18:742][525]LogClass: ETimeAbility HotReload.
+[2020.02.24-23.25.18:742][525]LogClass: ETextType HotReload.
+[2020.02.24-23.25.18:743][525]LogClass: EPickupType HotReload.
+[2020.02.24-23.25.18:743][525]LogClass: EInteractionType HotReload.
+[2020.02.24-23.25.18:743][525]LogClass: EBOUNCE HotReload.
+[2020.02.24-23.25.18:743][525]LogClass: EDIRECTIONOFMOVEMENT HotReload.
+[2020.02.24-23.25.18:743][525]LogClass: EProjectileType HotReload.
+[2020.02.24-23.25.18:743][525]LogClass: ETurretType HotReload.
+[2020.02.24-23.25.18:743][525]LogClass: LeaderboardSlot HotReload.
+[2020.02.24-23.25.18:777][525]LogHotReload: Re-instancing EnemyCharacter after hot-reload.
+[2020.02.24-23.25.19:381][525]LogContentBrowser: Native class hierarchy updated for 'Book_Project' in 0.0008 seconds. Added 39 classes and 2 folders.
+[2020.02.24-23.25.19:388][525]Display: HotReload successful (45 functions remapped  1 scriptstructs remapped)
+[2020.02.24-23.25.19:500][525]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2020.02.24-23.25.19:523][525]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2903 classes and 684 folders.
+[2020.02.24-23.25.19:523][525]Display: HotReload took 29.0s.
+[2020.02.24-23.26.08:465][317]BlueprintLog: New page: Compile EnemyCharacter_BP
+[2020.02.24-23.26.08:960][317]LogUObjectHash: Compacting FUObjectHashTables data took   6.61ms
+[2020.02.24-23.26.10:588][478]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.02.24-23.26.10:651][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.02.24-23.26.11:207][478]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Dev_PlaygroundB0165C7942558D1AD3A1F09DEFA3AC58.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Dev_Playground.umap'
+[2020.02.24-23.26.11:267][478]LogFileHelpers: Saving map 'Dev_Playground' took 0.666
+[2020.02.24-23.26.11:459][478]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/EnemyCharacter_BP52BB51A345CC02E2B2E7C9BAE3F78A00.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Blueprints/AI/EnemyCharacter_BP.uasset'
+[2020.02.24-23.26.13:372][696]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.24-23.26.13:402][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground' with GeneratedClass '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground'
+[2020.02.24-23.26.13:402][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.24-23.26.13:402][696]PIE: New page: PIE session: Dev_Playground (Feb 24, 2020, 11:26:13 AM)
+[2020.02.24-23.26.13:403][696]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground
+[2020.02.24-23.26.13:457][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053792s)
+[2020.02.24-23.26.13:458][696]LogAIModule: Creating AISystem for world Dev_Playground
+[2020.02.24-23.26.13:458][696]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2020.02.24-23.26.13:458][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Dev_Playground.Dev_Playground to /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground.Dev_Playground (0.055161s)
+[2020.02.24-23.26.13:507][696]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2020.02.24-23.26.13:524][696]LogInit: XAudio2 using 'Headphones (4- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.24-23.26.13:537][696]LogInit: FAudioDevice initialized.
+[2020.02.24-23.26.13:544][696]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.02.24-23.26.13:552][696]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground.Dev_Playground up for play (max tick rate 0) at 2020.02.24-17.26.13
+[2020.02.24-23.26.13:554][696]LogWorld: Bringing up level for play took: 0.010019
+[2020.02.24-23.26.13:555][696]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.02.24-23.26.13:560][696]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Dev_Playground 0.296
+[2020.02.24-23.26.13:560][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground' with GeneratedClass '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Dev_Playground.Dev_Playground:PersistentLevel.Dev_Playground'

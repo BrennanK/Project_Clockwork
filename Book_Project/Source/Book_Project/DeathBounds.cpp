@@ -51,6 +51,7 @@ void ADeathBounds::Collision(UPrimitiveComponent * OverlappedComp, AActor * Othe
 		return;
 	}
 	
+	gameInstance->incrementDeathNumber();
 
 	AAvatar* player=Cast<AAvatar>(OtherActor);
 

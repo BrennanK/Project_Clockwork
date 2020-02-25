@@ -27,6 +27,10 @@ void AEnemyAI::OnPossess(APawn * InPawn)
 
 		EnemyKeyID = BlackboardComp->GetKeyID("Target");
 
+		PawnKeyID = BlackboardComp->GetKeyID("Pawn_Ref");
+
 		BehaviorComp->StartTree(*Char->BotBehavior);
+
+		BehaviorComp->GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(PawnKeyID, Char);
 	}
 }

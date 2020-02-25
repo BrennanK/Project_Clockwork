@@ -79,3 +79,32 @@ void UMyGameInstance::updateLeaderboard(int indexOfNewScore,FString playerName,f
 	}
 	SaveGame(leaderboardToPresent);
 }
+
+int UMyGameInstance::calculateBonusAmount()
+{
+	deserveDeathBonus();
+	deserveObjectiveBonus();
+	return bonusAccumulated;
+}
+
+void UMyGameInstance::incrementDeathNumber()
+{
+	numberOfDeaths++;
+	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Orange, "The Number of Deaths for the player is "+ FString::SanitizeFloat((float)numberOfDeaths));
+}
+
+void UMyGameInstance::deserveDeathBonus()
+{
+	if (numberOfDeaths == 0)
+	{
+		bonusAccumulated += bonusForDeaths;
+	}
+}
+
+void UMyGameInstance::deserveObjectiveBonus()
+{
+	if (allObjectivesComplete == true)
+	{
+		bonusAccumulated += bonusForObjectives;
+	}
+}

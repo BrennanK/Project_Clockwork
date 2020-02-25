@@ -18,7 +18,11 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_UMyGameInstance_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_UMyGameInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UGameInstance();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_createASampleBoard();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_isNewScore();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_LoadGame();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_SaveGame();
@@ -138,13 +142,49 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 	{
 		UClass* Class = UMyGameInstance::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "calculateBonusAmount", &UMyGameInstance::execcalculateBonusAmount },
 			{ "createASampleBoard", &UMyGameInstance::execcreateASampleBoard },
+			{ "deserveDeathBonus", &UMyGameInstance::execdeserveDeathBonus },
+			{ "deserveObjectiveBonus", &UMyGameInstance::execdeserveObjectiveBonus },
+			{ "incrementDeathNumber", &UMyGameInstance::execincrementDeathNumber },
 			{ "isNewScore", &UMyGameInstance::execisNewScore },
 			{ "LoadGame", &UMyGameInstance::execLoadGame },
 			{ "SaveGame", &UMyGameInstance::execSaveGame },
 			{ "updateLeaderboard", &UMyGameInstance::execupdateLeaderboard },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics
+	{
+		struct MyGameInstance_eventcalculateBonusAmount_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventcalculateBonusAmount_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyGameInstance, nullptr, "calculateBonusAmount", nullptr, nullptr, sizeof(MyGameInstance_eventcalculateBonusAmount_Parms), Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UMyGameInstance_createASampleBoard_Statics
 	{
@@ -165,6 +205,72 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_createASampleBoard_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyGameInstance, nullptr, "deserveDeathBonus", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyGameInstance, nullptr, "deserveObjectiveBonus", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyGameInstance, nullptr, "incrementDeathNumber", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -322,6 +428,27 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_leaderboardToPresent;
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_leaderboardToPresent_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bonusForObjectives_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_bonusForObjectives;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bonusForDeaths_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_bonusForDeaths;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_allObjectivesComplete_MetaData[];
+#endif
+		static void NewProp_allObjectivesComplete_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_allObjectivesComplete;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_numberOfDeaths_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_numberOfDeaths;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bonusAccumulated_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_bonusAccumulated;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Rotation_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Rotation;
@@ -338,7 +465,11 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		(UObject* (*)())Z_Construct_UPackage__Script_Book_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyGameInstance_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMyGameInstance_calculateBonusAmount, "calculateBonusAmount" }, // 2134413993
 		{ &Z_Construct_UFunction_UMyGameInstance_createASampleBoard, "createASampleBoard" }, // 2325904907
+		{ &Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus, "deserveDeathBonus" }, // 1922756629
+		{ &Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus, "deserveObjectiveBonus" }, // 3797682198
+		{ &Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber, "incrementDeathNumber" }, // 2730239818
 		{ &Z_Construct_UFunction_UMyGameInstance_isNewScore, "isNewScore" }, // 3050386131
 		{ &Z_Construct_UFunction_UMyGameInstance_LoadGame, "LoadGame" }, // 2088876940
 		{ &Z_Construct_UFunction_UMyGameInstance_SaveGame, "SaveGame" }, // 2678333439
@@ -359,6 +490,45 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_leaderboardToPresent = { "leaderboardToPresent", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, leaderboardToPresent), METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_leaderboardToPresent_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_leaderboardToPresent_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_leaderboardToPresent_Inner = { "leaderboardToPresent", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FLeaderboardSlot, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusForObjectives_MetaData[] = {
+		{ "Category", "Game Instance Variables for Bonus Attributes" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusForObjectives = { "bonusForObjectives", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, bonusForObjectives), METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusForObjectives_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusForObjectives_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusForDeaths_MetaData[] = {
+		{ "Category", "Game Instance Variables for Bonus Attributes" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusForDeaths = { "bonusForDeaths", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, bonusForDeaths), METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusForDeaths_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusForDeaths_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_allObjectivesComplete_MetaData[] = {
+		{ "Category", "Game Instance Variables for Bonus Attributes" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	void Z_Construct_UClass_UMyGameInstance_Statics::NewProp_allObjectivesComplete_SetBit(void* Obj)
+	{
+		((UMyGameInstance*)Obj)->allObjectivesComplete = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_allObjectivesComplete = { "allObjectivesComplete", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyGameInstance), &Z_Construct_UClass_UMyGameInstance_Statics::NewProp_allObjectivesComplete_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_allObjectivesComplete_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_allObjectivesComplete_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_numberOfDeaths_MetaData[] = {
+		{ "Category", "Game Instance Variables for Bonus Attributes" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_numberOfDeaths = { "numberOfDeaths", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, numberOfDeaths), METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_numberOfDeaths_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_numberOfDeaths_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusAccumulated_MetaData[] = {
+		{ "Category", "Game Instance Variables for Bonus Attributes" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusAccumulated = { "bonusAccumulated", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, bonusAccumulated), METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusAccumulated_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusAccumulated_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_Rotation_MetaData[] = {
 		{ "Category", "Game Instance Variables for DeathBox" },
 		{ "ModuleRelativePath", "MyGameInstance.h" },
@@ -375,6 +545,11 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyGameInstance_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_leaderboardToPresent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_leaderboardToPresent_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusForObjectives,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusForDeaths,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_allObjectivesComplete,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_numberOfDeaths,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_bonusAccumulated,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_Rotation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_Location,
 	};
@@ -405,7 +580,7 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyGameInstance, 2362461615);
+	IMPLEMENT_CLASS(UMyGameInstance, 51320136);
 	template<> BOOK_PROJECT_API UClass* StaticClass<UMyGameInstance>()
 	{
 		return UMyGameInstance::StaticClass();

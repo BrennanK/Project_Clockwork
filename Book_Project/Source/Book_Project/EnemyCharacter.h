@@ -18,6 +18,9 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Behavior")
 		class UBehaviorTree *BotBehavior;
 
+	UPROPERTY(EditAnywhere, Category = "Speed of Movement")
+		float movementSpeed;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

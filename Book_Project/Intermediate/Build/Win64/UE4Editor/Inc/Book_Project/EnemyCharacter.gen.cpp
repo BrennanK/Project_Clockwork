@@ -33,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_movementSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_movementSpeed;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BotBehavior_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BotBehavior;
@@ -52,6 +56,13 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_movementSpeed_MetaData[] = {
+		{ "Category", "Speed of Movement" },
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_movementSpeed = { "movementSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, movementSpeed), METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_movementSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_movementSpeed_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BotBehavior_MetaData[] = {
 		{ "Category", "Behavior" },
 		{ "ModuleRelativePath", "EnemyCharacter.h" },
@@ -59,6 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BotBehavior = { "BotBehavior", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, BotBehavior), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BotBehavior_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BotBehavior_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_movementSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BotBehavior,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemyCharacter_Statics::StaticCppClassTypeInfo = {
@@ -88,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacter, 1769903499);
+	IMPLEMENT_CLASS(AEnemyCharacter, 4124575334);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AEnemyCharacter>()
 	{
 		return AEnemyCharacter::StaticClass();

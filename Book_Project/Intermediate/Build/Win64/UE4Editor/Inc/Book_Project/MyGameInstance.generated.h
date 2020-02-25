@@ -23,6 +23,38 @@ template<> BOOK_PROJECT_API UScriptStruct* StaticStruct<struct FLeaderboardSlot>
 
 #define Book_Project_Source_Book_Project_MyGameInstance_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execdeserveObjectiveBonus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->deserveObjectiveBonus(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execdeserveDeathBonus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->deserveDeathBonus(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execincrementDeathNumber) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->incrementDeathNumber(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execcalculateBonusAmount) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->calculateBonusAmount(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execupdateLeaderboard) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_indexOfNewScore); \
@@ -71,6 +103,38 @@ template<> BOOK_PROJECT_API UScriptStruct* StaticStruct<struct FLeaderboardSlot>
 
 
 #define Book_Project_Source_Book_Project_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execdeserveObjectiveBonus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->deserveObjectiveBonus(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execdeserveDeathBonus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->deserveDeathBonus(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execincrementDeathNumber) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->incrementDeathNumber(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execcalculateBonusAmount) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->calculateBonusAmount(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execupdateLeaderboard) \
 	{ \

@@ -20,11 +20,26 @@ class BOOK_PROJECT_API UMyGameInstance : public UGameInstance
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Instance Variables for DeathBox")
 			FRotator Rotation;
 
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Instance Variables for Bonus Attributes")
+			int bonusAccumulated;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Instance Variables for Bonus Attributes")
+			int numberOfDeaths;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Instance Variables for Bonus Attributes")
+			bool allObjectivesComplete;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Instance Variables for Bonus Attributes")
+			int bonusForDeaths;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Instance Variables for Bonus Attributes")
+			int bonusForObjectives;
+
 		UFUNCTION(BlueprintCallable)
-		void SaveGame(TArray<FLeaderboardSlot> boardToSave);
+			void SaveGame(TArray<FLeaderboardSlot> boardToSave);
 		
 		UFUNCTION(BlueprintCallable)
-		void LoadGame();
+			void LoadGame();
 
 		UFUNCTION()
 			void createASampleBoard();
@@ -37,4 +52,16 @@ class BOOK_PROJECT_API UMyGameInstance : public UGameInstance
 
 		UFUNCTION(BlueprintCallable)
 			void updateLeaderboard(int indexOfNewScore, FString playerName, float playerTime,int newHighscore);
+		
+		UFUNCTION(BlueprintCallable)
+			int calculateBonusAmount();
+
+		UFUNCTION()
+			void incrementDeathNumber();
+
+		UFUNCTION()
+			void deserveDeathBonus();
+
+		UFUNCTION()
+			void deserveObjectiveBonus();
 };
