@@ -19,6 +19,7 @@ UBTService_CheckForPlayer::UBTService_CheckForPlayer()
 
 void UBTService_CheckForPlayer::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory, float DeltaSeconds)
 {
+	GEngine->AddOnScreenDebugMessage(-1, 3.f, FColor::Blue, "The update node for the AI is running");
 	AEnemyAI *EnemyPC = Cast<AEnemyAI>(OwnerComp.GetAIOwner());
 
 	if (EnemyPC)
@@ -28,7 +29,7 @@ void UBTService_CheckForPlayer::TickNode(UBehaviorTreeComponent & OwnerComp, uin
 		if (ourPlayer)
 		{
 			OwnerComp.GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(EnemyPC->EnemyKeyID, ourPlayer);
-			GEngine->AddOnScreenDebugMessage(-1,3.f,FColor::Blue,"Our AI has found the player");
+			//GEngine->AddOnScreenDebugMessage(-1,3.f,FColor::Blue,"Our AI has found the player");
 		}
 	}
 }

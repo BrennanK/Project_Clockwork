@@ -483,9 +483,11 @@
     <ClInclude Include="..\..\Source\Book_Project\Book_ProjectGameModeBase.h" />
     <ClCompile Include="..\..\Source\Book_Project\BTService_CheckForPlayer.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\BTTask_MoveToPlayer.cpp" />
+    <ClCompile Include="..\..\Source\Book_Project\BTTask_MoveToRandomLocation.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Checkpoint.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\BTService_CheckForPlayer.h" />
     <ClInclude Include="..\..\Source\Book_Project\BTTask_MoveToPlayer.h" />
+    <ClInclude Include="..\..\Source\Book_Project\BTTask_MoveToRandomLocation.h" />
     <ClInclude Include="..\..\Source\Book_Project\Checkpoint.h" />
     <ClCompile Include="..\..\Source\Book_Project\Collission_Text.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Collission_Text.h" />
@@ -551,7 +553,9 @@
     <ClInclude Include="..\..\Source\Book_Project\Turret.h" />
     <ClCompile Include="..\..\Source\Book_Project\UI_Data_Holder.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\UI_Data_Holder.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Wander_Then_Follow_Enemy.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Working_Bouncepad.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\Wander_Then_Follow_Enemy.h" />
     <ClInclude Include="..\..\Source\Book_Project\Working_Bouncepad.h" />
   </ItemGroup>
   <PropertyGroup>

@@ -7,12 +7,15 @@
 #include "BehaviorTree/BehaviorTree.h"
 #include "EnemyCharacter.h"
 #include "BehaviorTree/BehaviorTreeComponent.h"
+#include "Perception/AIPerceptionComponent.h"
+#include "Engine.h"
 
 AEnemyAI::AEnemyAI()
 {
 	BlackboardComp = CreateDefaultSubobject<UBlackboardComponent>(TEXT("BlackboardComp"));
 
 	BehaviorComp = CreateDefaultSubobject<UBehaviorTreeComponent>(TEXT("BehaviorComp"));
+
 }
 
 void AEnemyAI::OnPossess(APawn * InPawn)
@@ -21,6 +24,11 @@ void AEnemyAI::OnPossess(APawn * InPawn)
 
 	AEnemyCharacter *Char = Cast<AEnemyCharacter>(InPawn);
 
+	if (Char == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 3.f, FColor::Blue, "Our AI cast to enemy character has failed");
+	}
+
 	if (Char && Char->BotBehavior)
 	{
 		BlackboardComp->InitializeBlackboard(*Char->BotBehavior->BlackboardAsset);
@@ -28,6 +36,7 @@ void AEnemyAI::OnPossess(APawn * InPawn)
 		EnemyKeyID = BlackboardComp->GetKeyID("Target");
 
 		PawnKeyID = BlackboardComp->GetKeyID("Pawn_Ref");
+
 
 		BehaviorComp->StartTree(*Char->BotBehavior);
 

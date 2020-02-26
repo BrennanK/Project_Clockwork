@@ -271,6 +271,12 @@
     <ClInclude Include="..\..\Source\Book_Project\BTTask_MoveToPlayer.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\Wander_Then_Follow_Enemy.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\BTTask_MoveToRandomLocation.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Book_Project\EnemyCharacter.cpp">
@@ -280,6 +286,12 @@
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Book_Project\BTTask_MoveToPlayer.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\Wander_Then_Follow_Enemy.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\BTTask_MoveToRandomLocation.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
   </ItemGroup>

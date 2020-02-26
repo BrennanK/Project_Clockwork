@@ -29,4 +29,6 @@ class BOOK_PROJECT_API AEnemyAI : public AAIController
 		uint8 EnemyKeyID;
 
 		uint8 PawnKeyID;
+
+		uint8 VectorKeyID;
 };
