@@ -482,12 +482,12 @@
     <ClCompile Include="..\..\Source\Book_Project\Book_ProjectGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Book_ProjectGameModeBase.h" />
     <ClCompile Include="..\..\Source\Book_Project\BTService_CheckForPlayer.cpp" />
-    <ClCompile Include="..\..\Source\Book_Project\BTTask_MoveToPlayer.cpp" />
-    <ClCompile Include="..\..\Source\Book_Project\BTTask_MoveToRandomLocation.cpp" />
-    <ClCompile Include="..\..\Source\Book_Project\Checkpoint.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\BTService_CheckForPlayer.h" />
+    <ClCompile Include="..\..\Source\Book_Project\BTTask_MoveToPlayer.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\BTTask_MoveToPlayer.h" />
+    <ClCompile Include="..\..\Source\Book_Project\BTTask_MoveToRandomLocation.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\BTTask_MoveToRandomLocation.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Checkpoint.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Checkpoint.h" />
     <ClCompile Include="..\..\Source\Book_Project\Collission_Text.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Collission_Text.h" />
@@ -502,8 +502,8 @@
     <ClCompile Include="..\..\Source\Book_Project\EnemyAI.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\EnemyAI.h" />
     <ClCompile Include="..\..\Source\Book_Project\EnemyCharacter.cpp" />
-    <ClCompile Include="..\..\Source\Book_Project\Energy_Restorer.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\EnemyCharacter.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Energy_Restorer.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Energy_Restorer.h" />
     <ClCompile Include="..\..\Source\Book_Project\Grindable_Rail.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Grindable_Rail.h" />
@@ -529,10 +529,18 @@
     <ClInclude Include="..\..\Source\Book_Project\NPC.h" />
     <ClCompile Include="..\..\Source\Book_Project\NPC_HUD.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\NPC_HUD.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Patrolling_Enemy.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\Patrolling_Enemy.h" />
+    <ClCompile Include="..\..\Source\Book_Project\PatrolPath.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\PatrolPath.h" />
     <ClCompile Include="..\..\Source\Book_Project\PickupItem.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\PickupItem.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Power_Source_Enemy.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Projectile.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\Power_Source_Enemy.h" />
     <ClInclude Include="..\..\Source\Book_Project\Projectile.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Punch_Projectile.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\Punch_Projectile.h" />
     <ClCompile Include="..\..\Source\Book_Project\Quick_Congrats_Screen.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Quick_Congrats_Screen.h" />
     <ClCompile Include="..\..\Source\Book_Project\Second_Interactable_Object.cpp" />
@@ -554,8 +562,8 @@
     <ClCompile Include="..\..\Source\Book_Project\UI_Data_Holder.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\UI_Data_Holder.h" />
     <ClCompile Include="..\..\Source\Book_Project\Wander_Then_Follow_Enemy.cpp" />
-    <ClCompile Include="..\..\Source\Book_Project\Working_Bouncepad.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Wander_Then_Follow_Enemy.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Working_Bouncepad.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Working_Bouncepad.h" />
   </ItemGroup>
   <PropertyGroup>

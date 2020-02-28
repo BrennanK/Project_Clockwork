@@ -401,13 +401,21 @@ void AAvatar::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)  // 
 	}
 }
 
+void AAvatar::spawnPunchingProjectile()
+{
+	FActorSpawnParameters SpawnParams;
+	GetWorld()->SpawnActor<AActor>(AttackProjectiles[0], GetActorLocation() + GetActorForwardVector() * 50, GetActorRotation(), SpawnParams);
+}
+
 void AAvatar::startPunching()  // sets the controller varaible for our punching animation to true and enables fist collision
 {
+	//FActorSpawnParameters SpawnParams;
 	switch (currentState)
 	{
 	case ECharacterState::NORMAL:
 		isPunching = true;
 		enableAndDisableCollision();
+		//GetWorld()->SpawnActor<AActor>(AttackProjectiles[0], GetActorLocation()+GetActorForwardVector()*50, GetActorRotation(), SpawnParams);
 		break;
 
 	case ECharacterState::INTERACTABLE:

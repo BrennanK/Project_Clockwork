@@ -100,6 +100,14 @@ struct FHitResult;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execspawnPunchingProjectile) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->spawnPunchingProjectile(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execFalling) \
 	{ \
 		P_FINISH; \
@@ -197,6 +205,14 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->beginGrind(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execspawnPunchingProjectile) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->spawnPunchingProjectile(); \
 		P_NATIVE_END; \
 	} \
  \

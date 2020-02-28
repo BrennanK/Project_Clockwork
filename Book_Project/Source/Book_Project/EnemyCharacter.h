@@ -21,6 +21,10 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Speed of Movement")
 		float movementSpeed;
 
+	UPROPERTY(EditAnywhere, Category = "Delay of Death")
+		float delay;
+
+	FTimerHandle destructionHandler;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -31,5 +35,9 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	void initiateDestruction();
+
+	void DestroyThisUnit();
 
 };

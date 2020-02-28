@@ -2,6 +2,7 @@
 
 
 #include "EnemyCharacter.h"
+#include "TimerManager.h"
 
 // Sets default values
 AEnemyCharacter::AEnemyCharacter()
@@ -30,5 +31,15 @@ void AEnemyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+}
+
+void AEnemyCharacter::initiateDestruction()
+{
+	GetWorldTimerManager().SetTimer(destructionHandler,this,&AEnemyCharacter::DestroyThisUnit,1.0f,false,delay);
+}
+
+void AEnemyCharacter::DestroyThisUnit()
+{
+	Destroy();
 }
 

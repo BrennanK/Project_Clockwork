@@ -41,7 +41,9 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_setLockOnTarget();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ALock_On_Actor_NoRegister();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_showCollectables();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_spawnPunchingProjectile();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_useTimePower();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AInteractable_Object_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ACollission_Text_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USplineComponent_NoRegister();
@@ -227,6 +229,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 			{ "removeLockOnTarget", &AAvatar::execremoveLockOnTarget },
 			{ "RightTimePower", &AAvatar::execRightTimePower },
 			{ "setLockOnTarget", &AAvatar::execsetLockOnTarget },
+			{ "spawnPunchingProjectile", &AAvatar::execspawnPunchingProjectile },
 			{ "useTimePower", &AAvatar::execuseTimePower },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -720,6 +723,28 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AAvatar_spawnPunchingProjectile_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_spawnPunchingProjectile_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_spawnPunchingProjectile_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "spawnPunchingProjectile", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_spawnPunchingProjectile_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_spawnPunchingProjectile_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_spawnPunchingProjectile()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_spawnPunchingProjectile_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AAvatar_useTimePower_Statics
 	{
 		struct Avatar_eventuseTimePower_Parms
@@ -766,6 +791,11 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackProjectiles_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_AttackProjectiles;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_AttackProjectiles_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timeFalling_MetaData[];
 #endif
@@ -928,6 +958,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		{ &Z_Construct_UFunction_AAvatar_RightTimePower, "RightTimePower" }, // 2393503033
 		{ &Z_Construct_UFunction_AAvatar_setLockOnTarget, "setLockOnTarget" }, // 1295108670
 		{ &Z_Construct_UFunction_AAvatar_showCollectables, "showCollectables" }, // 1815958859
+		{ &Z_Construct_UFunction_AAvatar_spawnPunchingProjectile, "spawnPunchingProjectile" }, // 1523779490
 		{ &Z_Construct_UFunction_AAvatar_useTimePower, "useTimePower" }, // 2278580059
 	};
 #if WITH_METADATA
@@ -938,6 +969,14 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles_MetaData[] = {
+		{ "Category", "Actor to Spawn" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles = { "AttackProjectiles", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, AttackProjectiles), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles_Inner = { "AttackProjectiles", nullptr, (EPropertyFlags)0x0004000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling_MetaData[] = {
 		{ "Category", "Falling Time" },
@@ -1186,6 +1225,8 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_currentState = { "currentState", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, currentState), Z_Construct_UEnum_Book_Project_ECharacterState, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_currentState_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_currentState_MetaData)) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_currentState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAvatar_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_interactable,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider,
@@ -1249,7 +1290,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 1508736872);
+	IMPLEMENT_CLASS(AAvatar, 4209004471);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();

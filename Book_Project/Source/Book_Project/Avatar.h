@@ -125,6 +125,10 @@ public:
 
 	UPROPERTY(VisibleAnywhere, Category = "Falling Time")
 		float timeFalling;
+
+	UPROPERTY(EditAnywhere, Category = "Actor to Spawn")
+		TArray<TSubclassOf<AActor>> AttackProjectiles;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -156,6 +160,9 @@ public:
 	void printContentsOfBackpackOnScreen();
 	
 	void TouchStarted(ETouchIndex::Type FingerIndex, FVector Location);
+
+	UFUNCTION(BlueprintCallable)
+		void spawnPunchingProjectile();
 	
 	void startPunching();
 	
@@ -225,4 +232,5 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void changeToNormalMaterial();
+
 };
