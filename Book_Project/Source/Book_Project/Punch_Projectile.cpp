@@ -38,7 +38,11 @@ void APunch_Projectile::Collision(UPrimitiveComponent * OverlappedComp, AActor *
 	{
 		GEngine->AddOnScreenDebugMessage(-1,4.f,FColor::Emerald,"We hit that dastadly dangerous enemy");
 
-		Cast<AEnemyCharacter>(OtherActor)->initiateDestruction();
+		showColorVisual(Cast<AEnemyCharacter>(OtherActor));
+		
+		Cast<AEnemyCharacter>(OtherActor)->initiateDestruction(GetActorRotation());
+
+		Destroy();
 	}
 }
 

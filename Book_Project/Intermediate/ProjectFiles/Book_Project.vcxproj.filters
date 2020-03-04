@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Book_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B7107188-403C-489A-9282-0CBA4B52EBE1}</UniqueIdentifier>
+      <UniqueIdentifier>{9D974F9E-E990-4688-8A51-79246D90A7CA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Book_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4B41FF7D-1543-42BB-8009-BB5B33D0DE38}</UniqueIdentifier>
+      <UniqueIdentifier>{93A676A3-92B5-49AE-B7A2-DBECB129406C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Book_Project">
-      <UniqueIdentifier>{B65A80AC-6B31-4640-9504-A4F5AB0B56FA}</UniqueIdentifier>
+      <UniqueIdentifier>{7D14C5D0-9F29-4B97-84CC-76685E31CCAD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Book_Project\Avatar.cpp">
       <Filter>Source\Book_Project</Filter>
@@ -224,6 +224,12 @@
     <ClInclude Include="..\..\Source\Book_Project\PickupItem.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Power_Source_Enemy.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Power_Source_Enemy.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Projectile.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
@@ -310,12 +316,18 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\Book_Project\Power_Source_Enemy.h">
+    <ClInclude Include="..\..\Source\Book_Project\Fire_Trap.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\Retractable_Platform.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Book_Project\Power_Source_Enemy.cpp">
+    <ClCompile Include="..\..\Source\Book_Project\Fire_Trap.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\Retractable_Platform.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
   </ItemGroup>

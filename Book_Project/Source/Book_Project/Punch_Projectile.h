@@ -34,8 +34,11 @@ protected:
 		float speed;
 	UFUNCTION()
 		void Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintImplementableEvent)
+		void showColorVisual(AEnemyCharacter* characterHit);
 };

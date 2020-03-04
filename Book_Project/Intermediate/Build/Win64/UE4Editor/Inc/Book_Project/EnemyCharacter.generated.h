@@ -13,8 +13,44 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BOOK_PROJECT_EnemyCharacter_generated_h
 
-#define Book_Project_Source_Book_Project_EnemyCharacter_h_12_RPC_WRAPPERS
-#define Book_Project_Source_Book_Project_EnemyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Book_Project_Source_Book_Project_EnemyCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDie) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Die(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDestroyThisUnit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DestroyThisUnit(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Book_Project_Source_Book_Project_EnemyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDie) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Die(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDestroyThisUnit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DestroyThisUnit(); \
+		P_NATIVE_END; \
+	}
+
+
 #define Book_Project_Source_Book_Project_EnemyCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyCharacter(); \
@@ -54,7 +90,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemyCharacter); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyCharacter); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemyCharacter)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyCharacter)
 
 
 #define Book_Project_Source_Book_Project_EnemyCharacter_h_12_PRIVATE_PROPERTY_OFFSET

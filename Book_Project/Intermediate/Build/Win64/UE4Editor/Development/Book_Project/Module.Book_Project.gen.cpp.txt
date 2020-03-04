@@ -119,6 +119,9 @@ D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clo
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Manipulable_Object.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Manipulable_Object.generated.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Energy_Restorer.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Fire_Trap.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Fire_Trap.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Fire_Trap.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Grindable_Rail.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Grindable_Rail.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Grindable_Rail.generated.h
@@ -183,6 +186,9 @@ d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clo
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Quick_Congrats_Screen.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Quick_Congrats_Screen.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Quick_Congrats_Screen.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Retractable_Platform.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Retractable_Platform.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Retractable_Platform.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Second_Interactable_Object.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Second_Interactable_Object.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Second_Interactable_Object.generated.h

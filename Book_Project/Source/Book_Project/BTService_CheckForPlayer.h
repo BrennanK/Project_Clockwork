@@ -16,6 +16,6 @@ class BOOK_PROJECT_API UBTService_CheckForPlayer : public UBTService
 
 	public:
 		UBTService_CheckForPlayer();
-
+		bool isDetonating;
 		virtual void TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds) override;
 };

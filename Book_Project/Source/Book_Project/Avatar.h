@@ -129,6 +129,12 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Actor to Spawn")
 		TArray<TSubclassOf<AActor>> AttackProjectiles;
 
+	UPROPERTY(EditAnywhere, Category = "Knockback from Damage")
+		float XYKnockback;
+
+	UPROPERTY(EditAnywhere, Category = "Knockback from Damage")
+		float ZKnockback;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -233,4 +239,5 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 		void changeToNormalMaterial();
 
+	void addKnockback(FRotator rotationOfHarmfulObject);
 };

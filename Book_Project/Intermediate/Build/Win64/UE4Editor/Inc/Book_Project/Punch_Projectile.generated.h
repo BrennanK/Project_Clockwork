@@ -11,6 +11,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPrimitiveComponent;
 class AActor;
 struct FHitResult;
+class AEnemyCharacter;
 #ifdef BOOK_PROJECT_Punch_Projectile_generated_h
 #error "Punch_Projectile.generated.h already included, missing '#pragma once' in Punch_Projectile.h"
 #endif
@@ -50,6 +51,14 @@ struct FHitResult;
 	}
 
 
+#define Book_Project_Source_Book_Project_Punch_Projectile_h_12_EVENT_PARMS \
+	struct Punch_Projectile_eventshowColorVisual_Parms \
+	{ \
+		AEnemyCharacter* characterHit; \
+	};
+
+
+#define Book_Project_Source_Book_Project_Punch_Projectile_h_12_CALLBACK_WRAPPERS
 #define Book_Project_Source_Book_Project_Punch_Projectile_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPunch_Projectile(); \
@@ -97,12 +106,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APunch_Projectile); \
 	FORCEINLINE static uint32 __PPO__speed() { return STRUCT_OFFSET(APunch_Projectile, speed); }
 
 
-#define Book_Project_Source_Book_Project_Punch_Projectile_h_9_PROLOG
+#define Book_Project_Source_Book_Project_Punch_Projectile_h_9_PROLOG \
+	Book_Project_Source_Book_Project_Punch_Projectile_h_12_EVENT_PARMS
+
+
 #define Book_Project_Source_Book_Project_Punch_Projectile_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_Punch_Projectile_h_12_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_Punch_Projectile_h_12_RPC_WRAPPERS \
+	Book_Project_Source_Book_Project_Punch_Projectile_h_12_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_Punch_Projectile_h_12_INCLASS \
 	Book_Project_Source_Book_Project_Punch_Projectile_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -114,6 +127,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_Punch_Projectile_h_12_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_Punch_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Book_Project_Source_Book_Project_Punch_Projectile_h_12_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_Punch_Projectile_h_12_INCLASS_NO_PURE_DECLS \
 	Book_Project_Source_Book_Project_Punch_Projectile_h_12_ENHANCED_CONSTRUCTORS \
 private: \

@@ -21,9 +21,18 @@ void EmptyLinkFunctionForGeneratedCodePunch_Projectile() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APunch_Projectile_showColorVisual();
+	BOOK_PROJECT_API UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_APunch_Projectile_showColorVisual = FName(TEXT("showColorVisual"));
+	void APunch_Projectile::showColorVisual(AEnemyCharacter* characterHit)
+	{
+		Punch_Projectile_eventshowColorVisual_Parms Parms;
+		Parms.characterHit=characterHit;
+		ProcessEvent(FindFunctionChecked(NAME_APunch_Projectile_showColorVisual),&Parms);
+	}
 	void APunch_Projectile::StaticRegisterNativesAPunch_Projectile()
 	{
 		UClass* Class = APunch_Projectile::StaticClass();
@@ -113,6 +122,34 @@ void EmptyLinkFunctionForGeneratedCodePunch_Projectile() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics
+	{
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_characterHit;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics::NewProp_characterHit = { "characterHit", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Punch_Projectile_eventshowColorVisual_Parms, characterHit), Z_Construct_UClass_AEnemyCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics::NewProp_characterHit,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Punch_Projectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APunch_Projectile, nullptr, "showColorVisual", nullptr, nullptr, sizeof(Punch_Projectile_eventshowColorVisual_Parms), Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APunch_Projectile_showColorVisual()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_APunch_Projectile_NoRegister()
 	{
 		return APunch_Projectile::StaticClass();
@@ -150,6 +187,7 @@ void EmptyLinkFunctionForGeneratedCodePunch_Projectile() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APunch_Projectile_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APunch_Projectile_Collision, "Collision" }, // 3393838327
+		{ &Z_Construct_UFunction_APunch_Projectile_showColorVisual, "showColorVisual" }, // 1102358767
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APunch_Projectile_Statics::Class_MetaDataParams[] = {
@@ -221,7 +259,7 @@ void EmptyLinkFunctionForGeneratedCodePunch_Projectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APunch_Projectile, 3311055698);
+	IMPLEMENT_CLASS(APunch_Projectile, 370081768);
 	template<> BOOK_PROJECT_API UClass* StaticClass<APunch_Projectile>()
 	{
 		return APunch_Projectile::StaticClass();

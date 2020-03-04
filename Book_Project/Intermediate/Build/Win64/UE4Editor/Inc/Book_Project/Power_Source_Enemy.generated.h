@@ -8,13 +8,48 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef BOOK_PROJECT_Power_Source_Enemy_generated_h
 #error "Power_Source_Enemy.generated.h already included, missing '#pragma once' in Power_Source_Enemy.h"
 #endif
 #define BOOK_PROJECT_Power_Source_Enemy_generated_h
 
-#define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_RPC_WRAPPERS
-#define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCollision) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Collision(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	}
+
+
+#define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCollision) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Collision(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	}
+
+
 #define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPower_Source_Enemy(); \
@@ -35,7 +70,7 @@ public: \
 
 #define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API APower_Source_Enemy(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API APower_Source_Enemy(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APower_Source_Enemy) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APower_Source_Enemy); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APower_Source_Enemy); \
@@ -47,8 +82,6 @@ public:
 
 
 #define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API APower_Source_Enemy() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APower_Source_Enemy(APower_Source_Enemy&&); \
@@ -56,7 +89,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APower_Source_Enemy); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APower_Source_Enemy); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APower_Source_Enemy)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APower_Source_Enemy)
 
 
 #define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_PRIVATE_PROPERTY_OFFSET

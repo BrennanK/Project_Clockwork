@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeWander_Then_Follow_Enemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AWander_Then_Follow_Enemy, 2468934516);
+	IMPLEMENT_CLASS(AWander_Then_Follow_Enemy, 3627440161);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AWander_Then_Follow_Enemy>()
 	{
 		return AWander_Then_Follow_Enemy::StaticClass();

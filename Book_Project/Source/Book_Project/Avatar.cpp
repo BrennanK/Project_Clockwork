@@ -199,6 +199,17 @@ void AAvatar::useTimePower(ETimeAbility ability)
 	}
 }
 
+void AAvatar::addKnockback(FRotator rotationOfHarmfulObject)
+{
+	FRotator Rotation = rotationOfHarmfulObject;
+	const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+
+	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+
+	ACharacter::LaunchCharacter(FVector(Direction.X * XYKnockback, Direction.Y * XYKnockback, ZKnockback), true, true);
+}
+
 void AAvatar::Landed(const FHitResult & Hit)
 {
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));

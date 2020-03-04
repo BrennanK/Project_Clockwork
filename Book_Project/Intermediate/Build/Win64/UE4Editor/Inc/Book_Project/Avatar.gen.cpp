@@ -792,6 +792,14 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ZKnockback_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ZKnockback;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_XYKnockback_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_XYKnockback;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackProjectiles_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_AttackProjectiles;
@@ -969,6 +977,20 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_ZKnockback_MetaData[] = {
+		{ "Category", "Knockback from Damage" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_ZKnockback = { "ZKnockback", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, ZKnockback), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_ZKnockback_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_ZKnockback_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_XYKnockback_MetaData[] = {
+		{ "Category", "Knockback from Damage" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_XYKnockback = { "XYKnockback", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, XYKnockback), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_XYKnockback_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_XYKnockback_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles_MetaData[] = {
 		{ "Category", "Actor to Spawn" },
@@ -1225,6 +1247,8 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_currentState = { "currentState", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, currentState), Z_Construct_UEnum_Book_Project_ECharacterState, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_currentState_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_currentState_MetaData)) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_currentState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAvatar_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_ZKnockback,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_XYKnockback,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling,
@@ -1290,7 +1314,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 4209004471);
+	IMPLEMENT_CLASS(AAvatar, 19896869);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();

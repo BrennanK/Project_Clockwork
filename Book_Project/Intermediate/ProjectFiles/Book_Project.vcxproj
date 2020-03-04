@@ -99,7 +99,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C4AE0E95-1979-4D05-87F6-B936AFE8AA9C}</ProjectGuid>
+    <ProjectGuid>{03CC55CD-F54D-41EF-9A86-0572CBCAED75}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Book_Project</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>
@@ -505,7 +505,9 @@
     <ClInclude Include="..\..\Source\Book_Project\EnemyCharacter.h" />
     <ClCompile Include="..\..\Source\Book_Project\Energy_Restorer.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Energy_Restorer.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Fire_Trap.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Grindable_Rail.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\Fire_Trap.h" />
     <ClInclude Include="..\..\Source\Book_Project\Grindable_Rail.h" />
     <ClCompile Include="..\..\Source\Book_Project\Interactable_Object.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Interactable_Object.h" />
@@ -536,14 +538,16 @@
     <ClCompile Include="..\..\Source\Book_Project\PickupItem.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\PickupItem.h" />
     <ClCompile Include="..\..\Source\Book_Project\Power_Source_Enemy.cpp" />
-    <ClCompile Include="..\..\Source\Book_Project\Projectile.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Power_Source_Enemy.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Projectile.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Projectile.h" />
     <ClCompile Include="..\..\Source\Book_Project\Punch_Projectile.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Punch_Projectile.h" />
     <ClCompile Include="..\..\Source\Book_Project\Quick_Congrats_Screen.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Quick_Congrats_Screen.h" />
+    <ClCompile Include="..\..\Source\Book_Project\Retractable_Platform.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Second_Interactable_Object.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\Retractable_Platform.h" />
     <ClInclude Include="..\..\Source\Book_Project\Second_Interactable_Object.h" />
     <ClCompile Include="..\..\Source\Book_Project\Standard_Moving_Platform.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\Standard_Moving_Platform.h" />
