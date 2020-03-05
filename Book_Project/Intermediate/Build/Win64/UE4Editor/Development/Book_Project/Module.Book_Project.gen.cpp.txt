@@ -207,6 +207,9 @@ d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clo
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Test_Create.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Test_Create.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Test_Create.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Trap_Door.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Trap_Door.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Trap_Door.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Turret.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Turret.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Turret.generated.h

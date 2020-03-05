@@ -1,0 +1,1224 @@
+﻿Log file open, 03/04/20 17:49:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Book_Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.093644
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/UE_4_23/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.04-23.49.05:083][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.03.04-23.49.05:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.04-23.49.05:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.03.04-23.49.05:084][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.03.04-23.49.05:087][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.04-23.49.05:087][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.04-23.49.05:088][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.04-23.49.05:088][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.04-23.49.05:088][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.04-23.49.05:092][  0]LogHAL: Display: Platform has ~ 16 GB [17108713472 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.04-23.49.05:092][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.04-23.49.05:093][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.04-23.49.05:093][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.04-23.49.05:094][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Config/Windows/Engine.ini]
+[2020.03.04-23.49.05:094][  0]LogInit: Computer: SAFARIS-PC
+[2020.03.04-23.49.05:094][  0]LogInit: User: Safari
+[2020.03.04-23.49.05:094][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.03.04-23.49.05:094][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.04-23.49.05:095][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.04-23.49.05:095][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.04-23.49.05:095][  0]LogMemory: Process Physical Memory: 102.01 MB used, 102.02 MB peak
+[2020.03.04-23.49.05:095][  0]LogMemory: Process Virtual Memory: 102.30 MB used, 102.30 MB peak
+[2020.03.04-23.49.05:095][  0]LogMemory: Physical Memory: 5700.88 MB used,  10615.26 MB free, 16316.14 MB total
+[2020.03.04-23.49.05:095][  0]LogMemory: Virtual Memory: 4703.18 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2020.03.04-23.49.05:099][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.04-23.49.05:136][  0]LogInit: Using OS detected language (en-US).
+[2020.03.04-23.49.05:136][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.04-23.49.05:137][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.04-23.49.05:335][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.04-23.49.05:377][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.04-23.49.05:377][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.04-23.49.05:591][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.04-23.49.05:591][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.04-23.49.05:675][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.03.04-23.49.05:675][  0]LogD3D11RHI:       4018/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.03.04-23.49.05:678][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.04-23.49.05:678][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.04-23.49.05:678][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.04-23.49.05:688][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.04-23.49.05:688][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.04-23.49.05:688][  0]LogWindows: EnumDisplayDevices:
+[2020.03.04-23.49.05:688][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.03.04-23.49.05:688][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.03.04-23.49.05:689][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.03.04-23.49.05:689][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.03.04-23.49.05:689][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.04-23.49.05:689][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.03.04-23.49.05:689][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
+[2020.03.04-23.49.05:689][  0]LogD3D11RHI:      Driver Date: 8-24-2019
+[2020.03.04-23.49.05:689][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.03.04-23.49.05:753][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.04-23.49.05:771][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.04-23.49.06:108][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.03.04-23.49.06:121][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.03.04-23.49.06:133][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.03.04-23.49.06:145][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.03.04-23.49.06:158][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.03.04-23.49.06:171][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.03.04-23.49.06:183][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.04-23.49.06:196][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.03.04-23.49.06:202][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.03.04-23.49.06:244][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.03.04-23.49.06:246][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.03.04-23.49.06:271][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.03.04-23.49.06:271][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.03.04-23.49.06:290][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.03.04-23.49.06:290][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.03.04-23.49.06:300][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.03.04-23.49.06:309][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.04-23.49.06:320][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.03.04-23.49.06:331][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.03.04-23.49.06:364][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.03.04-23.49.06:364][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.03.04-23.49.06:364][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.04-23.49.06:378][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.04-23.49.06:453][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Shaders/WorkingDirectory/19024/).
+[2020.03.04-23.49.06:454][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Safari/AppData/Local/Temp/UnrealShaderWorkingDir/16CBFB6947206F89367FA3BFE3426450/'.
+[2020.03.04-23.49.06:457][  0]LogXGEController: Cleaning working directory: C:/Users/Safari/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.04-23.49.06:457][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.04-23.49.06:457][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.04-23.49.06:457][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.04-23.49.07:172][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.04-23.49.07:220][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.03.04-23.49.07:220][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.03.04-23.49.07:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.04-23.49.07:220][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.04-23.49.07:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.04-23.49.07:220][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.04-23.49.07:234][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.04-23.49.07:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.04-23.49.07:234][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.04-23.49.07:236][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Safari/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.04-23.49.07:236][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.04-23.49.07:236][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.04-23.49.07:261][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.04-23.49.07:265][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.04-23.49.07:266][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.04-23.49.07:334][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2020.03.04-23.49.07:672][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.04-23.49.07:849][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.04-23.49.07:849][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.04-23.49.07:849][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.04-23.49.07:849][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.04-23.49.07:849][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.04-23.49.07:860][  0]LogNetVersion: Book_Project 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4225194187)
+[2020.03.04-23.49.08:349][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.070933 seconds
+[2020.03.04-23.49.08:358][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.03.04-23.49.08:358][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.03.04-23.49.08:358][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.04-23.49.09:396][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.04-23.49.09:400][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.04-23.49.09:481][  0]SourceControl: Source control is disabled
+[2020.03.04-23.49.09:481][  0]SourceControl: Source control is disabled
+[2020.03.04-23.49.09:483][  0]SourceControl: Source control is disabled
+[2020.03.04-23.49.09:484][  0]SourceControl: Source control is disabled
+[2020.03.04-23.49.09:606][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.04-23.49.09:754][  0]LogOcInput: OculusInput pre-init called
+[2020.03.04-23.49.09:764][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.04-23.49.09:764][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.04-23.49.09:851][  0]LogEngine: Initializing Engine...
+[2020.03.04-23.49.09:852][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.04-23.49.09:854][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.04-23.49.10:105][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.04-23.49.10:124][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.04-23.49.10:146][  0]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.04-23.49.10:188][  0]LogInit: FAudioDevice initialized.
+[2020.03.04-23.49.10:189][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.04-23.49.10:277][  0]LogDerivedDataCache: Saved boot cache 0.09s 73MB C:/Users/Safari/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.03.04-23.49.10:283][  0]LogInit: Texture streaming: Enabled
+[2020.03.04-23.49.10:312][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.04-23.49.10:312][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={95B4950F-4A59-181A-2951-1EAA96CE2581}
+[2020.03.04-23.49.10:312][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.04-23.49.10:313][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.04-23.49.10:393][  0]LogInit: Transaction tracking system initialized
+[2020.03.04-23.49.10:442][  0]BlueprintLog: New page: Editor Load
+[2020.03.04-23.49.10:557][  0]LocalizationService: Localization service is disabled
+[2020.03.04-23.49.10:867][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/' took 0.01s
+[2020.03.04-23.49.10:867][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.04-23.49.10:867][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.04-23.49.11:110][  0]SourceControl: Source control is disabled
+[2020.03.04-23.49.11:111][  0]LightingResults: New page: Lighting Build
+[2020.03.04-23.49.11:115][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.49.11:115][  0]MapCheck: New page: Map Check
+[2020.03.04-23.49.11:115][  0]LightingResults: New page: Lighting Build
+[2020.03.04-23.49.11:160][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.03.04-23.49.12:230][  0]LogAIModule: Creating AISystem for world Dev_Playground
+[2020.03.04-23.49.12:234][  0]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_Frame.M_Frame needed to have new flag set bUsedWithSplineMeshes !
+[2020.03.04-23.49.12:249][  0]LogMaterial: Display: Missing cached shader map for material M_Frame, compiling. 
+[2020.03.04-23.49.12:371][  0]MapCheck: Warning: M_Frame Material /Game/StarterContent/Props/Materials/M_Frame.M_Frame was missing the usage flag bUsedWithSplineMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 59
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 54
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 49
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 44
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 39
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 34
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 29
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 24
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 19
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 14
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 9
+[2020.03.04-23.49.12:628][  0]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 4
+[2020.03.04-23.49.12:628][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.04-23.49.12:691][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.03.04-23.49.12:692][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.04-23.49.12:693][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.412ms to complete.
+[2020.03.04-23.49.12:701][  0]LogFileHelpers: Loading map 'Dev_Playground' took 1.591
+[2020.03.04-23.49.12:853][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.49.12:869][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.49.12:885][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.49.12:903][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.49.12:922][  0]LogCollectionManager: Loaded 0 collections in 0.005868 seconds
+[2020.03.04-23.49.12:947][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Collections/' took 0.00s
+[2020.03.04-23.49.12:948][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Developers/Safari/Collections/' took 0.00s
+[2020.03.04-23.49.12:948][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Collections/' took 0.00s
+[2020.03.04-23.49.12:948][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000016 seconds
+[2020.03.04-23.49.12:974][  0]LogContentBrowser: Native class hierarchy populated in 0.0251 seconds. Added 2911 classes and 682 folders.
+[2020.03.04-23.49.13:000][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2020.03.04-23.49.13:146][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.03.04-23.49.13:384][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2020.03.04-23.49.13:404][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.04-23.49.13:407][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.04-23.49.13:416][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.04-23.49.13:545][  0]LogRenderer: Reallocating scene render targets to support 1196x572 Format 10 NumSamples 1 (Frame:1).
+[2020.03.04-23.49.13:826][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.03.04-23.49.13:826][  0]LogLoad: (Engine Initialization) Total time: 10.52 seconds
+[2020.03.04-23.49.13:826][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.04-23.49.13:891][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.03.04-23.49.13:935][  0]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.04-23.49.14:171][  2]LogAssetRegistry: Asset discovery search completed in 6.8373 seconds
+[2020.03.04-23.49.14:184][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000015 seconds (found 0 objects)
+[2020.03.04-23.49.14:184][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000223 seconds (updated 0 objects)
+[2020.03.04-23.49.36:633][615]LogEditorViewport: Clicking on Actor (LMB): BP_Fire_Trap_C (BP_Fire_Trap)
+[2020.03.04-23.49.37:403][699]LogEditorViewport: Clicking on Actor (LMB): BP_2_Colored_Floor_Switch_C (BP_2_Colored_Floor_Switch3)
+[2020.03.04-23.49.39:373][929]Cmd: EDIT CUT
+[2020.03.04-23.49.39:388][929]LogEditorActor: Deleted Actor: BP_2_Colored_Floor_Switch_C
+[2020.03.04-23.49.39:430][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.03.04-23.49.39:431][929]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2020.03.04-23.50.06:604][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.03.04-23.50.07:874][307]Cmd: EDIT CUT
+[2020.03.04-23.50.07:884][307]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.03.04-23.50.07:923][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.03.04-23.50.07:924][307]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2020.03.04-23.50.09:790][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cone)
+[2020.03.04-23.50.11:600][740]Cmd: EDIT CUT
+[2020.03.04-23.50.11:609][740]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.03.04-23.50.11:648][740]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.03.04-23.50.11:648][740]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2020.03.04-23.51.24:220][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.04-23.51.31:695][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.03.04-23.51.31:701][362]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.04-23.51.31:754][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.03.04-23.51.32:101][362]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Dev_Playground75F27E304FE853C5A8AAFCA5C0BEF839.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Dev_Playground.umap'
+[2020.03.04-23.51.32:146][362]LogFileHelpers: Saving map 'Dev_Playground' took 0.435
+[2020.03.04-23.51.38:019][678]LogStaticMesh: Building static mesh Floor_400x400...
+[2020.03.04-23.51.38:025][678]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2020.03.04-23.51.38:602][678]LogAIModule: Creating AISystem for world StarterMap
+[2020.03.04-23.51.38:649][678]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/StarterMap.StarterMap
+[2020.03.04-23.51.38:696][678]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.03.04-23.51.38:697][678]LightingResults: New page: Lighting Build
+[2020.03.04-23.51.38:698][678]LoadErrors: New page: Loading map: StarterMap.umap
+[2020.03.04-23.51.38:700][678]LogWorld: UWorld::CleanupWorld for Dev_Playground, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.51.38:700][678]MapCheck: New page: Map Check
+[2020.03.04-23.51.38:700][678]LightingResults: New page: Lighting Build
+[2020.03.04-23.51.38:746][678]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.03.04-23.51.38:878][678]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.04-23.51.38:928][678]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.03.04-23.51.38:959][678]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.04-23.51.38:960][678]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.356ms to complete.
+[2020.03.04-23.51.38:960][678]LogFileHelpers: Loading map 'StarterMap' took 0.264
+[2020.03.04-23.51.41:135][857]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.04-23.51.41:152][857]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2020.03.04-23.51.41:152][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.04-23.51.41:152][857]PIE: New page: PIE session: StarterMap (Mar 4, 2020, 11:51:41 AM)
+[2020.03.04-23.51.41:154][857]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.04-23.51.41:155][857]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_StarterMap
+[2020.03.04-23.51.41:178][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023010s)
+[2020.03.04-23.51.41:179][857]LogAIModule: Creating AISystem for world StarterMap
+[2020.03.04-23.51.41:180][857]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2020.03.04-23.51.41:180][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/StarterMap.StarterMap to /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap (0.024534s)
+[2020.03.04-23.51.41:224][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.03.04-23.51.41:242][857]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.04-23.51.41:254][857]LogInit: FAudioDevice initialized.
+[2020.03.04-23.51.41:294][857]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.04-23.51.41:302][857]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap up for play (max tick rate 0) at 2020.03.04-17.51.41
+[2020.03.04-23.51.41:303][857]LogWorld: Bringing up level for play took: 0.008040
+[2020.03.04-23.51.41:303][857]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.03.04-23.51.41:313][857]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.03.04-23.51.41:319][857]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_0.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0027
+[2020.03.04-23.51.41:319][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.51.41:319][857]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_0.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0062
+[2020.03.04-23.51.41:319][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.51.41:319][857]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_0.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0147
+[2020.03.04-23.51.41:319][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.51.41:319][857]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_0.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0182
+[2020.03.04-23.51.41:319][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.51.41:320][857]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_0.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0267
+[2020.03.04-23.51.41:320][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.51.41:320][857]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_StarterMap 0.706
+[2020.03.04-23.51.41:320][857]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2020.03.04-23.51.46:526][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2020.03.04-23.51.46:527][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.51.46:527][466]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_StarterMap
+[2020.03.04-23.51.46:527][466]LogWorld: UWorld::CleanupWorld for StarterMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.51.46:541][466]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.04-23.51.46:541][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2020.03.04-23.51.46:588][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.51.46:594][466]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.03.04-23.51.46:632][468]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.03.04-23.51.55:446][512]LogActor: Warning: BP_Second_Interactable_Object_C /Engine/Transient.World_2:PersistentLevel.BP_Second_Interactable_Object_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.04-23.51.59:973][ 19]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.04-23.51.59:976][ 19]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2020.03.04-23.52.00:023][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.03.04-23.52.00:024][ 19]LightingResults: New page: Lighting Build
+[2020.03.04-23.52.00:024][ 19]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2020.03.04-23.52.00:026][ 19]LogWorld: UWorld::CleanupWorld for StarterMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.52.00:027][ 19]MapCheck: New page: Map Check
+[2020.03.04-23.52.00:027][ 19]LightingResults: New page: Lighting Build
+[2020.03.04-23.52.00:076][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.03.04-23.52.00:186][ 19]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.04-23.52.00:236][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.03.04-23.52.00:267][ 19]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.04-23.52.00:267][ 19]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.291ms to complete.
+[2020.03.04-23.52.00:268][ 19]LogFileHelpers: Loading map 'Minimal_Default' took 0.245
+[2020.03.04-23.52.01:714][182]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.04-23.52.01:731][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.52.01:731][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.04-23.52.01:731][182]PIE: New page: PIE session: Minimal_Default (Mar 4, 2020, 11:52:01 AM)
+[2020.03.04-23.52.01:731][182]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.04-23.52.01:735][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003787s)
+[2020.03.04-23.52.01:736][182]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.04-23.52.01:737][182]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2020.03.04-23.52.01:737][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005224s)
+[2020.03.04-23.52.01:781][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.03.04-23.52.01:797][182]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.04-23.52.01:808][182]LogInit: FAudioDevice initialized.
+[2020.03.04-23.52.01:818][182]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.04-23.52.01:819][182]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.04-17.52.01
+[2020.03.04-23.52.01:819][182]LogWorld: Bringing up level for play took: 0.000806
+[2020.03.04-23.52.01:819][182]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.03.04-23.52.01:824][182]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_1.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0027
+[2020.03.04-23.52.01:825][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.52.01:825][182]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_1.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0062
+[2020.03.04-23.52.01:825][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.52.01:825][182]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_1.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0147
+[2020.03.04-23.52.01:825][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.52.01:825][182]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_1.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0182
+[2020.03.04-23.52.01:825][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.52.01:825][182]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_1.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0267
+[2020.03.04-23.52.01:825][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.52.01:825][182]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.788
+[2020.03.04-23.52.01:825][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.52.12:068][406]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.52.12:069][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.52.12:069][406]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.04-23.52.12:069][406]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.52.12:077][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.04-23.52.12:078][406]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.52.12:128][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.52.12:131][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.03.04-23.52.12:175][409]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.03.04-23.52.20:753][423]LogActor: Warning: BPTrap_Door_C /Engine/Transient.World_5:PersistentLevel.BPTrap_Door_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.04-23.52.20:771][424]LogActor: Warning: BP_2_Colored_Floor_Switch_C /Engine/Transient.World_6:PersistentLevel.BP_2_Colored_Floor_Switch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.04-23.52.20:820][427]LogActor: Warning: BP_Block_Switch_Controller_01_C /Engine/Transient.World_8:PersistentLevel.BP_Block_Switch_Controller_01_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.04-23.52.20:934][433]LogActor: Warning: BP_NewBounce_Pad_Single_C /Engine/Transient.World_11:PersistentLevel.BP_NewBounce_Pad_Single_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.04-23.52.21:963][547]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2020.03.04-23.52.22:249][547]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2020.03.04-23.52.23:236][547]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.04-23.52.33:553][717]LogSlate: Window 'Minimal_Default' being destroyed
+[2020.03.04-23.52.33:576][717]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.52.47:515][266]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2020.03.04-23.52.47:528][266]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting
+[2020.03.04-23.52.47:584][266]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.03.04-23.52.47:586][266]LightingResults: New page: Lighting Build
+[2020.03.04-23.52.47:586][266]LoadErrors: New page: Loading map: Advanced_Lighting.umap
+[2020.03.04-23.52.47:587][266]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.52.47:587][266]MapCheck: New page: Map Check
+[2020.03.04-23.52.47:587][266]LightingResults: New page: Lighting Build
+[2020.03.04-23.52.47:629][266]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.03.04-23.52.47:780][266]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.04-23.52.47:829][266]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.03.04-23.52.47:861][266]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.04-23.52.47:862][266]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.288ms to complete.
+[2020.03.04-23.52.47:862][266]LogFileHelpers: Loading map 'Advanced_Lighting' took 0.277
+[2020.03.04-23.52.47:929][267]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.04-23.52.49:296][414]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.04-23.52.49:313][414]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting' with GeneratedClass '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting'
+[2020.03.04-23.52.49:313][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.04-23.52.49:313][414]PIE: New page: PIE session: Advanced_Lighting (Mar 4, 2020, 11:52:49 AM)
+[2020.03.04-23.52.49:314][414]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting
+[2020.03.04-23.52.49:317][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002764s)
+[2020.03.04-23.52.49:318][414]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2020.03.04-23.52.49:318][414]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2020.03.04-23.52.49:318][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting to /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting.Advanced_Lighting (0.004135s)
+[2020.03.04-23.52.49:365][414]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.03.04-23.52.49:382][414]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.04-23.52.49:394][414]LogInit: FAudioDevice initialized.
+[2020.03.04-23.52.49:404][414]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.04-23.52.49:405][414]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting.Advanced_Lighting up for play (max tick rate 0) at 2020.03.04-17.52.49
+[2020.03.04-23.52.49:405][414]LogWorld: Bringing up level for play took: 0.000632
+[2020.03.04-23.52.49:405][414]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.03.04-23.52.49:410][414]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_2.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0027
+[2020.03.04-23.52.49:410][414]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.52.49:411][414]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_2.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0062
+[2020.03.04-23.52.49:411][414]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.52.49:411][414]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_2.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0147
+[2020.03.04-23.52.49:411][414]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.52.49:411][414]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_2.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0182
+[2020.03.04-23.52.49:411][414]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.52.49:411][414]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_2.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0267
+[2020.03.04-23.52.49:411][414]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.52.49:411][414]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting 0.798
+[2020.03.04-23.52.49:411][414]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting' with GeneratedClass '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting'
+[2020.03.04-23.52.50:974][599]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting' with GeneratedClass '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting'
+[2020.03.04-23.52.50:974][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.52.50:974][599]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting
+[2020.03.04-23.52.50:974][599]LogWorld: UWorld::CleanupWorld for Advanced_Lighting, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.52.50:982][599]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.04-23.52.50:983][599]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting' with GeneratedClass '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting'
+[2020.03.04-23.52.51:032][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.52.51:037][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.03.04-23.52.51:079][602]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.03.04-23.53.18:723][902]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/Main_Menu.Main_Menu
+[2020.03.04-23.53.22:127][152]LogSlate: Window 'Main_Menu' being destroyed
+[2020.03.04-23.53.22:134][152]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.53.22:156][152]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.53.32:797][402]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.04-23.53.32:801][402]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2020.03.04-23.53.32:910][402]LogUObjectHash: Compacting FUObjectHashTables data took   6.12ms
+[2020.03.04-23.53.32:911][402]LightingResults: New page: Lighting Build
+[2020.03.04-23.53.32:912][402]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2020.03.04-23.53.32:913][402]LogWorld: UWorld::CleanupWorld for Advanced_Lighting, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.53.32:913][402]MapCheck: New page: Map Check
+[2020.03.04-23.53.32:913][402]LightingResults: New page: Lighting Build
+[2020.03.04-23.53.32:990][402]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.03.04-23.53.33:166][402]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.04-23.53.33:216][402]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.03.04-23.53.33:251][402]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.04-23.53.33:251][402]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.294ms to complete.
+[2020.03.04-23.53.33:252][402]LogFileHelpers: Loading map 'Minimal_Default' took 0.341
+[2020.03.04-23.53.38:212][954]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2020.03.04-23.54.11:939][792]BlueprintLog: New page: Compile Minimal_Default
+[2020.03.04-23.54.12:230][792]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.03.04-23.54.21:772][864]BlueprintLog: New page: Compile Minimal_Default
+[2020.03.04-23.54.22:065][864]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.03.04-23.54.24:114][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.03.04-23.54.24:178][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.04-23.54.24:464][ 78]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Minimal_Default5C6FF7BE4F261A3A341A17A408A0C072.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.03.04-23.54.24:504][ 78]LogFileHelpers: Saving map 'Minimal_Default' took 0.377
+[2020.03.04-23.54.25:702][209]LogSlate: Window 'Minimal_Default' being destroyed
+[2020.03.04-23.54.27:225][391]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.04-23.54.27:242][391]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.54.27:242][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.04-23.54.27:242][391]PIE: New page: PIE session: Minimal_Default (Mar 4, 2020, 11:54:27 AM)
+[2020.03.04-23.54.27:243][391]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.04-23.54.27:247][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003943s)
+[2020.03.04-23.54.27:248][391]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.04-23.54.27:248][391]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2020.03.04-23.54.27:248][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005466s)
+[2020.03.04-23.54.27:294][391]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.03.04-23.54.27:313][391]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.04-23.54.27:325][391]LogInit: FAudioDevice initialized.
+[2020.03.04-23.54.27:333][391]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.04-23.54.27:334][391]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.04-17.54.27
+[2020.03.04-23.54.27:334][391]LogWorld: Bringing up level for play took: 0.000798
+[2020.03.04-23.54.27:335][391]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.03.04-23.54.27:339][391]LogBlueprintUserMessages: [Minimal_Default_C_3] Hello
+[2020.03.04-23.54.27:340][391]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_3.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0027
+[2020.03.04-23.54.27:340][391]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.54.27:340][391]LogScript: Warning: Accessed None trying to read property UI_Data_Reference
+	Player_UI_C /Engine/Transient.UnrealEdEngine_0:BP_PC_GameInstance_C_3.Player_UI_C_0
+	Function /Game/Blueprints/Widgets/Player_UI.Player_UI_C:Write Values For Player UI:0062
+[2020.03.04-23.54.27:340][391]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.54.27:340][391]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.54.27:341][391]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.54.27:341][391]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.54.27:341][391]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.728
+[2020.03.04-23.54.27:341][391]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.54.28:966][583]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.54.28:966][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.54.28:966][583]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.04-23.54.28:966][583]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.54.28:974][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.04-23.54.28:974][583]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.54.29:028][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.54.29:033][583]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.03.04-23.54.29:070][585]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.03.04-23.54.31:511][872]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.03.04-23.54.46:632][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.04-23.55.21:340][771]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.04-23.55.24:775][183]BlueprintLog: New page: Compile Minimal_Default
+[2020.03.04-23.55.25:058][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.03.04-23.55.26:663][366]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.03.04-23.55.26:725][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.03.04-23.55.27:006][366]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Minimal_Default6A45C75F474578B50320638F9DC2A56C.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.03.04-23.55.27:042][366]LogFileHelpers: Saving map 'Minimal_Default' took 0.367
+[2020.03.04-23.55.31:567][902]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.04-23.55.31:585][902]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.55.31:585][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.04-23.55.31:585][902]PIE: New page: PIE session: Minimal_Default (Mar 4, 2020, 11:55:31 AM)
+[2020.03.04-23.55.31:586][902]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.04-23.55.31:590][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004300s)
+[2020.03.04-23.55.31:591][902]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.04-23.55.31:592][902]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2020.03.04-23.55.31:592][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005697s)
+[2020.03.04-23.55.31:642][902]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.03.04-23.55.31:657][902]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.04-23.55.31:668][902]LogInit: FAudioDevice initialized.
+[2020.03.04-23.55.31:678][902]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.04-23.55.31:679][902]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.04-17.55.31
+[2020.03.04-23.55.31:679][902]LogWorld: Bringing up level for play took: 0.000822
+[2020.03.04-23.55.31:679][902]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.03.04-23.55.31:686][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.55.31:686][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.55.31:686][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.55.31:686][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.55.31:686][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.55.31:686][902]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.074
+[2020.03.04-23.55.31:687][902]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.55.42:234][163]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.55.42:235][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.55.42:235][163]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.04-23.55.42:235][163]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.55.42:247][163]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.04-23.55.42:247][163]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.55.42:296][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.55.42:301][163]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.03.04-23.55.42:349][165]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.03.04-23.55.46:658][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2020.03.04-23.55.48:611][904]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.03.04-23.55.52:669][386]Cmd: EDIT CUT
+[2020.03.04-23.55.52:679][386]LogEditorActor: Deleted Actor: PlayerStart
+[2020.03.04-23.55.52:725][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.03.04-23.55.52:725][386]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2020.03.04-23.55.55:479][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.04-23.55.55:570][727]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.04-23.55.55:588][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.55.55:588][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.04-23.55.55:589][727]PIE: New page: PIE session: Minimal_Default (Mar 4, 2020, 11:55:55 AM)
+[2020.03.04-23.55.55:589][727]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.04-23.55.55:593][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003693s)
+[2020.03.04-23.55.55:594][727]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.04-23.55.55:594][727]LogPlayLevel: PIE: World Init took: (0.001446s)
+[2020.03.04-23.55.55:595][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005356s)
+[2020.03.04-23.55.55:642][727]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.03.04-23.55.55:657][727]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.04-23.55.55:668][727]LogInit: FAudioDevice initialized.
+[2020.03.04-23.55.55:674][727]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.04-23.55.55:675][727]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.04-17.55.55
+[2020.03.04-23.55.55:676][727]LogWorld: Bringing up level for play took: 0.000767
+[2020.03.04-23.55.55:676][727]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.03.04-23.55.55:682][727]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.55.55:682][727]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.55.55:682][727]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.55.55:682][727]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.55.55:682][727]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.55.55:682][727]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.069
+[2020.03.04-23.55.55:683][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.56.09:376][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.56.09:376][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.56.09:376][365]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.04-23.56.09:376][365]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.56.09:383][365]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.04-23.56.09:383][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.56.09:434][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.56.09:439][365]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.03.04-23.56.09:485][367]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.03.04-23.56.18:924][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.04-23.56.35:378][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.03.04-23.56.36:368][560]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.04-23.56.45:252][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.04-23.57.01:473][544]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.04-23.57.01:492][544]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.57.01:492][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.04-23.57.01:492][544]PIE: New page: PIE session: Minimal_Default (Mar 4, 2020, 11:57:01 AM)
+[2020.03.04-23.57.01:493][544]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.04-23.57.01:496][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003718s)
+[2020.03.04-23.57.01:497][544]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.04-23.57.01:498][544]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2020.03.04-23.57.01:498][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005149s)
+[2020.03.04-23.57.01:542][544]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.03.04-23.57.01:562][544]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.04-23.57.01:574][544]LogInit: FAudioDevice initialized.
+[2020.03.04-23.57.01:581][544]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.04-23.57.01:582][544]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.04-17.57.01
+[2020.03.04-23.57.01:582][544]LogWorld: Bringing up level for play took: 0.000754
+[2020.03.04-23.57.01:582][544]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.03.04-23.57.01:588][544]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.57.01:588][544]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.57.01:588][544]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.57.01:588][544]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.57.01:588][544]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.04-23.57.01:588][544]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.975
+[2020.03.04-23.57.01:589][544]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.57.05:016][950]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.57.05:016][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.57.05:016][950]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.04-23.57.05:016][950]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.04-23.57.05:024][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.04-23.57.05:024][950]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.04-23.57.05:075][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.04-23.57.05:080][950]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.03.04-23.57.05:124][953]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.03.04-23.59.14:190][435]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Crashed, SessionId={95B4950F-4A59-181A-2951-1EAA96CE2581}
+[2020.03.05-00.00.38:464][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.03.05-00.00.38:524][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.03.05-00.00.38:811][457]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Minimal_DefaultB06A78264382D2C07B68CF92E6D07D56.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.03.05-00.00.38:847][457]LogFileHelpers: Saving map 'Minimal_Default' took 0.372
+[2020.03.05-00.01.00:505][904]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.03.05-00.01.43:276][828]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_GameModeBook.BP_GameModeBook
+[2020.03.05-00.01.59:146][669]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-00.01.59:205][669]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_GameModeBook.BP_GameModeBook
+[2020.03.05-00.03.33:745][454]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.05-00.04.16:517][575]BlueprintLog: New page: Compile Minimal_Default
+[2020.03.05-00.04.16:931][575]LogUObjectHash: Compacting FUObjectHashTables data took   7.49ms
+[2020.03.05-00.04.19:252][843]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2020.03.05-00.04.19:317][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.03.05-00.04.19:671][843]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Minimal_Default0CD5E1A943A15750B7BAB59DAC829CF6.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.03.05-00.04.19:710][843]LogFileHelpers: Saving map 'Minimal_Default' took 0.446
+[2020.03.05-00.04.20:549][931]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.05-00.04.20:572][931]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.05-00.04.20:572][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.05-00.04.20:572][931]PIE: New page: PIE session: Minimal_Default (Mar 4, 2020, 12:04:20 PM)
+[2020.03.05-00.04.20:573][931]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.05-00.04.20:577][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003878s)
+[2020.03.05-00.04.20:578][931]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.05-00.04.20:578][931]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2020.03.05-00.04.20:578][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005214s)
+[2020.03.05-00.04.20:635][931]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2020.03.05-00.04.20:653][931]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.05-00.04.20:668][931]LogInit: FAudioDevice initialized.
+[2020.03.05-00.04.20:680][931]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.05-00.04.20:681][931]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.04-18.04.20
+[2020.03.05-00.04.20:681][931]LogWorld: Bringing up level for play took: 0.000797
+[2020.03.05-00.04.20:681][931]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.03.05-00.04.20:687][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.05-00.04.20:688][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.05-00.04.20:688][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.05-00.04.20:688][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.05-00.04.20:688][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.05-00.04.20:688][931]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.075
+[2020.03.05-00.04.20:688][931]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.05-00.04.24:050][331]LogNet: Browse: /Game/StarterContent/Maps/Time_Jail
+[2020.03.05-00.04.24:050][331]LogLoad: LoadMap: /Game/StarterContent/Maps/Time_Jail
+[2020.03.05-00.04.24:050][331]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.05-00.04.24:051][331]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-00.04.24:104][331]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2020.03.05-00.04.24:992][331]LogAIModule: Creating AISystem for world Time_Jail
+[2020.03.05-00.04.24:992][331]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.05-00.04.25:033][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives_2.Frag 1: Material index 0 is invalid.
+[2020.03.05-00.04.25:033][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives_2.Frag 2: Material index 0 is invalid.
+[2020.03.05-00.04.25:033][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives_2.Frag 3: Material index 0 is invalid.
+[2020.03.05-00.04.25:037][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives3_5.Frag 1: Material index 0 is invalid.
+[2020.03.05-00.04.25:037][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives3_5.Frag 2: Material index 0 is invalid.
+[2020.03.05-00.04.25:037][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives3_5.Frag 3: Material index 0 is invalid.
+[2020.03.05-00.04.25:038][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives4_8.Frag 1: Material index 0 is invalid.
+[2020.03.05-00.04.25:038][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives4_8.Frag 2: Material index 0 is invalid.
+[2020.03.05-00.04.25:038][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives4_8.Frag 3: Material index 0 is invalid.
+[2020.03.05-00.04.25:038][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives5_11.Frag 1: Material index 0 is invalid.
+[2020.03.05-00.04.25:038][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives5_11.Frag 2: Material index 0 is invalid.
+[2020.03.05-00.04.25:038][331]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives5_11.Frag 3: Material index 0 is invalid.
+[2020.03.05-00.04.25:125][331]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.03.04-18.04.25
+[2020.03.05-00.04.25:127][331]LogWorld: Bringing up level for play took: 0.134092
+[2020.03.05-00.04.25:130][331]Cmd: DisableAllOnScreenMessages
+[2020.03.05-00.04.25:131][331]Command not recognized: DisableAllOnScreenMessages
+[2020.03.05-00.04.25:131][331]LogBlueprintUserMessages: [Time_Jail_C_0] X=-24160.000 Y=-12160.000 Z=1820.000
+[2020.03.05-00.04.25:132][331]LogLoad: Took 1.082117 seconds to LoadMap(/Game/StarterContent/Maps/Time_Jail)
+[2020.03.05-00.04.25:210][332]LogActor: Warning: BP_Projectile_C /Engine/Transient.World_20:PersistentLevel.BP_Projectile_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:308][332]LogActor: Warning: BP_Projectile_Tracker_C /Engine/Transient.World_21:PersistentLevel.BP_Projectile_Tracker_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:316][332]LogActor: Warning: BP_Lives_C /Engine/Transient.World_22:PersistentLevel.BP_Lives_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:316][332]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_22:PersistentLevel.BP_Lives_C_0.Frag 1: Material index 0 is invalid.
+[2020.03.05-00.04.25:316][332]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_22:PersistentLevel.BP_Lives_C_0.Frag 2: Material index 0 is invalid.
+[2020.03.05-00.04.25:316][332]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_22:PersistentLevel.BP_Lives_C_0.Frag 3: Material index 0 is invalid.
+[2020.03.05-00.04.25:318][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:319][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:319][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:319][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:320][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:320][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:320][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:321][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:321][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:321][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:322][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:322][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:322][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:322][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:323][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:323][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:323][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:324][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:324][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:324][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:324][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:325][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:325][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:325][332]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:395][333]LogActor: Warning: BP_Distortion_Fragments_C /Engine/Transient.World_23:PersistentLevel.BP_Distortion_Fragments_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:427][334]LogActor: Warning: BP_NewBounce_Pad_Build_C /Engine/Transient.World_24:PersistentLevel.BP_NewBounce_Pad_Build_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.25:451][335]LogActor: Warning: BP_Colored_Floor_Switch_C /Engine/Transient.World_25:PersistentLevel.BP_Colored_Floor_Switch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:255][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:255][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:255][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:256][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:256][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:256][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:257][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:257][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:257][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:257][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:258][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:258][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:258][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:259][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:259][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:259][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:260][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:260][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:260][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:260][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:261][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:261][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:261][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.26:262][429]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:754][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:755][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:755][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:755][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:756][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:756][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:756][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:756][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:757][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:757][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:757][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:758][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:758][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:758][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:759][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:759][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:759][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:759][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:760][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:760][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:760][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:761][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:761][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.27:761][608]LogActor: Warning: BP_Projectile_C /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Projectile_C_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.05-00.04.28:504][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.05-00.04.28:504][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-00.04.28:504][696]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Time_Jail
+[2020.03.05-00.04.28:505][696]LogWorld: UWorld::CleanupWorld for Time_Jail, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-00.04.28:518][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.05-00.04.28:518][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.05-00.04.28:578][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-00.04.28:595][696]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2020.03.05-00.04.28:630][697]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.03.05-00.04.31:976][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.05-00.05.08:899][509]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.05-00.05.13:044][  1]BlueprintLog: New page: Compile Minimal_Default
+[2020.03.05-00.05.13:411][  1]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2020.03.05-00.05.15:123][205]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.05-00.05.15:154][205]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.05-00.05.15:154][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.05-00.05.15:154][205]PIE: New page: PIE session: Minimal_Default (Mar 4, 2020, 12:05:15 PM)
+[2020.03.05-00.05.15:154][205]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.05-00.05.15:158][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003931s)
+[2020.03.05-00.05.15:159][205]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.05-00.05.15:159][205]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2020.03.05-00.05.15:160][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005198s)
+[2020.03.05-00.05.15:212][205]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.03.05-00.05.15:228][205]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.05-00.05.15:239][205]LogInit: FAudioDevice initialized.
+[2020.03.05-00.05.15:249][205]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.05-00.05.15:250][205]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.04-18.05.15
+[2020.03.05-00.05.15:250][205]LogWorld: Bringing up level for play took: 0.000881
+[2020.03.05-00.05.15:250][205]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.03.05-00.05.15:257][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.05-00.05.15:257][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.05-00.05.15:257][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.05-00.05.15:257][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.05-00.05.15:257][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property UI_Data_Reference". Blueprint:  Player_UI Function:  Write Values for Player UI Graph:  Write Values For Player UI Node:  SetText (Text)
+[2020.03.05-00.05.15:257][205]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.644
+[2020.03.05-00.05.15:257][205]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.05-00.05.18:224][557]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.05-00.05.18:225][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-00.05.18:225][557]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.05-00.05.18:225][557]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-00.05.18:237][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.05-00.05.18:237][557]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.05-00.05.18:292][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.05-00.05.18:297][557]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2020.03.05-00.05.18:330][559]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.03.05-00.10.55:653][ 42]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.05-00.11.56:411][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.03.05-00.11.56:495][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.03.05-00.11.56:879][633]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/Minimal_DefaultE57DE3BF4238E4F8194B378D4EA93A28.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.03.05-00.11.56:922][633]LogFileHelpers: Saving map 'Minimal_Default' took 0.498
+[2020.03.05-00.11.56:950][633]LogSavePackage: Moving 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Saved/BP_GameModeBook28E1150D42C312744A40098DCC827D47.tmp' to 'D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Content/Blueprints/BP_GameModeBook.uasset'
+[2020.03.05-00.11.58:731][821]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.05-00.11.58:754][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.05-00.11.58:754][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.05-00.11.58:754][821]PIE: New page: PIE session: Minimal_Default (Mar 4, 2020, 12:11:58 PM)
+[2020.03.05-00.11.58:755][821]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.05-00.11.58:760][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004770s)
+[2020.03.05-00.11.58:761][821]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.05-00.11.58:761][821]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2020.03.05-00.11.58:761][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006208s)
+[2020.03.05-00.11.58:822][821]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2020.03.05-00.11.58:841][821]LogInit: XAudio2 using 'Headphones (3- Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.05-00.11.58:853][821]LogInit: FAudioDevice initialized.
+[2020.03.05-00.11.58:860][821]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.05-00.11.58:861][821]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.04-18.11.58
+[2020.03.05-00.11.58:861][821]LogWorld: Bringing up level for play took: 0.000823
+[2020.03.05-00.11.58:862][821]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.03.05-00.11.58:865][821]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.252
+[2020.03.05-00.11.58:865][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.05-00.12.01:942][184]LogNet: Browse: /Game/StarterContent/Maps/Time_Jail
+[2020.03.05-00.12.01:942][184]LogLoad: LoadMap: /Game/StarterContent/Maps/Time_Jail
+[2020.03.05-00.12.01:942][184]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.05-00.12.01:943][184]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.05-00.12.02:001][184]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2020.03.05-00.12.02:108][184]LogAIModule: Creating AISystem for world Time_Jail
+[2020.03.05-00.12.02:109][184]LogLoad: Game class is 'BP_GameModeBook_C'
+[2020.03.05-00.12.02:145][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives_2.Frag 1: Material index 0 is invalid.
+[2020.03.05-00.12.02:146][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives_2.Frag 2: Material index 0 is invalid.
+[2020.03.05-00.12.02:146][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives_2.Frag 3: Material index 0 is invalid.
+[2020.03.05-00.12.02:150][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives3_5.Frag 1: Material index 0 is invalid.
+[2020.03.05-00.12.02:150][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives3_5.Frag 2: Material index 0 is invalid.
+[2020.03.05-00.12.02:150][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives3_5.Frag 3: Material index 0 is invalid.
+[2020.03.05-00.12.02:151][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives4_8.Frag 1: Material index 0 is invalid.
+[2020.03.05-00.12.02:151][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives4_8.Frag 2: Material index 0 is invalid.
+[2020.03.05-00.12.02:151][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives4_8.Frag 3: Material index 0 is invalid.
+[2020.03.05-00.12.02:152][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives5_11.Frag 1: Material index 0 is invalid.
+[2020.03.05-00.12.02:152][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives5_11.Frag 2: Material index 0 is invalid.
+[2020.03.05-00.12.02:152][184]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail:PersistentLevel.BP_Lives5_11.Frag 3: Material index 0 is invalid.
+[2020.03.05-00.12.02:244][184]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Time_Jail.Time_Jail up for play (max tick rate 0) at 2020.03.04-18.12.02
+[2020.03.05-00.12.02:247][184]LogWorld: Bringing up level for play took: 0.137963
+[2020.03.05-00.12.02:249][184]LogBlueprintUserMessages: [BP_UI_Data_Holder_2] Kill me
+[2020.03.05-00.12.03:479][184]LogWindows: Error: === Critical error: ===
+[2020.03.05-00.12.03:479][184]LogWindows: Error: 
+[2020.03.05-00.12.03:479][184]LogWindows: Error: Fatal error!
+[2020.03.05-00.12.03:479][184]LogWindows: Error: 
+[2020.03.05-00.12.03:479][184]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000170
+[2020.03.05-00.12.03:479][184]LogWindows: Error: 
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff802f90d9 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff6c7a3eea UE4Editor-Book_Project-7631.dll!AStarting_Point::BeginPlay() [d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\starting_point.cpp:24]
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff802c06b6 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff81524710 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff809b8d81 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff814d244e UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff8140a321 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff813ca42a UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff814226b0 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff7e23dc1e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fff7ea95296 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007ff665c27b0a UE4Editor.exe!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007ff665c3a91c UE4Editor.exe!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007ff665c3a9fa UE4Editor.exe!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007ff665c4b92c UE4Editor.exe!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007ff665c4e60e UE4Editor.exe!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fffd24e7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: [Callstack] 0x00007fffd42cced1 ntdll.dll!UnknownFunction []
+[2020.03.05-00.12.03:480][184]LogWindows: Error: 
+[2020.03.05-00.12.03:493][184]LogExit: Executing StaticShutdownAfterError
+[2020.03.05-00.12.03:499][184]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.03.05-00.12.03:506][184]Log file closed, 03/04/20 18:12:03

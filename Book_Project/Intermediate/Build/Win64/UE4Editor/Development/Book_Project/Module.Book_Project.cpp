@@ -44,6 +44,7 @@
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/TArrayExample.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Teleporter.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Test_Create.cpp"
+#include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Trap_Door.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Turret.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/UI_Data_Holder.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Wander_Then_Follow_Enemy.cpp"

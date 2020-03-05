@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Book_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9D974F9E-E990-4688-8A51-79246D90A7CA}</UniqueIdentifier>
+      <UniqueIdentifier>{9EB14577-BC56-44DC-926A-F54DD00E6E4F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Book_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{93A676A3-92B5-49AE-B7A2-DBECB129406C}</UniqueIdentifier>
+      <UniqueIdentifier>{B2A1A551-4ECE-40D4-A4D1-395260F14168}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Book_Project">
-      <UniqueIdentifier>{7D14C5D0-9F29-4B97-84CC-76685E31CCAD}</UniqueIdentifier>
+      <UniqueIdentifier>{CA07FD84-9765-491A-8C3B-B8C3615B2B60}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Book_Project\Avatar.cpp">
       <Filter>Source\Book_Project</Filter>
@@ -132,6 +132,12 @@
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Book_Project\Energy_Restorer.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Fire_Trap.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Fire_Trap.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Grindable_Rail.cpp">
@@ -248,6 +254,12 @@
     <ClInclude Include="..\..\Source\Book_Project\Quick_Congrats_Screen.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Retractable_Platform.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Retractable_Platform.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Second_Interactable_Object.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
@@ -290,6 +302,12 @@
     <ClInclude Include="..\..\Source\Book_Project\Test_Create.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Book_Project\Trap_Door.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Book_Project\Trap_Door.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Book_Project\Turret.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
@@ -314,21 +332,5 @@
     <ClInclude Include="..\..\Source\Book_Project\Working_Bouncepad.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Book_Project\Fire_Trap.h">
-      <Filter>Source\Book_Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Book_Project\Retractable_Platform.h">
-      <Filter>Source\Book_Project</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Book_Project\Fire_Trap.cpp">
-      <Filter>Source\Book_Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Book_Project\Retractable_Platform.cpp">
-      <Filter>Source\Book_Project</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

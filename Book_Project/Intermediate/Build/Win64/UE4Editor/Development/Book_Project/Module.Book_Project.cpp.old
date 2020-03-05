@@ -36,6 +36,7 @@
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Projectile.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Punch_Projectile.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Quick_Congrats_Screen.cpp"
+#include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Retractable_Platform.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Second_Interactable_Object.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Standard_Moving_Platform.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Starting_Point.cpp"
