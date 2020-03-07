@@ -37,9 +37,14 @@ void AEnemyAI::OnPossess(APawn * InPawn)
 
 		PawnKeyID = BlackboardComp->GetKeyID("Pawn_Ref");
 
-
+		BoolForChasingID = BlackboardComp->GetKeyID("ShouldChasePlayer");
 		BehaviorComp->StartTree(*Char->BotBehavior);
 
 		BehaviorComp->GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(PawnKeyID, Char);
 	}
+}
+
+UBlackboardComponent* AEnemyAI::returnBlackboard()
+{
+	return BlackboardComp;
 }

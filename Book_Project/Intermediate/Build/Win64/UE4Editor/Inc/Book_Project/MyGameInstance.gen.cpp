@@ -23,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_isFasterTime();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_isNewScore();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_LoadGame();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_SaveGame();
@@ -147,6 +148,7 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 			{ "deserveDeathBonus", &UMyGameInstance::execdeserveDeathBonus },
 			{ "deserveObjectiveBonus", &UMyGameInstance::execdeserveObjectiveBonus },
 			{ "incrementDeathNumber", &UMyGameInstance::execincrementDeathNumber },
+			{ "isFasterTime", &UMyGameInstance::execisFasterTime },
 			{ "isNewScore", &UMyGameInstance::execisNewScore },
 			{ "LoadGame", &UMyGameInstance::execLoadGame },
 			{ "SaveGame", &UMyGameInstance::execSaveGame },
@@ -271,6 +273,42 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics
+	{
+		struct MyGameInstance_eventisFasterTime_Parms
+		{
+			float playerTimeAsAFloat;
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_playerTimeAsAFloat;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventisFasterTime_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::NewProp_playerTimeAsAFloat = { "playerTimeAsAFloat", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventisFasterTime_Parms, playerTimeAsAFloat), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::NewProp_playerTimeAsAFloat,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyGameInstance, nullptr, "isFasterTime", nullptr, nullptr, sizeof(MyGameInstance_eventisFasterTime_Parms), Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyGameInstance_isFasterTime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_isFasterTime_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -470,6 +508,7 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		{ &Z_Construct_UFunction_UMyGameInstance_deserveDeathBonus, "deserveDeathBonus" }, // 1922756629
 		{ &Z_Construct_UFunction_UMyGameInstance_deserveObjectiveBonus, "deserveObjectiveBonus" }, // 3797682198
 		{ &Z_Construct_UFunction_UMyGameInstance_incrementDeathNumber, "incrementDeathNumber" }, // 2730239818
+		{ &Z_Construct_UFunction_UMyGameInstance_isFasterTime, "isFasterTime" }, // 3585887358
 		{ &Z_Construct_UFunction_UMyGameInstance_isNewScore, "isNewScore" }, // 3050386131
 		{ &Z_Construct_UFunction_UMyGameInstance_LoadGame, "LoadGame" }, // 2088876940
 		{ &Z_Construct_UFunction_UMyGameInstance_SaveGame, "SaveGame" }, // 2678333439
@@ -580,7 +619,7 @@ static struct FScriptStruct_Book_Project_StaticRegisterNativesFLeaderboardSlot
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyGameInstance, 51320136);
+	IMPLEMENT_CLASS(UMyGameInstance, 1870878433);
 	template<> BOOK_PROJECT_API UClass* StaticClass<UMyGameInstance>()
 	{
 		return UMyGameInstance::StaticClass();

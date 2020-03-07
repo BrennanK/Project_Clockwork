@@ -67,6 +67,15 @@ template<> BOOK_PROJECT_API UScriptStruct* StaticStruct<struct FLeaderboardSlot>
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execisFasterTime) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_playerTimeAsAFloat); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->isFasterTime(Z_Param_playerTimeAsAFloat); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execisNewScore) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_scoreToEvaluate); \
@@ -145,6 +154,15 @@ template<> BOOK_PROJECT_API UScriptStruct* StaticStruct<struct FLeaderboardSlot>
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->updateLeaderboard(Z_Param_indexOfNewScore,Z_Param_playerName,Z_Param_playerTime,Z_Param_newHighscore); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execisFasterTime) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_playerTimeAsAFloat); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->isFasterTime(Z_Param_playerTimeAsAFloat); \
 		P_NATIVE_END; \
 	} \
  \

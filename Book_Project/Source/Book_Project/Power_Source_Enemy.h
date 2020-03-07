@@ -23,4 +23,15 @@ class BOOK_PROJECT_API APower_Source_Enemy : public AEnemyCharacter
 
 		UFUNCTION()
 			void Collision(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+		void startChasingAgain();
+
+		FTimerHandle delayForChaseHandler;
+
+		UPROPERTY(EditAnywhere, Category = "Delay for ChaseAfter Damage")
+			float delayOfChase;
+
+		bool damagedAlready;
+	protected:
+		virtual void BeginPlay() override;
 };

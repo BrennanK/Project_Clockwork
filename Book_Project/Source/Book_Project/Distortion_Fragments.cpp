@@ -32,7 +32,24 @@ void ADistortion_Fragments::BeginPlay()
 
 	UI_Data_Container=Cast<AUI_Data_Holder>(UGameplayStatics::GetActorOfClass(GetWorld(), AUI_Data_Holder::StaticClass()));
 
+	decideWhatToIncrementInUIDataHolder();
+}
+
+void ADistortion_Fragments::decideWhatToIncrementInUIDataHolder()
+{
+	switch (typeOfPickUp)
+	{
+	case EPickupType::DistortionFragments:
+		UI_Data_Container->D_Frag_MaxValue+=fragmentValue;
+		break;
+
+	case EPickupType::TimeAbilityShards:
+		UI_Data_Container->TA_Frag_MaxValue++;
+		break;
 	
+	case EPickupType::Lives:
+		UI_Data_Container->Lives_MaxValue++;
+	}
 }
 
 // Called every frame
@@ -41,6 +58,7 @@ void ADistortion_Fragments::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
+
 
 void ADistortion_Fragments::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {

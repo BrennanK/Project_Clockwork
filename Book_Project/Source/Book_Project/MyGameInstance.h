@@ -51,6 +51,9 @@ class BOOK_PROJECT_API UMyGameInstance : public UGameInstance
 			int isNewScore(int scoreToEvaluate);
 
 		UFUNCTION(BlueprintCallable)
+			int isFasterTime(float playerTimeAsAFloat);
+
+		UFUNCTION(BlueprintCallable)
 			void updateLeaderboard(int indexOfNewScore, FString playerName, float playerTime,int newHighscore);
 		
 		UFUNCTION(BlueprintCallable)

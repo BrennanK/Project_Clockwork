@@ -40,7 +40,7 @@ EBTNodeResult::Type UBTTask_MoveToPlayer::ExecuteTask(UBehaviorTreeComponent& Ow
 
 		
 		thisAI->AddMovementInput(Direction, thisAI->movementSpeed);*/
-		CharPC->MoveToActor(Enemy, 5.f, true, true, true, 0, true);
+		CharPC->MoveToActor(Enemy, 20.f, false, true, true, 0, true);
 		return EBTNodeResult::Succeeded;
 	}
 	else

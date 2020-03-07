@@ -809,6 +809,10 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_timeFalling;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentClosestWarpOnScaleFromZeroToOne_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_currentClosestWarpOnScaleFromZeroToOne;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_interactable_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_interactable;
@@ -1006,6 +1010,13 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling = { "timeFalling", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, timeFalling), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_currentClosestWarpOnScaleFromZeroToOne_MetaData[] = {
+		{ "Category", "Debug Testing Category" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_currentClosestWarpOnScaleFromZeroToOne = { "currentClosestWarpOnScaleFromZeroToOne", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, currentClosestWarpOnScaleFromZeroToOne), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_currentClosestWarpOnScaleFromZeroToOne_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_currentClosestWarpOnScaleFromZeroToOne_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_interactable_MetaData[] = {
 		{ "ModuleRelativePath", "Avatar.h" },
@@ -1252,6 +1263,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_AttackProjectiles_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_timeFalling,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_currentClosestWarpOnScaleFromZeroToOne,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_interactable,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_textCollider,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_warpTimeInSeconds,
@@ -1314,7 +1326,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 19896869);
+	IMPLEMENT_CLASS(AAvatar, 2296197313);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();

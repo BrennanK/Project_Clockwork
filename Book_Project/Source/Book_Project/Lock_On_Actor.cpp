@@ -34,17 +34,29 @@ void ALock_On_Actor::Tick(float DeltaTime)
 		normalizedDistance = UKismetMathLibrary::NormalizeToRange(insertIntoRange, 0, rangeInVectorUnits);
 
 		//GEngine->AddOnScreenDebugMessage(-1, 3.f, FColor::Green, "The value of the normalizedDistance is " + FString::SanitizeFloat(normalizedDistance));
-
-		if (normalizedDistance <= closenessRange && normalizedDistance > turnOffRange)
+		if (normalizedDistance < player->currentClosestWarpOnScaleFromZeroToOne)
 		{
-			LockOn();
-			player->playerTarget = this;
-		}
+			if (normalizedDistance <= closenessRange && normalizedDistance > turnOffRange && player->playerTarget == nullptr)
+			{
+				LockOn();
+				player->playerTarget = this;
+			}
 
-		if (normalizedDistance <= turnOffRange || normalizedDistance > 1.0)
+			if (normalizedDistance <= turnOffRange) //|| normalizedDistance > 1.0)
+			{
+				LockOff();
+				if (player->playerTarget==this)
+				{
+					player->playerTarget = nullptr;
+				}
+				player->currentClosestWarpOnScaleFromZeroToOne = 1.0f;
+			}
+		}
+		else if(normalizedDistance>=1.0 && normalizedDistance<=1.1)
 		{
 			LockOff();
-			//player->playerTarget = nullptr;
+			player->playerTarget = nullptr;
+			player->currentClosestWarpOnScaleFromZeroToOne = 1.0f;
 		}
 	}
 }

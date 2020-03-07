@@ -123,6 +123,10 @@ void EmptyLinkFunctionForGeneratedCodePower_Source_Enemy() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_delayOfChase_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_delayOfChase;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_damageToPlayer_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_damageToPlayer;
@@ -147,6 +151,13 @@ void EmptyLinkFunctionForGeneratedCodePower_Source_Enemy() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APower_Source_Enemy_Statics::NewProp_delayOfChase_MetaData[] = {
+		{ "Category", "Delay for ChaseAfter Damage" },
+		{ "ModuleRelativePath", "Power_Source_Enemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APower_Source_Enemy_Statics::NewProp_delayOfChase = { "delayOfChase", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APower_Source_Enemy, delayOfChase), METADATA_PARAMS(Z_Construct_UClass_APower_Source_Enemy_Statics::NewProp_delayOfChase_MetaData, ARRAY_COUNT(Z_Construct_UClass_APower_Source_Enemy_Statics::NewProp_delayOfChase_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APower_Source_Enemy_Statics::NewProp_damageToPlayer_MetaData[] = {
 		{ "Category", "Power_Source_Enemy" },
 		{ "ModuleRelativePath", "Power_Source_Enemy.h" },
@@ -154,6 +165,7 @@ void EmptyLinkFunctionForGeneratedCodePower_Source_Enemy() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APower_Source_Enemy_Statics::NewProp_damageToPlayer = { "damageToPlayer", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APower_Source_Enemy, damageToPlayer), METADATA_PARAMS(Z_Construct_UClass_APower_Source_Enemy_Statics::NewProp_damageToPlayer_MetaData, ARRAY_COUNT(Z_Construct_UClass_APower_Source_Enemy_Statics::NewProp_damageToPlayer_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APower_Source_Enemy_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APower_Source_Enemy_Statics::NewProp_delayOfChase,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APower_Source_Enemy_Statics::NewProp_damageToPlayer,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APower_Source_Enemy_Statics::StaticCppClassTypeInfo = {
@@ -183,7 +195,7 @@ void EmptyLinkFunctionForGeneratedCodePower_Source_Enemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APower_Source_Enemy, 673774386);
+	IMPLEMENT_CLASS(APower_Source_Enemy, 1345017751);
 	template<> BOOK_PROJECT_API UClass* StaticClass<APower_Source_Enemy>()
 	{
 		return APower_Source_Enemy::StaticClass();

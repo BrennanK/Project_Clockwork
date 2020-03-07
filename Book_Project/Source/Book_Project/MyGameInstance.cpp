@@ -62,6 +62,22 @@ int UMyGameInstance::isNewScore(int scoreToEvaluate)
 	return -1;
 }
 
+int UMyGameInstance::isFasterTime(float playerTimeAsAFloat)
+{
+	LoadGame();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Orange, "This is the score being passed to checker " + FString::SanitizeFloat(number));
+	for (int i = 0; i < leaderboardToPresent.Num(); i++)
+	{
+		if (playerTimeAsAFloat < leaderboardToPresent[i].timeTakenToCompleteLevel && leaderboardToPresent[i].timeTakenToCompleteLevel!=0.f)
+		{
+			//number = leaderboardToPresent[i].timeTakenToCompleteLevel;
+			//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Orange, "This is the score of the index " + FString::SanitizeFloat(number));
+			return i;
+		}
+	}
+	return -1;
+}
+
 void UMyGameInstance::updateLeaderboard(int indexOfNewScore,FString playerName,float playerTime,int newHighscore)
 {
 	for (int i = leaderboardToPresent.Num() - 1; i > indexOfNewScore - 1; i--)
