@@ -24,6 +24,9 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APatrolling_Enemy_EndCollision();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
 	static FName NAME_APatrolling_Enemy_changeSpeedOfBlink = FName(TEXT("changeSpeedOfBlink"));
@@ -35,6 +38,21 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 	void APatrolling_Enemy::changeToSelfDestructMaterial()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_APatrolling_Enemy_changeToSelfDestructMaterial),NULL);
+	}
+	static FName NAME_APatrolling_Enemy_playExplosionSound = FName(TEXT("playExplosionSound"));
+	void APatrolling_Enemy::playExplosionSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APatrolling_Enemy_playExplosionSound),NULL);
+	}
+	static FName NAME_APatrolling_Enemy_playFuseLightSound = FName(TEXT("playFuseLightSound"));
+	void APatrolling_Enemy::playFuseLightSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APatrolling_Enemy_playFuseLightSound),NULL);
+	}
+	static FName NAME_APatrolling_Enemy_playPunchImpactSound = FName(TEXT("playPunchImpactSound"));
+	void APatrolling_Enemy::playPunchImpactSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APatrolling_Enemy_playPunchImpactSound),NULL);
 	}
 	void APatrolling_Enemy::StaticRegisterNativesAPatrolling_Enemy()
 	{
@@ -230,6 +248,72 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Patrolling_Enemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APatrolling_Enemy, nullptr, "playExplosionSound", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Patrolling_Enemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APatrolling_Enemy, nullptr, "playFuseLightSound", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Patrolling_Enemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APatrolling_Enemy, nullptr, "playPunchImpactSound", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_APatrolling_Enemy_NoRegister()
 	{
 		return APatrolling_Enemy::StaticClass();
@@ -274,6 +358,9 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 		{ &Z_Construct_UFunction_APatrolling_Enemy_changeToSelfDestructMaterial, "changeToSelfDestructMaterial" }, // 4291817722
 		{ &Z_Construct_UFunction_APatrolling_Enemy_Collision, "Collision" }, // 3464143351
 		{ &Z_Construct_UFunction_APatrolling_Enemy_EndCollision, "EndCollision" }, // 320192238
+		{ &Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound, "playExplosionSound" }, // 3281970479
+		{ &Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound, "playFuseLightSound" }, // 1429024927
+		{ &Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound, "playPunchImpactSound" }, // 3811006536
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APatrolling_Enemy_Statics::Class_MetaDataParams[] = {
@@ -354,7 +441,7 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APatrolling_Enemy, 3460836086);
+	IMPLEMENT_CLASS(APatrolling_Enemy, 2841490539);
 	template<> BOOK_PROJECT_API UClass* StaticClass<APatrolling_Enemy>()
 	{
 		return APatrolling_Enemy::StaticClass();

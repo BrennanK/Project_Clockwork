@@ -19,7 +19,9 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar_NoRegister();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AAvatar();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_activateGrindSound();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_activateLockOnFunction();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_activatePlayerActionSound();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_beginGrind();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callEnergyBarChange();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callWheelChange();
@@ -31,6 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_deactivateGrindSound();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_enableAndDisableCollision();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Falling();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_Landed();
@@ -175,6 +178,18 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return ReturnEnum;
 	}
+	static FName NAME_AAvatar_activateGrindSound = FName(TEXT("activateGrindSound"));
+	void AAvatar::activateGrindSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_activateGrindSound),NULL);
+	}
+	static FName NAME_AAvatar_activatePlayerActionSound = FName(TEXT("activatePlayerActionSound"));
+	void AAvatar::activatePlayerActionSound(int32 indexOfSound)
+	{
+		Avatar_eventactivatePlayerActionSound_Parms Parms;
+		Parms.indexOfSound=indexOfSound;
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_activatePlayerActionSound),&Parms);
+	}
 	static FName NAME_AAvatar_callEnergyBarChange = FName(TEXT("callEnergyBarChange"));
 	void AAvatar::callEnergyBarChange()
 	{
@@ -205,6 +220,11 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AAvatar_changeToWarpMaterial),NULL);
 	}
+	static FName NAME_AAvatar_deactivateGrindSound = FName(TEXT("deactivateGrindSound"));
+	void AAvatar::deactivateGrindSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_deactivateGrindSound),NULL);
+	}
 	static FName NAME_AAvatar_enableAndDisableCollision = FName(TEXT("enableAndDisableCollision"));
 	void AAvatar::enableAndDisableCollision()
 	{
@@ -234,6 +254,28 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
+	struct Z_Construct_UFunction_AAvatar_activateGrindSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_activateGrindSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_activateGrindSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "activateGrindSound", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_activateGrindSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_activateGrindSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_activateGrindSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_activateGrindSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AAvatar_activateLockOnFunction_Statics
 	{
 #if WITH_METADATA
@@ -253,6 +295,34 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_activateLockOnFunction_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics
+	{
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_indexOfSound;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::NewProp_indexOfSound = { "indexOfSound", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Avatar_eventactivatePlayerActionSound_Parms, indexOfSound), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::NewProp_indexOfSound,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "activatePlayerActionSound", nullptr, nullptr, sizeof(Avatar_eventactivatePlayerActionSound_Parms), Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_activatePlayerActionSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -490,6 +560,28 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_Collision_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_deactivateGrindSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_deactivateGrindSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_deactivateGrindSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "deactivateGrindSound", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_deactivateGrindSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_deactivateGrindSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_deactivateGrindSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_deactivateGrindSound_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -952,7 +1044,9 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Book_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAvatar_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AAvatar_activateGrindSound, "activateGrindSound" }, // 894333807
 		{ &Z_Construct_UFunction_AAvatar_activateLockOnFunction, "activateLockOnFunction" }, // 1490460370
+		{ &Z_Construct_UFunction_AAvatar_activatePlayerActionSound, "activatePlayerActionSound" }, // 2608231305
 		{ &Z_Construct_UFunction_AAvatar_beginGrind, "beginGrind" }, // 1691124014
 		{ &Z_Construct_UFunction_AAvatar_callEnergyBarChange, "callEnergyBarChange" }, // 4154856328
 		{ &Z_Construct_UFunction_AAvatar_callWheelChange, "callWheelChange" }, // 1327484095
@@ -961,6 +1055,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		{ &Z_Construct_UFunction_AAvatar_changeToNormalMaterial, "changeToNormalMaterial" }, // 4204553965
 		{ &Z_Construct_UFunction_AAvatar_changeToWarpMaterial, "changeToWarpMaterial" }, // 141364775
 		{ &Z_Construct_UFunction_AAvatar_Collision, "Collision" }, // 2207561626
+		{ &Z_Construct_UFunction_AAvatar_deactivateGrindSound, "deactivateGrindSound" }, // 2313964055
 		{ &Z_Construct_UFunction_AAvatar_enableAndDisableCollision, "enableAndDisableCollision" }, // 323744738
 		{ &Z_Construct_UFunction_AAvatar_Falling, "Falling" }, // 2666488954
 		{ &Z_Construct_UFunction_AAvatar_Landed, "Landed" }, // 2738603381
@@ -1326,7 +1421,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 2296197313);
+	IMPLEMENT_CLASS(AAvatar, 3974699652);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();

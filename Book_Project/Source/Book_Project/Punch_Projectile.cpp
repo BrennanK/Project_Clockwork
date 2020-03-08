@@ -7,6 +7,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "EnemyCharacter.h"
 #include "Engine/Engine.h"
+#include "Avatar.h"
 // Sets default values
 APunch_Projectile::APunch_Projectile()
 {
@@ -34,6 +35,10 @@ void APunch_Projectile::BeginPlay()
 
 void APunch_Projectile::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
+	if (Cast<AAvatar>(OtherActor))
+	{
+		return;
+	}
 	if (Cast<AEnemyCharacter>(OtherActor) != nullptr)
 	{
 		GEngine->AddOnScreenDebugMessage(-1,4.f,FColor::Emerald,"We hit that dastadly dangerous enemy");

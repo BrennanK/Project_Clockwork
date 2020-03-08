@@ -50,6 +50,8 @@ struct FHitResult;
 	}
 
 
+#define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_EVENT_PARMS
+#define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_CALLBACK_WRAPPERS
 #define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPower_Source_Enemy(); \
@@ -93,12 +95,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APower_Source_Enemy); \
 
 
 #define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_PRIVATE_PROPERTY_OFFSET
-#define Book_Project_Source_Book_Project_Power_Source_Enemy_h_12_PROLOG
+#define Book_Project_Source_Book_Project_Power_Source_Enemy_h_12_PROLOG \
+	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_EVENT_PARMS
+
+
 #define Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_RPC_WRAPPERS \
+	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_INCLASS \
 	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_STANDARD_CONSTRUCTORS \
 public: \
@@ -110,6 +116,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_INCLASS_NO_PURE_DECLS \
 	Book_Project_Source_Book_Project_Power_Source_Enemy_h_15_ENHANCED_CONSTRUCTORS \
 private: \

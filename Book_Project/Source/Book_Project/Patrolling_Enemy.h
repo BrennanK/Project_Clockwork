@@ -55,6 +55,15 @@ class BOOK_PROJECT_API APatrolling_Enemy : public AEnemyCharacter
 
 		UFUNCTION()
 			void EndCollision(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+		UFUNCTION(BlueprintImplementableEvent)
+			void playPunchImpactSound();
+
+		UFUNCTION(BlueprintImplementableEvent)
+			void playFuseLightSound();
+
+		UFUNCTION(BlueprintImplementableEvent)
+			void playExplosionSound();
 	protected:
 		//virtual void BeginPlay() override;
 };

@@ -234,7 +234,13 @@ struct FHitResult;
 	}
 
 
-#define Book_Project_Source_Book_Project_Avatar_h_12_EVENT_PARMS
+#define Book_Project_Source_Book_Project_Avatar_h_12_EVENT_PARMS \
+	struct Avatar_eventactivatePlayerActionSound_Parms \
+	{ \
+		int32 indexOfSound; \
+	};
+
+
 #define Book_Project_Source_Book_Project_Avatar_h_12_CALLBACK_WRAPPERS
 #define Book_Project_Source_Book_Project_Avatar_h_12_INCLASS_NO_PURE_DECLS \
 private: \

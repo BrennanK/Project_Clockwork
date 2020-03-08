@@ -32,6 +32,9 @@ class BOOK_PROJECT_API APower_Source_Enemy : public AEnemyCharacter
 			float delayOfChase;
 
 		bool damagedAlready;
+
+		UFUNCTION(BlueprintImplementableEvent)
+			void playPunchImpactSound();
 	protected:
 		virtual void BeginPlay() override;
 };

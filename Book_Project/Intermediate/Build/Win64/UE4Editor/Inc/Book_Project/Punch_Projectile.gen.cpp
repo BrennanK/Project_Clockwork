@@ -21,11 +21,17 @@ void EmptyLinkFunctionForGeneratedCodePunch_Projectile() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APunch_Projectile_playPuchSoundEffect();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APunch_Projectile_showColorVisual();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_APunch_Projectile_playPuchSoundEffect = FName(TEXT("playPuchSoundEffect"));
+	void APunch_Projectile::playPuchSoundEffect()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APunch_Projectile_playPuchSoundEffect),NULL);
+	}
 	static FName NAME_APunch_Projectile_showColorVisual = FName(TEXT("showColorVisual"));
 	void APunch_Projectile::showColorVisual(AEnemyCharacter* characterHit)
 	{
@@ -122,6 +128,28 @@ void EmptyLinkFunctionForGeneratedCodePunch_Projectile() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_APunch_Projectile_playPuchSoundEffect_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APunch_Projectile_playPuchSoundEffect_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Punch_Projectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APunch_Projectile_playPuchSoundEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APunch_Projectile, nullptr, "playPuchSoundEffect", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APunch_Projectile_playPuchSoundEffect_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APunch_Projectile_playPuchSoundEffect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APunch_Projectile_playPuchSoundEffect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APunch_Projectile_playPuchSoundEffect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_APunch_Projectile_showColorVisual_Statics
 	{
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_characterHit;
@@ -187,6 +215,7 @@ void EmptyLinkFunctionForGeneratedCodePunch_Projectile() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APunch_Projectile_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APunch_Projectile_Collision, "Collision" }, // 3393838327
+		{ &Z_Construct_UFunction_APunch_Projectile_playPuchSoundEffect, "playPuchSoundEffect" }, // 329193472
 		{ &Z_Construct_UFunction_APunch_Projectile_showColorVisual, "showColorVisual" }, // 1102358767
 	};
 #if WITH_METADATA
@@ -259,7 +288,7 @@ void EmptyLinkFunctionForGeneratedCodePunch_Projectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APunch_Projectile, 370081768);
+	IMPLEMENT_CLASS(APunch_Projectile, 300635930);
 	template<> BOOK_PROJECT_API UClass* StaticClass<APunch_Projectile>()
 	{
 		return APunch_Projectile::StaticClass();

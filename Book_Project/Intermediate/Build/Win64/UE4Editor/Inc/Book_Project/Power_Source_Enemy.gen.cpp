@@ -21,7 +21,13 @@ void EmptyLinkFunctionForGeneratedCodePower_Source_Enemy() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APower_Source_Enemy_playPunchImpactSound();
 // End Cross Module References
+	static FName NAME_APower_Source_Enemy_playPunchImpactSound = FName(TEXT("playPunchImpactSound"));
+	void APower_Source_Enemy::playPunchImpactSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APower_Source_Enemy_playPunchImpactSound),NULL);
+	}
 	void APower_Source_Enemy::StaticRegisterNativesAPower_Source_Enemy()
 	{
 		UClass* Class = APower_Source_Enemy::StaticClass();
@@ -111,6 +117,28 @@ void EmptyLinkFunctionForGeneratedCodePower_Source_Enemy() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_APower_Source_Enemy_playPunchImpactSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APower_Source_Enemy_playPunchImpactSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Power_Source_Enemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APower_Source_Enemy_playPunchImpactSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APower_Source_Enemy, nullptr, "playPunchImpactSound", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APower_Source_Enemy_playPunchImpactSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APower_Source_Enemy_playPunchImpactSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APower_Source_Enemy_playPunchImpactSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APower_Source_Enemy_playPunchImpactSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_APower_Source_Enemy_NoRegister()
 	{
 		return APower_Source_Enemy::StaticClass();
@@ -140,6 +168,7 @@ void EmptyLinkFunctionForGeneratedCodePower_Source_Enemy() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APower_Source_Enemy_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APower_Source_Enemy_Collision, "Collision" }, // 581249855
+		{ &Z_Construct_UFunction_APower_Source_Enemy_playPunchImpactSound, "playPunchImpactSound" }, // 966699010
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APower_Source_Enemy_Statics::Class_MetaDataParams[] = {
@@ -195,7 +224,7 @@ void EmptyLinkFunctionForGeneratedCodePower_Source_Enemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APower_Source_Enemy, 1345017751);
+	IMPLEMENT_CLASS(APower_Source_Enemy, 3752763236);
 	template<> BOOK_PROJECT_API UClass* StaticClass<APower_Source_Enemy>()
 	{
 		return APower_Source_Enemy::StaticClass();

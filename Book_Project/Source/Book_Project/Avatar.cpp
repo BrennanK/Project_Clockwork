@@ -207,6 +207,7 @@ void AAvatar::addKnockback(FRotator rotationOfHarmfulObject)
 
 	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 
+	activatePlayerActionSound(4);
 	ACharacter::LaunchCharacter(FVector(Direction.X * XYKnockback, Direction.Y * XYKnockback, ZKnockback), true, true);
 }
 
@@ -511,6 +512,7 @@ void AAvatar::lerpToDestination()
 	locationToGoTo = playerTarget->VectorOffset+playerTarget->GetActorLocation();
 	locationBeforeWarp = GetActorLocation();
 	changeToWarpMaterial();
+	activatePlayerActionSound(5);
 	GetWorldTimerManager().SetTimer(testTimer, this, &AAvatar::transition, GetWorld()->GetDeltaSeconds(), true, 0.0f);
 }
 
@@ -524,7 +526,7 @@ void AAvatar::transition()
 	
 	if (distance >= 1.f || GetActorLocation().Equals(locationToGoTo,0.0f))
 	{
-		
+		activatePlayerActionSound(6);
 		GetWorldTimerManager().ClearTimer(testTimer);
 		GetCharacterMovement()->GravityScale = 1;
 		if (isLockedOn == true)
@@ -559,6 +561,9 @@ void AAvatar::beginGrind() // method to start the timer and begin rail grinding
 	// Finds the location along spline based on contact point and aligns our character
 	FVector grindPointStartLocation = ourSpline->GetLocationAtDistanceAlongSpline(distance, ESplineCoordinateSpace::World);
 	SetActorLocation(grindPointStartLocation);
+
+	// Begin audio for grinding
+	activateGrindSound();
 
 	// Start timer to begin grinding
 	GetWorldTimerManager().SetTimer(railTimer, this, &AAvatar::grind, GetWorld()->GetDeltaSeconds(), true, 0.0f);
@@ -606,6 +611,7 @@ void AAvatar::grind() // method for grinding along the rail
 		
 		// Launch Character in Air ,reset usage Pawn Controller, and Grind Boolean
 		ACharacter::LaunchCharacter((GetActorForwardVector()*200) + FVector(0, 0, JumpHeight), true, true);
+		deactivateGrindSound();
 		cameraBoom->bUsePawnControlRotation = true;
 		AController* controller = GetController();
 		controller->SetControlRotation(GetActorRotation());
@@ -647,12 +653,14 @@ void AAvatar::Jump() // method used to allow the player character to jump
 				
 				const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 
+				activatePlayerActionSound(2);
 				ACharacter::LaunchCharacter(FVector(Direction.X*longJumpVelocityXY, Direction.Y*longJumpVelocityXY, longJumpHeight), false, true);
 				numberOfAlternateJumps++;
 			}
 			else // High Jump Segment
 			{
 				ACharacter::LaunchCharacter(FVector(0, 0, highJumpHeight), false, true);
+				activatePlayerActionSound(2);
 				numberOfAlternateJumps++;
 			}
 
@@ -669,10 +677,12 @@ void AAvatar::Jump() // method used to allow the player character to jump
 			if (numberOfJumps == 0)
 			{
 				ACharacter::LaunchCharacter(FVector(Direction.X*FMath::Abs(GetCharacterMovement()->Velocity.X), Direction.Y*FMath::Abs(GetCharacterMovement()->Velocity.Y), JumpHeight), true, true);
+				activatePlayerActionSound(0);
 			}
 			else
 			{
 				ACharacter::LaunchCharacter(FVector(Direction.X, Direction.Y, JumpHeight), false, true);
+				activatePlayerActionSound(1);
 			}
 			numberOfJumps++;
 		}

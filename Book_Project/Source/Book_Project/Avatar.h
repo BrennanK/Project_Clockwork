@@ -245,4 +245,13 @@ public:
 		void changeToNormalMaterial();
 
 	void addKnockback(FRotator rotationOfHarmfulObject);
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void activatePlayerActionSound(int indexOfSound);
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void activateGrindSound();
+	
+	UFUNCTION(BlueprintImplementableEvent)
+		void deactivateGrindSound();
 };

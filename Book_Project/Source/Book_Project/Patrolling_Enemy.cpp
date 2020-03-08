@@ -23,6 +23,8 @@ APatrolling_Enemy::APatrolling_Enemy(const FObjectInitializer &ObjectInitializer
 
 void APatrolling_Enemy::DestroyThisUnit()
 {
+	playFuseLightSound();
+	playPunchImpactSound();
 	GetWorldTimerManager().SetTimer(blinkHandle, this, &APatrolling_Enemy::initiateSpeedChange, 1.0f, false, delay);
 	float timeOfExplosion = delay + secondsBetweenFastBlinkAndBlowUp;
 	GetWorldTimerManager().SetTimer(deathHandle, this, &APatrolling_Enemy::DestroyCaller, 1.0f, false, timeOfExplosion);
@@ -54,6 +56,7 @@ void APatrolling_Enemy::initiateSpeedChange()
 
 void APatrolling_Enemy::DestroyCaller()
 {
+	playExplosionSound();
 	/*TArray<FHitResult> OutHit;
 
 	FVector MyLocation = GetActorLocation();

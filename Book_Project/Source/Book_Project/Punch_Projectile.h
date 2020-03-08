@@ -41,4 +41,7 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void showColorVisual(AEnemyCharacter* characterHit);
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void playPuchSoundEffect();
 };
