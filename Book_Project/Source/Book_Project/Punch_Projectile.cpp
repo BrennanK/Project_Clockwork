@@ -7,6 +7,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "EnemyCharacter.h"
 #include "Engine/Engine.h"
+#include "Kismet/GameplayStatics.h"
 #include "Avatar.h"
 // Sets default values
 APunch_Projectile::APunch_Projectile()
@@ -46,6 +47,10 @@ void APunch_Projectile::Collision(UPrimitiveComponent * OverlappedComp, AActor *
 		showColorVisual(Cast<AEnemyCharacter>(OtherActor));
 		
 		Cast<AEnemyCharacter>(OtherActor)->initiateDestruction(GetActorRotation());
+
+		AAvatar* player=Cast<AAvatar>(UGameplayStatics::GetActorOfClass(GetWorld(), AAvatar::StaticClass()));
+
+		player->activateSoundFromDestroyedActor(7);
 
 		Destroy();
 	}

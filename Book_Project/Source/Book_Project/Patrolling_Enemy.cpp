@@ -25,16 +25,17 @@ void APatrolling_Enemy::DestroyThisUnit()
 {
 	playFuseLightSound();
 	playPunchImpactSound();
-	GetWorldTimerManager().SetTimer(blinkHandle, this, &APatrolling_Enemy::initiateSpeedChange, 1.0f, false, delay);
-	float timeOfExplosion = delay + secondsBetweenFastBlinkAndBlowUp;
+	GetWorldTimerManager().SetTimer(blinkHandle, this, &APatrolling_Enemy::initiateSpeedChange, 1.0f, false, slowBlinkDelay);
+	float timeOfExplosion = slowBlinkDelay + secondsBetweenFastBlinkAndBlowUp;
 	GetWorldTimerManager().SetTimer(deathHandle, this, &APatrolling_Enemy::DestroyCaller, 1.0f, false, timeOfExplosion);
 }
 
 void APatrolling_Enemy::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
+	//GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Purple, "Our explosion sphere for the patrol character is functioning bitches");
 	if (Cast<AAvatar>(OtherActor))
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Purple, "Our explosion sphere for the patrol character is functioning bitches");
+		//GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Purple, "Our explosion sphere for the patrol character is functioning bitches");
 		playerCharacter = Cast<AAvatar>(OtherActor);
 	}
 }
@@ -44,10 +45,13 @@ void APatrolling_Enemy::EndCollision(UPrimitiveComponent * OverlappedComp, AActo
 	playerCharacter = nullptr;
 }
 
-//void APatrolling_Enemy::BeginPlay()
-//{
-//	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Purple, "Our begin play for the patrol character is functioning");
-//}
+void APatrolling_Enemy::BeginPlay()
+{
+	Super::BeginPlay();
+	explosionRadius->OnComponentBeginOverlap.AddDynamic(this, &APatrolling_Enemy::Collision);
+	explosionRadius->OnComponentEndOverlap.AddDynamic(this, &APatrolling_Enemy::EndCollision);
+	//GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Purple, "Our begin play for the patrol character is functioning");
+}
 
 void APatrolling_Enemy::initiateSpeedChange()
 {
@@ -56,7 +60,8 @@ void APatrolling_Enemy::initiateSpeedChange()
 
 void APatrolling_Enemy::DestroyCaller()
 {
-	playExplosionSound();
+	stopFuseLightSound();
+	//playerCharacter->activateSoundFromDestroyedActor(8);
 	/*TArray<FHitResult> OutHit;
 
 	FVector MyLocation = GetActorLocation();
@@ -77,6 +82,7 @@ void APatrolling_Enemy::DestroyCaller()
 		FRotator lookAtPlayer = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), playerCharacter->GetActorLocation());
 		playerCharacter->addKnockback(lookAtPlayer);
 		playerCharacter->MinusHealth(damageToDeal);
+		playerCharacter->activateSoundFromDestroyedActor(8);
 	}
 	Destroy();
 }

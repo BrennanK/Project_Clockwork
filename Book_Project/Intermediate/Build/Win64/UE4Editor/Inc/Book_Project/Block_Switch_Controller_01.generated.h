@@ -51,7 +51,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_EVENT_PARMS
+#define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_EVENT_PARMS \
+	struct Block_Switch_Controller_01_eventplayMovingDoorSound_Parms \
+	{ \
+		int32 index; \
+	};
+
+
 #define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_CALLBACK_WRAPPERS
 #define Book_Project_Source_Book_Project_Block_Switch_Controller_01_h_12_INCLASS_NO_PURE_DECLS \
 private: \

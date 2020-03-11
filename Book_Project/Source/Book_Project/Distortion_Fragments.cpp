@@ -80,7 +80,7 @@ void ADistortion_Fragments::Collision(UPrimitiveComponent * OverlappedComp, AAct
 	case EPickupType::Lives:
 		UI_Data_Container->incrementLifeCount();
 	}
-
+	Cast<AAvatar>(OtherActor)->activateSoundFromDestroyedActor(9);
 	Destroy();
 }
 

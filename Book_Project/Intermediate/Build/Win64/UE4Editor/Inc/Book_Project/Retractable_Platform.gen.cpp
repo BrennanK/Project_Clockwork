@@ -17,11 +17,47 @@ void EmptyLinkFunctionForGeneratedCodeRetractable_Platform() {}
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ARetractable_Platform();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AManipulable_Object();
 	UPackage* Z_Construct_UPackage__Script_Book_Project();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_ARetractable_Platform_activatePlatformMovementSound = FName(TEXT("activatePlatformMovementSound"));
+	void ARetractable_Platform::activatePlatformMovementSound(int32 indexForSoundCue)
+	{
+		Retractable_Platform_eventactivatePlatformMovementSound_Parms Parms;
+		Parms.indexForSoundCue=indexForSoundCue;
+		ProcessEvent(FindFunctionChecked(NAME_ARetractable_Platform_activatePlatformMovementSound),&Parms);
+	}
 	void ARetractable_Platform::StaticRegisterNativesARetractable_Platform()
 	{
+	}
+	struct Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics
+	{
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_indexForSoundCue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics::NewProp_indexForSoundCue = { "indexForSoundCue", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Retractable_Platform_eventactivatePlatformMovementSound_Parms, indexForSoundCue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics::NewProp_indexForSoundCue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Retractable_Platform.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARetractable_Platform, nullptr, "activatePlatformMovementSound", nullptr, nullptr, sizeof(Retractable_Platform_eventactivatePlatformMovementSound_Parms), Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ARetractable_Platform_NoRegister()
 	{
@@ -30,6 +66,7 @@ void EmptyLinkFunctionForGeneratedCodeRetractable_Platform() {}
 	struct Z_Construct_UClass_ARetractable_Platform_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -74,6 +111,9 @@ void EmptyLinkFunctionForGeneratedCodeRetractable_Platform() {}
 	UObject* (*const Z_Construct_UClass_ARetractable_Platform_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AManipulable_Object,
 		(UObject* (*)())Z_Construct_UPackage__Script_Book_Project,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ARetractable_Platform_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ARetractable_Platform_activatePlatformMovementSound, "activatePlatformMovementSound" }, // 1499100698
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetractable_Platform_Statics::Class_MetaDataParams[] = {
@@ -166,11 +206,11 @@ void EmptyLinkFunctionForGeneratedCodeRetractable_Platform() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ARetractable_Platform_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		ARRAY_COUNT(Z_Construct_UClass_ARetractable_Platform_Statics::PropPointers),
 		0,
 		0x009000A0u,
@@ -185,7 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeRetractable_Platform() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARetractable_Platform, 817285098);
+	IMPLEMENT_CLASS(ARetractable_Platform, 1272213465);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ARetractable_Platform>()
 	{
 		return ARetractable_Platform::StaticClass();

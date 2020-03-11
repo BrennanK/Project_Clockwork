@@ -26,6 +26,16 @@ void ARetractable_Platform::BeginPlay()
 void ARetractable_Platform::interActionCommand()
 {
 	doWeChangeDirections();
+	switch ((int)direction)
+	{
+	case 1:
+		activatePlatformMovementSound(0);
+		break;
+
+	case -1:
+		activatePlatformMovementSound(1);
+		break;
+	}
 	GetWorldTimerManager().SetTimer(movementTimer,this,&ARetractable_Platform::Move,.01f,true,initialDelay);
 }
 
@@ -46,11 +56,13 @@ void ARetractable_Platform::Move()
 	{
 		movePlatformToThisLocation = LocationWhenExtended;
 		originalLocation = locationWhenRetracted;
+		//activatePlatformMovementSound(0);
 	}
 	else
 	{
 		movePlatformToThisLocation = locationWhenRetracted;
 		originalLocation = LocationWhenExtended;
+		//activatePlatformMovementSound(1);
 	}
 
 	lerpAlpha += GetWorld()->GetDeltaSeconds();

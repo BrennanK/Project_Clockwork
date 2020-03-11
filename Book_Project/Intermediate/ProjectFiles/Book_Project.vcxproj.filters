@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Book_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9EB14577-BC56-44DC-926A-F54DD00E6E4F}</UniqueIdentifier>
+      <UniqueIdentifier>{B89805D7-4C50-4D1A-BB2E-608955079605}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Book_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B2A1A551-4ECE-40D4-A4D1-395260F14168}</UniqueIdentifier>
+      <UniqueIdentifier>{DCFC3AA3-6541-4FDA-AD9B-D36E6D5193A4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Book_Project">
-      <UniqueIdentifier>{CA07FD84-9765-491A-8C3B-B8C3615B2B60}</UniqueIdentifier>
+      <UniqueIdentifier>{113C6F2A-C810-4B85-83C7-67FE2EE73170}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Book_Project\Avatar.cpp">
       <Filter>Source\Book_Project</Filter>

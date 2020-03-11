@@ -38,4 +38,6 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 		void changePanelColorToGreen();
 
+	UFUNCTION(BlueprintImplementableEvent)
+		void playSwitchChangeColorSound();
 };

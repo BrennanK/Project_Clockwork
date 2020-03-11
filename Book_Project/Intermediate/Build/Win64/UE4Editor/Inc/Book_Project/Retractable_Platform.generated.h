@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Book_Project_Source_Book_Project_Retractable_Platform_h_15_RPC_WRAPPERS
 #define Book_Project_Source_Book_Project_Retractable_Platform_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Book_Project_Source_Book_Project_Retractable_Platform_h_15_EVENT_PARMS \
+	struct Retractable_Platform_eventactivatePlatformMovementSound_Parms \
+	{ \
+		int32 indexForSoundCue; \
+	};
+
+
+#define Book_Project_Source_Book_Project_Retractable_Platform_h_15_CALLBACK_WRAPPERS
 #define Book_Project_Source_Book_Project_Retractable_Platform_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesARetractable_Platform(); \
@@ -58,12 +66,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARetractable_Platform); \
 
 
 #define Book_Project_Source_Book_Project_Retractable_Platform_h_15_PRIVATE_PROPERTY_OFFSET
-#define Book_Project_Source_Book_Project_Retractable_Platform_h_12_PROLOG
+#define Book_Project_Source_Book_Project_Retractable_Platform_h_12_PROLOG \
+	Book_Project_Source_Book_Project_Retractable_Platform_h_15_EVENT_PARMS
+
+
 #define Book_Project_Source_Book_Project_Retractable_Platform_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_Retractable_Platform_h_15_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_Retractable_Platform_h_15_RPC_WRAPPERS \
+	Book_Project_Source_Book_Project_Retractable_Platform_h_15_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_Retractable_Platform_h_15_INCLASS \
 	Book_Project_Source_Book_Project_Retractable_Platform_h_15_STANDARD_CONSTRUCTORS \
 public: \
@@ -75,6 +87,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_Retractable_Platform_h_15_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_Retractable_Platform_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Book_Project_Source_Book_Project_Retractable_Platform_h_15_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_Retractable_Platform_h_15_INCLASS_NO_PURE_DECLS \
 	Book_Project_Source_Book_Project_Retractable_Platform_h_15_ENHANCED_CONSTRUCTORS \
 private: \

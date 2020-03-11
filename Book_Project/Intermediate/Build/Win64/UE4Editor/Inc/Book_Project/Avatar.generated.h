@@ -238,6 +238,10 @@ struct FHitResult;
 	struct Avatar_eventactivatePlayerActionSound_Parms \
 	{ \
 		int32 indexOfSound; \
+	}; \
+	struct Avatar_eventactivateSoundFromDestroyedActor_Parms \
+	{ \
+		int32 indexOfSound; \
 	};
 
 

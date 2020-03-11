@@ -254,4 +254,7 @@ public:
 	
 	UFUNCTION(BlueprintImplementableEvent)
 		void deactivateGrindSound();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void activateSoundFromDestroyedActor(int indexOfSound);
 };

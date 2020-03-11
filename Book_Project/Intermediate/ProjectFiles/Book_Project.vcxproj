@@ -99,7 +99,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{03CC55CD-F54D-41EF-9A86-0572CBCAED75}</ProjectGuid>
+    <ProjectGuid>{B1DF34B7-018A-45EC-9F62-1A951B715D9C}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Book_Project</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>

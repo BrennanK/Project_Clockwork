@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_AColored_Floor_Switch_NoRegister();
@@ -29,6 +30,13 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 	void ABlock_Switch_Controller_01::changeCameraPerspective()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_ABlock_Switch_Controller_01_changeCameraPerspective),NULL);
+	}
+	static FName NAME_ABlock_Switch_Controller_01_playMovingDoorSound = FName(TEXT("playMovingDoorSound"));
+	void ABlock_Switch_Controller_01::playMovingDoorSound(int32 index)
+	{
+		Block_Switch_Controller_01_eventplayMovingDoorSound_Parms Parms;
+		Parms.index=index;
+		ProcessEvent(FindFunctionChecked(NAME_ABlock_Switch_Controller_01_playMovingDoorSound),&Parms);
 	}
 	void ABlock_Switch_Controller_01::StaticRegisterNativesABlock_Switch_Controller_01()
 	{
@@ -105,6 +113,34 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics
+	{
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_index;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics::NewProp_index = { "index", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Block_Switch_Controller_01_eventplayMovingDoorSound_Parms, index), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics::NewProp_index,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Block_Switch_Controller_01.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABlock_Switch_Controller_01, nullptr, "playMovingDoorSound", nullptr, nullptr, sizeof(Block_Switch_Controller_01_eventplayMovingDoorSound_Parms), Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ABlock_Switch_Controller_01_NoRegister()
 	{
 		return ABlock_Switch_Controller_01::StaticClass();
@@ -157,6 +193,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		{ &Z_Construct_UFunction_ABlock_Switch_Controller_01_beginLerpingProcess, "beginLerpingProcess" }, // 3575911759
 		{ &Z_Construct_UFunction_ABlock_Switch_Controller_01_changeCameraPerspective, "changeCameraPerspective" }, // 502574433
 		{ &Z_Construct_UFunction_ABlock_Switch_Controller_01_lerpTheDoor, "lerpTheDoor" }, // 588491028
+		{ &Z_Construct_UFunction_ABlock_Switch_Controller_01_playMovingDoorSound, "playMovingDoorSound" }, // 4085539723
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::Class_MetaDataParams[] = {
@@ -253,7 +290,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABlock_Switch_Controller_01, 2351489716);
+	IMPLEMENT_CLASS(ABlock_Switch_Controller_01, 1184057465);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ABlock_Switch_Controller_01>()
 	{
 		return ABlock_Switch_Controller_01::StaticClass();

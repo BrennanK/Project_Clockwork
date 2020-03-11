@@ -54,6 +54,7 @@ void AEnemyCharacter::initiateDestruction(FRotator projectileRotation)
 	ACharacter::LaunchCharacter(FVector(Direction.X * XYKnockback, Direction.Y * XYKnockback, ZKnockback),true,true);
 
 	GetWorldTimerManager().SetTimer(destructionHandler,this,&AEnemyCharacter::Die,1.0f,false,delay);
+
 }
 
 void AEnemyCharacter::Die()

@@ -37,6 +37,10 @@ void AFire_Trap::BeginPlay()
 		fireParticle->DeactivateSystem();
 		fireBox->SetGenerateOverlapEvents(false);
 	}
+	else
+	{
+		turnOnFireSound();
+	}
 }
 
 void AFire_Trap::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
@@ -55,6 +59,7 @@ void AFire_Trap::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherA
 
 void AFire_Trap::interActionCommand()
 {
+	playWaterSoundEffect(0);
 	GetWorldTimerManager().SetTimer(movementTimer, this, &AFire_Trap::douseFire, 1.0f, false, delayToTurnWaterOn);
 	float douseWaterDelay = delayToTurnFireOff + delayToTurnWaterOn;
 	GetWorldTimerManager().SetTimer(fireOffHandle, this, &AFire_Trap::deactivateFire, 1.0f, false, delayToTurnFireOff);
@@ -65,16 +70,19 @@ void AFire_Trap::interActionCommand()
 void AFire_Trap::douseFire()
 {
 	waterParticle->ActivateSystem();
+	playWaterSoundEffect(1);
 }
 
 void AFire_Trap::deactivateFire()
 {
 	fireParticle->DeactivateSystem();
+	turnOffFireSound();
 }
 
 void AFire_Trap::turnOffWater()
 {
 	waterParticle->DeactivateSystem();
+	playWaterSoundEffect(2);
 }
 
 

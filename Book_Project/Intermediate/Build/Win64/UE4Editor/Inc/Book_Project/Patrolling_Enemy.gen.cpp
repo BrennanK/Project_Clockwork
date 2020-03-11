@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_APatrolling_Enemy_stopFuseLightSound();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
 	static FName NAME_APatrolling_Enemy_changeSpeedOfBlink = FName(TEXT("changeSpeedOfBlink"));
@@ -53,6 +54,11 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 	void APatrolling_Enemy::playPunchImpactSound()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_APatrolling_Enemy_playPunchImpactSound),NULL);
+	}
+	static FName NAME_APatrolling_Enemy_stopFuseLightSound = FName(TEXT("stopFuseLightSound"));
+	void APatrolling_Enemy::stopFuseLightSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APatrolling_Enemy_stopFuseLightSound),NULL);
 	}
 	void APatrolling_Enemy::StaticRegisterNativesAPatrolling_Enemy()
 	{
@@ -314,6 +320,28 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_APatrolling_Enemy_stopFuseLightSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APatrolling_Enemy_stopFuseLightSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Patrolling_Enemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APatrolling_Enemy_stopFuseLightSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APatrolling_Enemy, nullptr, "stopFuseLightSound", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APatrolling_Enemy_stopFuseLightSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APatrolling_Enemy_stopFuseLightSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APatrolling_Enemy_stopFuseLightSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APatrolling_Enemy_stopFuseLightSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_APatrolling_Enemy_NoRegister()
 	{
 		return APatrolling_Enemy::StaticClass();
@@ -325,6 +353,10 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_slowBlinkDelay_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_slowBlinkDelay;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_secondsBetweenFastBlinkAndBlowUp_MetaData[];
 #endif
@@ -361,6 +393,7 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 		{ &Z_Construct_UFunction_APatrolling_Enemy_playExplosionSound, "playExplosionSound" }, // 3281970479
 		{ &Z_Construct_UFunction_APatrolling_Enemy_playFuseLightSound, "playFuseLightSound" }, // 1429024927
 		{ &Z_Construct_UFunction_APatrolling_Enemy_playPunchImpactSound, "playPunchImpactSound" }, // 3811006536
+		{ &Z_Construct_UFunction_APatrolling_Enemy_stopFuseLightSound, "stopFuseLightSound" }, // 3045009761
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APatrolling_Enemy_Statics::Class_MetaDataParams[] = {
@@ -371,6 +404,13 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_slowBlinkDelay_MetaData[] = {
+		{ "Category", "Speed of Blinking Detonation" },
+		{ "ModuleRelativePath", "Patrolling_Enemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_slowBlinkDelay = { "slowBlinkDelay", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APatrolling_Enemy, slowBlinkDelay), METADATA_PARAMS(Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_slowBlinkDelay_MetaData, ARRAY_COUNT(Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_slowBlinkDelay_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_secondsBetweenFastBlinkAndBlowUp_MetaData[] = {
 		{ "Category", "Speed of Blinking Detonation" },
@@ -408,6 +448,7 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_explosionRadius = { "explosionRadius", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APatrolling_Enemy, explosionRadius), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_explosionRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_explosionRadius_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APatrolling_Enemy_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_slowBlinkDelay,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_secondsBetweenFastBlinkAndBlowUp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_slowBlinkSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APatrolling_Enemy_Statics::NewProp_fastBlinkSpeed,
@@ -441,7 +482,7 @@ void EmptyLinkFunctionForGeneratedCodePatrolling_Enemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APatrolling_Enemy, 2841490539);
+	IMPLEMENT_CLASS(APatrolling_Enemy, 3337659621);
 	template<> BOOK_PROJECT_API UClass* StaticClass<APatrolling_Enemy>()
 	{
 		return APatrolling_Enemy::StaticClass();

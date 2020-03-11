@@ -59,4 +59,13 @@ class BOOK_PROJECT_API AFire_Trap : public AManipulable_Object
 		void deactivateFire();
 
 		void turnOffWater();
+
+		UFUNCTION(BlueprintImplementableEvent)
+			void turnOnFireSound();
+
+		UFUNCTION(BlueprintImplementableEvent)
+			void turnOffFireSound();
+
+		UFUNCTION(BlueprintImplementableEvent)
+			void playWaterSoundEffect(int indexOfSound);
 };

@@ -61,4 +61,7 @@ public:
 
 	UFUNCTION()
 		void lerpTheDoor();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void playMovingDoorSound(int index);
 };

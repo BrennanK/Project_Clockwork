@@ -54,4 +54,7 @@ class BOOK_PROJECT_API ARetractable_Platform : public AManipulable_Object
 
 		virtual void Move() override;
 
+		UFUNCTION(BlueprintImplementableEvent)
+			void activatePlatformMovementSound(int indexForSoundCue);
+
 };

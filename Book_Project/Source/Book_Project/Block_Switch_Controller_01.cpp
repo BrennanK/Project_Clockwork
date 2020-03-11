@@ -55,6 +55,7 @@ void ABlock_Switch_Controller_01::incrementSwitchCounter()
 void ABlock_Switch_Controller_01::beginLerpingProcess()
 {
 	GetWorldTimerManager().SetTimer(transitionTimer, this, &ABlock_Switch_Controller_01::lerpTheDoor, GetWorld()->GetDeltaSeconds(), true, 0.0f);
+	playMovingDoorSound(0);
 }
 
 void ABlock_Switch_Controller_01::lerpTheDoor()
@@ -67,7 +68,8 @@ void ABlock_Switch_Controller_01::lerpTheDoor()
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The value of distance is " + FString::SanitizeFloat(distance));
 	if (distance >= 1.f || GetActorLocation().Equals(Destination, 0.0f))
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 16.f, FColor::Black, "End of movement");
+		//GEngine->AddOnScreenDebugMessage(-1, 16.f, FColor::Black, "End of movement");
+		playMovingDoorSound(1);
 		changeCameraPerspective();
 		GetWorldTimerManager().ClearTimer(transitionTimer);
 		distance = 0;

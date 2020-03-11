@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AColored_Floor_Switch_playSwitchChangeColorSound();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ABlock_Switch_Controller_01_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
@@ -30,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 	void AColored_Floor_Switch::changePanelColorToGreen()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AColored_Floor_Switch_changePanelColorToGreen),NULL);
+	}
+	static FName NAME_AColored_Floor_Switch_playSwitchChangeColorSound = FName(TEXT("playSwitchChangeColorSound"));
+	void AColored_Floor_Switch::playSwitchChangeColorSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AColored_Floor_Switch_playSwitchChangeColorSound),NULL);
 	}
 	void AColored_Floor_Switch::StaticRegisterNativesAColored_Floor_Switch()
 	{
@@ -143,6 +149,28 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AColored_Floor_Switch_playSwitchChangeColorSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AColored_Floor_Switch_playSwitchChangeColorSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Colored_Floor_Switch.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AColored_Floor_Switch_playSwitchChangeColorSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AColored_Floor_Switch, nullptr, "playSwitchChangeColorSound", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AColored_Floor_Switch_playSwitchChangeColorSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AColored_Floor_Switch_playSwitchChangeColorSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AColored_Floor_Switch_playSwitchChangeColorSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AColored_Floor_Switch_playSwitchChangeColorSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AColored_Floor_Switch_NoRegister()
 	{
 		return AColored_Floor_Switch::StaticClass();
@@ -177,6 +205,7 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AColored_Floor_Switch_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AColored_Floor_Switch_changePanelColorToGreen, "changePanelColorToGreen" }, // 3254249477
 		{ &Z_Construct_UFunction_AColored_Floor_Switch_Collision, "Collision" }, // 2179249481
+		{ &Z_Construct_UFunction_AColored_Floor_Switch_playSwitchChangeColorSound, "playSwitchChangeColorSound" }, // 3832583538
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AColored_Floor_Switch_Statics::Class_MetaDataParams[] = {
@@ -240,7 +269,7 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AColored_Floor_Switch, 2685791932);
+	IMPLEMENT_CLASS(AColored_Floor_Switch, 2079595974);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AColored_Floor_Switch>()
 	{
 		return AColored_Floor_Switch::StaticClass();

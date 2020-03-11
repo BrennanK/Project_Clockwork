@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_activateGrindSound();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_activateLockOnFunction();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_activatePlayerActionSound();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_beginGrind();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callEnergyBarChange();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callWheelChange();
@@ -190,6 +191,13 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		Parms.indexOfSound=indexOfSound;
 		ProcessEvent(FindFunctionChecked(NAME_AAvatar_activatePlayerActionSound),&Parms);
 	}
+	static FName NAME_AAvatar_activateSoundFromDestroyedActor = FName(TEXT("activateSoundFromDestroyedActor"));
+	void AAvatar::activateSoundFromDestroyedActor(int32 indexOfSound)
+	{
+		Avatar_eventactivateSoundFromDestroyedActor_Parms Parms;
+		Parms.indexOfSound=indexOfSound;
+		ProcessEvent(FindFunctionChecked(NAME_AAvatar_activateSoundFromDestroyedActor),&Parms);
+	}
 	static FName NAME_AAvatar_callEnergyBarChange = FName(TEXT("callEnergyBarChange"));
 	void AAvatar::callEnergyBarChange()
 	{
@@ -323,6 +331,34 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_activatePlayerActionSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics
+	{
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_indexOfSound;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics::NewProp_indexOfSound = { "indexOfSound", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Avatar_eventactivateSoundFromDestroyedActor_Parms, indexOfSound), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics::NewProp_indexOfSound,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "activateSoundFromDestroyedActor", nullptr, nullptr, sizeof(Avatar_eventactivateSoundFromDestroyedActor_Parms), Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -1047,6 +1083,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		{ &Z_Construct_UFunction_AAvatar_activateGrindSound, "activateGrindSound" }, // 894333807
 		{ &Z_Construct_UFunction_AAvatar_activateLockOnFunction, "activateLockOnFunction" }, // 1490460370
 		{ &Z_Construct_UFunction_AAvatar_activatePlayerActionSound, "activatePlayerActionSound" }, // 2608231305
+		{ &Z_Construct_UFunction_AAvatar_activateSoundFromDestroyedActor, "activateSoundFromDestroyedActor" }, // 2956799149
 		{ &Z_Construct_UFunction_AAvatar_beginGrind, "beginGrind" }, // 1691124014
 		{ &Z_Construct_UFunction_AAvatar_callEnergyBarChange, "callEnergyBarChange" }, // 4154856328
 		{ &Z_Construct_UFunction_AAvatar_callWheelChange, "callWheelChange" }, // 1327484095
@@ -1421,7 +1458,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 3974699652);
+	IMPLEMENT_CLASS(AAvatar, 1174128339);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();

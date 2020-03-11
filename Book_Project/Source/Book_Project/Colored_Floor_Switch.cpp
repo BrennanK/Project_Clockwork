@@ -46,6 +46,7 @@ void AColored_Floor_Switch::Collision(UPrimitiveComponent * OverlappedComp, AAct
 	if (isGreen == false)
 	{
 		changePanelColorToGreen();
+		playSwitchChangeColorSound();
 		switchManager->incrementSwitchCounter();
 		isGreen = true;
 	}

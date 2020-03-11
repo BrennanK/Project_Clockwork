@@ -21,9 +21,29 @@ void EmptyLinkFunctionForGeneratedCodeFire_Trap() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AFire_Trap_turnOffFireSound();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AFire_Trap_turnOnFireSound();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_AFire_Trap_playWaterSoundEffect = FName(TEXT("playWaterSoundEffect"));
+	void AFire_Trap::playWaterSoundEffect(int32 indexOfSound)
+	{
+		Fire_Trap_eventplayWaterSoundEffect_Parms Parms;
+		Parms.indexOfSound=indexOfSound;
+		ProcessEvent(FindFunctionChecked(NAME_AFire_Trap_playWaterSoundEffect),&Parms);
+	}
+	static FName NAME_AFire_Trap_turnOffFireSound = FName(TEXT("turnOffFireSound"));
+	void AFire_Trap::turnOffFireSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AFire_Trap_turnOffFireSound),NULL);
+	}
+	static FName NAME_AFire_Trap_turnOnFireSound = FName(TEXT("turnOnFireSound"));
+	void AFire_Trap::turnOnFireSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AFire_Trap_turnOnFireSound),NULL);
+	}
 	void AFire_Trap::StaticRegisterNativesAFire_Trap()
 	{
 		UClass* Class = AFire_Trap::StaticClass();
@@ -113,6 +133,78 @@ void EmptyLinkFunctionForGeneratedCodeFire_Trap() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics
+	{
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_indexOfSound;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics::NewProp_indexOfSound = { "indexOfSound", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Fire_Trap_eventplayWaterSoundEffect_Parms, indexOfSound), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics::NewProp_indexOfSound,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Fire_Trap.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFire_Trap, nullptr, "playWaterSoundEffect", nullptr, nullptr, sizeof(Fire_Trap_eventplayWaterSoundEffect_Parms), Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFire_Trap_turnOffFireSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFire_Trap_turnOffFireSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Fire_Trap.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFire_Trap_turnOffFireSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFire_Trap, nullptr, "turnOffFireSound", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFire_Trap_turnOffFireSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFire_Trap_turnOffFireSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFire_Trap_turnOffFireSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFire_Trap_turnOffFireSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFire_Trap_turnOnFireSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFire_Trap_turnOnFireSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Fire_Trap.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFire_Trap_turnOnFireSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFire_Trap, nullptr, "turnOnFireSound", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFire_Trap_turnOnFireSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFire_Trap_turnOnFireSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFire_Trap_turnOnFireSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFire_Trap_turnOnFireSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AFire_Trap_NoRegister()
 	{
 		return AFire_Trap::StaticClass();
@@ -167,6 +259,9 @@ void EmptyLinkFunctionForGeneratedCodeFire_Trap() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFire_Trap_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AFire_Trap_Collision, "Collision" }, // 1589728121
+		{ &Z_Construct_UFunction_AFire_Trap_playWaterSoundEffect, "playWaterSoundEffect" }, // 2470812484
+		{ &Z_Construct_UFunction_AFire_Trap_turnOffFireSound, "turnOffFireSound" }, // 1068408468
+		{ &Z_Construct_UFunction_AFire_Trap_turnOnFireSound, "turnOnFireSound" }, // 1044233526
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFire_Trap_Statics::Class_MetaDataParams[] = {
@@ -276,7 +371,7 @@ void EmptyLinkFunctionForGeneratedCodeFire_Trap() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFire_Trap, 602391856);
+	IMPLEMENT_CLASS(AFire_Trap, 2982107990);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AFire_Trap>()
 	{
 		return AFire_Trap::StaticClass();

@@ -46,6 +46,8 @@ class BOOK_PROJECT_API APatrolling_Enemy : public AEnemyCharacter
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Speed of Blinking Detonation")
 			float secondsBetweenFastBlinkAndBlowUp;
 
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Speed of Blinking Detonation")
+			float slowBlinkDelay;
 		void DestroyCaller();
 
 		virtual void DestroyThisUnit() override;
@@ -64,6 +66,9 @@ class BOOK_PROJECT_API APatrolling_Enemy : public AEnemyCharacter
 
 		UFUNCTION(BlueprintImplementableEvent)
 			void playExplosionSound();
+
+		UFUNCTION(BlueprintImplementableEvent)
+			void stopFuseLightSound();
 	protected:
-		//virtual void BeginPlay() override;
+		virtual void BeginPlay() override;
 };
