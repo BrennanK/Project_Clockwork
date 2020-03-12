@@ -37,6 +37,7 @@ void ATrap_Door::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherA
 void ATrap_Door::interActionCommand()
 {
 	activationBox->SetGenerateOverlapEvents(false);
+	playCorrectSound(0);
 	GetWorldTimerManager().SetTimer(movementTimer, this, &ATrap_Door::beforeDropVisualDown, .01f, true, 0.0f);
 }
 
@@ -70,6 +71,7 @@ void ATrap_Door::beforeDropVisualUp()
 	{
 		GetWorldTimerManager().ClearTimer(movementTimer);
 		lerpAlpha = 0.f;
+		playCorrectSound(1);
 		GetWorldTimerManager().SetTimer(movementTimer, this, &ATrap_Door::platformDrop, .01f, true, 0.0f);
 	}
 }

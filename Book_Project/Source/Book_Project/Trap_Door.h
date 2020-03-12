@@ -60,4 +60,7 @@ class BOOK_PROJECT_API ATrap_Door : public AManipulable_Object
 		void platformDrop();
 
 		void platformReset();
+
+		UFUNCTION(BlueprintImplementableEvent)
+			void playCorrectSound(int index);
 };

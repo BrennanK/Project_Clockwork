@@ -67,4 +67,10 @@ class BOOK_PROJECT_API UMyGameInstance : public UGameInstance
 
 		UFUNCTION()
 			void deserveObjectiveBonus();
+
+		UPROPERTY()
+			float musicSliderValue;
+
+		UPROPERTY()
+			float effectSliderValue;
 };

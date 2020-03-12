@@ -45,6 +45,10 @@ void AInteractable_Object::Collision(UPrimitiveComponent * OverlappedComp, AActo
 
 void AInteractable_Object::EndCollision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
 {
+	if (Cast<AAvatar>(OtherActor) == nullptr)
+	{
+		return;
+	}
 	hideInteractionIcon();
 	AAvatar* player = Cast<AAvatar>(OtherActor);
 	player->currentState = ECharacterState::NORMAL;

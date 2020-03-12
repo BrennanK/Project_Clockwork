@@ -539,6 +539,7 @@ void AAvatar::transition()
 		//teleportationParticle->DeactivateSystem();
 		//skeleton->SetVisibility(true);
 		distance = 0;
+		GetCharacterMovement()->Velocity = FVector(0, 0, 0);
 	}
 }
 #pragma endregion MovingTeleport

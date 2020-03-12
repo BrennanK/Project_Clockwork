@@ -21,10 +21,18 @@ void EmptyLinkFunctionForGeneratedCodeTrap_Door() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ATrap_Door_playCorrectSound();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 // End Cross Module References
+	static FName NAME_ATrap_Door_playCorrectSound = FName(TEXT("playCorrectSound"));
+	void ATrap_Door::playCorrectSound(int32 index)
+	{
+		Trap_Door_eventplayCorrectSound_Parms Parms;
+		Parms.index=index;
+		ProcessEvent(FindFunctionChecked(NAME_ATrap_Door_playCorrectSound),&Parms);
+	}
 	void ATrap_Door::StaticRegisterNativesATrap_Door()
 	{
 		UClass* Class = ATrap_Door::StaticClass();
@@ -114,6 +122,34 @@ void EmptyLinkFunctionForGeneratedCodeTrap_Door() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics
+	{
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_index;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics::NewProp_index = { "index", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Trap_Door_eventplayCorrectSound_Parms, index), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics::NewProp_index,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Trap_Door.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATrap_Door, nullptr, "playCorrectSound", nullptr, nullptr, sizeof(Trap_Door_eventplayCorrectSound_Parms), Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATrap_Door_playCorrectSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATrap_Door_playCorrectSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ATrap_Door_NoRegister()
 	{
 		return ATrap_Door::StaticClass();
@@ -167,6 +203,7 @@ void EmptyLinkFunctionForGeneratedCodeTrap_Door() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATrap_Door_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ATrap_Door_Collision, "Collision" }, // 351601473
+		{ &Z_Construct_UFunction_ATrap_Door_playCorrectSound, "playCorrectSound" }, // 3878635877
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrap_Door_Statics::Class_MetaDataParams[] = {
@@ -271,7 +308,7 @@ void EmptyLinkFunctionForGeneratedCodeTrap_Door() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATrap_Door, 761161260);
+	IMPLEMENT_CLASS(ATrap_Door, 1529552140);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ATrap_Door>()
 	{
 		return ATrap_Door::StaticClass();
