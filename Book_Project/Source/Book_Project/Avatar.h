@@ -20,14 +20,31 @@ public:
 	bool inventoryShowing;
 	UPROPERTY(BlueprintReadWrite)
 		ECharacterState currentState;
+	
 	UPROPERTY(BlueprintReadWrite)
 		ETimeAbility firstPower;
+	
 	UPROPERTY(BlueprintReadWrite)
 		ETimeAbility secondPower;
+
+	UPROPERTY(EditAnywhere,Category = "Map for power cost")
+		TMap<FString, float> PowerCost;
+
+	UPROPERTY(EditAnywhere, Category = "Rate of Enenergy loss For Continuous Time Power")
+		float delayBetweenDecay;
+
+	bool continuousPowerOn;
+
+	UPROPERTY(EditAnywhere, Category = "Speed for Acceleration ")
+		float increasedSpeed;
+
+	float regularWalkingSpeed;
+
 	/*Timer for Handling transport*/
 	FTimerHandle testTimer;
 	FTimerHandle railTimer;
 	FTimerHandle cameraTimer;
+	FTimerHandle continuousPowerHandle;
 	FVector locationToGoTo;
 	float distance;
 	float numberOfJumps;
@@ -234,9 +251,15 @@ public:
 		void RightTimePower();
 	UFUNCTION()
 		void useTimePower(ETimeAbility ability);
+
+	UFUNCTION()
+		void subtractEnergyCost();
 	
 	UFUNCTION(BlueprintImplementableEvent)
 		void changeToWarpMaterial();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void changeToAccelMaterial();
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void changeToEnergyMaterial();

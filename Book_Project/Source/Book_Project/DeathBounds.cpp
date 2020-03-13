@@ -53,8 +53,30 @@ void ADeathBounds::Collision(UPrimitiveComponent * OverlappedComp, AActor * Othe
 	
 	gameInstance->incrementDeathNumber();
 
-	AAvatar* player=Cast<AAvatar>(OtherActor);
+	playDeathFade();
 
+	player=Cast<AAvatar>(OtherActor);
+
+	/*player->SetActorLocation(gameInstance->Location);
+
+	player->SetActorRotation(gameInstance->Rotation);
+
+	player->GetRootComponent()->ComponentVelocity = FVector(0, 0, 0);
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+
+	if (PController == nullptr)
+	{
+		return;
+	}
+	PController->SetControlRotation(gameInstance->Rotation);
+
+	AUI_Data_Holder* UI_Data_Container = Cast<AUI_Data_Holder>(UGameplayStatics::GetActorOfClass(GetWorld(), AUI_Data_Holder::StaticClass()));
+	UI_Data_Container->decrementLifeCount();*/
+}
+
+void ADeathBounds::resetPlayer()
+{
+	
 	player->SetActorLocation(gameInstance->Location);
 
 	player->SetActorRotation(gameInstance->Rotation);

@@ -53,8 +53,8 @@ void AAvatar::BeginPlay()
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, "The duration of our spline in seconds is " + FString::SanitizeFloat(ourSpline->Duration));
 	currentState = ECharacterState::NORMAL;
 	capsuleA->OnComponentBeginOverlap.AddDynamic(this, &AAvatar::Collision);
-	firstPower = ETimeAbility::None;
-	secondPower = ETimeAbility::None;
+	firstPower = ETimeAbility::Warp;
+	secondPower = ETimeAbility::Acceleration;
 }
 
 void AAvatar::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
@@ -168,9 +168,25 @@ void AAvatar::RightTimePower()
 
 void AAvatar::useTimePower(ETimeAbility ability)
 {
+	float* cost;
 	switch (ability)
 	{
 	case ETimeAbility::Acceleration:
+		if (continuousPowerOn == false)
+		{
+			continuousPowerOn = true;
+			changeToAccelMaterial();
+			GetWorldTimerManager().SetTimer(continuousPowerHandle, this, &AAvatar::subtractEnergyCost, delayBetweenDecay, true, 0.0f);
+			regularWalkingSpeed = GetCharacterMovement()->MaxWalkSpeed;
+			GetCharacterMovement()->MaxWalkSpeed = increasedSpeed;
+		}
+		else
+		{
+			continuousPowerOn = false;
+			changeToNormalMaterial();
+			GetWorldTimerManager().ClearTimer(continuousPowerHandle);
+			GetCharacterMovement()->MaxWalkSpeed = regularWalkingSpeed;
+		}
 		break;
 
 	case ETimeAbility::Barrier:
@@ -189,7 +205,8 @@ void AAvatar::useTimePower(ETimeAbility ability)
 		break;
 
 	case ETimeAbility::Warp:
-		currentEnergy -= 10;
+		cost = PowerCost.Find("Time Warp");
+		currentEnergy -= *cost;
 		callEnergyBarChange();
 		lerpToDestination();
 		break;
@@ -197,6 +214,13 @@ void AAvatar::useTimePower(ETimeAbility ability)
 	case ETimeAbility::Water:
 		break;
 	}
+}
+
+void AAvatar::subtractEnergyCost()
+{
+	float* cost= cost = PowerCost.Find("Time Acceleration");
+	currentEnergy -= *cost;
+	callEnergyBarChange();
 }
 
 void AAvatar::addKnockback(FRotator rotationOfHarmfulObject)

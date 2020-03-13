@@ -20,6 +20,14 @@ struct FHitResult;
 
 #define Book_Project_Source_Book_Project_Avatar_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execsubtractEnergyCost) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->subtractEnergyCost(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execuseTimePower) \
 	{ \
 		P_GET_ENUM(ETimeAbility,Z_Param_ability); \
@@ -127,6 +135,14 @@ struct FHitResult;
 
 
 #define Book_Project_Source_Book_Project_Avatar_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execsubtractEnergyCost) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->subtractEnergyCost(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execuseTimePower) \
 	{ \

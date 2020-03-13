@@ -18,6 +18,14 @@ struct FHitResult;
 
 #define Book_Project_Source_Book_Project_DeathBounds_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execresetPlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->resetPlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execCollision) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
@@ -35,6 +43,14 @@ struct FHitResult;
 
 #define Book_Project_Source_Book_Project_DeathBounds_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execresetPlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->resetPlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execCollision) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
@@ -50,6 +66,8 @@ struct FHitResult;
 	}
 
 
+#define Book_Project_Source_Book_Project_DeathBounds_h_12_EVENT_PARMS
+#define Book_Project_Source_Book_Project_DeathBounds_h_12_CALLBACK_WRAPPERS
 #define Book_Project_Source_Book_Project_DeathBounds_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADeathBounds(); \
@@ -93,12 +111,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADeathBounds); \
 
 
 #define Book_Project_Source_Book_Project_DeathBounds_h_12_PRIVATE_PROPERTY_OFFSET
-#define Book_Project_Source_Book_Project_DeathBounds_h_9_PROLOG
+#define Book_Project_Source_Book_Project_DeathBounds_h_9_PROLOG \
+	Book_Project_Source_Book_Project_DeathBounds_h_12_EVENT_PARMS
+
+
 #define Book_Project_Source_Book_Project_DeathBounds_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_DeathBounds_h_12_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_DeathBounds_h_12_RPC_WRAPPERS \
+	Book_Project_Source_Book_Project_DeathBounds_h_12_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_DeathBounds_h_12_INCLASS \
 	Book_Project_Source_Book_Project_DeathBounds_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -110,6 +132,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Book_Project_Source_Book_Project_DeathBounds_h_12_PRIVATE_PROPERTY_OFFSET \
 	Book_Project_Source_Book_Project_DeathBounds_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Book_Project_Source_Book_Project_DeathBounds_h_12_CALLBACK_WRAPPERS \
 	Book_Project_Source_Book_Project_DeathBounds_h_12_INCLASS_NO_PURE_DECLS \
 	Book_Project_Source_Book_Project_DeathBounds_h_12_ENHANCED_CONSTRUCTORS \
 private: \

@@ -21,13 +21,21 @@ void EmptyLinkFunctionForGeneratedCodeDeathBounds() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ADeathBounds_playDeathFade();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_ADeathBounds_resetPlayer();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_ADeathBounds_playDeathFade = FName(TEXT("playDeathFade"));
+	void ADeathBounds::playDeathFade()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ADeathBounds_playDeathFade),NULL);
+	}
 	void ADeathBounds::StaticRegisterNativesADeathBounds()
 	{
 		UClass* Class = ADeathBounds::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Collision", &ADeathBounds::execCollision },
+			{ "resetPlayer", &ADeathBounds::execresetPlayer },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -112,6 +120,50 @@ void EmptyLinkFunctionForGeneratedCodeDeathBounds() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ADeathBounds_playDeathFade_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ADeathBounds_playDeathFade_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "DeathBounds.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADeathBounds_playDeathFade_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADeathBounds, nullptr, "playDeathFade", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADeathBounds_playDeathFade_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ADeathBounds_playDeathFade_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ADeathBounds_playDeathFade()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ADeathBounds_playDeathFade_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ADeathBounds_resetPlayer_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ADeathBounds_resetPlayer_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "DeathBounds.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADeathBounds_resetPlayer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADeathBounds, nullptr, "resetPlayer", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADeathBounds_resetPlayer_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ADeathBounds_resetPlayer_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ADeathBounds_resetPlayer()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ADeathBounds_resetPlayer_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ADeathBounds_NoRegister()
 	{
 		return ADeathBounds::StaticClass();
@@ -141,6 +193,8 @@ void EmptyLinkFunctionForGeneratedCodeDeathBounds() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ADeathBounds_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ADeathBounds_Collision, "Collision" }, // 2211683746
+		{ &Z_Construct_UFunction_ADeathBounds_playDeathFade, "playDeathFade" }, // 3436868971
+		{ &Z_Construct_UFunction_ADeathBounds_resetPlayer, "resetPlayer" }, // 1772831610
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADeathBounds_Statics::Class_MetaDataParams[] = {
@@ -195,7 +249,7 @@ void EmptyLinkFunctionForGeneratedCodeDeathBounds() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADeathBounds, 1486851657);
+	IMPLEMENT_CLASS(ADeathBounds, 2582269919);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ADeathBounds>()
 	{
 		return ADeathBounds::StaticClass();

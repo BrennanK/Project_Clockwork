@@ -23,6 +23,8 @@ public:
 		class UBoxComponent* deathBox;
 
 	class UMyGameInstance* gameInstance;
+
+	class AAvatar* player;
 	
 	UPROPERTY(EditAnywhere)
 		float testValueForSave;
@@ -37,4 +39,10 @@ public:
 
 	UFUNCTION()
 		void Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void playDeathFade();
+
+	UFUNCTION(BlueprintCallable)
+		void resetPlayer();
 };
