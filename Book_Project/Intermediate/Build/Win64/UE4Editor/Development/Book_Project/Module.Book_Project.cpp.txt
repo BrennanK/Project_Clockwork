@@ -819,6 +819,9 @@ D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clo
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Collsion_Actor_Component.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Collsion_Actor_Component.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Colored_Floor_Switch.cpp
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Colored_Switch_Type_2.cpp
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Colored_Switch_Type_2.h
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Colored_Switch_Type_2.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/DeathBounds.cpp
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\DeathBounds.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\DeathBounds.generated.h
@@ -876,9 +879,12 @@ D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clo
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\PatrolPath.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\PatrolPath.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/PickupItem.cpp
-D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Power_Source_Enemy.cpp
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Power_Floor_Switch.cpp
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Power_Floor_Switch.h
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Power_Floor_Switch.generated.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Power_Source_Enemy.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Power_Source_Enemy.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Power_Source_Enemy.cpp
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Projectile.cpp
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Projectile.h
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Inc\Book_Project\Projectile.generated.h

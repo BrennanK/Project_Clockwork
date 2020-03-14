@@ -82,6 +82,9 @@ D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clo
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Collsion_Actor_Component.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Collsion_Actor_Component.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Colored_Floor_Switch.gen.cpp
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Colored_Switch_Type_2.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Colored_Switch_Type_2.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Colored_Switch_Type_2.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/DeathBounds.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/DeathBounds.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\DeathBounds.generated.h
@@ -174,6 +177,9 @@ d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clo
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/PickupItem.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/PickupItem.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\PickupItem.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Power_Floor_Switch.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Power_Floor_Switch.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Power_Floor_Switch.generated.h
 D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Power_Source_Enemy.gen.cpp
 D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Power_Source_Enemy.h
 d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Power_Source_Enemy.generated.h

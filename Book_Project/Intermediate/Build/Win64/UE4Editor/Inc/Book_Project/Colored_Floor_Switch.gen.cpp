@@ -139,7 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 		{ "ModuleRelativePath", "Colored_Floor_Switch.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AColored_Floor_Switch_Collision_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AColored_Floor_Switch, nullptr, "Collision", nullptr, nullptr, sizeof(Colored_Floor_Switch_eventCollision_Parms), Z_Construct_UFunction_AColored_Floor_Switch_Collision_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AColored_Floor_Switch_Collision_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AColored_Floor_Switch_Collision_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AColored_Floor_Switch_Collision_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AColored_Floor_Switch_Collision_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AColored_Floor_Switch, nullptr, "Collision", nullptr, nullptr, sizeof(Colored_Floor_Switch_eventCollision_Parms), Z_Construct_UFunction_AColored_Floor_Switch_Collision_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AColored_Floor_Switch_Collision_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AColored_Floor_Switch_Collision_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AColored_Floor_Switch_Collision_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AColored_Floor_Switch_Collision()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -204,7 +204,7 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AColored_Floor_Switch_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AColored_Floor_Switch_changePanelColorToGreen, "changePanelColorToGreen" }, // 3254249477
-		{ &Z_Construct_UFunction_AColored_Floor_Switch_Collision, "Collision" }, // 2179249481
+		{ &Z_Construct_UFunction_AColored_Floor_Switch_Collision, "Collision" }, // 2139683040
 		{ &Z_Construct_UFunction_AColored_Floor_Switch_playSwitchChangeColorSound, "playSwitchChangeColorSound" }, // 3832583538
 	};
 #if WITH_METADATA
@@ -269,7 +269,7 @@ void EmptyLinkFunctionForGeneratedCodeColored_Floor_Switch() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AColored_Floor_Switch, 2079595974);
+	IMPLEMENT_CLASS(AColored_Floor_Switch, 1897885795);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AColored_Floor_Switch>()
 	{
 		return AColored_Floor_Switch::StaticClass();

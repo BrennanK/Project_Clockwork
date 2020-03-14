@@ -52,6 +52,14 @@ void ABlock_Switch_Controller_01::incrementSwitchCounter()
 	}
 }
 
+void ABlock_Switch_Controller_01::decrementSwitchCounter()
+{
+	if (numberOfGreenSwitches != switches.Num())
+	{
+		numberOfGreenSwitches--;
+	}
+}
+
 void ABlock_Switch_Controller_01::beginLerpingProcess()
 {
 	GetWorldTimerManager().SetTimer(transitionTimer, this, &ABlock_Switch_Controller_01::lerpTheDoor, GetWorld()->GetDeltaSeconds(), true, 0.0f);
