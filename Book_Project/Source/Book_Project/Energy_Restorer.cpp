@@ -43,6 +43,10 @@ void AEnergy_Restorer::Collision(UPrimitiveComponent * OverlappedComp, AActor * 
 	}
 
 	player = Cast<AAvatar>(OtherActor);
+	if (player->continuousPowerOn == true)
+	{
+		player->shutOffContinuousTimePower();
+	}
 	originalAmountOfEnergy = player->currentEnergy;
 	player->changeToEnergyMaterial();
 	GetWorld()->GetTimerManager().SetTimer(movementTimer, this, &AEnergy_Restorer::Move, GetWorld()->GetDeltaSeconds(), true, 0.f);

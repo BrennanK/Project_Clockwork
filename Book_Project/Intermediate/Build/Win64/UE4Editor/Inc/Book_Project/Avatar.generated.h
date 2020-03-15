@@ -20,6 +20,14 @@ struct FHitResult;
 
 #define Book_Project_Source_Book_Project_Avatar_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execshutOffContinuousTimePower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->shutOffContinuousTimePower(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execsubtractEnergyCost) \
 	{ \
 		P_FINISH; \
@@ -135,6 +143,14 @@ struct FHitResult;
 
 
 #define Book_Project_Source_Book_Project_Avatar_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execshutOffContinuousTimePower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->shutOffContinuousTimePower(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execsubtractEnergyCost) \
 	{ \

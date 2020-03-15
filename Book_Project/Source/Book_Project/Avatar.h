@@ -121,6 +121,8 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 		bool isPaused;
 
+	bool isWarping;
+
 	UPROPERTY(BlueprintReadOnly)
 		float playTime;
 
@@ -254,6 +256,9 @@ public:
 
 	UFUNCTION()
 		void subtractEnergyCost();
+
+	UFUNCTION()
+		void shutOffContinuousTimePower();
 	
 	UFUNCTION(BlueprintImplementableEvent)
 		void changeToWarpMaterial();

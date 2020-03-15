@@ -252,7 +252,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		{ "ModuleRelativePath", "Block_Switch_Controller_01.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door = { "door", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABlock_Switch_Controller_01, door), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door = { "door", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABlock_Switch_Controller_01, door), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_door_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_timeToTransitionCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlock_Switch_Controller_01_Statics::NewProp_cameraMan,
@@ -290,7 +290,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock_Switch_Controller_01() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABlock_Switch_Controller_01, 1184057465);
+	IMPLEMENT_CLASS(ABlock_Switch_Controller_01, 2265137946);
 	template<> BOOK_PROJECT_API UClass* StaticClass<ABlock_Switch_Controller_01>()
 	{
 		return ABlock_Switch_Controller_01::StaticClass();

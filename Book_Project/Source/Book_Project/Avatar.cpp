@@ -174,11 +174,14 @@ void AAvatar::useTimePower(ETimeAbility ability)
 	case ETimeAbility::Acceleration:
 		if (continuousPowerOn == false)
 		{
-			continuousPowerOn = true;
-			changeToAccelMaterial();
-			GetWorldTimerManager().SetTimer(continuousPowerHandle, this, &AAvatar::subtractEnergyCost, delayBetweenDecay, true, 0.0f);
-			regularWalkingSpeed = GetCharacterMovement()->MaxWalkSpeed;
-			GetCharacterMovement()->MaxWalkSpeed = increasedSpeed;
+			if (currentEnergy >= *PowerCost.Find("Time Acceleration"))
+			{
+				continuousPowerOn = true;
+				changeToAccelMaterial();
+				GetWorldTimerManager().SetTimer(continuousPowerHandle, this, &AAvatar::subtractEnergyCost, delayBetweenDecay, true, 0.0f);
+				regularWalkingSpeed = GetCharacterMovement()->MaxWalkSpeed;
+				GetCharacterMovement()->MaxWalkSpeed = increasedSpeed;
+			}
 		}
 		else
 		{
@@ -205,10 +208,17 @@ void AAvatar::useTimePower(ETimeAbility ability)
 		break;
 
 	case ETimeAbility::Warp:
-		cost = PowerCost.Find("Time Warp");
-		currentEnergy -= *cost;
-		callEnergyBarChange();
-		lerpToDestination();
+		if (continuousPowerOn == true)
+		{
+			shutOffContinuousTimePower();
+		}
+		if (playerTarget != nullptr && isWarping==false)
+		{
+			cost = PowerCost.Find("Time Warp");
+			currentEnergy -= *cost;
+			callEnergyBarChange();
+			lerpToDestination();
+		}
 		break;
 
 	case ETimeAbility::Water:
@@ -218,9 +228,28 @@ void AAvatar::useTimePower(ETimeAbility ability)
 
 void AAvatar::subtractEnergyCost()
 {
-	float* cost= cost = PowerCost.Find("Time Acceleration");
-	currentEnergy -= *cost;
-	callEnergyBarChange();
+	if (currentEnergy >= *PowerCost.Find("Time Acceleration"))
+	{
+		float* cost = cost = PowerCost.Find("Time Acceleration");
+		currentEnergy -= *cost;
+		callEnergyBarChange();
+	}
+	else
+	{
+		shutOffContinuousTimePower();
+	}
+}
+
+void AAvatar::shutOffContinuousTimePower()
+{
+	continuousPowerOn = false;
+	changeToNormalMaterial();
+	GetWorldTimerManager().ClearTimer(continuousPowerHandle);
+
+	if (firstPower==ETimeAbility::Acceleration || secondPower==ETimeAbility::Acceleration)
+	{
+		GetCharacterMovement()->MaxWalkSpeed = regularWalkingSpeed;
+	}
 }
 
 void AAvatar::addKnockback(FRotator rotationOfHarmfulObject)
@@ -537,6 +566,7 @@ void AAvatar::lerpToDestination()
 	locationBeforeWarp = GetActorLocation();
 	changeToWarpMaterial();
 	activatePlayerActionSound(5);
+	isWarping = true;
 	GetWorldTimerManager().SetTimer(testTimer, this, &AAvatar::transition, GetWorld()->GetDeltaSeconds(), true, 0.0f);
 }
 
@@ -564,6 +594,7 @@ void AAvatar::transition()
 		//skeleton->SetVisibility(true);
 		distance = 0;
 		GetCharacterMovement()->Velocity = FVector(0, 0, 0);
+		isWarping = false;
 	}
 }
 #pragma endregion MovingTeleport

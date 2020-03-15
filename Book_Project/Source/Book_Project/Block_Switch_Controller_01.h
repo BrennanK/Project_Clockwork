@@ -16,7 +16,7 @@ public:
 	ABlock_Switch_Controller_01();
 	ABlock_Switch_Controller_01(const FObjectInitializer &ObjectInitializer);
 	
-	UPROPERTY(EditAnywhere, Category = "Animated Door")
+	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = "Animated Door")
 		class UStaticMeshComponent* door;
 
 	UPROPERTY(EditAnywhere, Category = "Array of switches")

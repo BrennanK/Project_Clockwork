@@ -46,6 +46,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_setLockOnTarget();
 	BOOK_PROJECT_API UClass* Z_Construct_UClass_ALock_On_Actor_NoRegister();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_showCollectables();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_shutOffContinuousTimePower();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_spawnPunchingProjectile();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_subtractEnergyCost();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_useTimePower();
@@ -264,6 +265,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 			{ "removeLockOnTarget", &AAvatar::execremoveLockOnTarget },
 			{ "RightTimePower", &AAvatar::execRightTimePower },
 			{ "setLockOnTarget", &AAvatar::execsetLockOnTarget },
+			{ "shutOffContinuousTimePower", &AAvatar::execshutOffContinuousTimePower },
 			{ "spawnPunchingProjectile", &AAvatar::execspawnPunchingProjectile },
 			{ "subtractEnergyCost", &AAvatar::execsubtractEnergyCost },
 			{ "useTimePower", &AAvatar::execuseTimePower },
@@ -881,6 +883,28 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AAvatar_shutOffContinuousTimePower_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_shutOffContinuousTimePower_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_shutOffContinuousTimePower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "shutOffContinuousTimePower", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_shutOffContinuousTimePower_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_shutOffContinuousTimePower_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_shutOffContinuousTimePower()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_shutOffContinuousTimePower_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AAvatar_spawnPunchingProjectile_Statics
 	{
 #if WITH_METADATA
@@ -1169,6 +1193,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		{ &Z_Construct_UFunction_AAvatar_RightTimePower, "RightTimePower" }, // 2393503033
 		{ &Z_Construct_UFunction_AAvatar_setLockOnTarget, "setLockOnTarget" }, // 1295108670
 		{ &Z_Construct_UFunction_AAvatar_showCollectables, "showCollectables" }, // 1815958859
+		{ &Z_Construct_UFunction_AAvatar_shutOffContinuousTimePower, "shutOffContinuousTimePower" }, // 1798743279
 		{ &Z_Construct_UFunction_AAvatar_spawnPunchingProjectile, "spawnPunchingProjectile" }, // 1523779490
 		{ &Z_Construct_UFunction_AAvatar_subtractEnergyCost, "subtractEnergyCost" }, // 220019186
 		{ &Z_Construct_UFunction_AAvatar_useTimePower, "useTimePower" }, // 2278580059
@@ -1554,7 +1579,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 2672590440);
+	IMPLEMENT_CLASS(AAvatar, 358837949);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();
