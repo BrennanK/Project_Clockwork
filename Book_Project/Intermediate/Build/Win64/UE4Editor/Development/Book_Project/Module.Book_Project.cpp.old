@@ -33,6 +33,7 @@
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Patrolling_Enemy.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/PatrolPath.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/PickupItem.cpp"
+#include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Power_Floor_Switch.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Power_Source_Enemy.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Projectile.cpp"
 #include "D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Source/Book_Project/Punch_Projectile.cpp"

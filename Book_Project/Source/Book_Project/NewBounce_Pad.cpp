@@ -37,6 +37,7 @@ void ANewBounce_Pad::Collision(UPrimitiveComponent * OverlappedComp, AActor * Ot
 		return;
 	}
 	AAvatar* player = Cast<AAvatar>(OtherActor);
+	player->changeToBouncePadAirControl();
 	switch (typeOfPad)
 	{
 	case EBOUNCE::Single:

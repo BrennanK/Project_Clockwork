@@ -55,6 +55,7 @@ void AAvatar::BeginPlay()
 	capsuleA->OnComponentBeginOverlap.AddDynamic(this, &AAvatar::Collision);
 	firstPower = ETimeAbility::Warp;
 	secondPower = ETimeAbility::Acceleration;
+	originalAirControl = GetCharacterMovement()->AirControl;
 }
 
 void AAvatar::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
@@ -252,6 +253,11 @@ void AAvatar::shutOffContinuousTimePower()
 	}
 }
 
+void AAvatar::changeToBouncePadAirControl()
+{
+	GetCharacterMovement()->AirControl = airControlOnBouncePad;
+}
+
 void AAvatar::addKnockback(FRotator rotationOfHarmfulObject)
 {
 	FRotator Rotation = rotationOfHarmfulObject;
@@ -271,6 +277,11 @@ void AAvatar::Landed(const FHitResult & Hit)
 	numberOfAlternateJumps = 0;
 	isFalling = false;
 	timeFalling = 0.0f;
+	if (GetCharacterMovement()->AirControl != originalAirControl)
+	{
+		GetCharacterMovement()->AirControl = originalAirControl;
+	}
+	
 }
 
 void AAvatar::Falling()

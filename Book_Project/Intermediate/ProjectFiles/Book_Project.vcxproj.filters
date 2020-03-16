@@ -340,12 +340,18 @@
     <ClInclude Include="..\..\Source\Book_Project\Power_Floor_Switch.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\One_Way_Transporter.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Book_Project\Colored_Switch_Type_2.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Book_Project\Power_Floor_Switch.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\One_Way_Transporter.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
   </ItemGroup>

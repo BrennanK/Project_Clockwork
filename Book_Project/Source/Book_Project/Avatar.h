@@ -38,6 +38,11 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Speed for Acceleration ")
 		float increasedSpeed;
 
+	UPROPERTY(EditAnywhere, Category = "Air Control Variables")
+		float airControlOnBouncePad;
+
+	float originalAirControl;
+
 	float regularWalkingSpeed;
 
 	/*Timer for Handling transport*/
@@ -259,6 +264,9 @@ public:
 
 	UFUNCTION()
 		void shutOffContinuousTimePower();
+
+	UFUNCTION()
+		void changeToBouncePadAirControl();
 	
 	UFUNCTION(BlueprintImplementableEvent)
 		void changeToWarpMaterial();

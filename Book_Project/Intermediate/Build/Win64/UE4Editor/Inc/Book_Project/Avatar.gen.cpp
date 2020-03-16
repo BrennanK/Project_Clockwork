@@ -28,6 +28,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_callWheelChange();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeTimePowers();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeToAccelMaterial();
+	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeToBouncePadAirControl();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeToEnergyMaterial();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeToNormalMaterial();
 	BOOK_PROJECT_API UFunction* Z_Construct_UFunction_AAvatar_changeToWarpMaterial();
@@ -257,6 +258,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "activateLockOnFunction", &AAvatar::execactivateLockOnFunction },
 			{ "beginGrind", &AAvatar::execbeginGrind },
+			{ "changeToBouncePadAirControl", &AAvatar::execchangeToBouncePadAirControl },
 			{ "Collision", &AAvatar::execCollision },
 			{ "Falling", &AAvatar::execFalling },
 			{ "Landed", &AAvatar::execLanded },
@@ -481,6 +483,28 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_changeToAccelMaterial_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAvatar_changeToBouncePadAirControl_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAvatar_changeToBouncePadAirControl_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAvatar_changeToBouncePadAirControl_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAvatar, nullptr, "changeToBouncePadAirControl", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAvatar_changeToBouncePadAirControl_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAvatar_changeToBouncePadAirControl_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAvatar_changeToBouncePadAirControl()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAvatar_changeToBouncePadAirControl_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -1133,6 +1157,10 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookRate;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_airControlOnBouncePad_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_airControlOnBouncePad;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_increasedSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_increasedSpeed;
@@ -1179,6 +1207,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		{ &Z_Construct_UFunction_AAvatar_callWheelChange, "callWheelChange" }, // 1327484095
 		{ &Z_Construct_UFunction_AAvatar_changeTimePowers, "changeTimePowers" }, // 500874639
 		{ &Z_Construct_UFunction_AAvatar_changeToAccelMaterial, "changeToAccelMaterial" }, // 2512695124
+		{ &Z_Construct_UFunction_AAvatar_changeToBouncePadAirControl, "changeToBouncePadAirControl" }, // 196191927
 		{ &Z_Construct_UFunction_AAvatar_changeToEnergyMaterial, "changeToEnergyMaterial" }, // 1428613946
 		{ &Z_Construct_UFunction_AAvatar_changeToNormalMaterial, "changeToNormalMaterial" }, // 4204553965
 		{ &Z_Construct_UFunction_AAvatar_changeToWarpMaterial, "changeToWarpMaterial" }, // 141364775
@@ -1459,6 +1488,13 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate = { "BaseLookRate", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, BaseLookRate), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_airControlOnBouncePad_MetaData[] = {
+		{ "Category", "Air Control Variables" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_airControlOnBouncePad = { "airControlOnBouncePad", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, airControlOnBouncePad), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_airControlOnBouncePad_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_airControlOnBouncePad_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_increasedSpeed_MetaData[] = {
 		{ "Category", "Speed for Acceleration" },
 		{ "ModuleRelativePath", "Avatar.h" },
@@ -1540,6 +1576,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_JumpHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_BaseLookRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_airControlOnBouncePad,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_increasedSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_delayBetweenDecay,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_PowerCost,
@@ -1579,7 +1616,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 358837949);
+	IMPLEMENT_CLASS(AAvatar, 2514205013);
 	template<> BOOK_PROJECT_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();

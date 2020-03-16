@@ -33,6 +33,7 @@
 			"NewStandardMoving_Platform.cpp.obj",
 			"NPC.cpp.obj",
 			"NPC_HUD.cpp.obj",
+			"One_Way_Transporter.cpp.obj",
 			"Patrolling_Enemy.cpp.obj",
 			"PatrolPath.cpp.obj",
 			"PickupItem.cpp.obj",
@@ -55,7 +56,7 @@
 			"Wander_Then_Follow_Enemy.cpp.obj",
 			"Working_Bouncepad.cpp.obj"
 		],
-		"Module.Book_Project.gen.cpp.obj": [
+		"Module.Book_Project.gen.1_of_2.cpp.obj": [
 			"Avatar.gen.cpp.obj",
 			"Block_Switch_Controller_01.gen.cpp.obj",
 			"Book_GameMode.gen.cpp.obj",
@@ -78,7 +79,9 @@
 			"Grindable_Rail.gen.cpp.obj",
 			"Interactable_Object.gen.cpp.obj",
 			"Large_Spinning_Object.gen.cpp.obj",
-			"LeaderBoardSave.gen.cpp.obj",
+			"LeaderBoardSave.gen.cpp.obj"
+		],
+		"Module.Book_Project.gen.2_of_2.cpp.obj": [
 			"Lock_On_Actor.gen.cpp.obj",
 			"Manipulable_Object.gen.cpp.obj",
 			"Message_UserDefinedStruct.gen.cpp.obj",
@@ -87,6 +90,7 @@
 			"NewStandardMoving_Platform.gen.cpp.obj",
 			"NPC.gen.cpp.obj",
 			"NPC_HUD.gen.cpp.obj",
+			"One_Way_Transporter.gen.cpp.obj",
 			"Patrolling_Enemy.gen.cpp.obj",
 			"PatrolPath.gen.cpp.obj",
 			"PickupItem.gen.cpp.obj",

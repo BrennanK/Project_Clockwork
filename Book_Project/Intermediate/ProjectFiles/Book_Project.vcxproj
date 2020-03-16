@@ -533,7 +533,9 @@
     <ClInclude Include="..\..\Source\Book_Project\NPC.h" />
     <ClCompile Include="..\..\Source\Book_Project\NPC_HUD.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\NPC_HUD.h" />
+    <ClCompile Include="..\..\Source\Book_Project\One_Way_Transporter.cpp" />
     <ClCompile Include="..\..\Source\Book_Project\Patrolling_Enemy.cpp" />
+    <ClInclude Include="..\..\Source\Book_Project\One_Way_Transporter.h" />
     <ClInclude Include="..\..\Source\Book_Project\Patrolling_Enemy.h" />
     <ClCompile Include="..\..\Source\Book_Project\PatrolPath.cpp" />
     <ClInclude Include="..\..\Source\Book_Project\PatrolPath.h" />
