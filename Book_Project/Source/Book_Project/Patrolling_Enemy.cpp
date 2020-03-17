@@ -12,6 +12,10 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "Avatar.h"
 #include "Engine.h"
+#include "EnemyCharacter.h"
+#include "Enemy_Spawner.h"
+#include "Particle_Played_On_Destruction.h"
+#include "Destructable_Wall.h"
 
 APatrolling_Enemy::APatrolling_Enemy(const FObjectInitializer &ObjectInitializer) :Super(ObjectInitializer)
 {
@@ -30,6 +34,17 @@ void APatrolling_Enemy::DestroyThisUnit()
 	GetWorldTimerManager().SetTimer(deathHandle, this, &APatrolling_Enemy::DestroyCaller, 1.0f, false, timeOfExplosion);
 }
 
+void APatrolling_Enemy::Die()
+{
+	if (isRespawnable == true)
+	{
+		delayOfRespawn = 1.0f;
+		spawnerRef->spawnEnemyAfterDelay(delayOfRespawn);
+		//Destroy();
+	}
+	Destroy();
+}
+
 void APatrolling_Enemy::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	//GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Purple, "Our explosion sphere for the patrol character is functioning bitches");
@@ -38,11 +53,25 @@ void APatrolling_Enemy::Collision(UPrimitiveComponent * OverlappedComp, AActor *
 		//GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Purple, "Our explosion sphere for the patrol character is functioning bitches");
 		playerCharacter = Cast<AAvatar>(OtherActor);
 	}
+
+	if (Cast<ADestructable_Wall>(OtherActor))
+	{
+		wall = Cast<ADestructable_Wall>(OtherActor);
+		GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Purple, "The wall has been found");
+	}
 }
 
 void APatrolling_Enemy::EndCollision(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
 {
-	playerCharacter = nullptr;
+	if (Cast<AAvatar>(OtherActor))
+	{
+		playerCharacter = nullptr;
+	}
+	
+	if (Cast<ADestructable_Wall>(OtherActor))
+	{
+		wall = nullptr;
+	}
 }
 
 void APatrolling_Enemy::BeginPlay()
@@ -84,5 +113,16 @@ void APatrolling_Enemy::DestroyCaller()
 		playerCharacter->MinusHealth(damageToDeal);
 		playerCharacter->activateSoundFromDestroyedActor(8);
 	}
-	Destroy();
+
+	if (wall)
+	{
+		wall->DestroyWall();
+	}
+
+	FActorSpawnParameters SpawnParams;
+	AParticle_Played_On_Destruction* SpawnedActorRef;
+
+	SpawnedActorRef = GetWorld()->SpawnActor<AParticle_Played_On_Destruction>(particleToSpawn, GetActorLocation(), GetActorRotation(), SpawnParams);
+	Die();
+	//Destroy();
 }

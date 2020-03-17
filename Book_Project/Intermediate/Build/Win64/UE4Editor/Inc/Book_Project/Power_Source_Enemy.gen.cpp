@@ -224,7 +224,7 @@ void EmptyLinkFunctionForGeneratedCodePower_Source_Enemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APower_Source_Enemy, 3752763236);
+	IMPLEMENT_CLASS(APower_Source_Enemy, 1858641642);
 	template<> BOOK_PROJECT_API UClass* StaticClass<APower_Source_Enemy>()
 	{
 		return APower_Source_Enemy::StaticClass();

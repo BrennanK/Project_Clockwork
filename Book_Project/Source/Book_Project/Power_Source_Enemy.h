@@ -33,6 +33,9 @@ class BOOK_PROJECT_API APower_Source_Enemy : public AEnemyCharacter
 
 		bool damagedAlready;
 
+		
+		virtual void Die() override;
+
 		UFUNCTION(BlueprintImplementableEvent)
 			void playPunchImpactSound();
 	protected:

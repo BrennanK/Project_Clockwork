@@ -11,6 +11,7 @@
 #include "BehaviorTree/Blackboard/BlackboardKeyAllTypes.h"
 #include "BehaviorTree/BehaviorTree.h"
 #include "TimerManager.h"
+#include "Enemy_Spawner.h"
 
 APower_Source_Enemy::APower_Source_Enemy()
 {
@@ -42,6 +43,16 @@ void APower_Source_Enemy::Collision(UPrimitiveComponent * OverlappedComp, AActor
 
 		player->addKnockback(directionOfPlayer);
 	}
+}
+
+void APower_Source_Enemy::Die()
+{
+	if (isRespawnable == true)
+	{
+		delayOfRespawn = 1.0f;
+		spawnerRef->spawnEnemyAfterDelay(delayOfRespawn);
+	}
+	Destroy();
 }
 
 void APower_Source_Enemy::BeginPlay()

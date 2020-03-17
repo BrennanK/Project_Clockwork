@@ -1,0 +1,108 @@
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Intermediate\Build\Win64\UE4Editor\Development\Book_Project\Definitions.Book_Project.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Large_Spinning_Object.gen.cpp
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Large_Spinning_Object.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Manipulable_Object.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Manipulable_Object.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Large_Spinning_Object.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/LeaderBoardSave.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/LeaderBoardSave.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\MyGameInstance.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\MyGameInstance.generated.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/SaveGame.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SaveGame.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\LeaderBoardSave.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Lock_On_Actor.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Lock_On_Actor.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Lock_On_Actor.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Manipulable_Object.gen.cpp
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Message_UserDefinedStruct.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Message_UserDefinedStruct.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/UserDefinedStruct.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\UserDefinedStruct.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Message_UserDefinedStruct.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/MyGameInstance.gen.cpp
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/NewBounce_Pad.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/NewBounce_Pad.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\NewBounce_Pad.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/NewStandardMoving_Platform.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/NewStandardMoving_Platform.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\NewStandardMoving_Platform.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/NPC.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/NPC.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\NPC.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/NPC_HUD.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/NPC_HUD.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\UE_4_23\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\UE_4_23\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\NPC_HUD.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/One_Way_Transporter.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/One_Way_Transporter.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\One_Way_Transporter.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Particle_Played_On_Destruction.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Particle_Played_On_Destruction.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Particle_Played_On_Destruction.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Patrolling_Enemy.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Patrolling_Enemy.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\EnemyCharacter.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\EnemyCharacter.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Patrolling_Enemy.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/PatrolPath.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/PatrolPath.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\PatrolPath.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/PickupItem.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/PickupItem.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\PickupItem.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Power_Floor_Switch.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Power_Floor_Switch.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Colored_Floor_Switch.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Colored_Floor_Switch.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Power_Floor_Switch.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Power_Source_Enemy.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Power_Source_Enemy.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Power_Source_Enemy.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Projectile.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Projectile.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Projectile.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Punch_Projectile.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Punch_Projectile.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Punch_Projectile.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Quick_Congrats_Screen.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Quick_Congrats_Screen.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Quick_Congrats_Screen.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Retractable_Platform.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Retractable_Platform.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Retractable_Platform.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Second_Interactable_Object.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Second_Interactable_Object.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Interactable_Object.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\source\book_project\Avatar.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Avatar.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Interactable_Object.generated.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Second_Interactable_Object.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Standard_Moving_Platform.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Standard_Moving_Platform.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Standard_Moving_Platform.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Starting_Point.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Starting_Point.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Starting_Point.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/TArrayActor.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/TArrayActor.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\TArrayActor.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Teleporter.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Teleporter.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Teleporter.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Test_Create.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Test_Create.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Test_Create.generated.h
+D:/Unreal projects/Portfolio Pieces/Project Clockwork Backup Desktop/Project_Clockwork/Book_Project/Intermediate/Build/Win64/UE4Editor/Inc/Book_Project/Trap_Door.gen.cpp
+D:\Unreal projects\Portfolio Pieces\Project Clockwork Backup Desktop\Project_Clockwork\Book_Project\Source\Book_Project/Trap_Door.h
+d:\unreal projects\portfolio pieces\project clockwork backup desktop\project_clockwork\book_project\intermediate\build\win64\ue4editor\inc\book_project\Trap_Door.generated.h

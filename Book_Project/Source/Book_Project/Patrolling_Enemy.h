@@ -22,6 +22,8 @@ class BOOK_PROJECT_API APatrolling_Enemy : public AEnemyCharacter
 
 		class AAvatar* playerCharacter;
 
+		class ADestructable_Wall* wall;
+
 		UPROPERTY(EditAnywhere, Category = "Damage Done to Player")
 			float damageToDeal;
 		
@@ -51,6 +53,11 @@ class BOOK_PROJECT_API APatrolling_Enemy : public AEnemyCharacter
 		void DestroyCaller();
 
 		virtual void DestroyThisUnit() override;
+
+		virtual void Die() override;
+
+		UPROPERTY(EditAnywhere, Category = "Particle to Spawn")
+			TSubclassOf<AActor> particleToSpawn;
 
 		UFUNCTION()
 			void Collision(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);

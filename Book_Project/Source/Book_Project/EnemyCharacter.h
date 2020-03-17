@@ -37,6 +37,14 @@ public:
 
 	UPROPERTY(EditANywhere, Category = "Knockback Variables")
 		float ZKnockback;
+
+	UPROPERTY(VisibleAnywhere, Category = "Respawn Variables")
+		float delayOfRespawn;
+	
+	UPROPERTY(EditAnywhere, Category = "Respawn Variables")
+		bool isRespawnable;
+
+	class AEnemy_Spawner* spawnerRef;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -54,5 +62,5 @@ public:
 	virtual void DestroyThisUnit();
 
 	UFUNCTION()
-		void Die();
+	virtual	void Die();
 };

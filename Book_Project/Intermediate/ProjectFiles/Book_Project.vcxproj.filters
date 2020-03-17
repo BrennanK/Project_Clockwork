@@ -343,6 +343,15 @@
     <ClInclude Include="..\..\Source\Book_Project\One_Way_Transporter.h">
       <Filter>Source\Book_Project</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\Enemy_Spawner.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\Particle_Played_On_Destruction.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Book_Project\Destructable_Wall.h">
+      <Filter>Source\Book_Project</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Book_Project\Colored_Switch_Type_2.cpp">
@@ -352,6 +361,15 @@
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Book_Project\One_Way_Transporter.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\Enemy_Spawner.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\Particle_Played_On_Destruction.cpp">
+      <Filter>Source\Book_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Book_Project\Destructable_Wall.cpp">
       <Filter>Source\Book_Project</Filter>
     </ClCompile>
   </ItemGroup>
