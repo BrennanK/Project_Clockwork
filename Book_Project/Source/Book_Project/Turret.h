@@ -24,6 +24,12 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Properties of Spawn")
 		float  delayOfFire;
 
+	UPROPERTY(EditAnywhere, Category = "Properties of Spawn")
+		float ProjectileSpeed;
+
+	UPROPERTY(EditAnywhere, Category = "Properties of Spawn")
+		float ProjectileLifeTime;
+
 	FTimerHandle fireTimer;
 protected:
 	// Called when the game starts or when spawned

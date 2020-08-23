@@ -35,11 +35,17 @@ class BOOK_PROJECT_API UMyGameInstance : public UGameInstance
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Instance Variables for Bonus Attributes")
 			int bonusForObjectives;
 
+		UPROPERTY(EditAnywhere,BlueprintReadOnly, Category = "Tutuorial Decider")
+			bool completionHolder;
+
 		UFUNCTION(BlueprintCallable)
-			void SaveGame(TArray<FLeaderboardSlot> boardToSave);
+			void SaveGame(TArray<FLeaderboardSlot> boardToSave, bool tutorialCompletionVar);
 		
 		UFUNCTION(BlueprintCallable)
 			void LoadGame();
+
+		UFUNCTION(BlueprintCallable)
+			void saveCompletionOfTutorial();
 
 		UFUNCTION()
 			void createASampleBoard();

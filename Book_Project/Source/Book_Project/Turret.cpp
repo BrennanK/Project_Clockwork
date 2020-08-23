@@ -4,6 +4,7 @@
 #include "Turret.h"
 #include "Engine/World.h"
 #include "TimerManager.h"
+#include "Projectile.h"
 
 // Sets default values
 ATurret::ATurret()
@@ -19,7 +20,7 @@ void ATurret::BeginPlay()
 	Super::BeginPlay();
 	Loc = GetActorLocation();
 	Rot = GetActorRotation();
-	GetWorldTimerManager().SetTimer(fireTimer, this, &ATurret::SpawnObject, delayOfFire, true, 0.0f);
+	GetWorldTimerManager().SetTimer(fireTimer, this, &ATurret::SpawnObject, delayOfFire, true, delayOfFire);
 }
 
 void ATurret::SpawnObject()
@@ -30,9 +31,19 @@ void ATurret::SpawnObject()
 	{
 		case ETurretType::Standard:
 			SpawnedActorRef = GetWorld()->SpawnActor<AActor>(ActorToSpawn[0], Loc, Rot, SpawnParams);
+			if (Cast<AProjectile>(SpawnedActorRef))
+			{
+				Cast<AProjectile>(SpawnedActorRef)->speed = ProjectileSpeed;
+				Cast<AProjectile>(SpawnedActorRef)->lifeTime = ProjectileLifeTime;
+			}
 			break;
 		case ETurretType::Tracking:
 			SpawnedActorRef = GetWorld()->SpawnActor<AActor>(ActorToSpawn[1], Loc, Rot, SpawnParams);
+			if (Cast<AProjectile>(SpawnedActorRef))
+			{
+				Cast<AProjectile>(SpawnedActorRef)->speed = ProjectileSpeed;
+				Cast<AProjectile>(SpawnedActorRef)->lifeTime = ProjectileLifeTime;
+			}
 			break;
 		default:
 			break;

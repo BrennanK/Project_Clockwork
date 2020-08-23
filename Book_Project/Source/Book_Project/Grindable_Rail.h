@@ -16,6 +16,12 @@ public:
 	AGrindable_Rail();
 	UPROPERTY(EditAnywhere,Category="Rail Variables")
 		float secondsToSpendOnRail;
+
+	UPROPERTY(EditAnywhere, Category = "Rail Variables")
+		float launchXY;
+
+	UPROPERTY(EditAnywhere, Category = "Rail Variables")
+		float launchZ;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

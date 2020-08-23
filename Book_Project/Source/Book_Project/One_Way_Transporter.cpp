@@ -28,7 +28,7 @@ void AOne_Way_Transporter::Collision(UPrimitiveComponent * OverlappedComp, AActo
 	{
 		return;
 	}
-
+	GetWorldTimerManager().ClearTimer(transitionTimer);
 	destinationOfMovement = pathStartOrEnd;
 	locationBeforeTransitionStart = GetActorLocation();
 	GetWorldTimerManager().SetTimer(transitionTimer, this, &AOne_Way_Transporter::moveToDestination, GetWorld()->GetDeltaSeconds(), true, 1.5f);
@@ -43,7 +43,7 @@ void AOne_Way_Transporter::EndCollision(UPrimitiveComponent * OverlappedComp, AA
 	GetWorldTimerManager().ClearTimer(transitionTimer);
 	destinationOfMovement = originalLocation;
 	locationBeforeTransitionStart = GetActorLocation();
-	GetWorldTimerManager().SetTimer(transitionTimer, this, &AOne_Way_Transporter::moveToDestination, GetWorld()->GetDeltaSeconds(), true, 1.5f);
+	GetWorldTimerManager().SetTimer(transitionTimer, this, &AOne_Way_Transporter::moveToDestination, .01, true, 1.5f);
 }
 
 // Called when the game starts or when spawned

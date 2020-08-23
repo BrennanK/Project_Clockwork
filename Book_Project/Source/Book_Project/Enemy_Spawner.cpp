@@ -45,6 +45,7 @@ void AEnemy_Spawner::SpawnEnemy()
 
 	if (Cast<APatrolling_Enemy>(SpawnedActorRef))
 	{
+		Cast<APatrolling_Enemy>(SpawnedActorRef)->spawner=this;
 		setPotentialPatrolPath(Cast<APatrolling_Enemy>(SpawnedActorRef));
 	}
 }

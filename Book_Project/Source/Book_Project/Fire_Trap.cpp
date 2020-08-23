@@ -77,6 +77,7 @@ void AFire_Trap::deactivateFire()
 {
 	fireParticle->DeactivateSystem();
 	turnOffFireSound();
+	fireBox->SetGenerateOverlapEvents(false);
 }
 
 void AFire_Trap::turnOffWater()

@@ -12,14 +12,14 @@ void AColored_Switch_Type_2::Collision(UPrimitiveComponent* OverlappedComp, AAct
 	{
 		return;
 	}
-	if (isGreen == false)
+	if (isGreen == false && switchManager->numberOfGreenSwitches!= switchManager->switches.Num())
 	{
 		changeToBluePanel();
 		playFloorSwitchSound();
 		switchManager->incrementSwitchCounter();
 		isGreen = true;
 	}
-	else
+	else if(isGreen == true && switchManager->numberOfGreenSwitches != switchManager->switches.Num())
 	{
 		changeToOrangePanel();
 		playFloorSwitchSound();

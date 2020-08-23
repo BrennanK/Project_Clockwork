@@ -78,5 +78,6 @@ void ARetractable_Platform::Move()
 		shouldChange = true;
 		GetWorldTimerManager().SetTimer(resetCycle, this, &ARetractable_Platform::interActionCommand, 1.0f, false, movementDelay);
 		GetWorldTimerManager().ClearTimer(movementTimer);
+		initialDelay = 0;
 	}
 }

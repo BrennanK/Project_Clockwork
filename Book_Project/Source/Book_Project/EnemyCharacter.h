@@ -41,7 +41,7 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Respawn Variables")
 		float delayOfRespawn;
 	
-	UPROPERTY(EditAnywhere, Category = "Respawn Variables")
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = "Respawn Variables")
 		bool isRespawnable;
 
 	class AEnemy_Spawner* spawnerRef;

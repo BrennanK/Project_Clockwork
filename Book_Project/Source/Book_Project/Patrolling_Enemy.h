@@ -20,6 +20,9 @@ class BOOK_PROJECT_API APatrolling_Enemy : public AEnemyCharacter
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Blast Zone")
 			class USphereComponent* explosionRadius;
 
+		UPROPERTY(BlueprintReadOnly, Category = "Spawner ref")
+			class AEnemy_Spawner* spawner;
+
 		class AAvatar* playerCharacter;
 
 		class ADestructable_Wall* wall;

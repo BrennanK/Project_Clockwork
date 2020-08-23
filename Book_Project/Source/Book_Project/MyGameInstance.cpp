@@ -5,13 +5,13 @@
 #include "LeaderBoardSave.h"
 #include "Engine.h"
 
-void UMyGameInstance::SaveGame(TArray<FLeaderboardSlot> boardToSave)
+void UMyGameInstance::SaveGame(TArray<FLeaderboardSlot> boardToSave, bool tutorialCompletionVar)
 {
 	ULeaderBoardSave* myLeaderBoard = Cast<ULeaderBoardSave>(UGameplayStatics::CreateSaveGameObject(ULeaderBoardSave::StaticClass()));
 
 	//myLeaderBoard->numberForTesting = number;
 	myLeaderBoard->leaderboardToSave = boardToSave;
-
+	myLeaderBoard->completedTutorial = tutorialCompletionVar;
 	UGameplayStatics::SaveGameToSlot(myLeaderBoard, TEXT("MyLeaderBoard"), 0);
 	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Orange, "Save has been acomplished");
 }
@@ -29,7 +29,14 @@ void UMyGameInstance::LoadGame()
 
 	myLeaderBoard = Cast<ULeaderBoardSave>(UGameplayStatics::LoadGameFromSlot("MyLeaderBoard", 0));
 	leaderboardToPresent = myLeaderBoard->leaderboardToSave;
+	completionHolder = myLeaderBoard->completedTutorial;
 	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Orange, "Load has been acomplished");
+}
+
+void UMyGameInstance::saveCompletionOfTutorial()
+{
+	LoadGame();
+	SaveGame(leaderboardToPresent,true);
 }
 
 void UMyGameInstance::createASampleBoard()
@@ -42,7 +49,7 @@ void UMyGameInstance::createASampleBoard()
 	{
 		leaderboardToPresent.Add(emptySlot);
 	}
-	SaveGame(leaderboardToPresent);
+	SaveGame(leaderboardToPresent,false);
 }
 
 int UMyGameInstance::isNewScore(int scoreToEvaluate)
@@ -93,7 +100,7 @@ void UMyGameInstance::updateLeaderboard(int indexOfNewScore,FString playerName,f
 			leaderboardToPresent[i] = leaderboardToPresent[i - 1];
 		}
 	}
-	SaveGame(leaderboardToPresent);
+	SaveGame(leaderboardToPresent,true);
 }
 
 int UMyGameInstance::calculateBonusAmount()

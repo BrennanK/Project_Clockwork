@@ -23,6 +23,8 @@
 #include "Grindable_Rail.h"
 #include "Lock_On_Actor.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "MyGameInstance.h"
+#include "UI_Data_Holder.h"
 
 // Sets default values
 AAvatar::AAvatar()
@@ -81,6 +83,8 @@ void AAvatar::Collision(UPrimitiveComponent * OverlappedComp, AActor * OtherActo
 			ourSpline = OtherActor->FindComponentByClass<USplineComponent>();
 			if (Cast<AGrindable_Rail>(OtherActor))
 			{
+				grindLaunchDepth = Cast<AGrindable_Rail>(OtherActor)->launchXY;
+				grindLaunchHeight = Cast<AGrindable_Rail>(OtherActor)->launchZ;
 				isGrinding = true;
 				timeToGrind = Cast<AGrindable_Rail>(OtherActor)->secondsToSpendOnRail;
 				beginGrind();
@@ -677,7 +681,7 @@ void AAvatar::grind() // method for grinding along the rail
 		distance = 0;
 		
 		// Launch Character in Air ,reset usage Pawn Controller, and Grind Boolean
-		ACharacter::LaunchCharacter((GetActorForwardVector()*200) + FVector(0, 0, JumpHeight), true, true);
+		ACharacter::LaunchCharacter((GetActorForwardVector()*grindLaunchDepth) + FVector(0, 0, grindLaunchHeight), true, true);
 		deactivateGrindSound();
 		cameraBoom->bUsePawnControlRotation = true;
 		AController* controller = GetController();
@@ -688,7 +692,54 @@ void AAvatar::grind() // method for grinding along the rail
 void AAvatar::MinusHealth(float damageTaken)
 {
 	currentHealth -= damageTaken;
+	if (currentHealth <= 0)
+	{
+		startDeathSequence();
+	}
 	callWheelChange();
+}
+
+void AAvatar::startDeathSequence()
+{
+	UMyGameInstance* gameInstance = Cast<UMyGameInstance>(GetWorld()->GetGameInstance());
+
+	if (gameInstance == nullptr)
+	{
+		return;
+	}
+
+	gameInstance->incrementDeathNumber();
+
+	playDeathFade();
+}
+
+void AAvatar::ResetPlayer()
+{
+	UMyGameInstance* gameInstance = Cast<UMyGameInstance>(GetWorld()->GetGameInstance());
+
+	SetActorLocation(gameInstance->Location);
+
+	SetActorRotation(gameInstance->Rotation);
+
+	currentHealth = maxHealth;
+
+	currentEnergy = maxEnergy;
+
+	callWheelChange();
+
+	callEnergyBarChange();
+
+	GetRootComponent()->ComponentVelocity = FVector(0, 0, 0);
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+
+	if (PController == nullptr)
+	{
+		return;
+	}
+	PController->SetControlRotation(gameInstance->Rotation);
+
+	AUI_Data_Holder* UI_Data_Container = Cast<AUI_Data_Holder>(UGameplayStatics::GetActorOfClass(GetWorld(), AUI_Data_Holder::StaticClass()));
+	UI_Data_Container->decrementLifeCount();
 }
 
 void AAvatar::MinusEnergy()

@@ -23,4 +23,7 @@ class BOOK_PROJECT_API ULeaderBoardSave : public USaveGame
 
 		UPROPERTY(EditAnywhere)
 			TArray<FLeaderboardSlot> leaderboardToSave;
+
+		UPROPERTY(EditAnywhere)
+			bool completedTutorial;
 };

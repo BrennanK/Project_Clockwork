@@ -18,7 +18,8 @@ void APower_Floor_Switch::Collision(UPrimitiveComponent* OverlappedComp, AActor*
 		switchManager->incrementSwitchCounter();
 		isGreen = true;
 		APower_Source_Enemy* power = Cast<APower_Source_Enemy>(OtherActor);
+		power->spawnerRef->spawnEnemyAfterDelay(switchManager->timeToTransitionCamera + switchManager->secondsToTransition * 2);
 		power->Destroy();
-		power->spawnerRef->spawnEnemyAfterDelay(switchManager->timeToTransitionCamera + switchManager->secondsToTransition);
+		
 	}
 }

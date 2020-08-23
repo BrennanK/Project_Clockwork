@@ -164,6 +164,12 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Knockback from Damage")
 		float ZKnockback;
 
+	UPROPERTY(BlueprintReadWrite, Category = "Grind Variables")
+		float grindLaunchHeight;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Grind Variables")
+		float grindLaunchDepth;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -228,6 +234,14 @@ public:
 		void callEnergyBarChange();
 
 	void MinusHealth(float damageTaken);
+
+	void startDeathSequence();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void playDeathFade();
+
+	UFUNCTION(BlueprintCallable)
+		void ResetPlayer();
 
 	void MinusEnergy();
 
